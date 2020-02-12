@@ -68,7 +68,8 @@ This is an example of an HTML element which represents a big heading as you can 
 HTML elements can have attributes, **Attributes** provide additional information about the element, Attributes come in **name/value pairs** like **charset="utf-8"**
 
 
-![](https://lh3.googleusercontent.com/proxy/HvvXfIrrRuhpWxN0CqDXHFUGVVV8Tdt4dL5tN9GelsSEhBxh0dluLho1s-J0Qtur884lZmu_jhzb0XngRdiaFMi9UyY0obzGBkhOmFc1XO_87-46h_09toHunBLzQwDpslM5GAt1-gAe7_0BdUxeLKibSorpVyihq69CVpiQ)
+![](https://i.imgur.com/6Ux4eE0.jpg)
+
 
 **These are some basic HTML attributes**:
 - The **href** attribute 
@@ -131,7 +132,7 @@ Here are the tags that pretty much any HTML page should have:
 
 
 
-![basic html page](https://html.com/wp-content/uploads/html-homepage-layout-demo.webp)
+![](https://i.imgur.com/cWDj15R.jpg)
 
 This is how your average HTML page is structured visually.
 
