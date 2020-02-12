@@ -5,5 +5,5 @@ A two-phase Course for women who want to join the Code Academy after sucessfully
 
 And this is the repo where the course curriculum lives. 
 
-### Contributing Guidline 
+### Contributing Guidlines
 🚨Please review the [contributing guidelines](./CONTRIBUTING.md) before creating and pushing any content.

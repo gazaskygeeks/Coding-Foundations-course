@@ -15,9 +15,8 @@
 
 **The main rule to follow is:**
 > The commit message must contain all the information required to fully understand & review the patch for correctness. Less is not more. More is more.
--------
 
-## Session Contents
+## Sessions Content
 //For each session folder create the following:
 
 1. Learning Outcomes file: learning-outcomes.md
@@ -25,8 +24,29 @@
 3. Resources: resources.md 
 
 ## Schedule
-//On the Readme provide the timetable of the session 
+//On the Readme provide a breakdown of your timetable for the session 
 
 11:00 - 12:30 | Topics [Add Topic and link to content] 
 - BREAK -
 12:50 - 14:00 | Topics [Add Topic and link to content] 
+
+## Merging Pull Requests 
+// We have created a simple process for adding content to this repo 
+
+### Roles  
+A. Early Contributors
+   1. WHO: Volunteers of previous cohorts/Mainly fresh grads.
+   2. WHAT: Volunteers create first version of Workshops abiding to the guidelines above.
+   3. HOW: 
+         * Create the content of the workshop they've been assigned to locally.
+         * Sumbit a PR to a branch that has the name of the workshop according to the rules above.
+         * Assign @mghada in the Assignee section. 
+         * Your PR will be reviewed, changes will possibly be requested.
+         * Once approved, PR will be merged to the Master.   
+B. Assignees
+   1. WHO: A group of more senior grads (volunteers) with more experience of the curriculum topics.
+   2. WHAT: Their role is to be the first to review Pull Requests submitted by the Early Contributors.
+   3. HOW: Once assigned by @mghada they will be going through the content of the pushed requests. 
+C. Reviewers 
+  1. WHO: GSG Code Academy Team | the Lead Instructor and the Technical Lead.
+  2. WHAT: Their role is to approve merging the PRs to the master branch.    
