@@ -1,9 +1,9 @@
-## Pull Requests
+# Pull Requests
 
 **Your checklist for pull requests**
-- [ ] Make sure you are requesting to pull a topic/fix branch (right side). Don't request your master!
-- [ ] Check the commit's or even all commits' message styles matches our requested structure.
-- [ ] Check any code additions in the content you add, make sure they following best practice and that they work. 
+- [ ] Make sure you are requesting to push to a topic/fix branch. Don't push to the master!
+- [ ] Check the commit's or even all commits' messages styles match our requested structure.
+- [ ] Check any code additions in the content you add, make sure they follow best practice and that they actually work. 
 
 **Description**
 * Please describe your pull request.
@@ -16,21 +16,21 @@
 **The main rule to follow is:**
 > The commit message must contain all the information required to fully understand & review the patch for correctness. Less is not more. More is more.
 
-## Sessions Content
+# Sessions Content
 //For each session folder create the following:
 
 1. Learning Outcomes file: learning-outcomes.md
 2. Research Topics: research-topics.md 
 3. Resources: resources.md 
 
-## Schedule
+**Schedule**
 //On the Readme provide a breakdown of your timetable for the session 
 
 11:00 - 12:30 | Topics [Add Topic and link to content] 
 - BREAK -
 12:50 - 14:00 | Topics [Add Topic and link to content] 
 
-## Merging Pull Requests 
+# Merging Pull Requests 
 // We have created a simple process for adding content to this repo 
 
 ### Roles  
@@ -42,11 +42,15 @@ A. Early Contributors
          * Sumbit a PR to a branch that has the name of the workshop according to the rules above.
          * Assign @mghada in the Assignee section. 
          * Your PR will be reviewed, changes will possibly be requested.
-         * Once approved, PR will be merged to the Master.   
+         * Once approved, PR will be merged to the Master.
+
+
 B. Assignees
    1. WHO: A group of more senior grads (volunteers) with more experience of the curriculum topics.
    2. WHAT: Their role is to be the first to review Pull Requests submitted by the Early Contributors.
    3. HOW: Once assigned by @mghada they will be going through the content of the pushed requests. 
+
+
 C. Reviewers 
   1. WHO: GSG Code Academy Team | the Lead Instructor and the Technical Lead.
   2. WHAT: Their role is to approve merging the PRs to the master branch.    
