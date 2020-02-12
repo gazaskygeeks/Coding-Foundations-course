@@ -2,6 +2,12 @@
 
 HTML stands for Hyper Text Markup Language. It is used to design web pages using a markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. A markup language is used to define the text document within tag which defines the structure of web pages.
 
+## Learning Outcomes
+
+- Learn about Semantic HTML
+- Learn about why we should layout our tags correctly
+- Learn new tags from HTML5: `<section>`, `<aside>` and others.
+
 ## HTML5
 
 #### HTML5 is the latest version of Hypertext Markup Language that adds a handful of new HTML elements we can use to better define our page’s content for search engines.
@@ -9,16 +15,9 @@ HTML stands for Hyper Text Markup Language. It is used to design web pages using
 ### What HTML5 do ?
 
 - It supports audio and video controls with the use of `<audio>` and `<video>` tags.
-- Vector graphics is additionally an integral a part of HTML5 like SVG and `<canvas>`. \
-   example on `<canvas>`:
-    <iframe height="265" style="width: 100%;" scrolling="no" title="Lines and Dots" src="https://codepen.io/Tibixx/embed/eXOyXg?height=265&theme-id=default&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-    See the Pen <a href='https://codepen.io/Tibixx/pen/eXOyXg'>Lines and Dots</a> by Tibix
-    (<a href='https://codepen.io/Tibixx'>@Tibixx</a>) on <a href='https://codepen.io'>CodePen</a>.
-  </iframe>
-    <iframe height="265" style="width: 100%;" scrolling="no" title="#CodepenChallenge Squares (mouse move)" src="https://codepen.io/EntropyReversed/embed/ZPEpWg?height=265&theme-id=default&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-    See the Pen <a href='https://codepen.io/EntropyReversed/pen/ZPEpWg'>#CodepenChallenge Squares (mouse move)</a> by Stefan
-    (<a href='https://codepen.io/EntropyReversed'>@EntropyReversed</a>) on <a href='https://codepen.io'>CodePen</a>.
-  </iframe>
+- Vector graphics is additionally an integral a part of HTML5 like SVG and `<canvas>`, examples on `<canvas>`:
+  - https://codepen.io/Tibixx/pen/eXOyXg
+  - https://codepen.io/EntropyReversed/pen/ZPEpWg
 - HTML5 language is more mobile-friendly.
 - `doctype` declaration is quite simple and easy.
 - Character encoding is simple and easy.
@@ -57,4 +56,23 @@ Semantic Elements refer to HTML elements that have a specific meaning. For examp
 | `<footer>`  | Defines a footer for a document or section                             |
 
 ![Example on Semantic](https://files.gitter.im/aminalakhsham/aeUu/html5-smantic.png)
+
 [original resource](https://github.com/AbdallahAmmar96/precorse-facg/edit/master/Semantic-html.md)
+
+## Exercise:
+
+#### Make this
+
+![](https://i.imgur.com/7EsTLRb.jpg)
+
+```
+Ice cream
+
+Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be made from dairy milk or cream and is flavored with a sweetener, either sugar or an alternative, and any spice, such as cocoa or vanilla. Colourings are usually added, in addition to stabilizers.
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 1970 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+Copyrights ©
+```
+
+[image link](https://cdn2.lamag.com/wp-content/uploads/sites/6/2019/07/salt-and-straw.jpg)
