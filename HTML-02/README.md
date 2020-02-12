@@ -4,16 +4,21 @@ HTML stands for Hyper Text Markup Language. It is used to design web pages using
 
 ## HTML5
 
-- HTML5 is the latest version of Hypertext Markup Language that adds a handful of new HTML elements we can use to better define our page’s content for search engines.
-- HTML5 is the fifth version of HTML. Many elements are removed or modified from HTML5.
+#### HTML5 is the latest version of Hypertext Markup Language that adds a handful of new HTML elements we can use to better define our page’s content for search engines.
 
 ### What HTML5 do ?
 
 - It supports audio and video controls with the use of `<audio>` and `<video>` tags.
 - Vector graphics is additionally an integral a part of HTML5 like SVG and `<canvas>`. \
-  example on `<canvas>` : \
-  https://codepen.io/Tibixx/pen/eXOyXg \
-  https://codepen.io/EntropyReversed/pen/ZPEpWg
+   example on `<canvas>`:
+    <iframe height="265" style="width: 100%;" scrolling="no" title="Lines and Dots" src="https://codepen.io/Tibixx/embed/eXOyXg?height=265&theme-id=default&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/Tibixx/pen/eXOyXg'>Lines and Dots</a> by Tibix
+    (<a href='https://codepen.io/Tibixx'>@Tibixx</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
+    <iframe height="265" style="width: 100%;" scrolling="no" title="#CodepenChallenge Squares (mouse move)" src="https://codepen.io/EntropyReversed/embed/ZPEpWg?height=265&theme-id=default&default-tab=js,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
+    See the Pen <a href='https://codepen.io/EntropyReversed/pen/ZPEpWg'>#CodepenChallenge Squares (mouse move)</a> by Stefan
+    (<a href='https://codepen.io/EntropyReversed'>@EntropyReversed</a>) on <a href='https://codepen.io'>CodePen</a>.
+  </iframe>
 - HTML5 language is more mobile-friendly.
 - `doctype` declaration is quite simple and easy.
 - Character encoding is simple and easy.
