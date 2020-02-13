@@ -6,7 +6,7 @@
 - [ ] Check any code additions in the content you add, make sure they follow best practice and that they actually work. 
 
 **Description**
-* Please describe your pull request.
+- [ ] Please describe your pull request.
   * Provide a brief description of the change in the first line.
   * Insert a single blank line after the first line.
   * Provide a detailed description of the change in the following lines, breaking paragraphs where needed.
@@ -19,9 +19,9 @@
 # Sessions Content
 //For each session folder create the following:
 
-1. Learning Outcomes file: learning-outcomes.md
-2. Research Topics: research-topics.md 
-3. Resources: resources.md 
+- [ ] Learning Outcomes file: learning-outcomes.md
+- [ ] Research Topics: research-topics.md 
+- [ ] Resources: resources.md 
 
 **Schedule**
 //On the Readme provide a breakdown of your timetable for the session 
@@ -34,7 +34,7 @@
 // We have created a simple process for adding content to this repo 
 
 ### Roles  
-A. Early Contributors
+**A. Early Contributors**
    1. WHO: Volunteers of previous cohorts/Mainly fresh grads.
    2. WHAT: Volunteers create first version of Workshops abiding to the guidelines above.
    3. HOW: 
@@ -45,12 +45,12 @@ A. Early Contributors
          * Once approved, PR will be merged to the Master.
 
 
-B. Assignees
+**B. Assignees**
    1. WHO: A group of more senior grads (volunteers) with more experience of the curriculum topics.
    2. WHAT: Their role is to be the first to review Pull Requests submitted by the Early Contributors.
    3. HOW: Once assigned by @mghada they will be going through the content of the pushed requests. 
 
 
-C. Reviewers 
+**C. Reviewers** 
   1. WHO: GSG Code Academy Team | the Lead Instructor and the Technical Lead.
   2. WHAT: Their role is to approve merging the PRs to the master branch.    
