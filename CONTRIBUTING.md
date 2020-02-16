@@ -14,6 +14,7 @@
   * Link to an issue tracker – if you are working with an issue tracking system (like Jira), it is important to create a logical link between the issue ticket number and the subsequent code change.
 
 **The main rule to follow is:**
+
 > The commit message must contain all the information required to fully understand & review the patch for correctness. Less is not more. More is more.
 
 # Sessions Content
