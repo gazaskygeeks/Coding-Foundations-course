@@ -1,6 +1,6 @@
 # Session-03: CSS-02
 
-**Author**: [@machine](https://github.com/machine-1)
+**Author**: [@kannan Hassouna](https://github.com/binary-machine)
 
 ## Learning Outcomes
 
