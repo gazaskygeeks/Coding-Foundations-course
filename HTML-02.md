@@ -35,17 +35,9 @@ HTML stands for Hyper Text Markup Language. It is used to design web pages using
 
 Semantic Elements refer to HTML elements that have a specific meaning. For example `<h1>` is a semantic element. It tells google bots that the content within the tag is the most significant header contained in the HTML document. `<div>` on the other hand, is a non-semantic element as it only indicates a division in the HTML document and provide no information on what goes before, after or within the tag.
 
-#### The Fight Against Divits!!!
+### What are the semantic tags that HTML5 brought us?
 
-##### Instead of div’s everywhere with ID’s and classes, use semantic HTML5 tags. but why ??
-
-- accessibility - help assistive technologies read and interpret your webpage.
-- searchability - help computers make sense of your content.
-- interoperability - help other programmers understand the structure of your webpage.
-
-### Some new tags in HTML5
-
-| Tage        | Description                                                            |
+| Tag         | Description                                                            |
 | ----------- | ---------------------------------------------------------------------- |
 | `<header>`  | Specifies a header for a document or section                           |
 | `<section>` | Defines a section in a document                                        |
@@ -55,9 +47,43 @@ Semantic Elements refer to HTML elements that have a specific meaning. For examp
 | `<figure>`  | Specifies self-contained content, like illustrations, diagrams, photos |
 | `<footer>`  | Defines a footer for a document or section                             |
 
-![Example on Semantic](https://files.gitter.im/aminalakhsham/aeUu/html5-smantic.png)
+Elements such as `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, and `<footer>` act more or less like `<div>` elements. They group other elements together into page sections. However where a `<div>` tag could contain any type of information, it is easy to identify what sort of information would go in a semantic `<header>` region.
 
-[original resource](https://github.com/AbdallahAmmar96/precorse-facg/edit/master/Semantic-html.md)
+- #### It is much easier to read
+
+- #### It has greater accessibility. (screen readers also find semantic elements easier to understand)
+
+### Lets look at these 2 snippets of html:
+
+- This first block of code uses semantic elements
+
+```
+<header></header>
+<section>
+	<article>
+		<figure>
+			<img>
+			<figcaption></figcaption>
+		</figure>
+	</article>
+</section>
+<footer></footer>
+```
+
+- Whilst this second block of code uses non-semantic elements:
+
+```
+<div id="header"></div>
+<div class="section">
+	<div class="article">
+		<div class="figure">
+			<img>
+			<div class="figcaption"></div>
+		</div>
+	</div>
+</div>
+<div id="footer"></div>s
+```
 
 ## Exercise:
 
@@ -66,11 +92,11 @@ Semantic Elements refer to HTML elements that have a specific meaning. For examp
 ![](https://i.imgur.com/7EsTLRb.jpg)
 
 ```
-Ice cream
+Heading text: Ice cream
 
-Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be made from dairy milk or cream and is flavored with a sweetener, either sugar or an alternative, and any spice, such as cocoa or vanilla. Colourings are usually added, in addition to stabilizers.
+First paragraph: Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be made from dairy milk or cream and is flavored with a sweetener, either sugar or an alternative, and any spice, such as cocoa or vanilla. Colourings are usually added, in addition to stabilizers.
 
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 1970 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+Second paragraph: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s 1970 with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 Copyrights ©
 ```
