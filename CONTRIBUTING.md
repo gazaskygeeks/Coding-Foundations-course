@@ -26,8 +26,10 @@
 **Schedule**
 //On the Readme provide a breakdown of your timetable for the session 
 
-11:00 - 12:30 | Topics [Add Topic and link to content] 
-- BREAK -
+11:00 - 12:30 | Topics [Add Topic and link to content]
+
+BREAK
+
 12:50 - 14:00 | Topics [Add Topic and link to content] 
 
 # Merging Pull Requests 
