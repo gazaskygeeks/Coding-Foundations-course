@@ -1,6 +1,16 @@
 # <span style="color: #CC4125">Session</span> 3: CSS-01
 
 <h2 style="color: #CC4125">
+Menu
+</h2>
+
+- [Learning Outcomes](./learning-outcomes.md)
+- [Research](./research-topics.md)
+- [Resources](./resources.md)
+
+---
+
+<h2 style="color: #CC4125">
 What is CSS?
 </h2>
 
