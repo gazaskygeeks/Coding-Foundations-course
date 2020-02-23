@@ -50,22 +50,7 @@ Elements such as `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, and `
 
 ### Lets look at these 2 snippets of html:
 
-- This first block of code uses semantic elements
-
-```
-<header></header>
-<section>
-	<article>
-		<figure>
-			<img>
-			<figcaption></figcaption>
-		</figure>
-	</article>
-</section>
-<footer></footer>
-```
-
-- Whilst this second block of code uses non-semantic elements:
+- This block of code does not use semantic elements
 
 ```
 <div id="header"></div>
@@ -78,4 +63,19 @@ Elements such as `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, and `
 	</div>
 </div>
 <div id="footer"></div>s
+```
+
+- And this block of code uses semantic elements:
+
+```
+<header></header>
+<section>
+	<article>
+		<figure>
+			<img>
+			<figcaption></figcaption>
+		</figure>
+	</article>
+</section>
+<footer></footer>
 ```
