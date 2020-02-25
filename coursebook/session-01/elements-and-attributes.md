@@ -17,6 +17,9 @@ There are many ways of doing that but we will do it using some HTML elements:
 |    `<sub>`     |    Typographical stylistic choice   |
 |   `<sup>`      |    Another typographical presentation style|
 
+Check the difference between `<em>` and `<i>` https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em
+Check the difference between `<b>` and `<strong>` https://www.seobility.net/en/wiki/Strong_and_Bold_Tags
+
 To use or apply any of these formats on any text you need to just **wrap it** between the opening and closing tags
 
 ```html=
@@ -49,8 +52,9 @@ Ever come across a link on a webpage that took you to another one. these links a
 
 **The expected output**:
 
-<a href="www.google.com">Click Me</a>
+<a href="www.google.com" target="_blank" rel="noreferrer noopener">Click Me</a>
 
+Explaining the noreferrer and noopener in the link tag https://blog.templatetoaster.com/noopener-noreferrer/
 
 ## Images
 In today’s modern digital world, images are everything. The `<img>` tag has everything you need to display images on your site.

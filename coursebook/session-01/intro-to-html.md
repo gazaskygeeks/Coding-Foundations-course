@@ -49,7 +49,7 @@ This is an example of an HTML element which represents a big heading as you can 
 
 
 ## HTML Attributes
-HTML elements can have attributes, **Attributes** provide additional information about the element, Attributes come in **name/value pairs** like **charset="utf-8"**
+HTML elements can have attributes, **Attributes** provide additional information about the element, Attributes come in **name/value pairs** like **lang="ar"**
 
 
 ![](https://i.imgur.com/6Ux4eE0.jpg)
