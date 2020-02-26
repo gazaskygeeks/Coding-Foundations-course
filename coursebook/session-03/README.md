@@ -14,7 +14,9 @@ Menu
 What is CSS?
 </h2>
 
-_<span style='color: #7f8c8d; font-weight: bold'>CSS</span>_ stands for **_Cascading Style Sheets,_** it allows you to style/design your web pages by describes how HTML elements are to be displayed.
+**C**ascading **S**tyle **S**heets (CSS) is a markup language responsible for how your web pages will look like. It controls the colors, fonts, and layouts of your website elements.
+
+This style sheet language also allows you to add effects or animations to your website. You can use it to display some CSS animations like click button effects, spinners or loaders, and animated backgrounds.
 
 ---
 
@@ -22,7 +24,9 @@ _<span style='color: #7f8c8d; font-weight: bold'>CSS</span>_ stands for **_Casca
 CSS Syntax:
 </h2>
 
-A set of rules that consists of a selector and a declaration(s).
+### What is a rule or "rule set"?
+
+A rule or "rule set" is a statement that tells browsers how to render particular elements on an HTML page. A rule set consists of a selector followed by a declaration block.
 
 ```CSS
 selector {
@@ -32,7 +36,7 @@ selector {
 }
 ```
 
-- The property with the value called a declaration:
+- The property with the value called a declaration OR Rule structure:
 
  <div style="text-align:center; margin: 30px 0;">
  <img  src="https://4.bp.blogspot.com/-nrJqxDUMAL4/ViCjLDQoG8I/AAAAAAAAAK0/O7Zmg3wLWqE/s1600/css-syntax.gif" /></div>
@@ -69,8 +73,6 @@ We have a lot of _<span style='color: #7f8c8d; font-weight: bold'>CSS</span>_ se
 * **<span style='color: #30336b'>.class: </span>** selects the elements which have the same class name, [Example](https://codepen.io/fares98/pen/oNXZLGr).
 
 - **<span style='color: #30336b'>\*: </span>** This selector called _'universal'_ and use to select all the elements in the page, [Example](https://codepen.io/fares98/pen/yLNMJvv).
-
-> Read more about the **<span style='color: #7f8c8d; font-weight: bold'>box-sizing</span>** [here](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing).
 
 <br/>
 
