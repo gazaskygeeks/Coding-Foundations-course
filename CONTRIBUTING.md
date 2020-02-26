@@ -14,22 +14,25 @@
   * Link to an issue tracker – if you are working with an issue tracking system (like Jira), it is important to create a logical link between the issue ticket number and the subsequent code change.
 
 **The main rule to follow is:**
+
 > The commit message must contain all the information required to fully understand & review the patch for correctness. Less is not more. More is more.
 
 # Sessions Content
-//For each session folder create the following:
 
+//For each **session folder** create the following:
 - [ ] Learning Outcomes file: learning-outcomes.md
 - [ ] Research Topics: research-topics.md 
 - [ ] Resources: resources.md 
+- [ ] Readme.md 
+
+The Readme.md should include your sessions time breakdown/Schedule:
 
 **Schedule**
 //On the Readme provide a breakdown of your timetable for the session 
 
+*Ex:*
 11:00 - 12:30 | Topics [Add Topic and link to content]
-
-BREAK
-
+-BREAK-
 12:50 - 14:00 | Topics [Add Topic and link to content] 
 
 # Merging Pull Requests 
