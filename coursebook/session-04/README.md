@@ -1,6 +1,7 @@
 # Session-03: CSS-02
 
-**Author**: [@machine](https://github.com/machine-1)
+**Author**: [@kannanhassouna](https://github.com/kannanhassouna)
+### [Morning Challenge](morning-challenge.md)
 
 ## Learning Outcomes
 
@@ -50,7 +51,7 @@ so now we know why we need comments now let us know how to make comments in CSS.
 
 ### The steps to add comments in CSS
 
-- add forward slash followed by astricks `/*`.
+- add forward slash followed by astricks `/*`
 - write your comments.
 - and at the end add astricks followed with forward slash `*/`.
 
