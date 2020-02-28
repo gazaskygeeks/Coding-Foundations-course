@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    color: white;
+    font-size: 100px;
+    font-family: Spartan;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 23%;
+    height: 500px;
+    background: black;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+    background: tomato;
+}
+
+.box-2 {
+    background: aquamarine;
+}
+
+.box-3 {
+    background: orange;
+}
+
+.box-4 {
+    background: mediumspringgreen;
+}
