@@ -83,7 +83,7 @@ sometimes you like to use modren fonts, which are not included in the generic fa
 
 
 ### Fallback: 
-what if you have selected not avaliable font? , then css will used another font which is called fallback font.
+what if you have selected not avaliable font? , then css will use another font which is called fallback font.
 Like:
 
 <img src="https://i.imgur.com/J5JgbB0.png" alt="final result" width="700" />
@@ -159,7 +159,7 @@ display property control how the element will interact with the other elements a
 
 #### ```display: block```
 
-here the element will presented as a block so the element will add a new line before and after it, in this case the element will follow the ```box model``` so we can control the ```width```, ```hight```, ```margin```, ```padding``` and ```border``` of the element.
+here the element will be presented as a block so the element will add a new line before and after it, in this case the element will follow the ```box model``` so we can control the ```width```, ```hight```, ```margin```, ```padding``` and ```border``` of the element.
 
 #### ```display: inline```
 
@@ -167,7 +167,7 @@ here the element will not add a new lines before and after, and we can't control
 
 #### ```display: inline-block```
 
-here the element will treated as ```inline``` else you can take control of ```width``` and ```height```.
+here the element will be treated as ```inline``` else you can take control of ```width``` and ```height```.
 
 ### Excercie
 
