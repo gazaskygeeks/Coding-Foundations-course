@@ -48,9 +48,9 @@
                   0       1         2
   let colors = ['Red', 'Yellow', 'Green'];
 
-  alert( fruits[0] ); // Red
-  alert( fruits[1] ); // Yellow
-  alert( fruits[2] ); // Green
+  console.log( colors[0] ); // Red
+  console.log( colors[1] ); // Yellow
+  console.log( colors[2] ); // Green
 ```
    * We can replace an element:
 
