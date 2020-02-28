@@ -1,7 +1,11 @@
 # Session-03: CSS-02
 
+<<<<<<< HEAD
 **Author**: [@kannanhassouna](https://github.com/kannanhassouna)
 ### [Morning Challenge](morning-challenge.md)
+=======
+**Author**: [@kannan Hassouna](https://github.com/binary-machine)
+>>>>>>> 761e583232231ad671cd3fccbd070f77d6558fee
 
 ## Learning Outcomes
 
