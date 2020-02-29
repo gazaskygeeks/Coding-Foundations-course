@@ -42,20 +42,20 @@ selector {
  <img  src="https://4.bp.blogspot.com/-nrJqxDUMAL4/ViCjLDQoG8I/AAAAAAAAAK0/O7Zmg3wLWqE/s1600/css-syntax.gif" /></div>
  
  
-* All declarations for the same selector called declaration block.
+- All declarations for the same selector called declaration block.
 
  <div style="text-align:center; margin: 30px 0;">
  <img  src="https://www.littlewebhut.com/images/css_declaration.gif" /></div>
- 
-***
+
+---
 
 <h2 style="color: #34495e">
 CSS Selectors:
 </h2>
 
-part of the _<span style='color: #7f8c8d; font-weight: bold'>CSS Syntax</span>_, that use to select the element which you need to apply the style on it.
+part of the **_CSS Syntax_**, that use to select the element which you need to apply the style on it.
 
-We have a lot of _<span style='color: #7f8c8d; font-weight: bold'>CSS</span>_ selector but in this workshop we will talk about the basic _<span style='color: #7f8c8d; font-weight: bold'>CSS</span>_ selectors.
+We have a lot of CSS selector but in this workshop we will talk about the basic CSS selectors.
 
 ### Basic CSS Selectors:
 
@@ -66,21 +66,79 @@ We have a lot of _<span style='color: #7f8c8d; font-weight: bold'>CSS</span>_ se
 
 <br/>
 
-- **<span style='color: #30336b'>Tag: </span>** selects the elements which has the same tag name, [Example](https://codepen.io/fares98/pen/GRJWqmJ).
+**Tag:** selects the elements which has the same tag name, for example:
 
-- **<span style='color: #30336b'>#id: </span>** selects the elements which have the same id name, [Example](https://codepen.io/fares98/pen/PoqpzKN).
+```CSS
+p {
+  color: blue;
+}
+```
 
-* **<span style='color: #30336b'>.class: </span>** selects the elements which have the same class name, [Example](https://codepen.io/fares98/pen/oNXZLGr).
+_In this example:_ this style will be applied to all the `p` elements in your page.
 
-- **<span style='color: #30336b'>\*: </span>** This selector called _'universal'_ and use to select all the elements in the page, [Example](https://codepen.io/fares98/pen/yLNMJvv).
+- **#id:** selects the elements which have the same id name, for example:
+
+```CSS
+#id-1 {
+  background-color: black;
+}
+```
+
+_In this example:_ this style will be applied to the element which has id `id`
+
+- **.class:** selects the elements which have the same class name, for example:
+
+```CSS
+.class-1 {
+  border: 2px solid red;
+}
+```
+
+_In this example:_ this style will be applied to all the elements which have the `class-1` class in your page.
+
+- **\*:** This selector called _'universal'_ and use to select all the elements in the page, for example:
+
+```CSS
+* {
+  box-sizing: border-box;
+}
+```
+
+_In this example:_ this style will be applied to `all` the elements in your page.
 
 <br/>
 
-**<span style='color: #30336b'>Descendant Selector:</span>**
-sometimes you need to access selectors that be inside other selectors(not single selectors as the previous examples), in this cases you need to use the _Descendant Selector_, you can use it by adding a `space` between the selectors, [Example](https://codepen.io/fares98/pen/poJeEJO).
+**Descendant Selector:**
+sometimes you need to access selectors that be inside other selectors(not single selectors as the previous examples), in this cases you need to use the _Descendant Selector_, you can use it by adding a `space` between the selectors, for example:
 
-**<span style='color: #30336b'>Grouping Selectors:</span>**
-_you can add the same style for many selectors, you just need to separate between them with commas,for example:_
+```CSS
+section p {
+  border: 2px solid red;
+  text-align: center;
+  font-weight: bold;
+}
+```
+
+_In this example:_ this style will be applied on all p elements which be inside a section element (direct child and not direct child).
+
+**HTML Example for the direct child and not direct child:**
+
+```HTML
+<!-- This p is a direct child for the section -->
+<section>
+  <p>This paragraph is inside the section</p>
+</section>
+
+<!-- This p is not a direct child for the section but it is a direct child for the article -->
+<section>
+  <article>
+    <p>This paragraph is inside an article which is inside a section</p>
+  </article>
+</section>
+```
+
+**Grouping Selectors:**
+_you can add the same style for many selectors, you just need to separate between them with commas, for example:_
 
 ```CSS
 h4, h6, p, section {
@@ -98,13 +156,13 @@ h4, h6, p, section {
 Types of CSS Styles:
 </h2>
 
-If you have a web page that contains alot of HTML elements and you wanna give it a great-looking using _<span style='color: #7f8c8d; font-weight: bold'>CSS</span>_ , how you can do that?
+If you have a web page that contains alot of HTML elements and you wanna give it a great-looking using **CSS**, _how you can do that?_
 
 **There are three ways to do that:**
 
-**<span style='color: #30336b'>1- Inline styles:</span>** used to apply a unique style to a specific HTML element, you’ll only need to add the style attribute to the HTML tag, For example:
+**<span style='color: #30336b'>1- Inline styles:</span>** used to apply a unique style to a specific HTML element, you’ll only need to add the style attribute to the HTML tag, for example:
 
-```HTml
+```HTML
     <section style="border: 5px solid black">
       <p style="color: white; background-color: black; text-align: center">
         Paragraph 1
@@ -124,13 +182,13 @@ If you have a web page that contains alot of HTML elements and you wanna give it
     </section>
 ```
 
-> **<span style='color: #7f8c8d; font-weight: bold'>NOTE:</span>** This _<span style='color: #7f8c8d; font-weight: bold'>CSS</span>_ type is not really recommended, as each HTML tag needs to be styled individually. Managing your website may become too hard if you only use inline _<span style='color: #7f8c8d; font-weight: bold'>CSS</span>_, but you can use it if you wanna make a quick change of style where you don't wanna reusable it.
+> **NOTE:** This `CSS` type is not really recommended, as each `HTML` tag needs to be styled individually. Managing your website may become too hard if you only use inline `CSS`, but you can use it if you wanna make a quick change of style where you don't wanna reusable it.
 
 <br />
 
 Imagine that you have 100 elements with the same style and you want to change the color for all of these elements, in this case, you'll need to change each element individually and you'll need a lot of time and hard work, so, what's the solution?
 
-**<span style='color: #30336b'>2- Internal/Embedded Styles:</span>** used by adding `<style>` tag in the `<head>` section of your HTML document, you can configure _<span style='color: #7f8c8d; font-weight: bold'>CSS</span>_ classes and IDs that can be used to style multiple elements in the same page, For example:
+**2- Internal/Embedded Styles:** used by adding `<style>` tag in the `<head>` section of your HTML document, you can configure `CSS` classes and IDs that can be used to style multiple elements in the same page, for example:
 
 ```HTML
   <head>
@@ -171,7 +229,7 @@ Imagine that you have 100 elements with the same style and you want to change th
 
 After using this type, your previous problem solved, you have become able to edit many elements(that have the same selector) from one line on the same page, but now there is another problem if you have more than one page and there are mutual elements between these pages, are you going to edit all the pages? also, this needs a lot of time and hard work, so, what’s the solution?
 
-**<span style='color: #30336b'>3- External/linked/remote styles: </span>** used by a link placed in the `<head>` section for your web page, the href attribute for this link is the path for your _<span style='color: #7f8c8d; font-weight: bold'>CSS</span>_ file which contains your styles rule, For example:
+**3- External/linked/remote styles:** used by a link placed in the `<head>` section for your web page, the href attribute for this link is the path for your _CSS_ file which contains your styles rule, For example:
 
 ```HTML
   <head>
@@ -212,20 +270,19 @@ color: white;
 background-color: black;
 text-align: center;
 }
-
 ```
 
 Now you have become able to edit many elements(that have the same selector) on many pages from one line on your style file.
 
 <br />
 
-> But don't forget that every page of your site should contain the link to the external _<span style='color: #7f8c8d; font-weight: bold'>CSS</span>_ file.
+> But don't forget that every page of your site should contain the link to the external `CSS` file.
 
 <br />
 
 **Now, after getting knowledge of the types for making a style, what the best way that we preferred to use and why?**
 
-\*The best way to styling the page is external styles, but **\*why?\*\***
+The best way to styling the page is external styles, but **_why?_**
 
 There are alot of advantage to use this type, the most important advantages are:
 
@@ -239,10 +296,10 @@ There are alot of advantage to use this type, the most important advantages are:
 CSS Pseudo-class
 </h2>
 
-The **<span style='color: #7f8c8d; font-weight: bold'>CSS Pseudo-class</span>** is a keyword with a colon preceding it,
+The **CSS Pseudo-class** is a keyword with a colon preceding it,
 added to a selector and used to define the special state of the selected selector.
 
-**_Syntax:_**
+**Syntax:**
 
 ```CSS
 selector:pseudo-class {
@@ -250,7 +307,7 @@ selector:pseudo-class {
 }
 ```
 
-**There are many <span style='color: #7f8c8d; font-weight: bold'>Pseudo-class</span> in <span style='color: #7f8c8d; font-weight: bold'>CSS</span> but in this workshop, we will talk about the most used are as follows:**
+**There are many _Pseudo-class_ in _CSS_ but in this workshop, we will talk about the most used are as follows:**
 
 ### Basic Pseudo-classes
 
@@ -262,31 +319,91 @@ selector:pseudo-class {
 - last-child
 - nth-child(n)
 
-* **<span style='color: #30336b'>:hover Pseudo-class: </span>** used to apply style on the selected element after the user hovers the cursor over this element, [Example](https://codepen.io/fares98/pen/qBdRovE).
+* **:hover Pseudo-class:** used to apply style on the selected element after the user hovers the cursor over this element, for example:
 
-- **<span style='color: #30336b'>:checked Pseudo-class: </span>** matches the checked selector (used for: radio button, checkbox button, and option element only), [Example](https://codepen.io/fares98/pen/ExjZEBq).
+```CSS
+h1:hover {
+  color: white;
+  background-color: black;
+}
+```
 
-> Read more about the **<span style='color: #7f8c8d; font-weight: bold'>Attribute selectors</span>** (The selector that used in the example) [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+_In this example:_ when you `hove` the cursor over the specified element, the color will change to white and the background-color will change to black.
+
+- **:checked Pseudo-class:** matches the checked selector (used for: radio button, checkbox button, and option element only), for example:
+
+```CSS
+input[type="checkbox"]:checked {
+  margin-left: 30px;
+}
+```
+
+_In this example:_ if any input with checkbox type was `Checked` or if the user clicked any `checkbox input`, this input will move 30px to the right.
+
+> Read more about the **Attribute selectors** (The selector that used in the example) [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
 
 <br />
 
-- **<span style='color: #30336b'>:enabled Pseudo-class: </span>** matches the enabled selector (the selectors that you can take an action on it, mostly with inputs), this value is the default value for the inputs.
+- **:enabled Pseudo-class:** matches the enabled selector (the selectors that you can take an action on it, mostly with inputs), for example:
 
-- **<span style='color: #30336b'>:disabled Pseudo-class: </span>** matches the disabled selector (not enable: the selectors that you can't take any action on it, mostly with inputs ), [Example](https://codepen.io/fares98/pen/GRJrdWO).
+```CSS
+input[type="text"]:enabled {
+  background-color: gray;
+  font-weight: bold;
+}
+```
 
-* **<span style='color: #30336b'>:first-child Pseudo-class: </span>** matches the first selector in the same parent, [Example](https://codepen.io/fares98/pen/RwPKyQx).
+_In this example:_ if any input with text type was `Enabled` will be with a gray background.
 
-- **<span style='color: #30336b'>:last-child Pseudo-class: </span>** matches the last selector in the same parent, [Example](https://codepen.io/fares98/pen/dyoNKOK).
+- **:disabled Pseudo-class:** matches the disabled selector (not enable: the selectors that you can't take any action on it, mostly with inputs ), for example:
+
+```CSS
+input[type="text"]:disabled {
+  background-color: red
+}
+```
+
+_In this example:_ if any input with text type was `Disabled` will be with a red background.
+
+- **:first-child Pseudo-class:** matches the first selector in the same parent, for example:
+
+```CSS
+h1:first-child {
+  border: 1px solid red;
+}
+```
+
+_In this example:_ this style will be applied to every first `h1` element in the same parent.
+
+- **:last-child Pseudo-class:** matches the last selector in the same parent, for example:
+
+```CSS
+.class-1:last-child {
+  background-color: blue;
+}
+```
+
+_In this example:_ this style will be applied to every last element that has the `class-1` class in the same parent.
 
 > **sometimes you need access to an element, but not the first or last element, maybe the second, the third, or the fourth ...etc. How you can do it?**
 
-- **<span style='color: #30336b'>:nth-child(n) Pseudo-class: </span>** take an argument(n) and matches the selector that is the nth-child, [Example](https://codepen.io/fares98/pen/abOpKBL).
+- **:nth-child(n) Pseudo-class:** take an argument(n) and matches the selector that is the nth-child, for example:
 
-> The **<span style='color: #7f8c8d; font-weight: bold'>:nth-child(n)</span>** not only take a number, you can read more about it [here](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
+```CSS
+p:nth-child(3) {
+  border: 1px solid red;
+}
+```
+
+_In this example:_ this style will be applied to every `p` element that is the `Third` element in the same parent.
 
 <br />
 
-**_We just talked about the basic pseudo class, if you interested you can read more [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)_**
+> The **:nth-child(n)** not only take a number, you can read more about it [here](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
+
+<br />
+
+**We just talked about the basic pseudo class, if you interested you can read more [here](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)**
 
 ---
 
@@ -294,7 +411,7 @@ selector:pseudo-class {
 CSS Pseudo-elements
 </h2>
 
-The **<span style='color: #7f8c8d; font-weight: bold'>CSS pseudo-element</span>** is a keyword with two colons preceding it to differentiate them from pseudo-classes, added to a selector and lets you style a specific part of the selected element.
+The **CSS pseudo-element** is a keyword with two colons preceding it to differentiate them from pseudo-classes, added to a selector and lets you style a specific part of the selected element.
 
 **_Syntax:_**
 
@@ -304,7 +421,7 @@ selector::pseudo-element {
 }
 ```
 
-**We have only five <span style='color: #7f8c8d; font-weight: bold'>pseudo-element</span> in CSS, follow to learn it:**
+**We have only five _pseudo-element_ in CSS, follow to learn it:**
 
 ### All Pseudo-element:
 
@@ -314,23 +431,74 @@ selector::pseudo-element {
 - after
 - before
 
-* **<span style='color: #30336b'>::first-letter Pseudo-element: </span>** apply styles to the first letter in the element selected, [Example](https://codepen.io/fares98/pen/RwPKyBQ).
+* **::first-letter Pseudo-element:** apply styles to the first letter in the element selected.
 
-- **<span style='color: #30336b'>::first-line Pseudo-element: </span>** apply styles to the first line in the element selected, [Example](https://codepen.io/fares98/pen/PoqWeyd).
+```CSS
+p::first-letter{
+  font-size: 25px;
+  font-weight: bold;
+}
+```
 
-* **<span style='color: #30336b'>::selection Pseudo-element: </span>** apply styles to the part of an element that has been highlighted by a user, it's great for matching user-selected text to your site color scheme, [Example](https://codepen.io/fares98/pen/WNvRJPB).
+_In this example:_ this style will be applied to the `first-letter` within every `p` element on your page.
 
-- **Other Example**
+- **::first-line Pseudo-element:** apply styles to the first line in the element selected.
+
+```CSS
+h3::first-line{
+  font-weight: bold;
+  font-size: 20px;
+  color: blue;
+}
+```
+
+_In this example:_ this style will be applied to the `first-line` within every `h3` element on your page.
+
+- **::selection Pseudo-element:** apply styles to the part of an element that has been highlighted by a user, it's great for matching user-selected text to your site color scheme.
+
+```CSS
+p::selection{
+  color: black;
+  background-color: yellow
+}
+```
+
+_In this example:_ this style will be applied to the part that you `selected` in all `p` elements on your page.
+
+- **Other Examples**
   <div style="text-align:center; margin: 30px 0;">
   <img  src="https://nicolasjengler.github.io/life-after-modern-layout-properties/images/text-selection.gif" /></div>
 
-* **<span style='color: #30336b'>::after Pseudo-element: </span>** used to insert `content` after the content of an element without it needing to be in the `HTML`, [Example](https://codepen.io/fares98/pen/LYVxrPO).
+* **::after Pseudo-element:** used to insert `content` before the content of an element without it needing to be in the `HTML`, for example:
 
-- **<span style='color: #30336b'>::before Pseudo-element: </span>** used to insert `content` before the content of an element without it needing to be in the `HTML`, [Example](https://codepen.io/fares98/pen/GRJrGJw).
+```CSS
+h3::after{
+  content: 'Hello from CSS';
+  color: red;
+}
+```
+
+_In this example:_ you will see `Hello from CSS` `after` every `h3` element in your page.
+
+- **::before Pseudo-element:** used to insert `content` before the content of an element without it needing to be in the `HTML`, for example:
+
+```CSS
+p::before{
+  content:'';
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: blue;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+```
+
+_In this example:_ you will see `blue circle` `before` every `p` element in your page.
 
 **Notes:**
 
-- The (after, before) pseudo elements should contain the "content" property.
+- This Pseudo element should contain the "content" property.
 - The content prop may be empty, string, or image, you can read more about it [here](https://css-tricks.com/almanac/selectors/a/after-and-before/)
 - using `after` you can make a style not insert text only
 - the result appears as a Dom element but actually it's not a Dom element.

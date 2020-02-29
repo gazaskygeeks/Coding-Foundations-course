@@ -1,12 +1,8 @@
-# CSS Exercise
+# CSS Exercise (Session 3: CSS-01)
 
 **You have a sample page that contains two sections, following the instruction to build your own page:**
 
-<div style ='box-shadow: 5px 5px 5px #ccc, -5px -5px 5px #ccc; margin: 20px auto;'>
-    <img src='https://i.imgur.com/2YF9xnm.png' style='width: 100%; height: 100%' />
-</div>
-
-<!-- ![](https://i.imgur.com/2YF9xnm.png) -->
+![](https://i.imgur.com/JGcIoUm.png)
 
 ## The instruction:
 
@@ -34,6 +30,8 @@
 
 12- The font for the paragraphs and the titles is 'sans-serif'.
 
-13- The selected section from the paragraph should be 'white' with 'goldenrod' color for the background.
+13- The style for the title in every section will change on hover it.
 
-14- Add `Read More >>` with blue color after the paragraph using `after`.
+14- The selected section from the paragraph should be 'white' with 'goldenrod' color for the background.
+
+15- Add `Read More >>` with blue color after the paragraph using `after`.
