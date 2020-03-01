@@ -9,7 +9,6 @@ There are many ways of doing that but we will do it using some HTML elements:
 | `<b>`   | Highlight important information|
 | `<strong>` |  Similarly to bold, to highlight key text|
 |    `<i>`     |   To denote text    |
-|    `<em>`     |    Usually used as image captions   |
 |    `<mark>`     |   Highlight the background of the text    |
 |   `<small>`      |   To shrink the text    |
 |     `<strike>`    |  To place a horizontal line across the text     |
@@ -17,8 +16,9 @@ There are many ways of doing that but we will do it using some HTML elements:
 |    `<sub>`     |    Typographical stylistic choice   |
 |   `<sup>`      |    Another typographical presentation style|
 
-Check the difference between `<em>` and `<i>` https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em
-Check the difference between `<b>` and `<strong>` https://www.seobility.net/en/wiki/Strong_and_Bold_Tags
+[Check the difference between `<em>` and `<i>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em)
+
+[Check the difference between `<b>` and `<strong>`](https://www.seobility.net/en/wiki/Strong_and_Bold_Tags)
 
 To use or apply any of these formats on any text you need to just **wrap it** between the opening and closing tags
 
@@ -54,7 +54,7 @@ Ever come across a link on a webpage that took you to another one. these links a
 
 <a href="www.google.com" target="_blank" rel="noreferrer noopener">Click Me</a>
 
-Explaining the noreferrer and noopener in the link tag https://blog.templatetoaster.com/noopener-noreferrer/
+- [Explaining the noreferrer and noopener in the link tag](https://blog.templatetoaster.com/noopener-noreferrer/)
 
 ## Images
 In today’s modern digital world, images are everything. The `<img>` tag has everything you need to display images on your site.
