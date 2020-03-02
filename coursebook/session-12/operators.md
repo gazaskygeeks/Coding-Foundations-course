@@ -393,7 +393,7 @@ alert("I don't know such values");
 
 - Different switch cases share the same code.
 
-```
+```javascript
 var foo = 0;
 switch (foo) {
   case -1:
