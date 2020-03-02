@@ -19,6 +19,8 @@ Welcome to the second session of the Javascript, you will learn the basic concep
 - Break
 - 12:40 - 1:40 | [Logical operators](./operators.md)
 - Break
-- 1:50 - 3:00 | [Conditional statements](./operators.md)
+- 1:50 - 2:50 | [Conditional statements](./operators.md)
+
+- 2:50 - 3:00 | [Exercise](./exercise.md)
 
 ---
