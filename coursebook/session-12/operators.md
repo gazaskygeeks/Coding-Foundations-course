@@ -1,7 +1,5 @@
-
----
-
-> JavaScript has many types of operators and at this workshop we will discuss comparison and logical operators.
+## Types of operators in javascript 
+JavaScript has many types of operators and at this workshop we will discuss comparison and logical operators.
 
 ## <a href='#comparison-operators' id='comparison-operators'>
 
@@ -28,7 +26,7 @@ Comparison operator is also called binary operator because it requires two opera
 - Identity / strict equality (===)
   The identity operator returns true if the operands are strictly equal.
 
-```javascript=
+```javascript
 6 === '6'; // false
 2 === 2; // true
 ```
@@ -36,7 +34,7 @@ Comparison operator is also called binary operator because it requires two opera
 - Non-identity / strict inequality (!==)
   The non-identity operator returns true if the operands are not equal and/or not of the same type.
 
-```javascript=
+```javascript
 6 !== '6'; // true
 3 !== 2; // true
 ```
@@ -45,7 +43,7 @@ Comparison operator is also called binary operator because it requires two opera
 
 - Equality (==)
 
-```javascript=
+```javascript
 1 == 1; // true
 '1' == 1; // true (the string is converted to a number value).
 
@@ -55,14 +53,14 @@ Comparison operator is also called binary operator because it requires two opera
 
 - Inequality (!=)
 
-```javascript=
+```javascript
 1 != 2; // true
 1 != '1'; // false
 ```
 
 3. ##### For relational abstract comparisons, the operands are first converted to primitives, then to the same type, before comparison.
 
-```javascript=
+```javascript
 4 > 3; // true
 false <= 0; // true
 1 >= true; // true
@@ -88,9 +86,7 @@ false <= 0; // true
 
 2. Truthy value : All values are truthy unless they are defined as falsy.
 
----
-
-## <a href='#logical-operators' id='logical-operators'>
+---## <a href='#logical-operators' id='logical-operators'>
 
 ## Logical operators </a>
 
@@ -103,7 +99,7 @@ Logical operators are typically used with Boolean (logical) values to return a B
 
 Example (1) :
 
-```javascript=
+```javascript
 // Evaluates conditions from left to right.
 // For each operand, converts its value to a boolean. If the result is false, it stops the evaluation of the expression and returns the original value of that operand.
 // If all operands have been evaluated (i.e. all conditions are truthy), then it returns the last operand value.
@@ -119,7 +115,7 @@ a7 = '' && false; // f && f returns ''
 
 Example (2) :
 
-```javascript=
+```javascript
 var a = 1;
 var b = 2;
 var c = 0;
@@ -134,7 +130,7 @@ console.log(f); // 0 last value
 **2.** **|| (OR)**
 The OR (||) operation returns the first truthy value or the last value if no truthy value is found.
 
-```javascript=
+```javascript
 // Evaluates conditions from left to right.
 // For each operand, it converts the value to a boolean. If the result is true, the evaluation of the expression stops and returns the original value of that operand.
 // If all operands are evaluated (i.e. all conditions were falsy), then it returns the last operand value.
@@ -150,13 +146,41 @@ console.log(c); // 2 : last value
 **3.** **! (Not)**
 The not operation returns the inverse boolean value of the variable. It is a unary operation, so it operates on single operand.
 
-```javascript=
+```javascript
 // Converts the operand value to a boolean.
 
 var a = 1;
 
 !a; // return 0
-!!a; // return 1
+```
+
+**4.** **!! (Double NOT)**
+
+The single ! converts a value to its truthy or falsey value, which is technically a boolean. But if you need to a real boolean representation of a value for your expression you must convert it to a real boolean value using a double not.
+
+```javascript
+Example (1) : 
+
+var a = 1;
+
+!!a; // return true
+__________________________________________________
+
+Example(2) : 
+
+let v = 0;
+
+v ? true : false  //equals false
+!v ? true : false  //equals true
+!!v //false
+
+v = 1;
+
+v ? true : false  //equals true
+!v ? true : false  //equals false
+!!v //true
+
+typeof !!v // boolean
 ```
 
 **[Click here for more explaination](https://levelup.gitconnected.com/secrets-of-logical-%EF%B8%8F-operator-in-javascript-98efbae5e8aa)**
@@ -169,7 +193,7 @@ The below operations are listed based on operator precedence. i.e, ! is higher p
 **2. && (AND)**
 **3. || (OR)**
 
-```javascript=
+```javascript
 true || (false && false); // returns true, because && is executed first
 ```
 
@@ -191,7 +215,7 @@ In JavaScript we have the following conditional statements :
 **1. if statement**
 Use if to specify a block of code to be executed, if a specified condition is true.
 
-```javascript=
+```javascript
 if (condition) {
   // block of code to be executed if the condition is true
 }
@@ -209,7 +233,7 @@ if (time < 20) {
 **2. else**
 Use else to specify a block of code to be executed, if the same condition is false.
 
-```javascript=
+```javascript
 if (condition) {
   // block of code to be executed if the condition is true
 } else {
@@ -231,7 +255,7 @@ if (time < 20) {
 **3. else if**
 Use else if to specify a new condition to test, if the first condition is false
 
-```javascript=
+```javascript
 if (condition1) {
   // block of code to be executed if condition1 is true
 } else if (condition2) {
@@ -259,7 +283,7 @@ The switch statement executes a block of code depending on different cases. it e
 
 **Syntax**
 
-```javascript=
+```javascript
 switch (expression) {
   case x:
     // code block
@@ -278,7 +302,7 @@ switch (expression) {
 - The `break` keyword breaks out of the switch block. This will stop the execution of more execution of code
 - The `default` keyword specifies some code to run if there is no case match.
 
-```javascript=
+```javascript
 let a = 5;
 switch (a) {
   case 3:
@@ -299,7 +323,7 @@ switch (a) {
 
 - If break is omitted, the program continues execution at the next case in the switch statement.
 
-```javascript=
+```javascript
 var foo = 0;
 switch (foo) {
   case -1:
@@ -322,7 +346,7 @@ switch (foo) {
 
 - If multiple cases match the provided value, the first case that matches is selected.
 
-```javascript=
+```javascript
 var foo = 0;
 switch (foo) {
   case -1:
@@ -346,7 +370,7 @@ switch (foo) {
 
 - If there is no break then the execution continues with the next cases without any checks.
 
-```javascript=
+```javascript
 var a = 2 + 2;
 
 switch (a) {
@@ -389,5 +413,7 @@ switch (foo) {
 
 **[Click here for more examples](https://javascript.info/switch)**
 
-**When should you use switch instead of if/else statments ?** :+1:
+**When should you use switch instead of if/else statments ?** 
+
+
 switch is the perfect solution for long, nested if/else statements.
