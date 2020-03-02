@@ -16,15 +16,6 @@ JavaScript standardization is now run by a committee called TC39, which governs 
 ### How to Run Javascript 
 Being a scripting language, JavaScript cannot run on its own. In fact, the browser is responsible for running JavaScript code. When a user requests an HTML page with JavaScript in it, the script is sent to the browser and it is up to the browser to execute it. The main advantage of JavaScript is that all modern web browsers support JavaScript. So, you do not have to worry about whether your site visitor uses Internet Explorer, Google Chrome, Firefox or any other browser. JavaScript will be supported. Also, JavaScript runs on any operating system including Windows, Linux or Mac.
 
-### Tools For JavaScript Development
-To help you start working with JavaScript, you should install a few tools:
-
-- Web Browser 
-you can use any browser (e.g. Google chrome, Firefox or Safari) but we highly encourage you to use **Google Chrome** for all of your web development because it has great tools for working with JavaScript in your browser.
-
-- Text Editor
-There are many text editors used for development (e.g Sublime,Visual Studio Code (VS code), Bracket, Atom , Notpad++ and others), **VS code** would be our favorite option because it includes built-in JavaScript IntelliSense, debugging, formatting, code navigation, refactorings, and many other advanced language features.
-
 ### Where we will be writing most of our JavaScript ?
 #### short scripts : 
 For most of our short JavaScript examples, we will be using the **Chrome console**. 
@@ -226,19 +217,11 @@ isFinite(-Infinity); // false
 
 ```
 ### Boolean 
-A boolean type can only be in one of two states, `true` or `false` (both of which are keywords) Any value can be converted to a boolean according to the following rules:
-1- false, 0, empty strings (""), NaN, null, and undefined all become false.
-2- All other values become true.
+A boolean type can only be in one of two states, `true` or `false` (both of which are keywords) . 
 
 ```javascript
 var pizzaIsGood = true;
 var pizzaIsBad = false;
-
-```
-You can perform this conversion explicitly using the Boolean() function:
-```javascript
-Boolean('');  // false
-Boolean(234); // true
 
 ```
 Boolean types are a very useful tool for controlling our program. For example, if a user is signed in, you might want to show them a link to update their profile; but if a user is not logged in, you'd probably just want to show them a sign-in link. This sort of behavior, where the code that gets executed is conditioned on something else, happens all the time in programming. We'll learn more about how to deal with these situations in the next session.
@@ -314,14 +297,4 @@ var bool = false;
 num.toString(); // "2";
 bool.toString(); // "false";
 
-```
-**Converting to a boolean (!!)**
-We'll talk about the **(!)** operator later. but for now, you need to know that **(!!)** will convert a value to its boolean equivalent. Here are a couple of examples:
-
-```javascript
-var greeting = "hi";
-var nothing = 0;
-
-!!greeting; // true
-!!nothing; // false
 ```
