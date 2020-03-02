@@ -22,7 +22,7 @@ There are many ways of doing that but we will do it using some HTML elements:
 
 To use or apply any of these formats on any text you need to just **wrap it** between the opening and closing tags
 
-```html=
+```html
 <p>
     this word is normal but this 
     <strong> word </strong> is bold
@@ -45,7 +45,7 @@ Ever come across a link on a webpage that took you to another one. these links a
 
 **Example**
 
-```html=
+```html
 <a href="www.google.com">Click Me</a>
 ```
 **Can you guess where the link would take the user?** As you may have guessed when the user clicks this link he will be directed to **Google** page
@@ -61,7 +61,7 @@ In today’s modern digital world, images are everything. The `<img>` tag has ev
 
 In order for the image tag to display the image we need to provide it with the path to the image which can be a path for it on your device or a link from the web
 
-```html=
+```html
 <img src="images/image.jpg" alt="some image" />
 ```
 
@@ -83,7 +83,7 @@ The first is an `<ol>`: This is an ordered list of contents. For example:
 Inside the `<ol>` tag we list each item on the list inside `<li>` `</li>` tags.
 
 **For example**:
-```html=
+```html
 <ol>
     <li>An item </li>
     <li>Another item </li>
@@ -102,7 +102,7 @@ The second type of list that you may wish to include is an `<ul>` unordered list
 
 **An example of this**:
 
-```html=
+```html
 <ul>
     <li>This is </li>
     <li>An Unordered </li>
@@ -121,7 +121,7 @@ When drawing a table we must open an element with the `<table>` opening tag. Ins
 
 **An example of an HTML table is as follows**:
 
-```html=
+```html
 <table>
     <tr> 
         <td>Row 1 - Column 1</td>  
@@ -151,7 +151,7 @@ When drawing a table we must open an element with the `<table>` opening tag. Ins
 
 There are more additional elements that we can add to a table like the `<th>` which is for the table headings(A head/title for each column).
 
-```html=
+```html
 <table>
     <tr>
         <th>First Name</th>

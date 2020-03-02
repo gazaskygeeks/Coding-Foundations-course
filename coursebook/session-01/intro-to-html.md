@@ -25,7 +25,7 @@ Read more: https://html.com/#ixzz6DGtsrDHr
 ## HTML Elements
 As we mentioned in the previous paragraph, **HTML Elements** are the building blocks of a webpage. An HTML element is a **start tag** and an **end tag** with content in between.
 
-```html=
+```html
 <h1> Hello World </h1>
 ```
 
@@ -59,28 +59,28 @@ HTML elements can have attributes, **Attributes** provide additional information
 - The **href** attribute 
 HTML links are defined with the <a> tag. The link address is specified in the href attribute:
 
-```html=
+```html
 <a href="https://www.google.com">This is a link</a>
 ```
 
 - The **src** Attribute
 HTML images are defined with the `<img>`tag. The filename of the image source is specified in the src attribute:
 
-```html=
+```html
 <img src="image.jpg">
 ```
 
 - The **style** Attribute
 The *style* attribute is used to specify the styling of an element, like color, font, size etc.
 
-```html=
+```html
 <p style="color:red">This is a red paragraph.</p>
 ```
 
 - The **title** Attribute
 Here, a title attribute is added to the `<p>` element. The value of the title attribute will be displayed as a tooltip when you mouse over the paragraph:
 
-```html=
+```html
 <p title="This is a tooltip">
     This is a paragraph.
 </p>
