@@ -55,7 +55,7 @@ _In this example:_ if any input with checkbox type was `Checked` or if the user 
 - **:enabled Pseudo-class:** matches the enabled selector (the selectors that you can take an action on it, mostly with inputs), for example:
 
 ```CSS
-input[type="text"]:enabled {
+input:enabled {
   background-color: gray;
   font-weight: bold;
 }
@@ -66,8 +66,8 @@ _In this example:_ if any input with text type was `Enabled` will be with a gray
 - **:disabled Pseudo-class:** matches the disabled selector (not enable: the selectors that you can't take any action on it, mostly with inputs ), for example:
 
 ```CSS
-input[type="text"]:disabled {
-  background-color: red
+input:disabled {
+  background-color: black;
 }
 ```
 
