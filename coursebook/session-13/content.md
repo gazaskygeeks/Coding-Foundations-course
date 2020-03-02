@@ -22,9 +22,9 @@ Variables defined inside a function are in local scope while variables defined o
 
 When you start writing JavaScript in a document, you are already in the Global scope. There is only one Global scope throughout a JavaScript document. A variable is in the Global scope if it's defined outside of a function.
 
-```javascript
-Example (1) :
+**Example (1):**
 
+```javascript
 // the scope is by default global
 
 var name = 'Hammad';
@@ -32,9 +32,9 @@ var name = 'Hammad';
 
 - Variables inside the Global scope can be accessed and altered in any other scope.
 
-```javascript
-Example (2) :
+**Example (2):**
 
+```javascript
 var name = 'Hammad';
 
 console.log(name); // logs 'Hammad'
@@ -245,7 +245,7 @@ Variables declared with the const maintain constant values. const declarations s
   This means that the value of a variable declared with const remains the same within its scope. It cannot be updated or re-declared. So if we declare a variable with const, we can neither do this :
 
   ```javascript
-      const greeting = "say Hi";
+   const greeting = "say Hi";
    greeting = "say Hello instead";//error : Assignment to constant variable.
   ```
 
@@ -262,29 +262,88 @@ Variables declared with the const maintain constant values. const declarations s
 
 ## <a href='#loops' id='loops'>Loops </a>
 
-Loops are handy, if you want to run the same code over and over again, each time with a different value.
-Often this is the case when working with arrays:
+Loops are used to execute the same block of code again and again, as long as a certain condition is met. The basic idea behind a loop is to automate the repetitive tasks within a program to save the time and effort.
 
-**instead of writing**
+### Kinds of Loops: 
+
+JavaScript supports different kinds of loops:
+- **for** — loops through a block of code until the counter reaches a specified number.
+- **while** : loops through a block of code while a specified condition is true.
+- **do…while** — loops through a block of code once; then the condition is evaluated. If the condition is true, the statement is repeated as long as the specified condition is true.
+- **for…in** — loops through the properties of an object.
+- **for…of** — loops over iterable objects such as arrays, strings, etc.
+
+### The for Loop
+
+The `for` loop repeats a block of code as long as a certain condition is met. It is typically used to execute a block of code for certain number of times. Its syntax is:
 
 ```javascript
-text += cars[0] + "<br>";
-text += cars[1] + "<br>";
-text += cars[2] + "<br>";
-text += cars[3] + "<br>";
-text += cars[4] + "<br>";
-text += cars[5] + "<br>";
-```
-**you can write**
-```javascript
-let i;
-for (i = 0; i < cars.length; i++) {
-  text += cars[i] + "<br>";
+for(initialization; condition; increment) {
+    // Code to be executed
 }
 ```
-### Kinds of Loops: 
-JavaScript supports different kinds of loops:
-- **for** : loops through a block of code a number of times.
-- **while** : loops through a block of code while a specified condition is true.
-- **do/while** : loops through a block of code while a specified condition is true.
 
+The parameters of the `for` loop statement have following meanings:
+
+- **initialization** : it is used to initialize the counter variables, and evaluated once unconditionally before the first execution of the body of the loop.
+
+- **condition** — it is evaluated at the beginning of each iteration. If it evaluates to true, the loop statements execute. If it evaluates to false, the execution of the loop ends.
+
+- **increment** — it updates the loop counter with a new value each time the loop runs.
+
+### **Example:**
+
+```javascript 
+for(let i=1; i<=5; i++) {
+    console.log("The number is " + i );
+}
+```
+The previous example defines a loop that starts with `i=1`. The loop will continued until the value of variable `i` is less than or equal to 5. The variable `i` will increase by 1 each time the loop runs.
+
+### The while Loop:  
+
+The `while` loop loops through a block of code as long as the specified condition evaluates to true. As soon as the condition fails, the loop is stopped. The generic syntax of the `while` loop is:
+
+```javascript 
+while(condition) {
+    // Code to be executed
+}
+```
+### **Example:**
+
+```javascript
+let i = 1;
+while(i <= 5) {    
+    console.log("The number is " + i );
+    i++;
+} 
+```
+The previous example defines a loop that will continue to run as long as the variable `i` is less than or equal to 5. The variable `i` will increase by 1 each time the loop runs.
+
+### The do...while Loop
+The `do-while` loop is a variant of the `while` loop, which evaluates the condition at the end of each loop iteration. With a `do-while` loop the block of code executed once, and then the condition is evaluated, if the condition is true, the statement is repeated as long as the specified condition evaluated to is true. The generic syntax of the `do-while` loop is:
+
+```javascript
+do {
+    // Code to be executed
+}
+while(condition);
+``` 
+
+### **Example:**
+
+```javascript
+let i = 1;
+do {
+    console.log("The number is " + i );
+    i++;
+}
+while(i <= 5);
+```
+The JavaScript code in the previous example defines a loop that starts with i=1. It will then print the output and increase the value of variable i by 1. After that the condition is evaluated, and the loop will continue to run as long as the variable i is less than, or equal to 5.
+
+### Difference Between while and do...while Loop
+
+The `while` loop differs from the `do-while` loop in one important way — with a `while` loop, the condition to be evaluated is tested at the beginning of each loop iteration, so if the conditional expression evaluates to false, the loop will never be executed.
+
+With a `do-while` loop, on the other hand, the loop will always be executed once even if the conditional expression evaluates to false, because unlike the `while` loop, the condition is evaluated at the end of the loop iteration rather than the beginning.
