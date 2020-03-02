@@ -1,10 +1,15 @@
 # Introduction to JavaScript
 
-## [Learning Outcomes](./learning-outcomes.md)
+### [Learning Outcomes](./learning-outcomes.md)
+---
+### Schechule   
 
-## Schechule
-11:00 - 12:30 | [Introduction to JavaScript](./research-topics.md)      
+11:00 - 12:30 | [Introduction to JavaScript](./intro-to-js.md)      
 -BREAK-    
-12:50 - 14:00 | [Data Types in JavaScript](./research-topics.md#datatypes)
+12:50 - 14:00 | [Data Types in JavaScript](./intro-to-js.md#datatypes)    
 
-## [Additional Resources](./resources.md) 
+---
+### [Research Topics](./research-topics.md) 
+
+### [Additional Resources](./resources.md) 
+
