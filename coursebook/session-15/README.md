@@ -4,6 +4,7 @@
 
 ### Schedule
 
+- 11:00 - 11:20 | [Morning Challenge](./morning-challenge.md)
 - 11:00 - 12:30 | [JavaScript Objects Part I](./javascript-objects.md)
 
   -**BREAK**-
@@ -12,4 +13,3 @@
 - 13:20 - 14:00 | [Exercises](./exercises.md)
 
 ### [Research Topics](./research-topics.md)
-
