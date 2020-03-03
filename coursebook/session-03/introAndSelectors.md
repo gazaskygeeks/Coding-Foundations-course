@@ -66,35 +66,48 @@ p {
 
 _In this example:_ this style will be applied to all the `p` elements in your page.
 
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/GRJWqmJ)
+
 - **#id:** selects the elements which have the same id name, for example:
 
 ```CSS
-#id-1 {
-  background-color: black;
+#id-1{
+  font-size: 20px;
+  border: 2px solid blue;
 }
 ```
 
 _In this example:_ this style will be applied to the element which has id `id`
 
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/PoqpzKN)
+
 - **.class:** selects the elements which have the same class name, for example:
 
 ```CSS
-.class-1 {
-  border: 2px solid red;
+.class-1{
+  font-weight: bold;
+  color: darkblue;
 }
 ```
 
 _In this example:_ this style will be applied to all the elements which have the `class-1` class in your page.
 
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/oNXZLGr)
+
 - **\*:** This selector called _'universal'_ and use to select all the elements in the page, for example:
 
 ```CSS
-* {
+*{
+  margin: 10px;
+  font-weight: bold;
+  color: darkblue;
   box-sizing: border-box;
 }
 ```
 
 _In this example:_ this style will be applied to `all` the elements in your page.
+
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/yLNMJvv)
 
 <br/>
 
@@ -110,6 +123,8 @@ section p {
 ```
 
 _In this example:_ this style will be applied on all p elements which be inside a section element (direct child and not direct child).
+
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/poJeEJO)
 
 **HTML Example for the direct child and not direct child:**
 
@@ -137,6 +152,3 @@ h4, h6, p, section {
   text-align: center;
 }
 ```
-
-<!--
-**Simple Exercise for the CSS selectors** [here](https://codepen.io/fares98/pen/WNvxbKG?editors=1000) -->

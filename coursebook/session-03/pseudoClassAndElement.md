@@ -30,11 +30,13 @@ selector:pseudo-class {
 * **:hover Pseudo-class:** used to apply style on the selected element after the user hovers the cursor over this element, for example:
 
 ```CSS
-h1:hover {
+h1:hover{
   color: white;
   background-color: black;
 }
 ```
+
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/qBdRovE)
 
 _In this example:_ when you `hove` the cursor over the specified element, the color will change to white and the background-color will change to black.
 
@@ -45,6 +47,8 @@ input[type="checkbox"]:checked {
   margin-left: 30px;
 }
 ```
+
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/ExjZEBq)
 
 _In this example:_ if any input with checkbox type was `Checked` or if the user clicked any `checkbox input`, this input will move 30px to the right.
 
@@ -71,7 +75,9 @@ input:disabled {
 }
 ```
 
-_In this example:_ if any input with text type was `Disabled` will be with a red background.
+_In this example:_ if any input with text type was `Disabled` will be with a black background.
+
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/ExjZEBq)
 
 - **:first-child Pseudo-class:** matches the first selector in the same parent, for example:
 
@@ -83,6 +89,8 @@ h1:first-child {
 
 _In this example:_ this style will be applied to every first `h1` element in the same parent.
 
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/RwPKyQx)
+
 - **:last-child Pseudo-class:** matches the last selector in the same parent, for example:
 
 ```CSS
@@ -92,6 +100,8 @@ _In this example:_ this style will be applied to every first `h1` element in the
 ```
 
 _In this example:_ this style will be applied to every last element that has the `class-1` class in the same parent.
+
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/dyoNKOK)
 
 > **sometimes you need access to an element, but not the first or last element, maybe the second, the third, or the fourth ...etc. How you can do it?**
 
@@ -104,6 +114,8 @@ p:nth-child(3) {
 ```
 
 _In this example:_ this style will be applied to every `p` element that is the `Third` element in the same parent.
+
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/abOpKBL)
 
 <br />
 
@@ -150,6 +162,8 @@ p::first-letter{
 
 _In this example:_ this style will be applied to the `first-letter` within every `p` element on your page.
 
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/RwPKyBQ)
+
 - **::first-line Pseudo-element:** apply styles to the first line in the element selected.
 
 ```CSS
@@ -162,6 +176,8 @@ h3::first-line{
 
 _In this example:_ this style will be applied to the `first-line` within every `h3` element on your page.
 
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/PoqWeyd)
+
 - **::selection Pseudo-element:** apply styles to the part of an element that has been highlighted by a user, it's great for matching user-selected text to your site color scheme.
 
 ```CSS
@@ -172,6 +188,8 @@ p::selection{
 ```
 
 _In this example:_ this style will be applied to the part that you `selected` in all `p` elements on your page.
+
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/WNvRJPB)
 
 - **Other Examples**
   <div style="text-align:center; margin: 30px 0;">
@@ -188,6 +206,8 @@ h3::after{
 
 _In this example:_ you will see `Hello from CSS` `after` every `h3` element in your page.
 
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/LYVxrPO)
+
 - **::before Pseudo-element:** used to insert `content` before the content of an element without it needing to be in the `HTML`, for example:
 
 ```CSS
@@ -203,6 +223,8 @@ p::before{
 ```
 
 _In this example:_ you will see `blue circle` `before` every `p` element in your page.
+
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/GRJrGJw)
 
 **Notes:**
 
