@@ -1,6 +1,6 @@
 ## <a href='#exercise' id='exercise'> Exercise : </a>
 
-Use ``` swith statement ``` to determine the grade of the student depending on a given final mark.
+Use ``` switch statement ``` to determine the grade of the student depending on a given final mark.
 
 **Given :** 
 
