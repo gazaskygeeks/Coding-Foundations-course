@@ -1,6 +1,6 @@
-## <a href='#morning-challenge' id='morning-challenge'>Morning challenge </a>
+## Morning challenge
 
-Using `switch` case statement to write a script that outputs the number of days in a month based on the input month and year.
+Use the `switch` case statement to write a script that outputs the number of days in a month based on the input month and year.
 
 **Hint** 
 There are four cases:

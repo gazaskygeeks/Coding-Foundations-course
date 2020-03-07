@@ -1,15 +1,15 @@
-## <a href='#loops' id='loops'>Loops </a>
+## Loops 
 
 Loops are used to execute the same block of code again and again, as long as a certain condition is met. The basic idea behind a loop is to automate the repetitive tasks within a program to save the time and effort.
 
-### Kinds of Loops: 
+### Types of Loops: 
 
-JavaScript supports different kinds of loops:
-- **for** — loops through a block of code until the counter reaches a specified number.
+JavaScript supports different types of loops:
+- **for** : loops through a block of code while a specified condition is true. 
 - **while** : loops through a block of code while a specified condition is true.
-- **do…while** — loops through a block of code once; then the condition is evaluated. If the condition is true, the statement is repeated as long as the specified condition is true.
-- **for…in** — loops through the properties of an object.
-- **for…of** — loops over iterable objects such as arrays, strings, etc.
+- **do…while** : loops through a block of code once; then the condition is evaluated. If the condition is true, the statement is repeated as long as the specified condition is true.
+- **for…in** : loops through the properties of an object.
+- **for…of** : loops over iterable objects such as arrays, strings, etc.
 
 ### The for Loop
 
@@ -36,7 +36,7 @@ for(let i=1; i<=5; i++) {
     console.log("The number is " + i );
 }
 ```
-The previous example defines a loop that starts with `i=1`. The loop will continued until the value of variable `i` is less than or equal to 5. The variable `i` will increase by 1 each time the loop runs.
+The previous example defines a loop that starts with `i=1`. The loop will continue as long as the value of the variable `i` is less than or equal to 5. The variable `i` will increase by 1 each time the loop runs.
 
 ### The while Loop:  
 
@@ -78,7 +78,7 @@ do {
 }
 while(i <= 5);
 ```
-The JavaScript code in the previous example defines a loop that starts with i=1. It will then print the output and increase the value of variable i by 1. After that the condition is evaluated, and the loop will continue to run as long as the variable i is less than, or equal to 5.
+The JavaScript code in the previous example defines a loop that starts with `i=1`. It will then print the output and increase the value of the variable `i` by 1. After that, the condition is evaluated, and the loop will continue to run as long as the variable `i` is less than, or equal to 5.
 
 **Avoid infinite loops.** Make sure the condition in a loop eventually becomes false—otherwise, the loop will never terminate! The statements in the following while loop execute forever because the condition never becomes false:
 
@@ -92,7 +92,7 @@ while (true) {
 
 The `while` loop differs from the `do-while` loop in one important way — with a `while` loop, the condition to be evaluated is tested at the beginning of each loop iteration, so if the conditional expression evaluates to false, the loop will never be executed.
 
-With a `do-while` loop, on the other hand, the loop will always be executed once even if the conditional expression evaluates to false, because unlike the `while` loop, the condition is evaluated at the end of the loop iteration rather than the beginning.
+With a `do-while` loop, on the other hand, the loop will always be executed at least once even if the conditional expression evaluates to false because unlike the `while` loop, the condition is evaluated at the end of the loop iteration rather than the beginning.
 
 ### break statement
 
