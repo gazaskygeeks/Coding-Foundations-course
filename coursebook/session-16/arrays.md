@@ -10,6 +10,7 @@
  - [Loops](./loops.md)
 
 ## <a href='#arrays' id='arrays'>Arrays : </a>
+### **Onedimensional Arrays**: :arrow_double_down: 
   Objects allow you to store keyed collections of values. That’s fine.
 
   But quite often we find that we need an ordered collection, where we have a 1st, a 2nd, a 3rd element and so on.     
@@ -99,5 +100,39 @@ arr[3](); // hello
   let arr = ["Fatma", "Ala'a"];
   arr[2]= "Sama"
   arr // ["Fatma", "Ala'a", "Sama"]
+```
+
+### **Multidimensional Arrays** : :arrow_double_down: 
+  
+  Arrays can have items that are also arrays. We can use it for multidimensional arrays, for example to store matrices:
+
+```js
+                         
+let activities =  [  
+          /*0*/    /*1*/  
+  /*0*/ ['Working ', 9],
+  /*1*/ ['Eating  ', 2],
+  /*2*/ ['Commute ', 2],
+  /*3*/ ['Sleeping', 7],
+];
+
+console.log( activities[1] ); //  ['Eating  ', 2]
+console.log( activities[3] ); //  ['Sleeping', 7]
+
+console.log( activities[1][1] ); // 2
+console.log( activities[0][0] ); // Working
+console.log( activities[3][0] ); // Sleeping
+
+activities[4] = ['Study   ', 10];
+ 
+now 
+activities = [
+        ["Working ", 9]
+        ["Eating  ", 2]
+        ["Commute ", 2]
+        ["Sleeping", 7]
+        ["Study  ", 10] 
+    ] ;
+
 ```
 
