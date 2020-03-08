@@ -1,7 +1,8 @@
 
 # Array Methods
 
-**Author**: [@alaa-yasin](https://github.com/alaa-yasin)
+**Author**: [@alaa-yasin](https://github.com/alaa-yasin) and [@Fatmasiam](https://github.com/Fatmasiam)
+
 
  **Arrays have a good number of [methods](https://www.w3schools.com/jsref/jsref_obj_array.asp) such as _forEach()_, _map()_, _filter()_, _reduce()_, _sort()_, ..._etc_** 
 
@@ -270,3 +271,7 @@ var numbers = [ 1, 2, 3 ];
 console.log( numbers.shift() ); //1 
 console.log( numbers ); // [2, 3]
 ```
+
+
+
+![array-methods](./array-methods.jpg)
