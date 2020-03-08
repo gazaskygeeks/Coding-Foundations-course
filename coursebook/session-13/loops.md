@@ -16,8 +16,8 @@ JavaScript supports different types of loops:
 The `for` loop repeats a block of code as long as a certain condition is met. It is typically used to execute a block of code for certain number of times. Its syntax is:
 
 ```javascript
-for(initialization; condition; increment) {
-    // Code to be executed
+for(initialization; condition; step) {
+    // loop body
 }
 ```
 
@@ -27,7 +27,7 @@ The parameters of the `for` loop statement have following meanings:
 
 - **condition** — it is evaluated at the beginning of each iteration. If it evaluates to true, the loop statements execute. If it evaluates to false, the execution of the loop ends.
 
-- **increment** — it updates the loop counter with a new value each time the loop runs.
+- **step** — it updates the loop counter with a new value each time the loop runs.
 
 ### **Example:**
 
@@ -38,35 +38,77 @@ for(let i=1; i<=5; i++) {
 ```
 The previous example defines a loop that starts with `i=1`. The loop will continue as long as the value of the variable `i` is less than or equal to 5. The variable `i` will increase by 1 each time the loop runs.
 
+#### Let’s examine the `for` statement part-by-part:
+
+----
+
+| part | |  |
+| -------- | -------- | -------- |
+| begin     | `i = 1`      | Executes once upon entering the loop.     |
+| condition     | `i <= 5	`  | Checked before every loop iteration. If false, the loop stops.  |
+| body     | `console.log("The number is "+ i )`  | Runs again and again while the condition is truthy.|
+| step     | `i++ `      | Executes after the body on each iteration.  |
+
+
 ### The while Loop:  
 
 The `while` loop loops through a block of code as long as the specified condition evaluates to true. As soon as the condition fails, the loop is stopped. The generic syntax of the `while` loop is:
 
 ```javascript 
 while(condition) {
-    // Code to be executed
+    // loop body
 }
 ```
+While the `condition` is truthy, the code from the `loop` body is executed.
+
 ### **Example:**
 
 ```javascript
 let i = 1;
-while(i <= 5) {    
+while(i <= 5) {   // shows 0, then 1,then 2,then 3,then 4,then 5  
     console.log("The number is " + i );
     i++;
 } 
 ```
 The previous example defines a loop that will continue to run as long as the variable `i` is less than or equal to 5. The variable `i` will increase by 1 each time the loop runs.
 
+A single execution of the loop body is called an _iteration_. The **loop** in the example above makes five _iterations_.
+
+If `i++` was missing from the example above, the loop would repeat (in theory) forever.
+In practice, the browser provides ways to stop such loops, and in server-side JavaScript, we can kill the process.
+
+Any expression or variable can be a loop condition, not just comparisons:
+the condition is evaluated and converted to a boolean by `while`.
+
+For instance, a shorter way to write `while (i != 0)` is `while (i)`:
+
+```js
+let i = 5;
+while(i) {   // when i becomes 0, the condition becomes falsy, and the loop stops.
+    console.log("The number is " + i );
+    i--;
+} 
+```
+### **NOTE** :100: 
+```js
+ /* Curly braces are not required for a single-line body.
+ If the loop body has a single statement, we can omit the curly braces {…}:*/ 
+
+ let i = 5;
+ while (i) console.log(i--);
+
+```
+
 ### The do...while Loop
 The `do-while` loop is a variant of the `while` loop, which evaluates the condition at the end of each loop iteration. With a `do-while` loop the block of code executed once, and then the condition is evaluated, if the condition is true, the statement is repeated as long as the specified condition evaluated to is true. The generic syntax of the `do-while` loop is:
 
 ```javascript
 do {
-    // Code to be executed
-}
-while(condition);
+    // loop body
+} while(condition);
 ``` 
+
+The loop will first execute the body, then check the condition, and while it’s truthy, execute it again and again.
 
 ### **Example:**
 
@@ -94,15 +136,28 @@ The `while` loop differs from the `do-while` loop in one important way — with 
 
 With a `do-while` loop, on the other hand, the loop will always be executed at least once even if the conditional expression evaluates to false because unlike the `while` loop, the condition is evaluated at the end of the loop iteration rather than the beginning.
 
+### The general loop algorithm works like this:
+
+```js
+Run begin
+→ (if condition → run body and run step)
+→ (if condition → run body and run step)
+→ (if condition → run body and run step)
+→ ...
+```
+
+That is, **begin** executes once, and then it iterates: after each **condition** test, **body** and **step** are executed.
+
 ### break statement
 
-Use the `break` statement to terminate a loop or switch.The syntax of the `break` statement looks like this:
+Normally, a loop exits when its condition becomes falsy.
+But we can force the exit at any time using the special `break` directive.
+
+`break` terminates the innermost enclosing while, do-while, for, or switch immediately and transfers control to the following statement. The syntax of the `break` statement looks like this:
 
 ```javascript 
 break;
 ```
-
-`break` terminates the innermost enclosing while, do-while, for, or switch immediately and transfers control to the following statement.
 
 ### **Example:**
 
@@ -117,7 +172,7 @@ The previous example iterates through the numbers from 0 to 10 until it reaches 
 
 ### continue statement
 
-The `continue` statement can be used to restart a while, do-while, for. `continue` terminates the current iteration of the innermost enclosing while, do-while, or for statement and continues execution of the loop with the next iteration. In contrast to the `break` statement, `continue` does not terminate the execution of the loop entirely. In a while loop, it jumps back to the condition. In a for loop, it jumps to the increment-expression.
+The `continue` statement can be used to restart a while, do-while, for. `continue` terminates the current iteration of the innermost enclosing while, do-while, or for statement and continues execution of the loop with the next iteration. In contrast to the `break` statement, `continue` does not terminate the execution of the loop entirely. In a `while` loop, it jumps back to the condition. In a `for` loop, it jumps to the increment-expression.
 
 The syntax of the `continue` statement looks like the following:
 
