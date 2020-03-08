@@ -195,3 +195,78 @@ console.log( str ); // Bilbo;Gandalf;Nazgul
 ```
 
 The [join()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) method creates and returns a new string by concatenating all of the elements in an array (or an array-like object), separated by commas or a specified separator string. If the array has only one item, then that item will be returned without using the separator.
+
+
+7. ### **pop/push, shift/unshift**
+  * [**push()**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push) method adds one or more elements to the end of an array and returns the new length of the array.
+  * [**pop()**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)  method removes the last element from an array and returns that element. This method changes the length of the array.
+  * [**unshift()**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift) method adds one or more elements to the beginning of an array and returns the new length of the array.
+  * [**shift()**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift) method removes the first element from an array and returns that removed element. This method changes the length of the array.
+
+
+### Array: Push() : 
+**The push() method can append one or more elements to the end of an array.** 
+For example: 
+
+```js
+let names = ['Fatma', 'Sama'];
+names.push('Salwa');
+
+console.log(names); // ['Fatma', 'Sama', 'Salwa']
+// Push data onto the array. Push() appends elements to the end
+// of the given array. Note that it can take more than one
+// argument, each of which is individually appended to the array.
+// In the output, notice that when push() takes multiple arguments
+// they are appended in a left-to-right order (mimicing their
+// appearence in the arguments list).
+let letters = ['A', 'B'];
+letters.push('C', 'D');
+
+console.log(letters); // ['A', 'B', 'C', 'D'];
+```
+
+### Array: Pop() 
+**The pop() method pulls the last element off of the given array and returns it**
+For example: 
+
+```js
+let letters = [ 'A', 'B', 'C' ];
+
+// Pop the element off of the end of the array.
+console.log( letters.pop() ); // C
+console.log( letters );  // ['A', 'B']
+```
+
+###  Array: Unshift() 
+**The unshift() method is like the push() method, only it works at the beginning of the array. The unshift() method can prepend one or more elements to the beginning of an array.**
+
+For example:
+
+```js
+let colors = [ 'red' ];
+
+// Unshift data onto the array. Unshift() prepends elements to
+// the beginning of the given array. Note that it can take more
+// than one argument. In the output, notice that when unshift()
+// takes multiple arguments, they are prepended in a right-to-left
+// order (mimicing their appearence in the arguments list).
+colors.unshift( 'yellow' );
+colors.unshift( 'green', 'blue' );
+
+// Output resultant array.
+console.log( colors ); // ["green", "blue", "yellow", "red"]
+
+```
+
+### Array: Shift() 
+**The shift() method is like the pop() method, only it works at the beginning of the array. The shift() method pulls the first element off of the given array and returns it.**
+
+For example:
+
+```js
+var numbers = [ 1, 2, 3 ];
+
+// Shift the element off of the beginning of the array.
+console.log( numbers.shift() ); //1 
+console.log( numbers ); // [2, 3]
+```
