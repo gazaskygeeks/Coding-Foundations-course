@@ -101,6 +101,3 @@ arr[3](); // hello
   arr // ["Fatma", "Ala'a", "Sama"]
 ```
 
--- Additional resources :
-  * [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-  * [Indexed collections](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)

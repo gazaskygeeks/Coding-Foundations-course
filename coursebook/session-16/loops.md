@@ -202,4 +202,4 @@ If we don’t want to do anything in the current iteration and would like to for
 
 # Let's have a quick exercise  [Reverse String](https://leetcode.com/problems/reverse-string/)
 
-#### For more information about loops click [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#break_statement) 
+
