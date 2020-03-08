@@ -8,10 +8,3 @@
 
 - know and understand some Arrays method:
    - map, forEach, reduce, filter, sort, pop, push
-
-
-
-
-
-
-
