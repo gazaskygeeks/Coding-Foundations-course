@@ -17,7 +17,7 @@ The `for` loop repeats a block of code as long as a certain condition is met. It
 
 ```javascript
 for(initialization; condition; step) {
-    // Code to be executed
+    // loop body
 }
 ```
 
@@ -56,7 +56,7 @@ The `while` loop loops through a block of code as long as the specified conditio
 
 ```javascript 
 while(condition) {
-    // Code to be executed
+    // loop body
 }
 ```
 While the `condition` is truthy, the code from the `loop` body is executed.
