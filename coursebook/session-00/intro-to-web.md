@@ -24,8 +24,6 @@ Main article: [Static web page](https://en.wikipedia.org/wiki/Static_web_page)
 
 A *static* website is one that has web pages stored on the server in the format that is sent to a client web browser. It is primarily coded in Hypertext Markup Language (**HTML**); Cascading Style Sheets (**CSS**) are used to control appearance beyond basic HTML. 
 
-This type of website usually displays the same information to all visitors. Similar to handing out a printed brochure to customers or clients, a static website will generally provide consistent, standard information for an extended period of time. Although the website owner may make updates periodically, it is a manual process to edit the text, photos and other content and may require basic website design skills and software. Simple forms or marketing examples of websites, such as classic website, a five-page website or a brochure website are often static websites, because they present pre-defined, static information to the user. This may include information about a company and its products and services through text, photos, animations, audio/video, and navigation menus.
-
 
 ### Dynamic website
 
@@ -35,9 +33,7 @@ A *dynamic* website is one that changes or customizes itself frequently and auto
 
 Dynamic websites contain Web pages that are generated in real-time. These pages include [Web scripting code](https://www.computerhope.com/jargon/s/script.htm#:~:text=A%20script%20or%20scripting%20language,side%20scripting%20language%20is%20JavaScript.), such as **JavaScript**, **Python**, **PHP**, or **ASP**. When a dynamic page is accessed, the code within the page is parsed on the Web server and the resulting HTML is sent to the client's Web browser.
 
-Most large websites are dynamic, since they are easier to maintain than static websites. This is because static pages each contain unique content, meaning they must be manually opened, edited, and published whenever a change is made. Dynamic pages, on the other hand, access information from a **database**. Therefore, to alter the content of a dynamic page, the webmaster may only need to update a database record. This is especially helpful for large sites that contain hundreds or thousands of pages. It also makes it possible for multiple users to update the content of a website without editing the layout of the pages.
-
-Dynamic websites that access information from a database are also called database-driven websites.
+Dynamic pages, access information from a **database**. Therefore, to alter the content of a dynamic page, the webmaster may only need to update a database record. This is especially helpful for large sites that contain hundreds or thousands of pages. It also makes it possible for multiple users to update the content of a website without editing the layout of the pages.
 
 ## What Do Web Developers Do?
 
@@ -66,6 +62,8 @@ The **back end** refers to the guts of the application, which live on the server
 
 For more detail, Udacity has a great blog post on this topic: [3 Web Dev Careers Decoded: Front-End vs Back-End vs Full Stack](http://blog.udacity.com/2014/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
+## Steps Of Making A Web App
+![Imgur](https://i.imgur.com/bSN7p7H.jpg)
 
 ## Motivation
 
