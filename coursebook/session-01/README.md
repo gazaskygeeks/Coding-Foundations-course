@@ -4,13 +4,13 @@
 
 ### Schedule
 
-- 11:00 - 11:50 | [Intro To HTML](./intro-to-html.md)
-- 11:50 - 12:30 | [Elements And Attributes](./elements-and-attributes.md)
+- 10:40 - 11:30 | [Intro To Web Development](../session-00/README.md)
+- 11:30 - 12:10 | [Intro To HTML](./intro-to-html.md)
 
   -**BREAK**-
   
-- 12:50 - 13:10 | [Elements And Attributes](./elements-and-attributes.md)
-- 13:10 - 14:00 | [Exercise](./exercise.md)
+- 12:30 - 13:30 | [Elements And Attributes](./elements-and-attributes.md)
+- 13:30 - 14:00 | [Exercise](./exercise.md)
 
 
 ### [Research Topics](./research-topics.md)
