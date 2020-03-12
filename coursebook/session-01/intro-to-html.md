@@ -80,6 +80,7 @@ For a full reference about HTML attributes visit:
 https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
 
 
+
 ## The HTML DOM
 When a web page is loaded, the browser creates a **D**ocument **O**bject **M**odel of the page. With the HTML DOM, **JavaScript** can access and change all the elements of an HTML document.
 
