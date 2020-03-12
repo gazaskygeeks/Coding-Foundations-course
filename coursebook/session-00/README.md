@@ -3,3 +3,4 @@ You are about to read an article about web development and web developers in gen
 
 - [Introduction to web development](./intro-to-web.md)
 - [Web development tools](./webdev-tools.md)
+- [Resources](./resources.md)
