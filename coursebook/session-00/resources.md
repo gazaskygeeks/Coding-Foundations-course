@@ -7,3 +7,4 @@ This section contains helpful links to other content. It isn’t required, so co
 - [Medium: Things I Wish Someone Had Told Me When I Was Learning How To Code](https://medium.com/learning-to-code/565fc9dcb329)
 - [TechCrunch: Don’t Believe Anyone who Tells you Learning to Code is Easy](http://techcrunch.com/2014/05/24/dont-believe-anyone-who-tells-you-learning-to-code-is-easy/)
 - [Code Quizzes: Deliberate Programming Practice](https://codequizzes.wordpress.com/2013/04/28/deliberate-programming-practice/)
+- [Pre-Programming: Everything You Need To Know Before You Code](https://freecourselab.com/pre-programming-everything-you-need-to-know-before-you-code/)
