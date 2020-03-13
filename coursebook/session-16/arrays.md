@@ -35,10 +35,13 @@
    2- let arr = [];
 ```
  Almost all the time, the second syntax is used. and **W**e can supply initial elements in the brackets:
+
  ```js
+  let numbers = new Array(1, 2, 3);
+  console.log(numbers); // [1, 2, 3]
+  
   let colors = ['red', 'yellow', 'green', 'blue'];
-  console.log(colors);
-   // ['red', 'yellow', 'green', 'blue']
+  console.log(colors);  // ['red', 'yellow', 'green', 'blue']
  ```
 
 ### **Array elements are numbered, starting with zero. [This thing called indexing]**

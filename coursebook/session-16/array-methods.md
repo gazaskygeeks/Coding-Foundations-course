@@ -21,9 +21,9 @@
   *  _Built-in method_ is any function that is provided by any language library. such as:
 ```js
 [2, 3, 4].forEach();
-[1, 2, true, 'Alaa].map();
+[1, 2, true, "Ala'a"].map();
 ```
-*  Whereas, _user-defined mthods are functions defined by users themselves in order to have their work done. such as:
+*  Whereas, _user-defined methods are functions defined by users themselves in order to have their work done. such as:
 
 ```js
 const array = [];
