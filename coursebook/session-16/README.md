@@ -2,7 +2,7 @@
 
 ### [**L**earning **O**utcomes](./learning-outcomes.md)
 ---
-## **S**chechule
+## **S**chedule
 
 - 11:00 - 12:30 | [Arrays](./arrays.md)
 - 12:30 - 12:45 | BREAK
