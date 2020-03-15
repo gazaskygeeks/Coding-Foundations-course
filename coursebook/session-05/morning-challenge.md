@@ -9,6 +9,7 @@
 - Create another file `index.css` and copy the css from here [link](https://codepen.io/machine-1/pen/oNXWVWa).
 - Open your `index.html` file with live server by right click on the file and choose `open wih live server`.
 - You are good to go. 🎉🎉
+- keep these files for the reset of the workshop ‍💻.
 
 ### Final Result: 
 

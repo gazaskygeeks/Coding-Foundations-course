@@ -73,8 +73,7 @@ here the element will not add a new lines before and after, and we can't control
 
 #### ```display: inline-block```
 
-here the element will treated as ```inline``` else you can take control of ```width``` and ```height```.
-
+here the element will be treated as ```inline``` but you can take control of ```width``` and ```height```.
 ### Excercie
 
 Try to make this page in css.

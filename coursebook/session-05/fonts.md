@@ -20,7 +20,7 @@ CSS provides us with many properties to customize fonts, like:
 
 ### ```Font-Family```
 
-we use ```font-family``` to determine the typeface of text, we can use built-in (Generic Family) typeface or get a new one from [Google Fonts](https://fonts.google.com) like
+we use ```font-family``` to determine the [typeface](https://www.mentalfloss.com/article/82867/whats-difference-between-font-and-typeface) of text, we can use built-in (Generic Family) typeface or get a new one from [Google Fonts](https://fonts.google.com) like
 > Default font is Times New Roman
 
 ### Built-in(Generic Family):
