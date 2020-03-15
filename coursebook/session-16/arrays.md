@@ -129,7 +129,7 @@ console.log( activities[3][0] ); // Sleeping
 
 activities[4] = ['Study   ', 10];
  
-now 
+// now 
 activities = [
         ["Working ", 9]
         ["Eating  ", 2]
@@ -139,4 +139,3 @@ activities = [
     ] ;
 
 ```
-
