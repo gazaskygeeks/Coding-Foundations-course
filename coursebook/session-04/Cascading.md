@@ -2,7 +2,7 @@
 
 ## Cascading in CSS
 
-in simple words cascading in CSS is when there is more than one source to style the html element CSS will combine them together the get the final result.
+in simple words cascading in CSS is when there is more than one source to style the HTML element CSS will combine them together to get the final result.
 
 let me explain consider you have two CSS files first one select button with id `#button` and add orange background to the button and the second file select button with id `#button` and change the size of the text to something like `24px`, here is the idea CSS will combine them together and will figure out that you try to style the same element.
 
@@ -11,7 +11,7 @@ let me explain consider you have two CSS files first one select button with id `
 ### Benefits from Cascading
 
 - To style the elements from multiple place.
-- **DISADVANTAGE** when the developer come to the debug the code, he has to all check all places affect the element
+- **DISADVANTAGE** when the developer comes to debug the code, he has to check all places that affect the element
 
 ## Example
 

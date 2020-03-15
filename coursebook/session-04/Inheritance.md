@@ -6,7 +6,7 @@ but let us know who is the parent and who are the children ?
 <img src="https://i.imgur.com/lwG0jrz.png" alt="final result" width="500" />
 
 So, CSS supports transfer the properties (CSS properties) from the parent to the children.
-like if the color of text in the parent is **Orange** then be default (else you changed it) the color of text in the children will be **Orange**.
+like if the color of text in the parent is **Orange** then by default (else you changed it) the color of text in the children will be **Orange**.
 
 Example :
 
@@ -17,7 +17,9 @@ Example :
 > #### **2 - index.css**
 >
 > <img src="https://i.imgur.com/rm4dLum.png" alt="final result" width="500" />
+
 > #### **3 - final result**
->
+
 > <img src="https://i.imgur.com/KF6oMw2.png" alt="final result" width="500" />
+
 > final note: not all properties are inherited so here is a reference of all inherited properties in css [Inherited Properties In CSS](https://stackoverflow.com/questions/5612302/which-css-properties-are-inherited/#answer-5612360)

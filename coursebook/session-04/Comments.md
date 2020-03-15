@@ -1,9 +1,9 @@
 
-## Commments In CSS
+## Comments In CSS
 
 everyone likes to know what is the benefits of doing something, so let us know what is the benefits from comments in CSS
 
-### Benefits from CSS comments
+### Why do we use CSS comments?
 
 - to remove the complexity from the source code ([source code](https://en.wikipedia.org/wiki/Source_Code) is the written code).
 - To guide the writer or the reader to the used ideas.
