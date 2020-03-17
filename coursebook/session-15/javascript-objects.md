@@ -4,11 +4,11 @@
 - Objects are more complex and each object may contain any combination of these primitive data-types as well as object data-types.
 
 ## JavaScript Objects Syntax
-An object can be created with figure brackets {…} with an optional list of properties. A property is a “key: value” pair, where a key is a string (also called a “property name”), and value can be anything.
+An object can be created with curly brackets {…} with an optional list of properties. A property is a “key: value” pair, where a key is a string (also called a “property name”), and value can be anything.
 
 To understand this rather abstract definition, let us look at an example of a JavaScript Object:
 ```javascript
-var person = {
+const person = {
         firstName: "John",
         lastName: "Doe",
         age: 50,
@@ -17,11 +17,11 @@ var person = {
 ```
 In the above example **“firstName”, “lastName”, “age” , “eyeColor”** are all **“keys”** and **“John”, “Doe”, 50 and “blue”** are **values** of these keys respectively.
 
+> Keys are converted to strings by JavaScript and we will touch more on that later when we get to accessing the keys values
+
 ## Object Properties
 Each of the object keys is referred to as **properties** of the object.
 Properties can usually be changed, added, and deleted, but some are read only.
-
-// Maybe we can add a photo here
 
 
 ### Accessing properties of an object
@@ -30,12 +30,12 @@ Object members(properties or methods) can be accessed using two different ways:
 1. **Dot Notation**:
 
     ```javascript
-        objectName.property  //person.age
+        objectName.propertyKey  //person.age
     ```
 
 For example:
 ```javascript
-var school = { 
+const school = { 
     name : "Vivekanada School", 
     location : "Delhi", 
     established : 1995, 
@@ -43,10 +43,8 @@ var school = {
 } 
   
 // Output : Vivekanada School 
-console.log(school['name']);  
-  
-// Output: 1000 
-console.log(school['20']);  
+console.log(school.name);  
+ 
 ```
 
 2. **Bracket Notation**
@@ -61,6 +59,7 @@ Or
 Let's take the same example above but try to access the properties using the bracket notation.
 
 ```javascript
+const location = 'location';
 let school = { 
     name : "Vivekanada School", 
     location : "Delhi", 
@@ -72,7 +71,7 @@ let school = {
 console.log(school['name']);  
   
 // Output: 1000 
-console.log(school['20']); 
+console.log(school[location]); 
 ```
 
 **The main differences between the two methods are**:
@@ -107,7 +106,7 @@ for (variable in object) {
 
 Let's take an example:
 ```javascript
-var person = {fname:"John", lname:"Doe", age:25};
+const person = {fname:"John", lname:"Doe", age:25};
 
 for (x in person) {
   console.log(x) // will log fname, lname, and age
@@ -130,7 +129,7 @@ To Delete a property of an object we can make use of the delete operator.
 
 Example
 ```javascript
-var person = { 
+const person = { 
     name : "Joe"
 }  
   
@@ -143,10 +142,10 @@ console.log(person.name);
 ```
 
 ## JavaScript Object Methods
-A method is a function associated with an object, or, simply put, a method is a property of an object that is a function. Methods are defined the way normal functions are defined, except that they have to be assigned as the property of an object.
+A method is a function associated with an object, or, simply a method is a property of an object that is a function. Methods are defined the way normal functions are defined, except that they have to be assigned as the property of an object.
 
 ```javascript
-var person = {
+const person = {
   firstName: "John",
   lastName : "Doe",
   id       : 5566,
@@ -180,7 +179,7 @@ There some built in methods that we can use with JavaScript objects and they can
 Example
 ```javascript
 // Initialize an object
-var employees = {
+const employees = {
     boss: 'Michael',
     secretary: 'Pam',
     sales: 'Jim',
@@ -188,7 +187,7 @@ var employees = {
 };
 
 // Get the keys of the object
-var keys = Object.keys(employees);
+const keys = Object.keys(employees);
 
 console.log(keys);
 ```
@@ -202,7 +201,7 @@ Output
 Example
 ```javascript
 // Initialize an object
-var session = {
+const session = {
     id: 1,
     time: `26-July-2018`,
     device: 'mobile',
@@ -210,7 +209,7 @@ var session = {
 };
 
 // Get all values of the object
-var values = Object.values(session);
+const values = Object.values(session);
 
 console.log(values);
 ```
@@ -238,7 +237,7 @@ Objects are mutable: They are addressed by reference, not by value.
 
 If person is an object, the following statement will not create a copy of person:
 ```javascript
-var x = person;  // This will not create a copy of person.
+let x = person;  // This will not create a copy of person.
 ```
 
 The object **x** is not a copy of **person**. It is person. Both x and person are the same object.
@@ -247,14 +246,14 @@ Any changes to x will also change person, because x and person are the same obje
 
 Example
 ```javascript
-var person = {
+const person = {
         firstName:"John",
         lastName:"Doe",
         age:50,
         eyeColor:"blue"
     }
 
-var x = person;
+let x = person;
 x.age = 10; // This will change both x.age and person.age
 ```
 

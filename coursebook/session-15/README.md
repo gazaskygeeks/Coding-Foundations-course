@@ -13,3 +13,4 @@
 - 13:20 - 14:00 | [Exercises](./exercises.md)
 
 ### [Research Topics](./research-topics.md)
+### [Resources](./resources.md)
