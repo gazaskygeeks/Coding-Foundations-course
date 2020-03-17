@@ -1,14 +1,3 @@
-## Setup, Text Editors & Other Tools
-To go through the course and be able to apply what you learn in the workshops you need to have the following:
-
-- **A Browser**: Chrome (preferred), or Firefox or any modern browser 
-- **A Text Editor**: VS Code (preferred), Atom, Sublime Text, Brackets or your preferred choice 
-
-Make sure that you have these two installed before you continue.
-
-**Note**: Throughout the course we will use **Codepen** to try out/test some code snippets and these we will share with you so it would be great if you create a Codepen account now.
-
-
 ## What is HTML?
 HTML stands for **H**yper **T**ext **M**arkup **L**anguage, HTML is the **standard markup** language for Web pages and HTML elements are the building blocks of HTML pages.
 
@@ -89,6 +78,7 @@ Here, a title attribute is added to the `<p>` element. The value of the title at
 
 For a full reference about HTML attributes visit:
 https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
+
 
 
 ## The HTML DOM

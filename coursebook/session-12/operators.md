@@ -86,7 +86,9 @@ false <= 0; // true
 
 2. Truthy value : All values are truthy unless they are defined as falsy.
 
----## <a href='#logical-operators' id='logical-operators'>
+<a href='#logical-operators' id='logical-operators'>
+
+---
 
 ## Logical operators </a>
 
