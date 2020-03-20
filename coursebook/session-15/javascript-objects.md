@@ -142,7 +142,7 @@ console.log(person.name);
 ```
 
 ## JavaScript Object Methods
-A method is a function associated with an object, or, simply a method is a property of an object that is a function. Methods are defined the way normal functions are defined, except that they have to be assigned as the property of an object.
+A method is a function associated with an object, or, simply put a method is a property of an object that is a function. Methods are defined the way normal functions are defined, except that they have to be assigned as the property of an object.
 
 ```javascript
 const person = {
