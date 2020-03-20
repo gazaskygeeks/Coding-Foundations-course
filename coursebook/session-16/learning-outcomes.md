@@ -7,11 +7,4 @@
    - Loop over an array by indexes.
 
 - know and understand some Arrays method:
-   - map, forEach, reduce, filter, sort, pop, push
-
-
-
-
-
-
-
+   - map, forEach, reduce, filter, sort, pop, push, shift, unshift, join, split

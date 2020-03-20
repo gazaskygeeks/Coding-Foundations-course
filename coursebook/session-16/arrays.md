@@ -10,6 +10,7 @@
  - [Loops](./loops.md)
 
 ## <a href='#arrays' id='arrays'>Arrays : </a>
+### **Onedimensional Arrays**: :arrow_double_down: 
   Objects allow you to store keyed collections of values. That’s fine.
 
   But quite often we find that we need an ordered collection, where we have a 1st, a 2nd, a 3rd element and so on.     
@@ -34,10 +35,14 @@
    2- let arr = [];
 ```
  Almost all the time, the second syntax is used. and **W**e can supply initial elements in the brackets:
+
  ```js
+ 
+  let numbers = new Array(1, 2, 3);
+  console.log(numbers); // [1, 2, 3]
+
   let colors = ['red', 'yellow', 'green', 'blue'];
-  console.log(colors);
-   // ['red', 'yellow', 'green', 'blue']
+  console.log(colors);  // ['red', 'yellow', 'green', 'blue']
  ```
 
 ### **Array elements are numbered, starting with zero. [This thing called indexing]**
@@ -83,7 +88,7 @@ console.log(colors.length);
 let arr = [ 'Apple', { name: 'Fatma' }, true, function() { console.log('hello'); } ];
 
 // get the object at index 1 and then show its name
-console.log( arr[1].name ); // John
+console.log( arr[1].name ); // Fatma
 
 // get the function at index 3 and run it
 arr[3](); // hello
@@ -101,6 +106,36 @@ arr[3](); // hello
   arr // ["Fatma", "Ala'a", "Sama"]
 ```
 
--- Additional resources :
-  * [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-  * [Indexed collections](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)
+### **Multidimensional Arrays** : :arrow_double_down: 
+  
+  Arrays can have items that are also arrays. We can use it for multidimensional arrays, for example to store matrices:
+
+```js
+                         
+let activities =  [  
+          /*0*/    /*1*/  
+  /*0*/ ['Working ', 9],
+  /*1*/ ['Eating  ', 2],
+  /*2*/ ['Commute ', 2],
+  /*3*/ ['Sleeping', 7],
+];
+
+console.log( activities[1] ); //  ['Eating  ', 2]
+console.log( activities[3] ); //  ['Sleeping', 7]
+
+console.log( activities[1][1] ); // 2
+console.log( activities[0][0] ); // Working
+console.log( activities[3][0] ); // Sleeping
+
+activities[4] = ['Study   ', 10];
+ 
+// now 
+activities = [
+        ["Working ", 9]
+        ["Eating  ", 2]
+        ["Commute ", 2]
+        ["Sleeping", 7]
+        ["Study  ", 10] 
+    ] ;
+
+```
