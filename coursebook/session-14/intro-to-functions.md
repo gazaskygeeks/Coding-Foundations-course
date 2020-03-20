@@ -136,3 +136,38 @@ The statements which comprise the body of the function.
 
 As of ES2015, you can also use arrow functions
 
+### Function Return  
+When JavaScript reaches a `return` statement, the function will stop executing.
+If the function was invoked from a statement, JavaScript will **"return"** to execute the code after the invoking statement.
+
+Functions often compute a `return` value. The `return` value is **"returned" back to the "caller"**:
+
+### Example :
+```javascript
+// Calculate the product of two numbers, and return the result:
+
+var x = myFunction(4, 3);   // Function is called, return value will end up in x
+
+function myFunction(a, b) {
+  return a * b;             // Function returns the product of a and b
+}
+// The result in x will be: 12
+```
+
+## Returning value vs console.log()
+
+`return` evaluates its argument (if supplied) and ends the execution of the containing function immediately.
+
+`console.log` evaluates its argument and prints it, continuing the execution of the function it's called from.
+
+### Example : 
+
+```javascript
+function print_number() {
+  console.log('one');
+  return;
+  console.log('two');
+}
+```
+If you then call `print_number()`, you'll see the output `one`, but you won't see the output `two`, because `return` ends execution of `print_number` before it can get to console.log('two');
+
