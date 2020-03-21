@@ -77,7 +77,7 @@ input:disabled {
 
 _In this example:_ if any input with text type was `Disabled` will be with a black background.
 
-[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/ExjZEBq)
+[![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/GRJrdWO)
 
 - **:first-child Pseudo-class:** matches the first selector in the same parent, for example:
 
