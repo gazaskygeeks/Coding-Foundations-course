@@ -48,7 +48,40 @@ I will assume you know them, so now let's dive deep and understand how they are 
 <img src="https://i.imgur.com/NmN7hEi.png" alt="final result" width="700" />
 
 - **margin**: is the space between the border of the element and the surrounded elements (orange area).
+**margin** is a shorthand for ```margin-top```, ```margin-right```, ```margin-bottom``` and ```margin-left```.
+```css
+h1 {
+    /* This: */
+    margin: 20px 10px 5px;
+    /* Is the same as: */
+    margin-top:20px;
+    margin-right:10px;
+    margin-bottom:5px;
+    margin-left:10px;
+} 
+```
 - **padding**: is the space between the content of the element and the border of the element (green area).
+**padding** is a shorthand for ```padding-top```, ```padding-right```, ```padding-bottom``` and ```padding-left```.
+```css
+div {
+    /* This: */
+    margin: 20px;
+    /* Is the same as: */
+    margin-top:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin-left:20px;
+
+    /* This: */
+    padding: 10px 20px;
+    /* Is the same as: */
+    padding-top:10px;
+    padding-right:20px;
+    padding-bottom:10px;
+    padding-left:20px;
+}
+```
+
 - **border**: is the space between the margin and the content of the element(yellow area).
 - **width**: is the width of the content of the element.
 - **height**: is the height of the content of the element.
