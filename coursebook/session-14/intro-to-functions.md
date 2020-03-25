@@ -25,7 +25,6 @@ function name(parameter1, parameter2, parameter3) {
   // code to be executed
 }
 ``` 
-> A **Function** is much the same as a Procedure or a Subroutine, in other programming languages.
 
 ### Example : 
 the following code defines a simple function named `square`:
@@ -68,8 +67,6 @@ If you’re new to JavaScript, you may have heard the terms parameters and argum
 **Parameters** are used when defining a function, they are the names created in the function definition. In fact, during a function definition, we can pass in up to 255 parameters! **Parameters** are separated by commas in the ().Here’s an example with two parameters — param1 & param2:
 
 ```javascript
-const param1 = true;
-const param2 = false;
 function twoParams(param1, param2){
   console.log(param1, param2);
 }
@@ -85,7 +82,7 @@ Function **arguments** are the values received by the function when it is invoke
 Inside the function, the arguments (the parameters) behave as local variables.   
 
 ### Example : 
-This example calls a function to convert tempreture degree from Fahrenheit to Celsius:
+This example calls a function to convert temperature degree from Fahrenheit to Celsius:
 
 ```javascript
 // use fahrenheit as parameter 
