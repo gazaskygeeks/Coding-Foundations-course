@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sen:wght@800&display=swap" rel="stylesheet">
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+    .container {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+      width: 300px;
+      height: 300px;
+      color: #fff;
+      font-size: 60px;
+      background: orange;
+      margin: 5px;
+      border-radius: 5px;
+      box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 120px;
+      font-family: 'Sen', sans-serif;
+      background: #cc2b5e;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+    .box-1 {
+      order:2;
+    }
+
+    .box-2 {
+      order: -1;
+    }
+
+    .box-3 {
+      order: 3;
+    }
+
+    .box-4 {
+      order: 4;
+    }
+
+    
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="box box-1">1</div>
+        <div class="box box-2">2</div>
+        <div class="box box-3">3</div>
+        <div class="box box-4">4</div>
+    <div>
+  </body>
+</html>
