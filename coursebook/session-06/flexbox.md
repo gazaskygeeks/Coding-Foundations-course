@@ -1,6 +1,6 @@
 # Flexbox 👩‍💻
 
-flexbox layout allows you to organize and distribute HTML elements in an efficient way, also manage the space between elements in a more sophisticated way.
+flexbox is technique to layout,organize and distribute HTML elements in efficient way,also manage the space between elements in more sophisticated way.
 
 
 In flexbox, there are two main components you have to recognize them before start play around with flexbox which are **flex-container**, **flex-elements**
@@ -132,8 +132,10 @@ Here the space will place between all the elements equally.
 ```
 Here the space will place between each element equally.
 
+![](https://www.w3.org/TR/css-flexbox-1/images/flex-pack.svg)
 
 And you can manage the cross axis with above values (center, flex-start ...etc) by using ```align-items``` except for the first and the last element. 
+
 
 >here we will assume two things:
 > 1-  space is the space in the **Cross Axis**
