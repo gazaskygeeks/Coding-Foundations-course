@@ -85,7 +85,9 @@ Here the elments will start order from bottom to top.
 
 right now let's learn how to manage the extra space in the flex system, let's start in manage the space in the main axis:
 >here we will assume two things:
+
 > 1-  space is the space in the **Main Axis**
+
 > 2-  the direction is row (horizontally)
 > 
 
@@ -138,7 +140,9 @@ And you can manage the cross axis with above values (center, flex-start ...etc) 
 
 
 >here we will assume two things:
+
 > 1-  space is the space in the **Cross Axis**
+
 > 2-  the direction is row (horizontally)
 
 
