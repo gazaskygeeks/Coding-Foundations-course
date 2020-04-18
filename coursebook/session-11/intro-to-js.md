@@ -2,7 +2,7 @@
 JavaScript is a popular web-based programming language that powers the dynamic behavior on most websites it also considered as a very powerful client-side scripting language. JavaScript is used mainly for enhancing the interaction of a user with the webpage. Alongside HTML and CSS, it is a core technology that makes the web run.
 JavaScript can be used to change the status of a button when it is clicked on, create a chat window at the bottom of your screen, or even create a web-based game. It's also being used widely in game development and Mobile application development.
 
-![](https://www.guru99.com/images/JavaScript/javascript1_1.png))
+![](https://www.guru99.com/images/JavaScript/javascript1_1.png)
 
 
 <h3 id="brief">Brief History:</h3>
@@ -38,7 +38,7 @@ console.log('This is first javascript session');
 **There are many ways to write long scripts:**
 
 1- **Using an online editor:**
-There are a number of websites out there that will let you write a larger chunk of code (e.g. Repl.it , [JS Bin](http://jsbin.com/?html,output), [JS Fiddle](https://jsfiddle.net/), and [CodePen](https://codepen.io/)).These tools are helpful learning tools to use until you get more comfortable combining HTML, CSS, and JavaScript but aren't use to write extensive JavaScript applications.
+There are a number of websites out there that will let you write a larger chunk of code (e.g. [Repl.it](https://repl.it/) , [JS Bin](http://jsbin.com/?html,output), [JS Fiddle](https://jsfiddle.net/), and [CodePen](https://codepen.io/)).These tools are helpful learning tools to use until you get more comfortable combining HTML, CSS, and JavaScript but aren't use to write extensive JavaScript applications.
 
 2- **Adding JavaScript in an HTML file:**
 You should place all your JavaScript code within <script> tags (<script> and </script>) if you are keeping your JavaScript code within the HTML document itself. This helps your browser distinguish your JavaScript code from the rest of the code. 
@@ -142,6 +142,19 @@ Variable name. It can be any legal identifier.
 ##### `valueN Optional`
 Initial value of the variable. It can be any legal expression. Default value is `undefined`. [ we will get back to this later].
 
+### Rules for Naming Variables
+JavaScript has only a few rules for variable names:
+
+* The first character must be a letter or an underscore (_). You can't use a number as the first character.
+
+* The rest of the variable name can include any letter, any number, or the underscore. You can't use any other characters, including spaces, symbols, and punctuation marks.
+
+* As with the rest of JavaScript, variable names are case sensitive. That is, a variable named Interest_Rate is treated as an entirely different variable than one named interest_rate.
+
+* There's no limit to the length of the variable name.
+
+* You can't use one of JavaScript's **reserved words** as a variable name. All programming languages have a supply of words that are used internally by the language and that can't be used for variable names because doing so would cause confusion (or worse). Note, too, that JavaScript also has many **keywords** that should be avoided as well.
+
 ### <a id="datatypes">Data Types in JavaScript:</a>
 
 - String
@@ -210,7 +223,7 @@ JavaScript also has the special values Infinity and -Infinity:
  50 / 0; //  Infinity
 -50 / 0; // -Infinity
 ```
-You can test for Infinity, -Infinity values using the built-in isFinite() function:
+You can test for Infinity, -Infinity values using the built-in **isFinite()** function:
 ```javascript
 isFinite(1 / 0); // false
 isFinite(-Infinity); // false
@@ -253,7 +266,7 @@ Symbol('foo') === Symbol('foo')  // false, every one had unique value.
  ```
 
 ### Figuring out a variable's type in JavaScript
-In JavaScript, we have a keyword called typeof that returns the type of the variable 
+In JavaScript, we have a keyword called **typeof** that returns the type of the variable 
 ```javascript
 typeof "";         // "string"
 typeof 10;         // "number"
@@ -288,7 +301,7 @@ Number("w3.whateverString"); // NaN
 ```
 **Converting to a string**
 
-The toString method will convert any value which is not undefined or null into a string. 
+The **toString** method will convert any value which is not `undefined` or `null` into a string. 
 
 ```javascript
 var num = 2;
