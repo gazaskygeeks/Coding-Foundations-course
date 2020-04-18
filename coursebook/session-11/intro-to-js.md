@@ -2,7 +2,7 @@
 JavaScript is a popular web-based programming language that powers the dynamic behavior on most websites it also considered as a very powerful client-side scripting language. JavaScript is used mainly for enhancing the interaction of a user with the webpage. Alongside HTML and CSS, it is a core technology that makes the web run.
 JavaScript can be used to change the status of a button when it is clicked on, create a chat window at the bottom of your screen, or even create a web-based game. It's also being used widely in game development and Mobile application development.
 
-![](https://www.guru99.com/images/JavaScript/javascript1_1.png))
+![](https://www.guru99.com/images/JavaScript/javascript1_1.png)
 
 
 <h3 id="brief">Brief History:</h3>
