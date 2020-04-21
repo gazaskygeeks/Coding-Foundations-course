@@ -67,7 +67,7 @@ false <= 0; // true
 5 < 2; // false
 ```
 
-> Note : Keep this note until you start with JavaScript object sesstion but, just to know If an object (object isn't a primitive type) is compared with a number or string, JavaScript attemptsnto convert the object to a primitive value, a String or Number value.
+> Note : Keep this note until you start with JavaScript object sesstion but, just to know If an object (object isn't a primitive type) is compared with a number or string, JavaScript attempts to convert the object to a primitive value, a String or Number value.
 
 **[Click to read more about comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)**
 
@@ -153,7 +153,7 @@ The not operation returns the inverse boolean value of the variable. It is a una
 
 var a = 1;
 
-!a; // return 0
+!a; // return false
 ```
 
 **4.** **!! (Double NOT)**
