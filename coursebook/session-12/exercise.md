@@ -6,10 +6,10 @@ Use ``` switch statement ``` to determine the grade of the student depending on 
 
 finalMArk = 65
 
-* finalMark >= 90 return 'grade is A'
-* finalMark >= 80 return 'grade is B'
-* finalMark >= 70 return 'grade is C'
-* finalMark >= 60 return 'grade is D'
-* else return 'faild'
+* finalMark >= 90 console 'grade is A'
+* finalMark >= 80 console 'grade is B'
+* finalMark >= 70 console 'grade is C'
+* finalMark >= 60 console 'grade is D'
+* else console 'faild'
 
 
