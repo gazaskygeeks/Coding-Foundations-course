@@ -42,9 +42,13 @@ Let’s see the properties of **document object** that can be accessed and modif
 5- **Anchor Objects**: It is represented by a ***href*** tags.    
 6- **Form Control Elements**: Form can have many control elements such as text fields, buttons, radio buttons, and checkboxes, etc.    
 
-### Methods of Document Object:   
+### Methods of Document Object:  
 
-* **write(“string”)**: writes the given ***string*** on the document.   
+The Document object has a ton of properties and methods. There are some methods that  you’ll likely use the most, especially **Selectors API** methods : 
+
+* **write(“string”)**: writes the given ***string*** on the document.  
+* **querySelector()**:  returns a ***single element***, the first found. 
+* **querySelectorAll()**:  returns ***all the elements***, wrapped in a NodeList object.
 * **getElementById(id)**: returns the element having the given ***id*** value.    
 * **getElementsByName(name)**: returns all the elements having the given ***name*** value.   
 * **getElementsByTagName(tag_name)**: returns all the elements having the given ***tag*** name.    
