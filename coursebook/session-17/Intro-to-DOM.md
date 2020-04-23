@@ -28,7 +28,7 @@ const paragraphs = document.getElementsByTagName("p");
 // paragraphs[1] is the second <p> element, etc.
 alert(paragraphs[0].nodeName);
 ```
-All of the properties, methods, and events available for manipulating and creating web pages are organized into **objects** (for example, the `document object` that represents the document itself, the `table` object that implements the special [HTMLTableElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement) DOM interface for accessing HTML tables, and so forth). This documentation provides an **object-by-object reference to the DOM**.
+All of the properties, methods, and events available for manipulating and creating web pages are organized into **objects** (for example, the `document object` that represents the document itself, the `table` object that implements the special [HTMLTableElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement) DOM interface for accessing HTML tables, and so on).
 
 ## Properties of DOM
 Let’s see the properties of **document object** that can be accessed and modified by the document object.

@@ -247,7 +247,19 @@ In this example, we remove the `contenteditable` attribute from the `<div>` elem
 ```js
 var div = document.querySelector('div');
 div.removeAttribute('contenteditable');
-``` 
+```
+### Adding CSS styles 
+CSS rules can be applied like any other property; note though that the properties are camel-cased in JavaScript:
+
+```js
+myElement.style.marginLeft = '2em'
+```
+If we want certain values, we can obtain these via the `.style` property. However, this will only give us styles that have been explicitly applied. To get the computed values, we can use, `.window.getComputedStyle()`. It takes the element and returns a [CSSStyleDeclaration](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration) containing all styles from the element itself as well as those inherited from its parents:
+
+```js
+window.getComputedStyle(myElement).getPropertyValue('margin-left')
+```
+
 ### Element properties 
 
 Every element also has the properties `.innerHTML` and `.textContent` (as well as `.innerText` , which is similar to `.textContent`, but has some [important differences](http://perfectionkills.com/the-poor-misunderstood-innerText/) ). These hold the HTML and plain text content respectively. They are writable properties, meaning we can modify elements and their contents directly:
