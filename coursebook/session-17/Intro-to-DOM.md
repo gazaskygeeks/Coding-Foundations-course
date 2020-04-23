@@ -42,7 +42,37 @@ Let’s see the properties of **document object** that can be accessed and modif
 5- **Anchor Objects**: It is represented by a ***href*** tags.    
 6- **Form Control Elements**: Form can have many control elements such as text fields, buttons, radio buttons, and checkboxes, etc.    
 
-### Methods of Document Object:  
+
+### The Window object 
+The `window` object represents the window that contains the DOM document.
+
+`window.document` points to the `document` object loaded in the window.
+
+Properties and methods of this object can be called without referencing `window` explicitly, because it represents the global object. So, the previous property `window.document` is usually called **just document**.
+
+#### Properties: 
+Here is a list of useful properties you will likely reference a lot:
+
+* **console** : points to the `browser debugging console`. Useful to print error messages or logging, using `console.log`, `console.error` and other tools.
+* **document** : as already said, points to the `document` object, key to the DOM interactions you will perform.
+* **history** : gives access to the `History API`.
+* **location** : gives access to the `Location interface`, from which you can determine the URL, the protocol, the hash and other useful information.
+* **localStorage** : is a reference to the Web Storage API `localStorage` object.
+* **sessionStorage** : is a reference to the Web Storage API `sessionStorage` object.
+
+#### Methods:
+The `window` object also exposes useful methods:
+
+* **alert()**: which you can use to `display alert dialogs`.
+* **focus()**: Sets `focus` on the current window.
+* **blur()** : Sets `focus away` from the window.
+* **confirm()**: Displays a dialog `with a message` that the user needs to respond to.
+* **print()**: Opens the `print dialog` to print the current document.
+* **prompt()**: Returns the `text entered` by the user in a prompt dialog.
+* **scroll()**: `Scrolls` the window to a particular place in the document.
+* **close()**: `Closes` the current window.
+
+### Methods of Document Object: 
 
 The Document object has a ton of properties and methods. There are some methods that  you’ll likely use the most, especially **Selectors API** methods : 
 
