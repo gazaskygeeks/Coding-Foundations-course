@@ -270,3 +270,15 @@ myElement.innerHTML += `
   <hr/>
 `
 ``` 
+Appending markup to the HTML as shown above is usually a bad idea though, as we’d lose any previously made property changes on the affected elements and bound event listeners. Setting the `.innerHTML` is good for completely throwing away markup and replacing it with something else, e.g. server-rendered markup. So appending elements would better be done like so:
+
+```js
+const link = document.createElement('a')
+const text = document.createTextNode('continue reading...')
+const hr = document.createElement('hr')
+
+link.href = 'foo.html'
+link.appendChild(text)
+myElement.appendChild(link)
+myElement.appendChild(hr)
+```
