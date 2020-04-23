@@ -8,3 +8,4 @@
 - [The Document Object Model (DOM)](https://flaviocopes.com/dom/#methods)
 - [15 JavaScript Methods For DOM Manipulation for Web Developers](https://www.hongkiat.com/blog/dom-manipulation-javascript-methods/)
 - [The Basics of DOM Manipulation in Vanilla JavaScript](https://www.sitepoint.com/dom-manipulation-vanilla-javascript-no-jquery/)
+- [JavaScript DOM - Exercises](https://www.w3resource.com/javascript-exercises/javascript-dom-exercises.php)

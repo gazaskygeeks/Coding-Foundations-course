@@ -1,28 +1,83 @@
-# Registration Form Exercises 
+# DOM Exercises 
 
-[See the code and full exercise on Codepen](https://codepen.io/codebubb/pen/XWJQVKZ)
+**Note**: you can copy the codes to any editor to work on it. [codepen](https://codepen.io/pen/) for example.
 
 ### Exercises 01
   ------------
-  Add a label to each of the input fields: username, password, confirm password
+Modify the style of the paragraph text in the following Html File through javascript code. 
+By Clicking on the `button` the font, font size, background color and text color of the paragraph text will be changed.
 
-###  Exercise 02
-  -----------
-  Add a required validation to each input that shows an error message next to the entry if it does not have any text entered.
+***Sample HTML file***
 
-### Exercise 03
-  -----------
-  Add a further validation to check if the user input in the password and confirm password inputs match.  Show an error message if they do not.
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>JS DOM paragraph style</title>
+</head> 
+<body>
+  <p id ='text'>JavaScript Exercises - women crash course</p> 
+  <div>
+    <button id="jsStyle" onclick="js_style()">Style</button>
+  </div>
+</body>
+</html>
+```
 
+### Exercises 02
+  ------------
+Write a JavaScript function to get the value of the href, hreflang, rel, target, and type attributes of the specified link.
 
-### Exercise 04
-  -----------
-Ensure the ‘Register’ button is disabled until the user has entered valid data into all the input fields.  Once they have, the registration button should then be enabled.
+***Sample HTML file***
 
-### Exercise 05
-  -----------
-When the user clicks the ‘Register’ button, a message should be displayed informing them of a successful user registration.
+```html 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+</head>
+<body>
+  <p>
+  <a id="wcc" type="text/html" hreflang="en-us" rel="nofollow" target="_self" href="https://github.com/gazaskygeeks/women-crash-course">WCC</a>
+  </p>
+  <button onclick="getAttributes()">Click here to get  attributes value</button>
+</body>
+</html>
+```
 
+### Exercises 03
 
+ Write a JavaScript program to calculate the volume of a sphere.
 
+![volume-sphere-html-form](https://user-images.githubusercontent.com/29041512/80140792-297d3b00-85b1-11ea-923a-edb7c3cdb7e8.png)
 
+**Note : sphere_volume = (4/3) * Math.PI * Math.pow(radius, 3);**
+
+***Sample HTML file***
+
+```html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Volume of a Sphere</title>
+  <style> 
+    body{padding-top:30px;}
+    label,input{display:block;} 
+  </style>
+</head>
+<body>
+  <p>Input radius value and get the volume of a sphere.</p>
+  <form action="" method="post" id="MyForm">
+       <label for="radius">Radius</label>
+       <input type="text" name="radius" id="radius" required>
+    
+       <label for="volume">Volume</label>
+       <input type="text" name="volume" id="volume">
+
+       <input type="submit" value="Calculate" id="submit">   
+    </form>
+</body>
+</html>
+```

@@ -7,4 +7,5 @@
 - Define some common APIs scripting using the DOM. 
 - Define the meaning of DOM Manipulations.
 - Define some JavaScript Methods For DOM Manipulation.
+- Explain Adding CSS styles using DOM.  
 - Define some Element properties that can accessed by DOM.  
