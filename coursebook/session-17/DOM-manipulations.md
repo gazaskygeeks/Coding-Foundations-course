@@ -250,7 +250,7 @@ div.removeAttribute('contenteditable');
 ``` 
 ### Element properties 
 
-Every element also has the properties `.innerHTML` and `.textContent` (as well as `.innerText` , which is similar to `.textContent`, but has some (important differences)[http://perfectionkills.com/the-poor-misunderstood-innerText/]). These hold the HTML and plain text content respectively. They are writable properties, meaning we can modify elements and their contents directly:
+Every element also has the properties `.innerHTML` and `.textContent` (as well as `.innerText` , which is similar to `.textContent`, but has some [important differences](http://perfectionkills.com/the-poor-misunderstood-innerText/) ). These hold the HTML and plain text content respectively. They are writable properties, meaning we can modify elements and their contents directly:
 
 ```js
 // Replace the inner HTML
