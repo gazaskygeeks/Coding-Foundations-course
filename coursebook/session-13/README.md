@@ -7,12 +7,13 @@ Welcome to the third session of the Javascript, you will learn the basic concept
 ## **[Learning Outcomes](./learning-outcomes.md)**
 ---
 
-## Schechule
+## Schedule
 
 - 11:00 - 11:30 | [Morning challenge](./morning-challenge.md)
-- 11:30 - 12:40 | [Scope and variables](./scope.md#scope)
+- 11:30 - 12:30 | [Scope and variables](./scope.md#scope)
 - Break
-- 1:00 - 2:00 | [Loops](./loops.md)
+- 12:50 - 1:50  | [Loops](./loops.md)
+- 01:50 - 2:00  | [Exercises](./exercises.md)
 
 ---
 

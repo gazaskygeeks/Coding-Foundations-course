@@ -158,7 +158,7 @@ console.log(greeting); // Uncaught ReferenceError: Cannot access 'greeting' befo
 let greeting = 'say Hello instead';
 ```
 
-- `Let` cann't be redeclared :
+- `Let` can't be redeclared :
 
 **Example (4) :**
 
