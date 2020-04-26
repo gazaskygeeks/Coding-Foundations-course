@@ -83,7 +83,7 @@ If `foo()` is a custom function, you can register it **as a click event listener
 
 1- **HTML** 
 ```html 
-<button onclick=foo>Alert</button>
+<button onclick=foo()>Alert</button>
 ```
 2- **Javascript**
 ```js
