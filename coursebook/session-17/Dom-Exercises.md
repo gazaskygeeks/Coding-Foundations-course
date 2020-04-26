@@ -4,7 +4,7 @@
 
 ### Exercises 01
   ------------
-Modify the style of the paragraph text in the following Html File through javascript code. 
+Modify the style of the paragraph text in the following HTML File through javascript code. 
 By Clicking on the `button` the font, font size, background color and text color of the paragraph text will be changed.
 
 ***Sample HTML file***
