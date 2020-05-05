@@ -282,7 +282,7 @@ myElement.innerHTML += `
   <hr/>
 `
 ``` 
-Appending markup to the HTML as shown above is usually a bad idea though, as we’d lose any previously made property changes on the affected elements and bound event listeners. Setting the `.innerHTML` is good for completely throwing away markup and replacing it with something else, e.g. server-rendered markup. So appending elements would better be done like so:
+Appending markup to the HTML, as shown above, is usually **a bad idea though**, as we’d lose any previously made property changes on the affected elements and bound event listeners. Setting the `.innerHTML` is good for completely throwing away markup and replacing it with something else, e.g. server-rendered markup. So appending elements would better be done like so:
 
 ```js
 const link = document.createElement('a')
@@ -294,3 +294,37 @@ link.appendChild(text)
 myElement.appendChild(link)
 myElement.appendChild(hr)
 ```
+
+**Difference between using `createTextNode with appendChild` vs `textContent`**:    
+
+If you have a `span` and you want to change its text , what do you think is better to use ?    
+1-  **createTextNode with appendChild**
+```js
+var my_text = document.createTextNode('Hello!');
+span.appendChild(my_text); 
+```
+2- **textContent**
+```js
+span.textContent = 'hello';
+```
+
+The fundamental difference is that:
+
+* `createTextNode()` is a ***method*** and works just as its name says: it **creates an element** then you must do something with it (like in your example, where you append it as a child);
+so it is useful if you want to have a new element and place it somewhere.
+* `textContent` is a ***property*** you may get or set, with a unique statement and nothing else;
+so it is useful when you **only want to change the content** of an already existing element.
+
+**Now** in this case, you want to **change the text** of the element:     
+So if your `span` looks like this 
+
+```html 
+<span>Original text</span>
+```
+and you used `createTextNode` then it will end with:
+```html
+<span>Original textHello!</span>
+```    
+because you **appended your textNode**. 
+
+So you should use `textContent` in this case. 

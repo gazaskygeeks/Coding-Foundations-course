@@ -19,7 +19,7 @@ By Clicking on the `button` the font, font size, background color and text color
 <body>
   <p id ='text'>JavaScript Exercises - women crash course</p> 
   <div>
-    <button id="jsStyle" onclick="js_style()">Style</button>
+    <button id="changeStyle" onclick="changeStyle()">Style</button>
   </div>
 </body>
 </html>
@@ -69,7 +69,7 @@ Write a JavaScript function to get the value of the href, hreflang, rel, target,
 </head>
 <body>
   <p>Input radius value and get the volume of a sphere.</p>
-  <form action="" method="post" id="MyForm">
+  <form method="post" id="MyForm">
        <label for="radius">Radius</label>
        <input type="text" name="radius" id="radius" required>
     
