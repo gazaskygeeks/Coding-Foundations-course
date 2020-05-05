@@ -39,7 +39,7 @@ Let’s see the properties of **document object** that can be accessed and modif
 2- **Document Object**: When HTML document is loaded into a window, it becomes a document object.   
 3- **Form Object**: It is represented by ***form*** tags.   
 4- **Link Objects**: It is represented by ***link*** tags.    
-5- **Anchor Objects**: It is represented by a ***href*** tags.    
+5- **Anchor Objects**: It is represented by a ***a*** tags.    
 6- **Form Control Elements**: Form can have many control elements such as text fields, buttons, radio buttons, and checkboxes, etc.    
 
 
@@ -76,11 +76,12 @@ The `window` object also exposes useful methods:
 
 The Document object has a ton of properties and methods. There are some methods that  you’ll likely use the most, especially **Selectors API** methods : 
 
-* **write(“string”)**: writes the given ***string*** on the document.  
+* **write(“string”)**: writes the given ***string*** on the document. ([Why is document.write considered a “bad practice”?](https://stackoverflow.com/a/802943))
+* **writeln(“string”)**: identical to the document.write() method with the addition of writing a newline character after each statement. 
 * **querySelector()**:  returns a ***single element***, the first found. 
 * **querySelectorAll()**:  returns ***all the elements***, wrapped in a NodeList object.
-* **getElementById(id)**: returns the element having the given ***id*** value.    
-* **getElementsByName(name)**: returns all the elements having the given ***name*** value.   
+* **getElementById(id)**: returns the element having the given ***id value***.    
+* **getElementsByName(name)**: returns all the elements having the given ***name value***.   
 * **getElementsByTagName(tag_name)**: returns all the elements having the given ***tag*** name.    
 * **getElementsByClassName(class_name)**: returns all the elements having the given ***class*** name.   
 
@@ -158,6 +159,8 @@ The following is a brief list of common APIs in web and XML page scripting using
 * [document.createElement(name)](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
 * [parentNode.appendChild(node)](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
 * [element.innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
+* [htmlElement.innerText](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/innerText)
+* [Node.textContent](https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent)
 * [element.style.[color]](https://developer.mozilla.org/en-US/docs/Web/API/ElementCSSInlineStyle/style)
 * [element.setAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
 * [element.getAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute)
@@ -166,3 +169,5 @@ The following is a brief list of common APIs in web and XML page scripting using
 * [window.onload](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload)
 * [window.scrollTo()](https://developer.mozilla.org/en-US/docs/Web/API/Window/scrollTo)
 
+
+:bulb: you should differentiate between these three methods :[Javascript innerHTML, innerText, and textContent](https://dev.to/4myc/javascript-innerhtml-innertext-and-textcontent-ih)  
