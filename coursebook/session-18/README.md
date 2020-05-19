@@ -1,6 +1,6 @@
 # Session 18: Introduction to DOM
 
-Welcome to the seventh session of the Javascript, you will learn about DOM and Local Storage in javascript.
+Welcome to the eighth session of the Javascript, you will learn about DOM and Local Storage in javascript.
 
 
 ## **[Learning Outcomes](./learning-outcomes.md)**
