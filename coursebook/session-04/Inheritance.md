@@ -3,6 +3,8 @@
 CSS supports inheritance, that means if the parent has some properties then will give them to his children (children here are the nested elements).
 
 but let us know who is the parent and who are the children ?
+
+
 <img src="https://i.imgur.com/lwG0jrz.png" alt="final result" width="500" />
 
 So, CSS supports transfer the properties (CSS properties) from the parent to the children.
