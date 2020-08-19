@@ -9,7 +9,7 @@
 
   -**BREAK**-
   
-- 12:30 - 13:30 | [Elements And Attributes](./elements-and-attributes.md)
+- 12:30 - 13:30 | [Formatting Page Content with HTML](./elements-and-attributes.md)
 - 13:30 - 14:00 | [Exercise](./exercise.md)
 
 
