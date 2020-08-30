@@ -18,12 +18,14 @@ You are actually calling up a list of requests to get content from various resou
 
 A text editor is by far the most used developer tool regardless of what type of developer you are. A good text editor can help you write better code with real-time code checking, syntax highlighting, and automatic formatting.
 
+- Text Editor: ([VSCode](https://code.visualstudio.com/download)) & [CodePen](https://codepen.io/) to edit and build web pages
+
+
 ### Extentaion will need durign the course:
 - Live Server
 - GitLens
 - Prettier – Code formatter
-
-- Text Editor: ([VSCode](https://code.visualstudio.com/download)) & [CodePen](https://codepen.io/) to edit and build web pages
+- Open on browser
 
 ## What is Github?
 GitHub is a for-profit company that offers a cloud-based Git repository hosting service. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration.
