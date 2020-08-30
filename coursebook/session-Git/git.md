@@ -1,10 +1,10 @@
 
 ### Let's start with simple words that everyone understands,What is Git?
 
-Is it a programming language? - No
-Is it a database? - No
-Is it an operating system? - No
-I was wondering what is git doing?
+- Is it a programming language? - No
+- Is it a database? - No
+- Is it an operating system? - No
+- I was wondering what is git doing?
 So what is Git? What exactly is his job?
 
 To understand what it is, we must first understand the problem that led to its existence, take this as a simple example, to get it.
