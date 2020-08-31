@@ -1,4 +1,3 @@
-
 ### Let's start with simple words that everyone understands,What is Git?
 
 Is it a programming language? - No
@@ -24,68 +23,134 @@ You will waste time and effort to know which one.
 So, the soultion is
  version control system
 ## What is version control system (VCS)?
-Version Control System (VCS) is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+Version control, also known as revision control or source control, is the management of changes to documents, computer programs, large websites, and other collections of information. Each revision is associated with a timestamp and the person making the change. Revisions can be compared, restored, and with some types of files, merged.[1]
 
+Version control systems (VCS) most commonly run as stand-alone applications, but may also be embedded in various types of software, including integrated development environments (IDEs).
 
-### Use of Version Control System:
+### Discussion
+Version control implements a systematic approach to recording and managing changes in files. At its simplest, version control involves taking ‘snapshots’ of your file at different stages. This snapshot records information about when the snapshot was made, and also about what changes occurred between different snapshots. This allows you to ‘rewind’ your file to an older version. From this basic aim of version control, a range of other possibilities is made available.
 
-**A repository:** It can be thought as a database of changes. It contains all the edits and historical versions (snapshots) of the project.
-**Copy of Work (sometimes called as checkout)**: It is the personal copy of all the files in a project. You can edit to this copy, without affecting the work of others and you can finally commit your changes to a repository when you are done making your changes.
+#### Version control allows you to:
 
-**Types of Version Control Systems:**
+- Track developments and changes in your files
+- Record the changes you made to your file in a way that you will be able to understand later
+- Experiment with different versions of a file while maintaining the original version
+- ‘Merge’ two versions of a file and manage conflicts between versions
+- Revert changes, moving ‘backward’ through your history to previous versions of your file.
 
-* Local Version Control Systems
+Version control is particularly useful for facilitating collaboration. One of the original motivations behind version control systems was to allow different people to work on large projects together. Using version control to collaborate allows for a greater deal of flexibility and control than many other solutions. As an example, it would be possible for two people to work on a file at the same time and then merge these together. If there were ‘conflicts’ between the two versions, the version control system would allow you to see these conflicts and make an active decision about how to ‘merge’ these different versions into a new ‘third’ document. With this approach you would also retain a ‘history’ of the previous version should you wish to revert back to one of these later on.
 
-![](https://i.imgur.com/f7H1YsT.png)
+Popular version control systems include:
 
-* Centralized Version Control Systems
+- Git
+- Helix VCS
+- Microsoft Team Foundation Server
+- Subversion
 
-![](https://i.imgur.com/eVjIJQL.png)
+### The following focuses on using the Git version control system.
 
-* Distributed Version Control Systems
+#### what is Git?
 
-![](https://i.imgur.com/4z9QNBS.png)
+ Git is a Version Control System for tracking changes in computer files.
+* **Distributed version control** (**decentralized**): Many developers can work on the single project without having to be on the same network.
+* **Coordinate work between multiple developers**:
+* **Who made what changes and when**
+* **Revert back at any time**
+* **Local and remote repositories**
+**What is repository?**
+We have two types of repos; local which is on our computer and remote which is hosted on somebody's else server or computer.
+The purpose of a remote repository (eg, **GitHub**) is to publish your code to the world or to some people and allow them to read or write it, so if you are the only developer, you don't really need a remote/central repo.
 
+## Initializing a git local repository
+#### Local implementation of using git and version control
 
+inside your **terminal**, follow the next commands:
+```
+cd Desktop
+mkdir FOLDER_NAME
+cd FOLDER_NAME
+ls
+touch file1.txt <!--then add some text-->
+git init
+ls -a <!-- .git is used to track and commit your changes and to perform version control-->
+git status
+git add file1.txt
+git status
+git commit -m "complete my first file"
+git log
+touch file2.txt file3.txt <!--then add some text-->
+git status
+git add .
+git status
+git commit -m "complete my second and third files"
+git log
+```
 
----
+![drawing](https://i.stack.imgur.com/UvZ0M.png)
 
+## What is GitHub?
+#### the largest host of source code in the world
+The world's leading software development platform.
+GitHub brings together the world's largest community of developers to discover, share, and build better software. From open source projects to private projects.
 
-## What is GIT and why?
+### Open Source
+Open source refers to any program whose source code is made available for use or modification as users or other developers see fit. Open source software is usually developed as a public collaboration and made freely available.
 
-Git is an Open Source Distributed Version Control System. Now that’s a lot of words to define Git.
+## How to create a remote repository?
+<ol>
+<li> create a <span style="font-weight: bold;">repository</span></li>
+<li><span style="font-weight: bold;">clone</span> the repo you've created</li>git
+<li>move into the newly created directory</li>
+<li>raise your <span style="font-weight: bold;">issues</span> on the work to be done</li>
+<li>create a new <span style="font-weight: bold;">branch</span> with a unique and descriptive name</li>
+<li>leave the <span style="font-weight: bold;">master branch</span> by switching to the new branch you have just created</li>
+<li>write your code</li>
+<li>add the new files to the <span style="font-weight: bold;">staging area</span></li>
+<li><span style="font-weight: bold;">commit</span> your changes</li>
+<li><span style="font-weight: bold;">push</span> your local version up to GitHub</li>
+<li>create a <span style="font-weight: bold;">pull request</span></li>
+<li>wait it to be <span style="font-weight: bold;">merged</span></li>
+</ol>
 
-### Let me break it down and explain the wording:
+## Git & GitHub terminology
 
-**Control System:** This basically means that Git is a content tracker. So Git can be used to store content — it is mostly used to store code due to the other features it provides.
+### Working Directory
+It is the folder/directory where we initialize our git repository by using the command
+```
+git init
+```
+### Staging Area
+It is an intermediate place between Working Directory and Local Repository to figure out what the things you want git to ignore and what the things you want it to be tracked.
 
-**Version Control System:** The code which is stored in Git keeps changing as more code is added. Also, many developers can add code in parallel. So Version Control System helps in handling this by maintaining a history of what changes have happened.
-Also, Git provides features like branches and merges, which I will be covering later.
+### Repository
+A repository is like a folder for your project. Your project's repository contains all of your project's files and stores each file's revision history. You can also discuss and manage your project's work within the repository.
 
-**Distributed Version Control System:** Git has a remote repository which is stored in a server and a local repository which is stored in the computer of each developer. This means that the code is not just stored in a central server, but the full copy of the code is present in all the developers’ computers. Git is a Distributed Version Control System since the code is present in every developer’s computer.
- 
+### Local Repository
+It is the repo on which we will make local changes, typically this local repository is on our computer.
 
----
+### Remote Repository
+It is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server. 
 
+### Cloning
+Cloning a git repository means that you create a local copy of the code provided by developer; it is downloading the whole code of the repository.
 
-### Why a Version Control System like Git is needed
-Real life projects generally have multiple developers working in parallel. So a version control system like Git is needed to ensure there are no code conflicts between the developers.
+### Issues
+Issues are a great way to keep track of tasks, enhancements, and bugs for your projects. They're kind of like email—except they can be shared and discussed with the rest of your team.
 
-Additionally, the requirements in such projects change often. So a version control system allows developers to revert and go back to an older version of the code.
+### Branches
+A branch is a parallel version of a repository. It is contained within the repository, but does not affect the primary or master branch allowing you to work freely without disrupting the "live" version. When you've made the changes you want to make, you can merge your branch back into the master branch to publish your changes.
 
-Finally, sometimes several projects which are being run in parallel involve the same codebase. In such a case, the concept of branching in Git is very important.
+### Master Branch
+One word: the master branch is deployable. It is your production code, ready to roll out into the world. The master branch is meant to be stable, and it is the social contract of open source software to never, ever push anything to master that is not tested, or that breaks the build.
 
+### Commit
+It is a command used to save your changes to the local repository.
 
----
+### Push
+Pushing refers to sending your committed changes to a remote repository, such as a repository hosted on GitHub. For instance, if you change something locally, you'd want to then push those changes so that others may access them.
 
-## GIT Workflow
+### Pull Request
+Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, you can discuss and review the potential changes with collaborators and add follow-up commits before your changes are merged into the base branch.
 
-Git has three states for your file changes:
-* Modified
-* Staged
-* Committed 
- 
- ![](https://i.imgur.com/jj0jDFN.jpg)
- 
-
-Modified When you modify your files into your working directory
+### Merge
+It is a command which lets you take the independent lines of development created by git branch and integrate them into a single branch.
