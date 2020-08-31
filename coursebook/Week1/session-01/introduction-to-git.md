@@ -1,17 +1,26 @@
-### Let's start with simple words that everyone understands,What is Git?
 
-- Is it a programming language? - No
-- Is it a database? - No
-- Is it an operating system? - No
-- I was wondering what is git doing?
-So what is Git? What exactly is his job?
+
+
+
+### Let's start with simple words that everyone understands,What is Git? :computer:
+
+
+![Alt Text](https://media.giphy.com/media/VGbx7xfluiGnY4KwBF/giphy.gif)
+
+
+ - Is it a programming language? - :negative_squared_cross_mark:
+ - Is it a database? - :negative_squared_cross_mark:
+ - Is it an operating system? - :negative_squared_cross_mark:
+ - I was wondering what is git doing? So what is Git? What exactly is his job?
 
 To understand what it is, we must first understand the problem that led to its existence, take this as a simple example, to get it.
 
-### The problem
+### The problem :confused:
 
 You are programmer and working on a big project, you work on it for along time and you really made progress, during working on it, suddenly found your self with trouble, you wrote function that made a messy in your code, and you wish that you can undo or knowing where exactly the project work successfully. So you think you are smart enough to not fall in this problem.
  
+ ![Alt Text](https://media.giphy.com/media/l2R024uE283zkmdfW/giphy.gif)
+
 You start creating folder for your project, and give it a name, date and time.
 And you will make an another copy, every time you add new feature. And this will help you to find any copy you want.
 
