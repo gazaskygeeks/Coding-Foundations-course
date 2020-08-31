@@ -1,16 +1,7 @@
-# HTML INTRO  
-
-### [Learning Outcomes](./learning-outcomes.md)
-
-### Schedule
-
-- 10:40 - 11:30 | [Intro To Web Development](../session-00/README.md)
-- 11:30 - 12:10 | [Intro To HTML](./intro-to-html.md)
-
-  -**BREAK**-
-  
-- 12:30 - 13:30 | [Formatting Page Content with HTML](./elements-and-attributes.md)
-- 13:30 - 14:00 | [Exercise](./exercise.md)
+# Introduction to GIt && Github
 
 
-### [Research Topics](./research-topics.md)
+- 11:00 - 12:00 | [Git Introduction](./introduction-to-git.md)
+- 12:00 - 12:10 | [Github Introduction](./intro-to-github)
+- 12:10 - 12:20 | BREAK
+- 12:00 - 1:00  | [GIT workshop](https://github.com/foundersandcoders/git-workflow-workshop-for-two)
