@@ -1,6 +1,6 @@
 # Resources
 This section contains helpful links to other content. It isn’t required, so consider it supplemental for if you need to dive deeper into something.
-
+- [How To Become A Web Developer — Everything You Need To Know](https://careerfoundry.com/en/blog/web-development/what-does-it-take-to-become-a-web-developer-everything-you-need-to-know-before-getting-started)
 - [Quora: How can I Become a Really Good Web Developer?](http://www.quora.com/Computer-Programming/How-can-I-become-a-really-good-Web-Developer-starting-from-now-at-age-20-before-age-25)
 - [Quora: What makes a great web developer?](http://www.quora.com/What-makes-a-great-web-developer)
 - [Jared the Nerd: What makes a good web developer?](http://jaredthenerd.com/2013/05/What-Makes-A-Good-Developer/)
