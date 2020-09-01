@@ -40,7 +40,7 @@ console.log('This is first javascript session');
 1- **Using an online editor:**
 There are a number of websites out there that will let you write a larger chunk of code (e.g. [Repl.it](https://repl.it/) , [JS Bin](http://jsbin.com/?html,output), [JS Fiddle](https://jsfiddle.net/), and [CodePen](https://codepen.io/)).These tools are helpful learning tools to use until you get more comfortable combining HTML, CSS, and JavaScript but aren't use to write extensive JavaScript applications.
 
-2- **Adding JavaScript in an HTML file:**
+2- **Adding JavaScript in HTML file:**
 You should place all your JavaScript code within <script> tags (<script> and </script>) if you are keeping your JavaScript code within the HTML document itself. This helps your browser distinguish your JavaScript code from the rest of the code. 
 
 ```HTML 

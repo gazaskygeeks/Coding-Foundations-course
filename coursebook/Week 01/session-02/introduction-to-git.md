@@ -1,17 +1,26 @@
-### Let's start with simple words that everyone understands,What is Git?
 
-- Is it a programming language? - No
-- Is it a database? - No
-- Is it an operating system? - No
-- I was wondering what is git doing?
-So what is Git? What exactly is his job?
+
+
+
+### Let's start with simple words that everyone understands,What is Git? :computer:
+
+
+![Alt Text](https://media.giphy.com/media/VGbx7xfluiGnY4KwBF/giphy.gif)
+
+
+ - Is it a programming language? - :negative_squared_cross_mark:
+ - Is it a database? - :negative_squared_cross_mark:
+ - Is it an operating system? - :negative_squared_cross_mark:
+ - I was wondering what is git doing? So what is Git? What exactly is his job?
 
 To understand what it is, we must first understand the problem that led to its existence, take this as a simple example, to get it.
 
-### The problem
+### The problem :confused:
 
 You are programmer and working on a big project, you work on it for along time and you really made progress, during working on it, suddenly found your self with trouble, you wrote function that made a messy in your code, and you wish that you can undo or knowing where exactly the project work successfully. So you think you are smart enough to not fall in this problem.
  
+ ![Alt Text](https://media.giphy.com/media/l2R024uE283zkmdfW/giphy.gif)
+
 You start creating folder for your project, and give it a name, date and time.
 And you will make an another copy, every time you add new feature. And this will help you to find any copy you want.
 
@@ -20,7 +29,10 @@ And you will make an another copy, every time you add new feature. And this will
 After a while, the project became bigger, and sometimes you forget to create a new folder and after all it will be many folders and didn’t know which one is working good and has the specific feature that you want.
 You will waste time and effort to know which one.
 
-So, the soultion is
+![Alt Text](https://media.giphy.com/media/108KUzjTMEp2gw/giphy.gif)
+
+
+#### So, the soultion is
  version control system
 ## What is version control system (VCS)?
 Version control, also known as revision control or source control, is the management of changes to documents, computer programs, large websites, and other collections of information. Each revision is associated with a timestamp and the person making the change. Revisions can be compared, restored, and with some types of files, merged.[1]
