@@ -5,7 +5,7 @@ For general information, including an overview of the course, applicable across 
 
 For materials to complete before arrival, you can find our precourse here.
 
-The first eight weeks will provide you with the necessary building blocks for creating a web app:
+The first six weeks will provide you with the Fundamentals concepts of web development
 
 - Week 1 - Introduciton to programming and web devlopment.
 
