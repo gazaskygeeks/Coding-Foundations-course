@@ -1,5 +1,5 @@
 ## Coursebook
-Welcome to the coursebook for FC !
+### Welcome to the coursebook for FUNdamentals course  !
 
 For general information, including an overview of the course, applicable across the curriculum start here.
 
