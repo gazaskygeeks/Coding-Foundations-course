@@ -1,5 +1,5 @@
 ## Coursebook
-### Welcome to the coursebook for FUNdamentals course  !
+### Welcome to the coursebook for FUNdamentals course :construction: !
 
 For general information, including an overview of the course, applicable across the curriculum start [here](https://github.com/gazaskygeeks/Fundamentals-course/wiki/Frequently-Asked-Questions-FAQ-%7C-Fundamentals-course).
 
