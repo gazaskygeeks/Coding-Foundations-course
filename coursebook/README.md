@@ -1,9 +1,7 @@
 ## Coursebook
 ### Welcome to the coursebook for FUNdamentals course  !
 
-For general information, including an overview of the course, applicable across the curriculum start here.
-
-For materials to complete before arrival, you can find our precourse here.
+For general information, including an overview of the course, applicable across the curriculum start [here](https://github.com/gazaskygeeks/Fundamentals-course/wiki/Frequently-Asked-Questions-FAQ-%7C-Fundamentals-course).
 
 The first six weeks will provide you with the Fundamentals concepts of web development
 
