@@ -3,7 +3,7 @@
 
 Variable is a place where we can store our the data, and we can do that using some special keywords like `var`, `let`, and `const` for constant "variable".
 
-Let's assume that we have a person called `Ali` and his age is `30` and we want to store his age on our program. as we said we have the variable which act as a place to store our data so let's see how we will do that with the different ways of defining variables in JavaScript:
+Let's assume that we have a person called `Ali` and his age is `30` and we want to store his age in our program. as we said we have the variable which act as a place to store our data so let's see how we will do that with the different ways of defining variables in JavaScript:
 
 - **var**:
     ```js 
