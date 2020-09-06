@@ -3,7 +3,7 @@
 
 Variable is a place where we can store our data, and we can do that using some special keywords like `var`, `let`, and `const` for constant "variable".
 
-Let's assume that we have a person called `Ali` and his age is `30` and we want to store his age in our program. as we said we have the variable which act as a place to store our data so let's see how we will do that with the different ways of defining variables in JavaScript:
+Let's assume that we have a person called `Ali` and his age is `30` and we want to store his age in our program. As we said, we have the variable which acts as a place to store our data so let's see how we will do that with the different ways of defining variables in JavaScript:
 
 - **var**:
     ```js 
@@ -20,20 +20,20 @@ Let's assume that we have a person called `Ali` and his age is `30` and we want 
   ```
 **So our steps of storing a value in a variable are:**
 
-1. We first write down one of the tree ***keywords*** `var`, `let`, or `const`.
+1. First, we write down one of the three ***keywords*** `var`, `let`, or `const`.
 
-1. Then we define the ***name*** of the variable which is `age` in our case.
+1. Then, we define the ***name*** of the variable which is `age` in our case.
    > 💡 You can name your variable whatever name you want
 
 1. Then to assign a value to a variable we use the single assignment operator `=` .
 
-1. Final step is to assign the ***value*** which in this case the number `30` to the variable `age`.
+1. The final step is to assign the ***value*** which in this case the number `30` to the variable `age`.
 
 <br>
 
-**We can also store the value on two steps:**
+**We can also store the value in two steps:**
 
-1. define the variable name (declaring step).
+1. Define the variable name (declaring step).
     ```js 
     var age;
     ``` 
@@ -45,16 +45,16 @@ Let's assume that we have a person called `Ali` and his age is `30` and we want 
 
 <br>
 
-**The general syntax creating a variable:**
+**The general syntax for creating a variable:**
 >var variableName = value;
 
 <br>
 
-> 💡 for now the same thing we apply for defining the variable with `var` is also will be applied to `let`, and we will see the difference between `var` and `let` in later sessions.
+> 💡 For now, the same thing we apply for defining the variable with `var` is also applied to `let`, and we will see the difference between `var` and `let` in later sessions.
 
 <br>
 
-**Now let's see some examples**
+**Now, let's see some examples**
 
 ```js
 var x = 10; // declare variable x and assign the value 10 to x
@@ -70,7 +70,7 @@ console.log(y) // print 10
 ```
 
 ## But what about `const`?
-we use const to define constant variable, once we assign a value to the variable then we can't change it later and hence the name `const`
+We use const to define a constant variable, once we assign a value to the variable then we can't change it later and hence the name `const`
 
 **Example**
 
@@ -83,11 +83,11 @@ const y; // Error : Missing initializer in const declaration
 
 ```
 
-As we said, it is constant and we can't give it(re-assign) a different value to it, and also we can't declare a variable with const and not giving it  a value because if did that then because it is a constant then we wouldn't be able to give a value later and the variable would be useless and so this is the difference between `const` and the other two `(var and let)`
+As we said, it is constant and we can't give it(re-assign) a different value to it, and also we can't declare a variable with `const` and not giving it a value because if we did that we wouldn't be able to give it a value later since it's constant and therefor the variable would be useless. And so this is the difference between `const` and the other two `(var and let)`
 
 ## When to use `var`, `let`, and `const`?
 
-Nowadays it is "recommended" to use let and const instead of var(we will see why later) but you should use `let` whenever you are planning on changing the value of the variable, and `const` when you are planning on keeping the value as it is.
+Nowadays it is "recommended" to use let and const instead of var(we will see why later). Use `let` whenever you are planning on changing the value of the variable, and `const` when you are planning on keeping the value as it is.
 
 <br/>
 
@@ -121,13 +121,13 @@ let interest-rate; // dash (-)
 
 ```
 
-* Also some of the best practices with naming variable in javascript is to follow the [camelCase](https://en.wikipedia.org/wiki/Naming_convention_(programming)) convention
+* Also some of the best practices in naming variable in javascript is to follow the [camelCase](https://en.wikipedia.org/wiki/Naming_convention_(programming)) convention
 
 Examples
 
 ```js
 let myPlayer;
-let faveFootballTeam;
+let favFootballTeam;
 ```
 
 ## Final words about `let` and `const`
