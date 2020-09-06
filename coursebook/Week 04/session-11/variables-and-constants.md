@@ -127,7 +127,7 @@ Examples
 
 ```js
 let myPlayer;
-let favFootballTeam;
+let faveFootballTeam;
 ```
 
 ## Final words about `let` and `const`
