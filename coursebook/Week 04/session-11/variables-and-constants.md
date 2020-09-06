@@ -1,7 +1,7 @@
 ### <a id="variables">Variables and Constants</a>
 **What do we mean by the word variable?**
 
-Variable is a place where we can store our the data, and we can do that using some special keywords like `var`, `let`, and `const` for constant "variable".
+Variable is a place where we can store our data, and we can do that using some special keywords like `var`, `let`, and `const` for constant "variable".
 
 Let's assume that we have a person called `Ali` and his age is `30` and we want to store his age in our program. as we said we have the variable which act as a place to store our data so let's see how we will do that with the different ways of defining variables in JavaScript:
 
@@ -21,10 +21,13 @@ Let's assume that we have a person called `Ali` and his age is `30` and we want 
 **So our steps of storing a value in a variable are:**
 
 1. We first write down one of the tree ***keywords*** `var`, `let`, or `const`.
-2. Then we define the ***name*** of the variable which is `age` in our case.
+
+1. Then we define the ***name*** of the variable which is `age` in our case.
    > 💡 You can name your variable whatever name you want
-3. Then to assign a value to a variable we use the single assignment operator `=` .
-4. Final step is to assign the ***value*** which in this case the number `30` to the variable `age`.
+
+1. Then to assign a value to a variable we use the single assignment operator `=` .
+
+1. Final step is to assign the ***value*** which in this case the number `30` to the variable `age`.
 
 <br>
 
@@ -34,7 +37,7 @@ Let's assume that we have a person called `Ali` and his age is `30` and we want 
     ```js 
     var age;
     ``` 
-2. Assign/Update the value `30` to the variable `age` (assigning step).
+1. Assign/Update the value `30` to the variable `age` (assigning step).
    ```js
     age = 30;
    ```
