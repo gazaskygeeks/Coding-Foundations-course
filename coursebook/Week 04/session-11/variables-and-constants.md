@@ -18,14 +18,18 @@ Let's assume that we have a person called `Ali` and his age is `30` and we want 
   ```js
   const age = 30;
   ```
-So our steps of store a value in a variable are: 
+**So our steps of storing a value in a variable are:**
+
 1. We first write down one of the tree ***keywords*** `var`, `let`, or `const`.
 2. Then we define the ***name*** of the variable which is `age` in our case.
    > 💡 You can name your variable whatever name you want
 3. Then to assign a value to a variable we use the single assignment operator `=` .
-4. Final step is to assign the ***value*** which in this case the number `30` to the variable age.
+4. Final step is to assign the ***value*** which in this case the number `30` to the variable `age`.
 
-***Note:*** we can also store the value on two steps:
+<br>
+
+**We can also store the value on two steps:**
+
 1. define the variable name (declaring step).
     ```js 
     var age;
@@ -36,8 +40,12 @@ So our steps of store a value in a variable are:
    ```
    >💡 Because we defined the variable `age` on step 1 so no need to use the keyword `var` again with step 2
 
+<br>
+
 **The general syntax creating a variable:**
 >var variableName = value;
+
+<br>
 
 > 💡 for now the same thing we apply for defining the variable with `var` is also will be applied to `let`, and we will see the difference between `var` and `let` in later sessions.
 
