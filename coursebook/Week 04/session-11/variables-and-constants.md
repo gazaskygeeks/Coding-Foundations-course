@@ -3,7 +3,7 @@
 
 Variable is a place where we can store our data, and we can do that using some special keywords like `var`, `let`, and `const` for constant "variable".
 
-Let's assume that we have a person called `Ali` and his age is `30` and we want to store his age in our program. as we said we have the variable which act as a place to store our data so let's see how we will do that with the different ways of defining variables in JavaScript:
+Let's assume that we have a person called `Ali` and his age is `30` and we want to store his age in our program. As we said, we have the variable which acts as a place to store our data so let's see how we will do that with the different ways of defining variables in JavaScript:
 
 - **var**:
     ```js 
@@ -27,13 +27,13 @@ Let's assume that we have a person called `Ali` and his age is `30` and we want 
 
 1. Then to assign a value to a variable we use the single assignment operator `=` .
 
-1. Final step is to assign the ***value*** which in this case the number `30` to the variable `age`.
+1. The final step is to assign the ***value*** which in this case the number `30` to the variable `age`.
 
 <br>
 
 **We can also store the value on two steps:**
 
-1. define the variable name (declaring step).
+1. Define the variable name (declaring step).
     ```js 
     var age;
     ``` 
@@ -45,12 +45,12 @@ Let's assume that we have a person called `Ali` and his age is `30` and we want 
 
 <br>
 
-**The general syntax creating a variable:**
+**The general syntax for creating a variable:**
 >var variableName = value;
 
 <br>
 
-> 💡 for now the same thing we apply for defining the variable with `var` is also will be applied to `let`, and we will see the difference between `var` and `let` in later sessions.
+> 💡 For now the same thing we apply for defining the variable with `var` is also will be applied to `let`, and we will see the difference between `var` and `let` in later sessions.
 
 <br>
 
@@ -70,7 +70,7 @@ console.log(y) // print 10
 ```
 
 ## But what about `const`?
-we use const to define constant variable, once we assign a value to the variable then we can't change it later and hence the name `const`
+We use const to define a constant variable, once we assign a value to the variable then we can't change it later and hence the name `const`
 
 **Example**
 
