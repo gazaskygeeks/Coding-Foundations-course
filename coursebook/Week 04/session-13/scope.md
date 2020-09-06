@@ -191,9 +191,9 @@ greeting = 'say Hello instead'; //error: Assignment to constant variable.
 **Example (2)**
 
 ```javascript
-const greeting = "say Hi";
+const greeting = 'say Hi';
 
-const greeting = "say Hello instead"; //error: Identifier 'greeting' has already been declared
+const greeting = 'say Hello instead'; //error: Identifier 'greeting' has already been declared
 ```
 
 - Hoisting of `const`:
