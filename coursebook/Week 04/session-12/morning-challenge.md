@@ -1,4 +1,4 @@
-## <a href='#morning-challenge' id='morning-challenge'>Morning challenge : </a>
+## <a href='#morning-challenge' id='morning-challenge'>Morning Challenge : </a>
 
 1- Write javaScript code that multiply two numbers then add the result to the square root of the first number , then console the following :
 

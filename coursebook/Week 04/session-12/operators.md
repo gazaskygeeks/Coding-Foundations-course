@@ -1,9 +1,10 @@
-## Types of operators in javascript 
+## Types of Operators in JavaScript
+
 JavaScript has many types of operators and at this workshop we will discuss comparison and logical operators.
 
 ## <a href='#comparison-operators' id='comparison-operators'>
 
-## Comparison operators </a>
+## Comparison Operators </a>
 
 In JavaScript, comparison operators are used to compare values and evaluate down to a single Boolean value of either `True` or `False`.
 
@@ -27,7 +28,7 @@ Comparison operator is also called binary operator because it requires two opera
   The identity operator returns true if the operands are strictly equal.
 
 ```javascript
-6 === '6'; // false
+6 === "6"; // false
 2 === 2; // true
 ```
 
@@ -35,7 +36,7 @@ Comparison operator is also called binary operator because it requires two opera
   The non-identity operator returns true if the operands are not equal and/or not of the same type.
 
 ```javascript
-6 !== '6'; // true
+6 !== "6"; // true
 3 !== 2; // true
 ```
 
@@ -45,7 +46,7 @@ Comparison operator is also called binary operator because it requires two opera
 
 ```javascript
 1 == 1; // true
-'1' == 1; // true (the string is converted to a number value).
+"1" == 1; // true (the string is converted to a number value).
 
 1 == true; // true (true is converted to 1).
 0 == false; // true (false is converted to 0).
@@ -55,7 +56,7 @@ Comparison operator is also called binary operator because it requires two opera
 
 ```javascript
 1 != 2; // true
-1 != '1'; // false
+1 != "1"; // false
 ```
 
 3. ##### For relational abstract comparisons, the operands are first converted to primitives, then to the same type, before comparison.
@@ -67,7 +68,7 @@ false <= 0; // true
 5 < 2; // false
 ```
 
-> Note : Keep this note until you start with JavaScript object sesstion but, just to know If an object (object isn't a primitive type) is compared with a number or string, JavaScript attempts to convert the object to a primitive value, a String or Number value.
+> Note : Keep this note until you start with JavaScript object session but, just to know If an object (object isn't a primitive type) is compared with a number or string, JavaScript attempts to convert the object to a primitive value, a String or Number value.
 
 **[Click to read more about comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)**
 
@@ -80,7 +81,7 @@ false <= 0; // true
 | False                              |
 | Null : (the absence of any value ) |
 | NAN : ( not a number)              |
-| Undefiend : ( the primitive value) |
+| Undefined : ( the primitive value) |
 | 0 : (The number zero)              |
 | Empty string : ( '' , "" , `` )    |
 
@@ -90,7 +91,7 @@ false <= 0; // true
 
 ---
 
-## Logical operators </a>
+## Logical Operators </a>
 
 Logical operators are typically used with Boolean (logical) values to return a Boolean value.However, they actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they will return a non-Boolean value.
 
@@ -109,10 +110,10 @@ Example (1) :
 a1 = true && true; // t && t returns true
 a2 = true && false; // t && f returns false
 a3 = false && 3 == 4; // f && f returns false
-a4 = 'Cat' && 'Dog'; // t && t returns "Dog"
-a5 = false && 'Cat'; // f && t returns false
-a6 = 'Cat' && false; // t && f returns false
-a7 = '' && false; // f && f returns ''
+a4 = "Cat" && "Dog"; // t && t returns "Dog"
+a5 = false && "Cat"; // f && t returns false
+a6 = "Cat" && false; // t && f returns false
+a7 = "" && false; // f && f returns ''
 ```
 
 Example (2) :
@@ -158,17 +159,17 @@ var a = 1;
 
 **4.** **!! (Double NOT)**
 
-The single ! converts a value to its truthy or falsey value, which is technically a boolean. But if you need to a real boolean representation of a value for your expression you must convert it to a real boolean value using a double not.
+The single ! converts a value to its truthy or falsely value, which is technically a boolean. But if you need to a real boolean representation of a value for your expression you must convert it to a real boolean value using a double not.
 
 ```javascript
-Example (1) : 
+Example (1) :
 
 var a = 1;
 
 !!a; // return true
 __________________________________________________
 
-Example(2) : 
+Example(2) :
 
 let v = 0;
 
@@ -185,9 +186,9 @@ v ? true : false  //equals true
 typeof !!v // boolean
 ```
 
-**[Click here for more explaination](https://levelup.gitconnected.com/secrets-of-logical-%EF%B8%8F-operator-in-javascript-98efbae5e8aa)**
+**[Click here for more explanation](https://levelup.gitconnected.com/secrets-of-logical-%EF%B8%8F-operator-in-javascript-98efbae5e8aa)**
 
-- ### Operator precedence :
+- ### Operator Precedence :
 
 The below operations are listed based on operator precedence. i.e, ! is higher precedence and || is lower precedence.
 
@@ -199,11 +200,11 @@ The below operations are listed based on operator precedence. i.e, ! is higher p
 true || (false && false); // returns true, because && is executed first
 ```
 
-**[Click here for more explaination](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)**
+**[Click here for more explanation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)**
 
 ---
 
-## <a href='#conditional-statements' id='conditional-statements'>Conditional statements</a>
+## <a href='#conditional-statements' id='conditional-statements'>Conditional Statements</a>
 
 In JavaScript we have the following conditional statements :
 
@@ -298,7 +299,7 @@ switch (expression) {
 }
 ```
 
-**Switch features :**
+**Switch Features :**
 
 - The switch statement is often used together with a `break` or a `default` keyword (or both).
 - The `break` keyword breaks out of the switch block. This will stop the execution of more execution of code
@@ -308,13 +309,13 @@ switch (expression) {
 let a = 5;
 switch (a) {
   case 3:
-    alert('Too small');
+    alert("Too small");
     break;
   case 4:
-    alert('Exactly!');
+    alert("Exactly!");
     break;
   case 5:
-    alert('Too large');
+    alert("Too large");
     break;
   default:
     alert("I don't know such values");
@@ -329,7 +330,7 @@ switch (a) {
 var foo = 0;
 switch (foo) {
   case -1:
-    console.log('negative 1');
+    console.log("negative 1");
     break;
   case 0:
     console.log(0);
@@ -340,7 +341,7 @@ switch (foo) {
     console.log(2);
     break;
   default:
-    console.log('default');
+    console.log("default");
 }
 
 // result : 0, 1
@@ -352,7 +353,7 @@ switch (foo) {
 var foo = 0;
 switch (foo) {
   case -1:
-    console.log('negative 1');
+    console.log("negative 1");
     break;
   case 0:
     console.log(0);
@@ -364,7 +365,7 @@ switch (foo) {
     console.log(2);
     break;
   default:
-    console.log('default');
+    console.log("default");
 }
 
 // result : 0
@@ -377,19 +378,19 @@ var a = 2 + 2;
 
 switch (a) {
   case 3:
-    alert('Too small');
+    alert("Too small");
   case 4:
-    alert('Exactly!');
+    alert("Exactly!");
   case 5:
-    alert('Too big');
+    alert("Too big");
   default:
     alert("I don't know such values");
 }
 
 // result :
 
-alert('Exactly!');
-alert('Too big');
+alert("Exactly!");
+alert("Too big");
 alert("I don't know such values");
 ```
 
@@ -409,13 +410,12 @@ switch (foo) {
     console.log(2);
     break;
   default:
-    console.log('default');
+    console.log("default");
 }
 ```
 
 **[Click here for more examples](https://javascript.info/switch)**
 
-**When should you use switch instead of if/else statments ?** 
-
+**When should you use switch instead of if/else statements ?**
 
 switch is the perfect solution for long, nested if/else statements.

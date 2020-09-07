@@ -1,8 +1,6 @@
+# Research Topics
 
-# Research Topics 
-
-* JavaScript continue Statement.
-* Differences between break and continue Statement.
-* Conditional (Ternary) Operator.
-* Comparing Different Types.
-
+- JavaScript Continue Statement.
+- Differences Between Break and Continue Statement.
+- Conditional (Ternary) Operator.
+- Comparing Different Types.

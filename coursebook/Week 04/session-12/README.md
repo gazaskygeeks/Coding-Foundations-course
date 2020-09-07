@@ -1,8 +1,8 @@
 # Session 12: JavaScript Basics
 
-Welcome to the second session of the Javascript, you will learn the basic concepts of Javascript that qualify you to write a meaningfull code.
+Welcome to the second session of the Javascript, you will learn the basic concepts of Javascript that qualify you to write a meaningful code.
 
-**Note** : you will find many usefull resources for more explanation and, you have a time at the end of the sesstion to ask mentors.
+**Note** : you will find many useful resources for more explanation and, you have a time at the end of the session to ask mentors.
 
 ---
 
@@ -12,7 +12,7 @@ Welcome to the second session of the Javascript, you will learn the basic concep
 
 ---
 
-## Schechule
+## Schedule
 
 - 11:00 - 11:15 | [Morning challenge](./morning-challenge.md#morning-challenge)
 - 11:15 - 12:15 | [Comparison operators](./operators.md#comparison-operators)
