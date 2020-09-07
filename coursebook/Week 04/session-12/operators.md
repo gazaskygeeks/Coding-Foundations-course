@@ -13,9 +13,25 @@ Comparison operator is also called binary operator because it requires two opera
 - ##### General Syntax
   `operand1 operator operand2`
 
-* ##### The table below shows Boolean comparison operators.
+* ##### The tables below show the two type of the comparison operators
 
-![](https://www.miltonmarketing.com/wp-content/uploads/2018/04/javascriptcomparisonoperatorsimage041.jpg)
+#### 1- Strict comparison
+
+| Operator |         Description         |   Example   | Result |
+| :------: | :-------------------------: | :---------: | :----: |
+|   ===    |   Equal in value and type   | `1 === '1'` | false  |
+|   !==    | Not equal in value and type | `1 !== '1'` |  true  |
+
+#### 2- Type-converting comparison
+
+| Operator |       Description        | Example  | Result |
+| :------: | :----------------------: | :------: | :----: |
+|    ==    |         Equal to         |  `1==1`  |  true  |
+|    !=    |       Not equal to       | `1 != 2` |  true  |
+|    >     |       Greater than       | `1 > 2`  | false  |
+|    <     |        Less than         | `1 < 2`  |  true  |
+|    >=    | Greater than or equal to | `1 >= 1` |  true  |
+|    <=    |  Less than or equal to   | `2 <= 1` | false  |
 
 > #### Lets discuss them :
 
