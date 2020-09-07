@@ -115,10 +115,11 @@ false <= 0; // true
 
 Logical operators are typically used with Boolean (logical) values to return a Boolean value.However, they actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they will return a non-Boolean value.
 
-- ### There are three logical operators in JavaScript :
+### There are three logical operators in JavaScript
 
-  **1.** **&& (AND)**
-  The && operation returns the first falsy value or the last value if no falsy value is found.
+#### 1. `&&` (AND)
+
+The && operation returns the first falsy value or the last value if no falsy value is found.
 
 Example (1) :
 
@@ -133,7 +134,7 @@ a3 = false && 3 == 4; // f && f returns false
 a4 = "Cat" && "Dog"; // t && t returns "Dog"
 a5 = false && "Cat"; // f && t returns false
 a6 = "Cat" && false; // t && f returns false
-a7 = "" && false; // f && f returns ''
+a7 = "" && false; // f && f returns ""
 ```
 
 Example (2) :
@@ -150,7 +151,8 @@ var f = a && b && c;
 console.log(f); // 0 last value
 ```
 
-**2.** **|| (OR)**
+#### 2. `||` (OR)
+
 The OR (||) operation returns the first truthy value or the last value if no truthy value is found.
 
 ```javascript
@@ -166,7 +168,8 @@ c = b || a;
 console.log(c); // 2 : last value
 ```
 
-**3.** **! (Not)**
+#### 3. `!` (Not)
+
 The not operation returns the inverse boolean value of the variable. It is a unary operation, so it operates on single operand.
 
 ```javascript
@@ -177,7 +180,7 @@ var a = 1;
 !a; // return false
 ```
 
-**4.** **!! (Double NOT)**
+##### `!!` (Double NOT)
 
 The single ! converts a value to its truthy or falsely value, which is technically a boolean. But if you need to a real boolean representation of a value for your expression you must convert it to a real boolean value using a double not.
 
@@ -208,13 +211,15 @@ typeof !!v // boolean
 
 **[Click here for more explanation](https://levelup.gitconnected.com/secrets-of-logical-%EF%B8%8F-operator-in-javascript-98efbae5e8aa)**
 
-- ### Operator Precedence :
+- #### Operator Precedence :
 
 The below operations are listed based on operator precedence. i.e, ! is higher precedence and || is lower precedence.
 
-**1. ! (NOT)**
-**2. && (AND)**
-**3. || (OR)**
+1. `!` (NOT)
+
+2. `&&` (AND)
+
+3. `||` (OR)
 
 ```javascript
 true || (false && false); // returns true, because && is executed first
