@@ -240,15 +240,18 @@ In JavaScript we have the following conditional statements :
 
 **Lets discuss them:**
 
-**1. if statement**
+### `if` statement
+
 Use if to specify a block of code to be executed, if a specified condition is true.
 
 ```javascript
+// Syntax
 if (condition) {
   // block of code to be executed if the condition is true
 }
 
 ---
+// Example:
 If the time is less than 20:00, create a "Good day" greeting.
 
 var time = 10;
@@ -258,10 +261,12 @@ if (time < 20) {
 }
 ```
 
-**2. else**
+### `else`
+
 Use else to specify a block of code to be executed, if the same condition is false.
 
 ```javascript
+// Syntax
 if (condition) {
   // block of code to be executed if the condition is true
 } else {
@@ -269,6 +274,7 @@ if (condition) {
 }
 
 ---
+// Example:
 // If the time is less than 20:00, create a "Good day" greeting, otherwise "Good evening".
 
 var time = 22;
@@ -280,10 +286,23 @@ if (time < 20) {
 }
 ```
 
-**3. else if**
+what will happened if we wrote `greeting = "Good evening";` without `else` like this?
+
+```javascript
+var time = 22;
+var greeting;
+if (time < 20) {
+  greeting = "Good day";
+}
+greeting = "Good evening";
+```
+
+### `else if`
+
 Use else if to specify a new condition to test, if the first condition is false
 
 ```javascript
+// Syntax
 if (condition1) {
   // block of code to be executed if condition1 is true
 } else if (condition2) {
@@ -291,8 +310,10 @@ if (condition1) {
 } else {
   // block of code to be executed if the condition1 is false and condition2 is false
 }
+// Conditions order is important here!
 
 ---
+// Example:
 // If time is less than 10:00, create a "Good morning" greeting, if not, but time is less than 20:00, create a "Good day" greeting, otherwise a "Good evening".
 
 var time = 23;
@@ -306,12 +327,12 @@ if (time < 10) {
 }
 ```
 
-**4. switch**
+### `switch`
+
 The switch statement executes a block of code depending on different cases. it evaluates an expression.The value of the expression is then compared with the values of each case in the structure. If there is a match, the associated block of code is executed.
 
-**Syntax**
-
 ```javascript
+// Syntax
 switch (expression) {
   case x:
     // code block
@@ -324,7 +345,7 @@ switch (expression) {
 }
 ```
 
-**Switch Features :**
+#### Switch features
 
 - The switch statement is often used together with a `break` or a `default` keyword (or both).
 - The `break` keyword breaks out of the switch block. This will stop the execution of more execution of code
@@ -346,7 +367,8 @@ switch (a) {
     alert("I don't know such values");
 }
 
-// result : Too large.
+// result :
+alert("Too large");
 ```
 
 - If break is omitted, the program continues execution at the next case in the switch statement.
@@ -441,6 +463,6 @@ switch (foo) {
 
 **[Click here for more examples](https://javascript.info/switch)**
 
-**When should you use switch instead of if/else statements ?**
+#### When should you use switch instead of if/else statements?
 
-switch is the perfect solution for long, nested if/else statements.
+switch is the perfect solution for long, nested if/else statements (cleaner syntax). [read more about this](https://www.geeksforgeeks.org/switch-vs-else/)
