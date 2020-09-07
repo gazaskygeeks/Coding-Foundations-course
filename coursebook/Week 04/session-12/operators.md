@@ -1,4 +1,4 @@
-## Types of Operators in JavaScript
+# Types of Operators in JavaScript
 
 JavaScript has many types of operators and at this workshop we will discuss comparison and logical operators.
 
@@ -6,14 +6,21 @@ JavaScript has many types of operators and at this workshop we will discuss comp
 
 ## Comparison Operators </a>
 
-In JavaScript, comparison operators are used to compare values and evaluate down to a single Boolean value of either `True` or `False`.
+In JavaScript, there are two types of comparison operators:
+
+1- Strict comparison
+
+2- Type-converting comparison (or Abstract)
+
+Comparison operators are used to compare its operands and evaluate down to a single Boolean value of either `True` or `False`.
 
 Comparison operator is also called binary operator because it requires two operands, one before the operator and one after the operator so, we can say that the comparison operator compares its operands and returns a logical value based on whether the comparison is true.The operands can be numerical, string, logical, or object values.
 
-- ##### General Syntax
-  `operand1 operator operand2`
+### General Syntax
 
-* ##### The tables below show the two type of the comparison operators
+`operand1` **operator** `operand2`
+
+### The tables below show the two type of the comparison operators
 
 #### 1- Strict comparison
 
@@ -33,12 +40,9 @@ Comparison operator is also called binary operator because it requires two opera
 |    >=    | Greater than or equal to | `1 >= 1` |  true  |
 |    <=    |  Less than or equal to   | `2 <= 1` | false  |
 
-> #### Lets discuss them :
+> ### Lets discuss them :
 
-- ### Strict and type–converting comparisons.
-  JavaScript has both strict and type–converting comparisons which as follow :
-
-1. ##### A strict comparison is only true if the operands are of the same type and the contents match.
+#### 1- A strict comparison is only true if the operands are of the same type and the contents match
 
 - Identity / strict equality (===)
   The identity operator returns true if the operands are strictly equal.
@@ -56,7 +60,7 @@ Comparison operator is also called binary operator because it requires two opera
 3 !== 2; // true
 ```
 
-2. ##### The more commonly-used abstract comparison converts the operands to the same type before making the comparison.
+#### 2- The more commonly-used abstract comparison converts the operands to the same type before making the comparison
 
 - Equality (==)
 
@@ -75,7 +79,7 @@ Comparison operator is also called binary operator because it requires two opera
 1 != "1"; // false
 ```
 
-3. ##### For relational abstract comparisons, the operands are first converted to primitives, then to the same type, before comparison.
+#### 3- For relational abstract comparisons, the operands are first converted to primitives, then to the same type, before comparison
 
 ```javascript
 4 > 3; // true
@@ -88,9 +92,9 @@ false <= 0; // true
 
 **[Click to read more about comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)**
 
-- ### Truthy values VS Falsy values
+### Truthy values VS Falsy values
 
-1.  Falsy value : is a value that is considered false when encountered in a Boolean context.
+#### 1. Falsy value : is a value that is considered false when encountered in a Boolean context
 
 | Falsy values                       |
 | ---------------------------------- |
@@ -99,9 +103,9 @@ false <= 0; // true
 | NAN : ( not a number)              |
 | Undefined : ( the primitive value) |
 | 0 : (The number zero)              |
-| Empty string : ( '' , "" , `` )    |
+| Empty string : (`''`,`""`,` `` `)  |
 
-2. Truthy value : All values are truthy unless they are defined as falsy.
+#### 2. Truthy value : All values are truthy unless they are defined as falsy
 
 <a href='#logical-operators' id='logical-operators'>
 
