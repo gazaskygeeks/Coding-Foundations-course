@@ -6,12 +6,6 @@ JavaScript has many types of operators and at this workshop we will discuss comp
 
 ## Comparison Operators </a>
 
-In JavaScript, there are two types of comparison operators:
-
-1- Strict comparison
-
-2- Type-converting comparison (or Abstract)
-
 Comparison operators are used to compare its operands and evaluate down to a single Boolean value of either `True` or `False`.
 
 Comparison operator is also called binary operator because it requires two operands, one before the operator and one after the operator so, we can say that the comparison operator compares its operands and returns a logical value based on whether the comparison is true.The operands can be numerical, string, logical, or object values.
@@ -20,7 +14,7 @@ Comparison operator is also called binary operator because it requires two opera
 
 `operand1` **operator** `operand2`
 
-### The tables below show the two type of the comparison operators
+### Comparison Operators have two types
 
 #### 1- Strict comparison
 
@@ -29,7 +23,7 @@ Comparison operator is also called binary operator because it requires two opera
 |   ===    |   Equal in value and type   | `1 === '1'` | false  |
 |   !==    | Not equal in value and type | `1 !== '1'` |  true  |
 
-#### 2- Type-converting comparison
+#### 2- Type-converting comparison (or Abstract)
 
 | Operator |       Description        | Example  | Result |
 | :------: | :----------------------: | :------: | :----: |
@@ -40,11 +34,11 @@ Comparison operator is also called binary operator because it requires two opera
 |    >=    | Greater than or equal to | `1 >= 1` |  true  |
 |    <=    |  Less than or equal to   | `2 <= 1` | false  |
 
-> ### Lets discuss them :
+> ### Lets discuss them:
 
 #### 1- A strict comparison is only true if the operands are of the same type and the contents match
 
-- Identity / strict equality (===)
+- Identity / strict equality (`===`)
   The identity operator returns true if the operands are strictly equal.
 
 ```javascript
@@ -52,7 +46,7 @@ Comparison operator is also called binary operator because it requires two opera
 2 === 2; // true
 ```
 
-- Non-identity / strict inequality (!==)
+- Non-identity / strict inequality (`!==`)
   The non-identity operator returns true if the operands are not equal and/or not of the same type.
 
 ```javascript
@@ -62,7 +56,7 @@ Comparison operator is also called binary operator because it requires two opera
 
 #### 2- The more commonly-used abstract comparison converts the operands to the same type before making the comparison
 
-- Equality (==)
+- Equality (`==`)
 
 ```javascript
 1 == 1; // true
@@ -72,7 +66,7 @@ Comparison operator is also called binary operator because it requires two opera
 0 == false; // true (false is converted to 0).
 ```
 
-- Inequality (!=)
+- Inequality (`!=`)
 
 ```javascript
 1 != 2; // true
@@ -119,7 +113,7 @@ Logical operators are typically used with Boolean (logical) values to return a B
 
 #### 1. `&&` (AND)
 
-The && operation returns the first falsy value or the last value if no falsy value is found.
+The `&&` operation returns the first falsy value or the last value if no falsy value is found.
 
 Example (1) :
 
@@ -153,7 +147,7 @@ console.log(f); // 0 last value
 
 #### 2. `||` (OR)
 
-The OR (||) operation returns the first truthy value or the last value if no truthy value is found.
+The OR (`||`) operation returns the first truthy value or the last value if no truthy value is found.
 
 ```javascript
 // Evaluates conditions from left to right.
@@ -170,7 +164,7 @@ console.log(c); // 2 : last value
 
 #### 3. `!` (Not)
 
-The not operation returns the inverse boolean value of the variable. It is a unary operation, so it operates on single operand.
+The not operation (`!`) returns the inverse boolean value of the variable. It is a unary operation, so it operates on single operand.
 
 ```javascript
 // Converts the operand value to a boolean.
@@ -182,7 +176,7 @@ var a = 1;
 
 ##### `!!` (Double NOT)
 
-The single ! converts a value to its truthy or falsely value, which is technically a boolean. But if you need to a real boolean representation of a value for your expression you must convert it to a real boolean value using a double not.
+The single `!` converts a value to its truthy or falsely value, which is technically a boolean. But if you need to a real boolean representation of a value for your expression you must convert it to a real boolean value using a double not `!!`.
 
 ```javascript
 Example (1) :
@@ -211,7 +205,7 @@ typeof !!v // boolean
 
 **[Click here for more explanation](https://levelup.gitconnected.com/secrets-of-logical-%EF%B8%8F-operator-in-javascript-98efbae5e8aa)**
 
-- #### Operator Precedence :
+- #### Operator Precedence:
 
 The below operations are listed based on operator precedence. i.e, ! is higher precedence and || is lower precedence.
 
@@ -240,9 +234,9 @@ In JavaScript we have the following conditional statements :
 
 **Lets discuss them:**
 
-### `if` statement
+### 1. `if` statement
 
-Use if to specify a block of code to be executed, if a specified condition is true.
+Use `if` to specify a block of code to be executed, if a specified condition is true.
 
 ```javascript
 // Syntax
@@ -261,9 +255,9 @@ if (time < 20) {
 }
 ```
 
-### `else`
+### 2. `else` statement
 
-Use else to specify a block of code to be executed, if the same condition is false.
+Use `else` to specify a block of code to be executed, if the same condition is false.
 
 ```javascript
 // Syntax
@@ -297,9 +291,9 @@ if (time < 20) {
 greeting = "Good evening";
 ```
 
-### `else if`
+### 3. `else if` statement
 
-Use else if to specify a new condition to test, if the first condition is false
+Use `else if` to specify a new condition to test, if the first condition is false
 
 ```javascript
 // Syntax
@@ -327,9 +321,9 @@ if (time < 10) {
 }
 ```
 
-### `switch`
+### 4. `switch` statement
 
-The switch statement executes a block of code depending on different cases. it evaluates an expression.The value of the expression is then compared with the values of each case in the structure. If there is a match, the associated block of code is executed.
+The `switch` statement executes a block of code depending on different cases. it evaluates an expression.The value of the expression is then compared with the values of each case in the structure. If there is a match, the associated block of code is executed.
 
 ```javascript
 // Syntax
@@ -347,7 +341,7 @@ switch (expression) {
 
 #### Switch features
 
-- The switch statement is often used together with a `break` or a `default` keyword (or both).
+- The `switch` statement is often used together with a `break` or a `default` keyword (or both).
 - The `break` keyword breaks out of the switch block. This will stop the execution of more execution of code
 - The `default` keyword specifies some code to run if there is no case match.
 
@@ -371,7 +365,7 @@ switch (a) {
 alert("Too large");
 ```
 
-- If break is omitted, the program continues execution at the next case in the switch statement.
+- If `break` is omitted, the program continues execution at the next case in the switch statement.
 
 ```javascript
 var foo = 0;
@@ -418,7 +412,7 @@ switch (foo) {
 // result : 0
 ```
 
-- If there is no break then the execution continues with the next cases without any checks.
+- If there is no `break` then the execution continues with the next cases without any checks.
 
 ```javascript
 var a = 2 + 2;
