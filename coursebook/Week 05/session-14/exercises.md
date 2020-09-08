@@ -14,15 +14,17 @@ Formula: `c = (f - 32) * (5 / 9)`
 
 ## Exercise 3
 
-Write a JavaScript function to compute the sum of all integers from 1 to a given integer.
+Write a JavaScript function to compute the product of all integers from 1 to a given positive integer.
+
+**Note:** In mathematics, this is called the factorial of a number an it's denoted by `n!` where `n` is a positive integer.
 
 ```js
 // Expected Outcomes:
-function findSum(int) {
+function findProduct(int) {
   // some code
 }
 
-findSum(3); // Returns: 6
-findSum(5); // Returns: 15
-findSum(8); // Return: 36
+findProduct(3); // Returns: 6 = 1 * 2 * 3
+findProduct(4); // Returns: 24
+findProduct(5); // Return: 120
 ```
