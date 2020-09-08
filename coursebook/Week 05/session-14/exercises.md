@@ -1,6 +1,6 @@
 # Exercises
 
-**Note:** you can use online editor to work on this question. [Repl.it](https://repl.it/) for example.
+**Note:** you can use online editor to work on the following exercises. [Repl.it](https://repl.it/) for example.
 
 ## Exercise 1
 
