@@ -2,6 +2,8 @@
 
 _Objects_, in JavaScript, it’s the most important data-type, and forms the building block for modern JavaScript. These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined, and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
 
+> Simply **_JavaScript Object_** is a collection of key-value pairs. Each key-value pair is called as a property.
+
 >
 
 - Objects are more complex and each object may contain any combination of these primitive data-types as well as object data-types.
@@ -108,11 +110,15 @@ console.log(school.'location') // SyntaxError: Unexpected string
 
 **The main differences between the two methods are**:
 
-Unlike the dot notation, the bracket keyword works with any string combination, including, but not limited to multi-word strings.
+Unlike the dot notation, the bracket keyword works with any string combination, including, but not limited to multi-word strings. Also if key is number we can't access value using dot notation.
 
 For example:
 
 ```javascript
+    // check school object above
+    console.log(school.20); // Gives error
+    console.log(school[20]); // Output: 1000
+
     somePerson.first name // invalid
     somePerson["first name"] // valid
 ```
