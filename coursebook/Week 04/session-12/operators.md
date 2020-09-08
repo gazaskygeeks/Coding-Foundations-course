@@ -330,7 +330,7 @@ Let’s emphasize that the equality check is always strict. The values must be o
 ```javascript
 // Syntax
 switch (expression) {
-  case x: // if (expression === 'value1')
+  case x: // if (expression === x)
     // code block
     break;
   case y:
