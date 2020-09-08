@@ -2,7 +2,7 @@
 
 - Define javaScript functions.
 - Explain why to use functions.
-- Explain how to declare and invoke functions.
+- Explain how to declare and call functions.
 - State the differences between function parameters and arguments.
+- Define the return statement.
 - Define function expression.
-- State the differences between console.log and return.
