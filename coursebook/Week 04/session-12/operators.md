@@ -325,10 +325,12 @@ if (time < 10) {
 
 The `switch` statement executes a block of code depending on different cases. it evaluates an expression.The value of the expression is then compared with the values of each case in the structure. If there is a match, the associated block of code is executed.
 
+Let’s emphasize that the equality check is always strict. The values must be of the same type to match.
+
 ```javascript
 // Syntax
 switch (expression) {
-  case x:
+  case x: // if (expression === 'value1')
     // code block
     break;
   case y:
@@ -346,7 +348,7 @@ switch (expression) {
 - The `default` keyword specifies some code to run if there is no case match.
 
 ```javascript
-let a = 5;
+let a = '5';
 switch (a) {
   case 3:
     alert('Too small');
@@ -362,7 +364,7 @@ switch (a) {
 }
 
 // result :
-alert('Too large');
+alert("I don't know such values");
 ```
 
 - If `break` is omitted, the program continues execution at the next case in the switch statement.
