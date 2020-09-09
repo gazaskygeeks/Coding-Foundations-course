@@ -6,7 +6,7 @@
 
 ______________________________________________________________________________________
 
-- Day 01 : Session 01 | Introduction to programming and web develpment
+- Day 01 : Session 01 | Introduction to programming and web development
 
 - Day 02 : Session 02 | Introduction to HTML
 
