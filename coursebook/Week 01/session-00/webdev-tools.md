@@ -21,7 +21,7 @@ A text editor is by far the most used developer tool regardless of what type of 
 - Text Editor: ([VSCode](https://code.visualstudio.com/download)) & [CodePen](https://codepen.io/) to edit and build web pages
 
 
-### Extentaion will need durign the course:
+### Extension will need during the course:
 - Live Server
 - GitLens
 - Prettier – Code formatter
