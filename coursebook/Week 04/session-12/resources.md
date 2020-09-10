@@ -1,13 +1,15 @@
 # Resources
 
-**Here , you will find useful resources for more explaination.**
+**Here , you will find useful resources for more explanation.**
 
-**Comparison operators**
+**Comparison Operators**
 
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators
 
-**Logical operators**
-* https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators
+**Logical Operators**
 
-**Conditional statement (switch)**
-* https://javascript.info/switch
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators
+
+**Conditional Statement (switch)**
+
+- https://javascript.info/switch

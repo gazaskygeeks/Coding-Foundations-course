@@ -1,29 +1,44 @@
-## Types of operators in javascript 
+# Types of Operators in JavaScript
+
 JavaScript has many types of operators and at this workshop we will discuss comparison and logical operators.
 
 ## <a href='#comparison-operators' id='comparison-operators'>
 
-## Comparison operators </a>
+## Comparison Operators </a>
 
-In JavaScript, comparison operators are used to compare values and evaluate down to a single Boolean value of either `True` or `False`.
+Comparison operators are used to compare its operands and evaluate down to a single Boolean value of either `True` or `False`.
 
 Comparison operator is also called binary operator because it requires two operands, one before the operator and one after the operator so, we can say that the comparison operator compares its operands and returns a logical value based on whether the comparison is true.The operands can be numerical, string, logical, or object values.
 
-- ##### General Syntax
-  `operand1 operator operand2`
+### General Syntax
 
-* ##### The table below shows Boolean comparison operators.
+`operand1` **operator** `operand2`
 
-![](https://www.miltonmarketing.com/wp-content/uploads/2018/04/javascriptcomparisonoperatorsimage041.jpg)
+### Comparison Operators have two types
 
-> #### Lets discuss them :
+#### 1- Strict comparison
 
-- ### Strict and type–converting comparisons.
-  JavaScript has both strict and type–converting comparisons which as follow :
+| Operator |         Description         |   Example   | Result |
+| :------: | :-------------------------: | :---------: | :----: |
+|   ===    |   Equal in value and type   | `1 === '1'` | false  |
+|   !==    | Not equal in value and type | `1 !== '1'` |  true  |
 
-1. ##### A strict comparison is only true if the operands are of the same type and the contents match.
+#### 2- Type-converting comparison (or Abstract)
 
-- Identity / strict equality (===)
+| Operator |       Description        | Example  | Result |
+| :------: | :----------------------: | :------: | :----: |
+|    ==    |         Equal to         |  `1==1`  |  true  |
+|    !=    |       Not equal to       | `1 != 2` |  true  |
+|    >     |       Greater than       | `1 > 2`  | false  |
+|    <     |        Less than         | `1 < 2`  |  true  |
+|    >=    | Greater than or equal to | `1 >= 1` |  true  |
+|    <=    |  Less than or equal to   | `2 <= 1` | false  |
+
+> ### Lets discuss them:
+
+#### 1- A strict comparison is only true if the operands are of the same type and the contents match
+
+- Identity / strict equality (`===`)
   The identity operator returns true if the operands are strictly equal.
 
 ```javascript
@@ -31,7 +46,7 @@ Comparison operator is also called binary operator because it requires two opera
 2 === 2; // true
 ```
 
-- Non-identity / strict inequality (!==)
+- Non-identity / strict inequality (`!==`)
   The non-identity operator returns true if the operands are not equal and/or not of the same type.
 
 ```javascript
@@ -39,9 +54,9 @@ Comparison operator is also called binary operator because it requires two opera
 3 !== 2; // true
 ```
 
-2. ##### The more commonly-used abstract comparison converts the operands to the same type before making the comparison.
+#### 2- The more commonly-used abstract comparison converts the operands to the same type before making the comparison
 
-- Equality (==)
+- Equality (`==`)
 
 ```javascript
 1 == 1; // true
@@ -51,14 +66,14 @@ Comparison operator is also called binary operator because it requires two opera
 0 == false; // true (false is converted to 0).
 ```
 
-- Inequality (!=)
+- Inequality (`!=`)
 
 ```javascript
 1 != 2; // true
 1 != '1'; // false
 ```
 
-3. ##### For relational abstract comparisons, the operands are first converted to primitives, then to the same type, before comparison.
+#### 3- For relational abstract comparisons, the operands are first converted to primitives, then to the same type, before comparison
 
 ```javascript
 4 > 3; // true
@@ -67,37 +82,38 @@ false <= 0; // true
 5 < 2; // false
 ```
 
-> Note : Keep this note until you start with JavaScript object sesstion but, just to know If an object (object isn't a primitive type) is compared with a number or string, JavaScript attempts to convert the object to a primitive value, a String or Number value.
+> Note : Keep this note until you start with JavaScript object session but, just to know If an object (object isn't a primitive type) is compared with a number or string, JavaScript attempts to convert the object to a primitive value, a String or Number value.
 
 **[Click to read more about comparison operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)**
 
-- ### Truthy values VS Falsy values
+### Truthy values VS Falsy values
 
-1.  Falsy value : is a value that is considered false when encountered in a Boolean context.
+#### 1. Falsy value : is a value that is considered false when encountered in a Boolean context
 
 | Falsy values                       |
 | ---------------------------------- |
 | False                              |
 | Null : (the absence of any value ) |
 | NAN : ( not a number)              |
-| Undefiend : ( the primitive value) |
+| Undefined : ( the primitive value) |
 | 0 : (The number zero)              |
-| Empty string : ( '' , "" , `` )    |
+| Empty string : (`''`,`""`,` `` `)  |
 
-2. Truthy value : All values are truthy unless they are defined as falsy.
+#### 2. Truthy value : All values are truthy unless they are defined as falsy
 
 <a href='#logical-operators' id='logical-operators'>
 
 ---
 
-## Logical operators </a>
+## Logical Operators </a>
 
 Logical operators are typically used with Boolean (logical) values to return a Boolean value.However, they actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they will return a non-Boolean value.
 
-- ### There are three logical operators in JavaScript :
+### There are three logical operators in JavaScript
 
-  **1.** **&& (AND)**
-  The && operation returns the first falsy value or the last value if no falsy value is found.
+#### 1. `&&` (AND)
+
+The `&&` operation returns the first falsy value or the last value if no falsy value is found.
 
 Example (1) :
 
@@ -129,8 +145,9 @@ var f = a && b && c;
 console.log(f); // 0 last value
 ```
 
-**2.** **|| (OR)**
-The OR (||) operation returns the first truthy value or the last value if no truthy value is found.
+#### 2. `||` (OR)
+
+The OR (`||`) operation returns the first truthy value or the last value if no truthy value is found.
 
 ```javascript
 // Evaluates conditions from left to right.
@@ -145,8 +162,9 @@ c = b || a;
 console.log(c); // 2 : last value
 ```
 
-**3.** **! (Not)**
-The not operation returns the inverse boolean value of the variable. It is a unary operation, so it operates on single operand.
+#### 3. `!` (Not)
+
+The not operation (`!`) returns the inverse boolean value of the variable. It is a unary operation, so it operates on single operand.
 
 ```javascript
 // Converts the operand value to a boolean.
@@ -156,19 +174,19 @@ var a = 1;
 !a; // return false
 ```
 
-**4.** **!! (Double NOT)**
+##### `!!` (Double NOT)
 
-The single ! converts a value to its truthy or falsey value, which is technically a boolean. But if you need to a real boolean representation of a value for your expression you must convert it to a real boolean value using a double not.
+The single `!` converts a value to its truthy or falsely value, which is technically a boolean. But if you need to a real boolean representation of a value for your expression you must convert it to a real boolean value using a double not `!!`.
 
 ```javascript
-Example (1) : 
+Example (1) :
 
 var a = 1;
 
 !!a; // return true
 __________________________________________________
 
-Example(2) : 
+Example(2) :
 
 let v = 0;
 
@@ -185,25 +203,27 @@ v ? true : false  //equals true
 typeof !!v // boolean
 ```
 
-**[Click here for more explaination](https://levelup.gitconnected.com/secrets-of-logical-%EF%B8%8F-operator-in-javascript-98efbae5e8aa)**
+**[Click here for more explanation](https://levelup.gitconnected.com/secrets-of-logical-%EF%B8%8F-operator-in-javascript-98efbae5e8aa)**
 
-- ### Operator precedence :
+- #### Operator Precedence:
 
 The below operations are listed based on operator precedence. i.e, ! is higher precedence and || is lower precedence.
 
-**1. ! (NOT)**
-**2. && (AND)**
-**3. || (OR)**
+1. `!` (NOT)
+
+2. `&&` (AND)
+
+3. `||` (OR)
 
 ```javascript
 true || (false && false); // returns true, because && is executed first
 ```
 
-**[Click here for more explaination](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)**
+**[Click here for more explanation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)**
 
 ---
 
-## <a href='#conditional-statements' id='conditional-statements'>Conditional statements</a>
+## <a href='#conditional-statements' id='conditional-statements'>Conditional Statements</a>
 
 In JavaScript we have the following conditional statements :
 
@@ -214,15 +234,18 @@ In JavaScript we have the following conditional statements :
 
 **Lets discuss them:**
 
-**1. if statement**
-Use if to specify a block of code to be executed, if a specified condition is true.
+### 1. `if` statement
+
+Use `if` to specify a block of code to be executed, if a specified condition is true.
 
 ```javascript
+// Syntax
 if (condition) {
   // block of code to be executed if the condition is true
 }
 
 ---
+// Example:
 If the time is less than 20:00, create a "Good day" greeting.
 
 var time = 10;
@@ -232,10 +255,12 @@ if (time < 20) {
 }
 ```
 
-**2. else**
-Use else to specify a block of code to be executed, if the same condition is false.
+### 2. `else` statement
+
+Use `else` to specify a block of code to be executed, if the same condition is false.
 
 ```javascript
+// Syntax
 if (condition) {
   // block of code to be executed if the condition is true
 } else {
@@ -243,6 +268,7 @@ if (condition) {
 }
 
 ---
+// Example:
 // If the time is less than 20:00, create a "Good day" greeting, otherwise "Good evening".
 
 var time = 22;
@@ -254,10 +280,23 @@ if (time < 20) {
 }
 ```
 
-**3. else if**
-Use else if to specify a new condition to test, if the first condition is false
+what will happened if we wrote `greeting = "Good evening";` without `else` like this?
 
 ```javascript
+var time = 22;
+var greeting;
+if (time < 20) {
+  greeting = "Good day";
+}
+greeting = "Good evening";
+```
+
+### 3. `else if` statement
+
+Use `else if` to specify a new condition to test, if the first condition is false
+
+```javascript
+// Syntax
 if (condition1) {
   // block of code to be executed if condition1 is true
 } else if (condition2) {
@@ -265,8 +304,10 @@ if (condition1) {
 } else {
   // block of code to be executed if the condition1 is false and condition2 is false
 }
+// Conditions order is important here!
 
 ---
+// Example:
 // If time is less than 10:00, create a "Good morning" greeting, if not, but time is less than 20:00, create a "Good day" greeting, otherwise a "Good evening".
 
 var time = 23;
@@ -280,14 +321,16 @@ if (time < 10) {
 }
 ```
 
-**4. switch**
-The switch statement executes a block of code depending on different cases. it evaluates an expression.The value of the expression is then compared with the values of each case in the structure. If there is a match, the associated block of code is executed.
+### 4. `switch` statement
 
-**Syntax**
+The `switch` statement executes a block of code depending on different cases. it evaluates an expression.The value of the expression is then compared with the values of each case in the structure. If there is a match, the associated block of code is executed.
+
+Let’s emphasize that the equality check is always strict. The values must be of the same type to match.
 
 ```javascript
+// Syntax
 switch (expression) {
-  case x:
+  case x: // if (expression === x)
     // code block
     break;
   case y:
@@ -298,14 +341,14 @@ switch (expression) {
 }
 ```
 
-**Switch features :**
+#### Switch features
 
-- The switch statement is often used together with a `break` or a `default` keyword (or both).
+- The `switch` statement is often used together with a `break` or a `default` keyword (or both).
 - The `break` keyword breaks out of the switch block. This will stop the execution of more execution of code
 - The `default` keyword specifies some code to run if there is no case match.
 
 ```javascript
-let a = 5;
+let a = '5';
 switch (a) {
   case 3:
     alert('Too small');
@@ -320,10 +363,11 @@ switch (a) {
     alert("I don't know such values");
 }
 
-// result : Too large.
+// result :
+alert("I don't know such values");
 ```
 
-- If break is omitted, the program continues execution at the next case in the switch statement.
+- If `break` is omitted, the program continues execution at the next case in the switch statement.
 
 ```javascript
 var foo = 0;
@@ -370,7 +414,7 @@ switch (foo) {
 // result : 0
 ```
 
-- If there is no break then the execution continues with the next cases without any checks.
+- If there is no `break` then the execution continues with the next cases without any checks.
 
 ```javascript
 var a = 2 + 2;
@@ -415,7 +459,6 @@ switch (foo) {
 
 **[Click here for more examples](https://javascript.info/switch)**
 
-**When should you use switch instead of if/else statments ?** 
+#### When should you use switch instead of if/else statements?
 
-
-switch is the perfect solution for long, nested if/else statements.
+switch is the perfect solution for long, nested if/else statements (cleaner syntax). [read more about this](https://www.geeksforgeeks.org/switch-vs-else/)
