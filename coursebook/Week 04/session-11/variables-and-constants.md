@@ -23,7 +23,7 @@ Let's assume that we have a person called `Ali` and his age is `30` and we want 
 1. First, we write down one of the three ***keywords*** `var`, `let`, or `const`.
 
 1. Then, we define the ***name*** of the variable which is `age` in our case.
-   > 💡 You can name your variable whatever name you want
+   > 💡 You can name your variable whatever name you want but we need to follow a few rules mentioned below
 
 1. Then to assign a value to a variable we use the single assignment operator `=` .
 
@@ -98,7 +98,7 @@ JavaScript has only a few rules for variable names:
   
   > `myName` and `myname` are two different variables
 
-* Variable name ***must*** start with a letter or an underscore(_) and you can't use numbers as the first character.
+* Variable name ***must*** start with a letter, an underscore(_), or a dollar sign($) and you can't use numbers as the first character.
 
 * Variable name must not contain symbols, spaces or any other punctuation marks.
 
@@ -115,7 +115,7 @@ let name;
 let apple3;
 let interestRate;
 let _age;
-let my$age;
+let $myage;
 
 //Invalid
 let 3amel; // started with a number
@@ -136,5 +136,5 @@ let favFootballTeam;
 
 ## Final words about `let` and `const`
 
-`let` and `const` were introduced with the release of ECMAScript 2015, commonly known as ES6. So you are highly likely to see legacy applications that don't contain `let` and `const`.
+`let` and `const` were introduced with the release of ECMAScript 2015, commonly known as ES6. So you are highly likely to see old applications that don't contain `let` and `const`.
 
