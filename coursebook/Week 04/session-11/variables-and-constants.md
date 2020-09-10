@@ -94,15 +94,15 @@ Nowadays it is "recommended" to use let and const instead of var(we will see why
 ### Rules for Naming Variables
 JavaScript has only a few rules for variable names:
 
-* The first character ***must*** be a letter or an underscore (_). You can't use a number as the first character.
+* Variable names are case sensitive:
+  
+  > `myName` and `myname` are two different variables
 
-* The rest of the variable name can include any letter, any number, or the underscore. You can't use any other characters, including spaces, symbols, and punctuation marks.
+* Variable name ***must*** start with a letter or an underscore(_) and you can't use numbers as the first character.
 
-* As with the rest of JavaScript, variable names are case sensitive. That is, a variable named `Interest_Rate` is treated as an entirely different variable than one named `interest_rate`.
+* Variable name must not contain symbols, spaces or any other punctuation marks.
 
-* There's no limit to the length of the variable name.
-
-* You can't use one of JavaScript's **reserved words** as a variable name. All programming languages have a supply of words that are used internally by the language and that can't be used for variable names because doing so would cause confusion (or worse). Note, too, that JavaScript also has many **keywords** that should be avoided as well.
+* You can't use one of JavaScript's **reserved words** as a variable name.
 
 Examples
 
@@ -114,20 +114,24 @@ let B = 10;
 let name;
 let apple3;
 let interestRate;
+let _age;
+let my$age;
 
 //Invalid
-let 3amel; // started with number
+let 3amel; // started with a number
 let interest-rate; // dash (-)
+let my name;
+let my'name;
 
 ```
 
-* Also some of the best practices in naming variable in javascript is to follow the [camelCase](https://en.wikipedia.org/wiki/Naming_convention_(programming)) convention
+* Also, one of the best practices in naming variables in javascript is to follow the [camelCase](https://en.wikipedia.org/wiki/Naming_convention_(programming)) convention
 
 Examples
 
 ```js
 let myPlayer;
-let faveFootballTeam;
+let favFootballTeam;
 ```
 
 ## Final words about `let` and `const`
