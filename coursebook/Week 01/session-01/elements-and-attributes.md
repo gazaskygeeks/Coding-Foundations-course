@@ -38,9 +38,9 @@ To use or apply any of these formats on any text you need to just **wrap it** be
 ---
 
 
-> In the following section, you will be introduced to some common HTML elements and we suggest that you try these elements on your own in a **CodePen** 
+#### In the following section, you will be introduced to some common HTML elements and we suggest that you try these elements on your own in a **CodePen** 
 
-## Links
+### Links
 Ever come across a link on a webpage that took you to another one. these links are HTML links made using the `<a>` tag. In order for this tag to know where it should take the user when they click it, we have to give it an `href` attribute.
 
 **Example**
@@ -56,7 +56,7 @@ Ever come across a link on a webpage that took you to another one. these links a
 
 - [Explaining the noreferrer and noopener in the link tag](https://blog.templatetoaster.com/noopener-noreferrer/)
 
-## Images
+### Images
 In today’s modern digital world, images are everything. The `<img>` tag has everything you need to display images on your site.
 
 In order for the image tag to display the image we need to provide it with the path to the image which can be a path for it on your device or a link from the web
@@ -70,7 +70,7 @@ In order for the image tag to display the image we need to provide it with the p
 <img src="https://images.unsplash.com/photo-1558495122-89ba11e1f697?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80" alt="some image" />
 
 
-## Lists
+### Lists
 We can create different types of lists in HTML and these two are the most common used:
 
 ### Ordered List
@@ -116,7 +116,7 @@ The second type of list that you may wish to include is an `<ul>` unordered list
     <li>List </li>
 </ul>
 
-## Tables
+### Tables
 When drawing a table we must open an element with the `<table>` opening tag. Inside this tag, we structure the table using the table rows, `<tr>`, and cells, `<td>`.
 
 **An example of an HTML table is as follows**:
