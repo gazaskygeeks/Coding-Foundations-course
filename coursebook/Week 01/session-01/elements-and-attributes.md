@@ -46,13 +46,13 @@ Ever come across a link on a webpage that took you to another one. these links a
 **Example**
 
 ```html
-<a href="www.google.com">Click Me</a>
+<a href="http://www.google.com">Go To Google!</a>
 ```
 **Can you guess where the link would take the user?** As you may have guessed when the user clicks this link he will be directed to **Google** page
 
 **The expected output**:
 
-<a href="www.google.com" target="_blank" rel="noreferrer noopener">Click Me</a>
+<a  href="http://www.google.com" target="_blank" rel="noreferrer noopener">Go To Google!</a>
 
 - [Explaining the noreferrer and noopener in the link tag](https://blog.templatetoaster.com/noopener-noreferrer/)
 
