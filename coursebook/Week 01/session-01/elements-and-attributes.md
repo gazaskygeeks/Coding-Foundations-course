@@ -1,5 +1,5 @@
 ## Formatting Page Content with HTML
-We know now that we can add text to our HTML page using the `<p>` but how can we format this text in HTML
+We know now that we can add text to our HTML page  by using the `<p>` but how can we format this text in HTML
 
 There are many ways of doing that but we will do it using some HTML elements:
 
