@@ -86,17 +86,6 @@ There are mistakes in your HTML and the browser has fixed them for you. you leav
 If we make inspect on this page in the browser (ctrl+shift+I) we will see that:
 ![Selection_006](https://user-images.githubusercontent.com/55782435/92839529-bc940180-f3e8-11ea-8066-c155f6b7b8a4.png)
 
-### Example
-
-The standard DOM specifies that the `getElementsByTagName` method in the code below must return a list of all the `<p>` elements in the document:
-
-```js
-const paragraphs = document.getElementsByTagName("p");
-// paragraphs[0] is the first <p> element
-// paragraphs[1] is the second <p> element, etc.
-alert(paragraphs[0].nodeName);
-```
-
 All of the properties, methods, and events available for manipulating and creating web pages are organized into **objects** (for example, the `document object` that represents the document itself, the `table` object that implements the special [HTMLTableElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement) DOM interface for accessing HTML tables, and so on).
 
 ## Characteristic of DOM
@@ -165,26 +154,18 @@ The Document object has a ton of properties and methods. There are some methods 
 * **getElementsByTagName(tag_name)**: returns all the elements having the given ***tag*** name.
 * **getElementsByClassName(class_name)**: returns all the elements having the given ***class*** name.
 
-### Example
+#### Example
 
-```html
-<Table> 
-   <ROWS> 
-      <TR> 
-         <TD>Car</TD> 
-         <TD>Scooter</TD> 
-      </TR> 
-      <TR> 
-         <TD>MotorBike</TD> 
-         <TD>Bus</TD> 
-      </TR> 
-   </ROWS> 
-</Table> 
+The standard DOM specifies that the `getElementsByTagName` method in the code below must return a list of all the `<p>` elements in the document:
+
+```js
+const paragraphs = document.getElementsByTagName("p");
+// paragraphs[0] is the first <p> element
+// paragraphs[1] is the second <p> element, etc.
+alert(paragraphs[0].nodeName);
 ```
 
-![DOM_table_example](https://user-images.githubusercontent.com/29041512/79683904-1297bb00-8236-11ea-88c2-9e2d52b4e73c.png)
-
-## DOM and JavaScript 
+## DOM and JavaScript
 
 In the **first example** above, like nearly all of the examples in this session, is **JavaScript**. That is to say, it's written in **JavaScript**, but it uses the **DOM** to access the document and its elements. The **DOM** is not a programming language, but without it, the JavaScript language wouldn't have any model or notion of web pages, HTML documents, XML documents, and their component parts (e.g. elements). Every element in a document—the document as a whole, the head, tables within the document, table headers, text within the table cells—is part of the document object model for that document, so they can all be accessed and manipulated using the DOM and a scripting language like JavaScript.   
 
