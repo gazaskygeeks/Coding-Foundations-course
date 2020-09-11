@@ -12,8 +12,6 @@ A **Markup Language** is a way that computers speak to each other to control how
 
 **The latest version is known as HTML5.**
 
-Read more: https://html.com/#ixzz6DGtsrDHr
-
 
 ### HTML Elements:
 As we mentioned in the previous paragraph, **HTML Elements** are the building blocks of a webpage. An HTML element is a **start tag** and an **end tag** with content in between.
