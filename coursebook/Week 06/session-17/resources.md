@@ -1,4 +1,4 @@
-# Resources 
+# Resources
 
 - [Introduction to the DOM](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)
 - [Introduction to the DOM](https://www.digitalocean.com/community/tutorials/introduction-to-the-dom)

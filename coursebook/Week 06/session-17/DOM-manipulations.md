@@ -1,4 +1,4 @@
-# DOM Manipulations 
+# DOM Manipulations
 
 As a web developer, you frequently need to manipulate the DOM, the object model that is used by browsers to specify the logical structure of web pages, and based on this structure to render HTML elements on the screen.
 
@@ -6,8 +6,8 @@ HTML defines the default DOM structure. However in many cases you may want to ma
 
 ![dom-tree](https://user-images.githubusercontent.com/29041512/79688580-d2e1cb00-8257-11ea-9f7f-4596d76d3dce.jpg)
 
-
 ## JavaScript Methods For DOM Manipulation
+
 There are many **JavaScript methods** that **aid DOM manipulation**. You’d likely use these methods frequently in your code
 
 ### 1- [querySelector()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
@@ -18,28 +18,41 @@ Before `querySelector()` was introduced, developers widely used the `getElementB
 
 Although `getElementById()` is still a useful method, but with the newer querySelector() and querySelectorAll() methods we are free to **target elements based on any CSS selector**, thus we have more flexibility.
 
-#### Syntax 
+#### Syntax
+
 ```js
-var ele = document.querySelector(selector);
+var element = document.querySelector(selector);
 ```
-* `ele` – First matching element or `null` (if no element matches the selectors).   
+
+* `element` – First matching element or `null` (if no element matches the selectors).
 * `selector` – one or more CSS selectors, such as `"#fooId"`, `".fooClassName"`, `".class1.class2"`, or `".class1, .class2"`.
 
 #### Code Example
 In this example, the first `<div>` gets selected with the `querySelector()` method and its color is changed to red.
 
 ##### HTML
+
 ```html
-<p>paragraph one</p>
-<p>paragraph two</p>
-<div>div one</div>
-<p>paragraph three</p>
-<div>div two</div>
+  <p>paragraph one</p>
+  <p>paragraph two</p>
+  <div>div one</div>
+  <p>paragraph three</p>
+  <div class="first">div two</div>
+  <div id="second">div three</div>
 ```
+
 ##### Javascript
+
 ```js
 var firstDiv = document.querySelector('div');
-firstDiv.style.color = 'red';
+firstDiv.textContent; // div one
+firstDiv.style.color = 'red'; // this will change its color to red
+
+var secondDiv = document.querySelector('.first');
+secondDiv.textContent; // div two
+
+var thirdDiv = document.querySelector('#second');
+thirdDiv.textContent; // div three
 ```
 
 ### 2- [querySelectorAll()](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
@@ -48,28 +61,35 @@ Unlike `querySelector()` that returns only the first instance of all matching el
 
 The matching elements are returned as a `NodeList` object that will be an empty object if no matching elements are found.
 
-#### Syntax 
+####  Syntax
+
 ```js
-var eles = document.querySelectorAll(selector);
+var elements = document.querySelectorAll(selector);
 ```
-* `eles` – A `NodeList` object with all matching elements as property values. The object is empty if no matches are found.
+
+* `elements` – A `NodeList` object with all matching elements as property values.
 * `selector` – one or more CSS selectors, such as `"#fooId"`, `".fooClassName"`, `".class1.class2"`, or `".class1, .class2"`.
 
 #### Code Example
+
 The example below uses the same HTML as the previous one. However, in this example, all paragraphs are selected with `querySelectorAll()`, and are colored blue.
 
 ##### HTML
+
 ```html
-<p>paragraph one</p>
-<p>paragraph two</p>
-<div>div one</div>
-<p>paragraph three</p>
-<div>div two</div>
+  <p>paragraph one</p>
+  <p>paragraph two</p>
+  <div>div one</div>
+  <p>paragraph three</p>
+  <div class="first">div two</div>
+  <div id="second">div three</div>
 ```
+
 ##### Javascript
+
 ```js
 var paragraphs = document.querySelectorAll('p');
-for(var p of paragraphs)
+for(var p of paragraphs) // to make loop on paragraphs
   p.style.color = 'blue';
 ```
 
@@ -81,70 +101,83 @@ for(var p of paragraphs)
 
 If `foo()` is a custom function, you can register it **as a click event listener** (call it when the button element is clicked) in three ways:
 
-1- **HTML** 
-```html 
+1- **HTML**
+
+```html
 <button onclick=foo()>Alert</button>
 ```
-2- **Javascript**
+
+2- **Javascript** - first way
+
 ```js
 var btn = document.querySelector('button');
 btn.onclick=foo;
 ```
-3- **Javascript**
+
+3- **Javascript** - second way
+
 ```js
 var btn = document.querySelector('button');
 btn.addEventListener('click', foo);
 ```
+
 The method `addEventListener()` (the third solution) has **some pros** ; it is the latest standard – allowing the assignment of more than one function as event listeners to one event – and comes with a useful set of options.
 
-#### Syntax 
+#### Syntax
 
 ```js
-ele.addEventListener(evt, listener, [options]);
+element.addEventListener(event, listener, [options]);
 ```
-* `ele` – The HTML element the event listener will be listening for.   
-* `evt` – The targeted event.   
-* `listener` – Typically, a JavaScript function.    
+
+* `element` – The HTML element the event listener will be listening for.
+* `event` – The targeted event.
+* `listener` – Typically, a JavaScript function.
 * `options` – (optional) An object with a set of boolean properties (listed below).
 
 | Options       | What happens, when it is set to true? |
-| ------------- |:-------------------------------------:| 
-| `capture`    | Stops event bubbling, i.e. prevents calling of any event listeners for the same event type in the element’s ancestors. To use this feature, you can use 2 syntaxes: <br/>`ele.addEventListener(evt, listener, true);` <br/>`ele.addEventListener(evt, listener, {capture:true});` |
+| ------------- |:-------------------------------------:|
+| `capture`    | Stops event bubbling, i.e. prevents calling of any event listeners for the same event type in the element’s ancestors. To use this feature, you can use 2 syntaxes: <br/>`element.addEventListener(event, listener, true);` <br/>`element.addEventListener(event, listener, {capture:true});` |
 | `once`    | Listener is called only the first time the event happens, then it is automatically detached from the event, and won’t be triggered by it anymore.  |
 | `passive`    | The default action of the event cannot be stopped with the `preventDefault()` method. |
 
 #### Code Example
 
 ##### HTML
+
 ```html
 <button>Click Me</button>
-``` 
+```
 
 ##### Javascript 
+
 ```js
 var btn = document.querySelector('button');
 btn.addEventListener('click',foo);
 function foo() { alert('hello'); }
 ```
+
 ### 4- [createElement()](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
 
 The `createElement()` method **creates a new HTML element** using the **name of the HTML tag** to be created, such as `'p'` or `'div'`.
 
-You can later add this element to the web page by using different **methods for DOM insertion**, such as `AppendChild()` [see later in this session].
+You can later add this element to the web page by using different **methods for DOM insertion**, such as `AppendChild()` [see later in this session](https://github.com/gazaskygeeks/Fundamentals-course/blob/week6-session17-review/coursebook/Week%2006/session-17/DOM-manipulations.md#5--appendchild).
 
 #### Syntax
 
 ```js
 document.createElement(tagName);
 ```
+
 * `tagName` – **The name of the HTML tag you want to create**.
 
 #### Code Example
+
 With the following example, you can create a new paragraph element:
 
 ```js
-var pEle = document.createElement('p')
+var pElement = document.createElement('p')
 ```
+
 ### 5- [appendChild()](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
 
 The `appendChild()` method **adds an element as the last child** to the HTML element that invokes this method.
@@ -154,45 +187,57 @@ The child to be inserted can be either a **newly created element**, or an **alre
 #### Syntax
 
 ```js
-ele.appendChild(childEle)
+element.appendChild(childElement)
 ```
-* `ele` – The HTML element to which `childEle` is added as its last child.
-* `childEle` – The HTML element added as the last child of `ele`.
+
+* `element` – The HTML element to which `childElement` is added as its last child.
+* `childElement` – The HTML element added as the last child of `element`.
 
 #### Code Example
+
 In this example, we insert a `<strong>` element is as the child of a `<div>` element using the `appendChild()` and the aforementioned `createElement()` methods.
 
 ##### HTML
+
 ```html
 <div></div>
 ```
 
 ##### Javascript
+
 ```js
 var div = document.querySelector('div');
 var strong = document.createElement('strong');
 strong.textContent = 'Hello';
 div.appendChild(strong);
 ```
+
 ### 6- [setAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
+
 The `setAttribute()` method either **adds a new attribute** to an HTML element, or **updates the value** of an attribute that already exists.
 
 #### Syntax
+
 ```js
-ele.setAttribute(name, value);
-``` 
-* `ele` – The HTML element to which an attribute is added, or of which attribute is updated.
+element.setAttribute(name, value);
+```
+
+* `element` – The HTML element to which an attribute is added, or of which attribute is updated.
 * `name` – The name of the attribute.
 * `value` – The value of the attribute.
 
 #### Code Example
+
 In this example, we add the `contenteditable` attribute to a `<div>` by making use of the `setAttribute()` method, which will turn its content editable.
 
 ##### HTML
-```html 
+
+```html
 <div>hello</div>
 ```
+
 #### Javascript
+
 ```js
 var div = document.querySelector('div');
 div.setAttribute('contenteditable', '')
@@ -203,64 +248,76 @@ div.setAttribute('contenteditable', '')
 The `getAttribute()` method **returns the value of a specified attribute** belonging to a certain HTML element.
 
 #### Syntax
+
 ```js
-ele.getAttribute(name);
+element.getAttribute(name);
 ```
 
-* `ele` – The HTML element of which attribute is requested.    
-* `name` – The name of the attribute.    
+* `element` – The HTML element of which attribute is requested.
+* `name` – The name of the attribute.
 
 #### Code Example
+
 In this example, we alert the value of the `contenteditable` attribute belonging to the `<div>` element with the help of the `getAttribute()` method.
 
 ##### HTML
+
 ```html
 <div contenteditable=true>hello</div>
 ```
+
 ##### Javascript
 
 ```JavaScript
 var div = document.querySelector('div');
-alert(div.getAttribute('contenteditable'));
+alert(div.getAttribute('contenteditable')); // true
 ```
 
-### 8- [removeAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute) 
+### 8- [removeAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute)
 
 The `removeAttribute()` method **removes a given attribute** of a specific HTML element.
 
 #### Syntax
-```js
-ele.removeAttribute(name);
-``` 
 
-* `ele` – The HTML element of which attribute is to be removed.
+```js
+element.removeAttribute(name);
+```
+
+* `element` – The HTML element of which attribute is to be removed.
 * `name` – The name of the attribute.
 
 #### Code Example
+
 In this example, we remove the `contenteditable` attribute from the `<div>` element. As a result, the `<div>` won’t be editable any more.
 
 ##### HTML
+
 ```html
 <div contenteditable=true>hello</div>
 ```
+
 ##### JavaScript
+
 ```js
 var div = document.querySelector('div');
 div.removeAttribute('contenteditable');
 ```
-### Adding CSS styles 
+
+### Adding CSS styles
+
 CSS rules can be applied like any other property; note though that the properties are camel-cased in JavaScript:
 
 ```js
 myElement.style.marginLeft = '2em'
 ```
-If we want certain values, we can obtain these via the `.style` property. However, this will only give us styles that have been explicitly applied. To get the computed values, we can use, `.window.getComputedStyle()`. It takes the element and returns a [CSSStyleDeclaration](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration) containing all styles from the element itself as well as those inherited from its parents:
+
+If we want certain values, we can obtain these via the `.style` property. However, this will only give us styles that have been explicitly applied. To get the computed values, we can use, `window.getComputedStyle()`. It takes the element and returns a [CSSStyleDeclaration](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration) containing all styles from the element itself as well as those inherited from its parents:
 
 ```js
 window.getComputedStyle(myElement).getPropertyValue('margin-left')
 ```
 
-### Element properties 
+### Element properties
 
 Every element also has the properties `.innerHTML` and `.textContent` (as well as `.innerText` , which is similar to `.textContent`, but has some [important differences](http://perfectionkills.com/the-poor-misunderstood-innerText/) ). These hold the HTML and plain text content respectively. They are writable properties, meaning we can modify elements and their contents directly:
 
@@ -281,7 +338,8 @@ myElement.innerHTML += `
   <a href="foo.html">continue reading...</a>
   <hr/>
 `
-``` 
+```
+
 Appending markup to the HTML, as shown above, is usually **a bad idea though**, as we’d lose any previously made property changes on the affected elements and bound event listeners. Setting the `.innerHTML` is good for completely throwing away markup and replacing it with something else, e.g. server-rendered markup. So appending elements would better be done like so:
 
 ```js
@@ -295,15 +353,18 @@ myElement.appendChild(link)
 myElement.appendChild(hr)
 ```
 
-**Difference between using `createTextNode with appendChild` vs `textContent`**:    
+**Difference between using `createTextNode with appendChild` vs `textContent`**:
 
-If you have a `span` and you want to change its text , what do you think is better to use ?    
+If you have a `span` and you want to change its text , what do you think is better to use ?
 1-  **createTextNode with appendChild**
+
 ```js
 var my_text = document.createTextNode('Hello!');
-span.appendChild(my_text); 
+span.appendChild(my_text);
 ```
+
 2- **textContent**
+
 ```js
 span.textContent = 'hello';
 ```
@@ -315,16 +376,19 @@ so it is useful if you want to have a new element and place it somewhere.
 * `textContent` is a ***property*** you may get or set, with a unique statement and nothing else;
 so it is useful when you **only want to change the content** of an already existing element.
 
-**Now** in this case, you want to **change the text** of the element:     
-So if your `span` looks like this 
+**Now** in this case, you want to **change the text** of the element:
+So if your `span` looks like this
 
-```html 
+```html
 <span>Original text</span>
 ```
+
 and you used `createTextNode` then it will end with:
+
 ```html
 <span>Original textHello!</span>
-```    
-because you **appended your textNode**. 
+```
 
-So you should use `textContent` in this case. 
+because you **appended your textNode**.
+
+So you should use `textContent` in this case.

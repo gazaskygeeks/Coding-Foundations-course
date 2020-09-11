@@ -1,10 +1,11 @@
-# DOM Exercises 
+# DOM Exercises
 
-**Note**: you can copy the codes to any editor to work on it. [codepen](https://codepen.io/pen/) for example.
+**Note**: you can copy the codes to any editor to work on it. [CodePen](https://codepen.io/pen/) for example.
 
-### Exercises 01
+## Exercises 01
+
   ------------
-Modify the style of the paragraph text in the following HTML File through javascript code. 
+Modify the style of the paragraph text in the following HTML File through javascript code.
 By Clicking on the `button` the font, font size, background color and text color of the paragraph text will be changed.
 
 ***Sample HTML file***
@@ -15,9 +16,9 @@ By Clicking on the `button` the font, font size, background color and text color
 <head>
   <meta charset=utf-8 />
   <title>JS DOM paragraph style</title>
-</head> 
+</head>
 <body>
-  <p id ='text'>JavaScript Exercises - women crash course</p> 
+  <p id ='text'>JavaScript Exercises - women crash course</p>
   <div>
     <button id="changeStyle" onclick="changeStyle()">Style</button>
   </div>
@@ -25,13 +26,14 @@ By Clicking on the `button` the font, font size, background color and text color
 </html>
 ```
 
-### Exercises 02
+## Exercises 02
+
   ------------
 Write a JavaScript function to get the value of the href, hreflang, rel, target, and type attributes of the specified link.
 
 ***Sample HTML file***
 
-```html 
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -46,13 +48,13 @@ Write a JavaScript function to get the value of the href, hreflang, rel, target,
 </html>
 ```
 
-### Exercises 03
+## Exercises 03
 
  Write a JavaScript program to calculate the volume of a sphere.
 
 ![volume-sphere-html-form](https://user-images.githubusercontent.com/29041512/80140792-297d3b00-85b1-11ea-923a-edb7c3cdb7e8.png)
 
-**Note : sphere_volume = (4/3) * Math.PI * Math.pow(radius, 3);**
+**Note : sphere_volume = (4/3) * Math.PI * Math.pow(radius, 3);** (`V = 4/3 πr³`)
 
 ***Sample HTML file***
 
@@ -62,9 +64,9 @@ Write a JavaScript function to get the value of the href, hreflang, rel, target,
 <head>
   <meta charset="utf-8">
   <title>Volume of a Sphere</title>
-  <style> 
+  <style>
     body{padding-top:30px;}
-    label,input{display:block;} 
+    label,input{display:block;}
   </style>
 </head>
 <body>
@@ -72,11 +74,11 @@ Write a JavaScript function to get the value of the href, hreflang, rel, target,
   <form method="post" id="MyForm">
        <label for="radius">Radius</label>
        <input type="text" name="radius" id="radius" required>
-    
+
        <label for="volume">Volume</label>
        <input type="text" name="volume" id="volume">
 
-       <input type="submit" value="Calculate" id="submit">   
+       <input type="submit" value="Calculate" id="submit">
     </form>
 </body>
 </html>
