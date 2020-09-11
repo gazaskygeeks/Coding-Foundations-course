@@ -87,6 +87,7 @@ If we make inspect on this page in the browser (ctrl+shift+I) we will see that:
 ![Selection_006](https://user-images.githubusercontent.com/55782435/92839529-bc940180-f3e8-11ea-8066-c155f6b7b8a4.png)
 
 ### Example
+
 The standard DOM specifies that the `getElementsByTagName` method in the code below must return a list of all the `<p>` elements in the document:
 
 ```js
@@ -95,29 +96,40 @@ const paragraphs = document.getElementsByTagName("p");
 // paragraphs[1] is the second <p> element, etc.
 alert(paragraphs[0].nodeName);
 ```
+
 All of the properties, methods, and events available for manipulating and creating web pages are organized into **objects** (for example, the `document object` that represents the document itself, the `table` object that implements the special [HTMLTableElement](https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement) DOM interface for accessing HTML tables, and so on).
 
-## Properties of DOM
-Let’s see the properties of **document object** that can be accessed and modified by the document object.
+## Characteristic of DOM
+
+now we will talk about some dom objects and its methods  and properties, In general, methods represent actions and properties represent data.
 
 ![DOM](https://user-images.githubusercontent.com/29041512/79683673-496cd180-8234-11ea-94c8-73ba7c79d2db.png)
 
-1- **Window Object**: Window Object is at always at top of hierarchy.   
-2- **Document Object**: When HTML document is loaded into a window, it becomes a document object.   
-3- **Form Object**: It is represented by ***form*** tags.   
-4- **Link Objects**: It is represented by ***link*** tags.    
-5- **Anchor Objects**: It is represented by a ***a*** tags.    
-6- **Form Control Elements**: Form can have many control elements such as text fields, buttons, radio buttons, and checkboxes, etc.    
+1- **Window Object**: Window Object is at always at top of hierarchy it also has other objects not only the document.
 
+2- **Document Object**: When HTML document is loaded into a window, it becomes a document object.
 
-### The Window object 
+3- **Form Object**: It is represented by ***form*** tags.
+
+4- **Link Objects**: It is represented by ***link*** tags.
+
+5- **Anchor Objects**: It is represented by a ***a*** tags.
+
+6- **Form Control Elements**: Form can have many control elements such as text fields, buttons, radio buttons, and checkboxes, etc.
+
+### The Window object
+
 The `window` object represents the window that contains the DOM document.
 
 `window.document` points to the `document` object loaded in the window.
 
-Properties and methods of this object can be called without referencing `window` explicitly, because it represents the global object. So, the previous property `window.document` is usually called **just document**.
+Properties and methods of this object can be called without referencing `window` explicitly, because it represents the global object. So, the previous property `window.document` is usually called **just** `document`.
 
-#### Properties: 
+For example if we write this in our console, the results are the same
+![Selection_007](https://user-images.githubusercontent.com/55782435/92928730-31e2ef00-f448-11ea-9184-72dbad1eaa6b.png)
+
+#### Window Properties
+
 Here is a list of useful properties you will likely reference a lot:
 
 * **console** : points to the `browser debugging console`. Useful to print error messages or logging, using `console.log`, `console.error` and other tools.
@@ -127,7 +139,8 @@ Here is a list of useful properties you will likely reference a lot:
 * **localStorage** : is a reference to the Web Storage API `localStorage` object.
 * **sessionStorage** : is a reference to the Web Storage API `sessionStorage` object.
 
-#### Methods:
+#### Window Methods
+
 The `window` object also exposes useful methods:
 
 * **alert()**: which you can use to `display alert dialogs`.
@@ -139,18 +152,18 @@ The `window` object also exposes useful methods:
 * **scroll()**: `Scrolls` the window to a particular place in the document.
 * **close()**: `Closes` the current window.
 
-### Methods of Document Object: 
+### The Document object
 
-The Document object has a ton of properties and methods. There are some methods that  you’ll likely use the most, especially **Selectors API** methods : 
+The Document object has a ton of properties and methods. There are some methods that  you’ll likely use the most, especially **Selectors API** methods :
 
 * **write(“string”)**: writes the given ***string*** on the document. ([Why is document.write considered a “bad practice”?](https://stackoverflow.com/a/802943))
-* **writeln(“string”)**: identical to the document.write() method with the addition of writing a newline character after each statement. 
-* **querySelector()**:  returns a ***single element***, the first found. 
+* **writeln(“string”)**: identical to the document.write() method with the addition of writing a newline character after each statement.
+* **querySelector()**:  returns a ***single element***, the first found.
 * **querySelectorAll()**:  returns ***all the elements***, wrapped in a NodeList object.
-* **getElementById(id)**: returns the element having the given ***id value***.    
-* **getElementsByName(name)**: returns all the elements having the given ***name value***.   
-* **getElementsByTagName(tag_name)**: returns all the elements having the given ***tag*** name.    
-* **getElementsByClassName(class_name)**: returns all the elements having the given ***class*** name.   
+* **getElementById(id)**: returns the element having the given ***id value***.
+* **getElementsByName(name)**: returns all the elements having the given ***name value***.
+* **getElementsByTagName(tag_name)**: returns all the elements having the given ***tag*** name.
+* **getElementsByClassName(class_name)**: returns all the elements having the given ***class*** name.
 
 ### Example
 
