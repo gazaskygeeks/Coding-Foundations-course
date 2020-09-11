@@ -8,9 +8,9 @@ HTML was first created by Tim Berners-Lee, Robert Cailliau, and others.
 
 **Hypertext** it's mean that you can move around the web by clicking on special text called hyperlinks which bring you to the next page, which hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
 
-**The latest version is known as HTML5.**
-
 A **Markup Language** is a way that computers speak to each other to control how text is processed and presented. To do this HTML uses two things: tags and attributes
+
+**The latest version is known as HTML5.**
 
 Read more: https://html.com/#ixzz6DGtsrDHr
 
@@ -114,6 +114,6 @@ Here are the tags that pretty much any HTML page should have:
 
 
 
-![](https://i.imgur.com/cWDj15R.jpg)
+![](https://www.oreilly.com/library/view/learning-web-design/9781449337513/httpatomoreillycomsourceoreillyimages2257981.png)
 
 This is how your average HTML page is structured visually.
