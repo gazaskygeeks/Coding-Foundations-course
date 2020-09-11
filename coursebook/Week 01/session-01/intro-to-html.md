@@ -88,7 +88,7 @@ When a web page is loaded, the browser creates a **D**ocument **O**bject **M**od
 
 **The HTML DOM model is constructed as a tree of Objects:**
 
-![image of the dom](https://www.w3schools.com/js/pic_htmltree.gif)
+![image of the dom](https://cf.ppt-online.org/files/slide/l/lG6hjyFR8carDYH7oVAtPW3exEOg0sSpQ1JKfm/slide-4.jpg)
 
 From W3school https://www.w3schools.com/js/js_htmldom.asp
 
