@@ -1,23 +1,90 @@
-# Introduction To DOM 
+# Introduction To DOM
 
 **DOM** stands for **Document Object Model**. This model is a tree like hierarchical representation of HTML or XML element structures providing a way to access each element in the document. This **programming interface** is a representation of the page so that you can write scripts that can manipulate and change the styles, content and even structure of the page. The document is presented as objects and nodes that make it easier for scripting languages to connect to them.
 
-Almost any time a website performs an action, such as rotating between a slideshow of images, displaying an error when a user attempts to submit an incomplete form, or toggling a navigation menu, it is the result of JavaScript accessing and manipulating the DOM. 
+Almost any time a website performs an action, such as rotating between a slideshow of images, displaying an error when a user attempts to submit an incomplete form, or toggling a navigation menu, it is the result of JavaScript accessing and manipulating the DOM.
 
-## What is the DOM? 
+## What is the DOM
 
 At the most basic level, a website consists of an HTML document. The browser that you use to view the website is a program that interprets HTML and CSS and renders the style, content, and structure into the page that you see.
 
-In addition to parsing the style and structure of the HTML and CSS, the browser creates a representation of the document known as the **Document Object Model**. 
+In addition to parsing the style and structure of the HTML and CSS, the browser creates a representation of the document known as the **Document Object Model**.
 
-## Why called as Object Model ?
+## Why called as Object Model
 
 **Documents are modeled using objects**, and the model includes not only the structure of a document but also the behavior of a document and the objects of which it is composed of like tag elements with attributes in HTML.
 
 This **model** allows JavaScript to access the text content and elements of the website **document** as **objects**.
 
-The **DOM model** is created as a tree of objects like this:
-![javascript8_1](https://user-images.githubusercontent.com/29041512/79685338-ba19eb00-8240-11ea-9c78-beaaaa727dae.png)
+## Lets Understand The DOM From Practical Side
+
+### What happened in the browser behind the scenes
+
+#### 1- The browser receive the html page like this
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction To DOM</title>
+  </head>
+  <body>
+    <h1>DOM session</h1>
+  </body>
+</html>
+```
+
+#### 2- Based on this source code the browser "draw" a tree of **objects** (DOM)
+
+![1](https://user-images.githubusercontent.com/55782435/92835107-83a55e00-f3e3-11ea-854c-57ec5fc8ab2f.png)
+
+> JavaScript can deal with this because it is a tree of **objects**
+
+#### 3- Then the page will render like this in the browser
+
+![4](https://user-images.githubusercontent.com/55782435/92837577-6b830e00-f3e6-11ea-91d1-a51318042704.png)
+
+Currently, with this example, it seems that HTML source code and the DOM are the exact same thing. There are two instances in which the browser-generated DOM will be different than HTML source code:
+
+1- The DOM is modified by client-side JavaScript
+
+2- The browser automatically fixes errors in the source code
+
+let take an example on the second case (we will see later examples on the first one)
+
+We have this html code
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introduction To DOM</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>From</th>
+        <th>contact</th>
+      </tr>
+      <tr>
+        <td>Fundamentals-course</td>
+        <td>GSG</td>
+        <td>Mohammed</td>
+      </tr>
+    </table>
+  </body>
+</html>
+```
+
+There are mistakes in your HTML and the browser has fixed them for you. you leave out the required `<tbody>` element. The browser will just insert that `<tbody>` for you. It will be there in the DOM, so you’ll be able to find it with JavaScript and style it with CSS, even though it’s not in your HTML.
+
+If we make inspect on this page in the browser (ctrl+shift+I) we will see that:
+![Selection_006](https://user-images.githubusercontent.com/55782435/92839529-bc940180-f3e8-11ea-8066-c155f6b7b8a4.png)
 
 ### Example
 The standard DOM specifies that the `getElementsByTagName` method in the code below must return a list of all the `<p>` elements in the document:
