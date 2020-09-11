@@ -1,17 +1,21 @@
-## What is HTML?
-HTML stands for **H**yper **T**ext **M**arkup **L**anguage, HTML is the **standard markup** language for Web pages and HTML elements are the building blocks of HTML pages.
+### What is HTML?
 
-### The History of HTML
-HTML was first created by Tim Berners-Lee, Robert Cailliau, and others starting in 1989.
+(Hypertext Markup Language) is not **a programming language**. It is a markup language that tells web browsers how to structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to be.
+ 
+### The History of HTML: 
 
-**Hypertext** means that the document contains links that allow the reader to jump to other places in the document or to another document altogether. The latest version is known as HTML5.
+HTML was first created by Tim Berners-Lee, Robert Cailliau, and others.
+
+**Hypertext** it's mean that you can move around the web by clicking on special text called hyperlinks which bring you to the next page, which hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
+
+**The latest version is known as HTML5.**
 
 A **Markup Language** is a way that computers speak to each other to control how text is processed and presented. To do this HTML uses two things: tags and attributes
 
 Read more: https://html.com/#ixzz6DGtsrDHr
 
 
-## HTML Elements
+### HTML Elements:
 As we mentioned in the previous paragraph, **HTML Elements** are the building blocks of a webpage. An HTML element is a **start tag** and an **end tag** with content in between.
 
 ```html
@@ -37,7 +41,7 @@ This is an example of an HTML element which represents a big heading as you can 
 - A text span, denoted using the `<span>` tag
 
 
-## HTML Attributes
+### HTML Attributes
 HTML elements can have attributes, **Attributes** provide additional information about the element, Attributes come in **name/value pairs** like **lang="ar"**
 
 
@@ -81,7 +85,7 @@ https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes
 
 
 
-## The HTML DOM
+### JavaScript HTML DOM
 When a web page is loaded, the browser creates a **D**ocument **O**bject **M**odel of the page. With the HTML DOM, **JavaScript** can access and change all the elements of an HTML document.
 
 **The HTML DOM model is constructed as a tree of Objects:**
@@ -93,7 +97,7 @@ From W3school https://www.w3schools.com/js/js_htmldom.asp
 We will learn more about the HTML DOM later in the course but its good to know what is it from now.
 
 
-## Basic HTML Structure For Web Page 
+### Basic HTML Structure For Web Page 
 Here are the tags that pretty much any HTML page should have:
 
 - `<!DOCTYPE html>`: This tag specifies the language you will write on the page. In this case, the language is HTML 5.
@@ -101,6 +105,10 @@ Here are the tags that pretty much any HTML page should have:
 - `<html>`: This tag signals that from here on we are going to write in HTML code.
 
 - `<head>`: This is where all the metadata for the page goes — stuff mostly meant for search engines and other computer programs.
+
+- `<meta>` - This is a tag for providing metadata (data about our data) to the page. We can use meta tags to display what character set we are using or for SEO (Search Engine Optimization) purposes.
+
+- `<title>` - This tag gives the page a title that can be displayed in the tab of your browser.
 
 - `<body>`: This is where the content of the page goes.
 
