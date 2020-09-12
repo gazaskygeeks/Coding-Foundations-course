@@ -108,6 +108,8 @@ now we will talk about some dom objects and its methods  and properties, In gene
 
 ### The Window object
 
+![window-document](https://mdn.mozillademos.org/files/16587/dom-structure.svg)
+
 The `window` object represents the window that contains the DOM document.
 
 `window.document` points to the `document` object loaded in the window.
