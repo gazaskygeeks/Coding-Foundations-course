@@ -26,13 +26,13 @@ And you will make an another copy, every time you add new feature. And this will
 
 ![](https://i.imgur.com/gpXIREQ.png)
 
-After a while, the project became bigger, and sometimes you forget to create a new folder and after all it will be many folders and didn’t know which one is working good and has the specific feature that you want.
+After a while, the project became bigger, and sometimes you forget to create a new folder and after all it will be many folders and you will not know which one is working perfect and has the specific feature that you want.
 You will waste time and effort to know which one.
 
 ![Alt Text](https://media.giphy.com/media/108KUzjTMEp2gw/giphy.gif)
 
 
-#### So, the soultion is
+### So, the soultion is
  version control system
 ## What is version control system (VCS)?
 Version control, also known as revision control or source control, is the management of changes to documents, computer programs, large websites, and other collections of information. Each revision is associated with a timestamp and the person making the change. Revisions can be compared, restored, and with some types of files, merged.[1]
