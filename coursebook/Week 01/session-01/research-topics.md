@@ -3,7 +3,6 @@ These topics will help you understand today's workshop better and be well prepar
 
 - Images in HTML
 - Links in Web pages
-- Semantic HTML
 - Emmet.
 
-Good luck! and I hope these were helpful to you
+Good luck! and I hope these were helpful to you.
