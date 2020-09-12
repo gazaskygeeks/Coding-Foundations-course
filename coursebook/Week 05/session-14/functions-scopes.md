@@ -1,151 +1,151 @@
-# Function scopes
+# JavaScript Scope
 
 ## What is Scope?
-**Scope** determines the **visibility or accessibility** of a variable or other resource in the area of your code.
+
+**Scope** determines the visibility or accessibility of a variable or other resource in the area of your code. Scope refers to what the execution context of a particular piece of code is. One of the most important things this context determines is what variables are available to that piece of code.
+
+In ES5 JavaScript, scope is exclusively delimited by functions. In ES6 JavaScript, block-scoping has been introduced via the `let` and `const` keywords. Both these things will be explained further on.
 
 ## Global Scope
-There's only **one Global scope** in the JavaScript document. The area **outside** all the functions is consider the global scope and the variables defined inside the global scope can be accessed and altered in any other scopes.
 
-### Example:
+There's only one **global** scope in the JavaScript document. The area **outside** all the functions is consider the global scope and the variables defined inside the global scope can be accessed and altered in any other scopes.
 
-```javascript 
-//global scope
-let fruit = 'apple'
-console.log(fruit);        //apple
+```javascript
+// global scope
+let fruit = "apple";
+console.log(fruit); // Logs: apple
 
-function getFruit(){
-    console.log(fruit);    //fruit is accessible here
+function getFruit() {
+  console.log(fruit); // Logs: apple
+  return fruit;
 }
 
-getFruit();                //apple
+getFruit(); // Returns: apple
 ```
 
 ## Local Scope
-Variables declared **inside the functions** become **Local** to the function and are considered in the corresponding **local scope**. **Every Functions has its own scope**. Same variable can be used in different functions because they are bound to the respective functions and are not mutual visible.
 
-### Example: 
+Variables that are usable only in a specific part of your code are considered to be in a local scope. These variables are also called local variables.
 
-```javascript 
-//global scope
-function foo1(){
-    //local scope 1
-    function foo2(){
-        //local scope 2
-    }
+In JavaScript, there are two kinds of local scope: function scope and block scope.
+
+### Function Scope
+
+When you declare a variable in a function, you can access this variable only within that function. You can’t get this variable once you get out of it.
+
+```js
+// global scope (scope A)
+var x = 5; // I'm globally scoped, I'm available everywhere
+
+function addFive() {
+  // local scope (scope B)
+  var y = 5; // y is now available in scope B, but not scope A
+  var plusFive = x + y; // x is available in scope B, because it was defined in global scope
+  return a + b;
 }
 
-//global scope
-function foo3(){
-    //local scope 3
-}
-
-//global scope
+console.log(addFive()); // Returns: 10
+console.log(x); // Logs: 5
+console.log(y); // ReferenceError
 ```
 
-**Local scope** can be divided into **function scope and block scope**. The concept of block scope is introduced in ECMA script 6 (ES6) together with the new ways to declare variables -- const and let.
+### Block Scope
 
-### Function Scope 
-Whenever you **declare a variable in a function**, the variable is **visible only within the function**. You can't access it outside the function. `var` is the keyword to define variable for a function-scope accessibility.
-
-### Example:
+A **block scope** is the area within `if statement`, `switch conditions` or `for` and `while loops`. Generally speaking, whenever you see **{curly brackets}**, it is a **block**. Block scoping was introduced to JavaScript via the `let` and `const` keywords, which are used to declare variables in the same way as `var`. The difference (in terms of scoping at least) is that while variables declared with `var` are available within the function in which they're defined, variables defined with `let` and `const` are only available within the block they're defined in:
 
 ```javascript
-function foo(){
-    var fruit ='apple';
-    console.log('inside function: ',fruit);
+// global scope
+
+var bar = "bar";
+
+if (true) {
+  // local block scope A
+  let pam = bar + "pam"; // Value: barpam
+  const j = 0;
+  var k = 12;
 }
 
-foo();                    //inside function: apple
-console.log(fruit);       //error: fruit is not defined
+for (let i = 0; i < 10; i++) {
+  // local block scope B
+  console.log(i); // Logs: 0 1 2 3 ... 9 (a number in each iteration)
+
+  console.log(j); // ReferenceError
+  console.log(pam); // ReferenceError
+}
+
+console.log(k); // Logs: 12
+console.log(pam); // ReferenceError
+console.log(i); // ReferenceError
+console.log(j); // ReferenceError
 ```
 
-### Block Scope 
+So, lets add one more difference between `var`, `let` and `const`:
 
-A **block scope** is the area within **if, switch conditions or for and while loops**. Generally speaking, whenever you see **{curly brackets}, it is a block**. In **ES6**, `const` and `let` keywords allow developers to declare variables in the **block scope**, which means those variables exist only within the corresponding block.
+- Variables declared with `var` are function-scoped.
+- Variables declared with `let` or `const` are block-scoped.
 
-### Example:
+## Lexical Scope
 
-```javascript 
-function foo(){
-    if(true){
-        var fruit1 = 'apple';        //exist in function scope
-        const fruit2 = 'banana';     //exist in block scope
-        let fruit3 = 'strawberry';   //exist in block scope
-
-    }
-    console.log(fruit1);
-    console.log(fruit2);
-    console.log(fruit3);
-}
-
-foo();
-//result:
-//apple
-//error: fruit2 is not defined
-//error: fruit3 is not defined
-```
-## Lexical Scope 
-Another point to mention is the lexical scope. **Lexical scope** means the children scope have the access to the variables defined in the parent scope. The children functions are lexically bound to the execution context of their parents.
-
-### Example:
+Another point to mention is the lexical scope. **Lexical scope** means the children scope has the access to the variables defined in the parent scope.
 
 ```javascript
-function foo1(){
-    var fruit1 = 'apple';        
-    const fruit2 = 'banana';     
-    let fruit3 = 'strawberry';
-    function foo2(){
-        console.log(fruit1);
-        console.log(fruit2);
-        console.log(fruit3);
-    }
-    foo2();
-}
-
-foo1();
-
-//result:
-//apple
-//banana
-//strawberry
-
-``` 
-## Nested Scopes 
-
-**Variables** defined **inside** a function **cannot be accessed** from anywhere **outside** the function, because the variable is **defined only in the scope of the function**. However, a function can access all variables and functions defined inside the scope in which it is defined.
-
-In other words, a **function** defined in the **global scope** can access all **variables** defined in the **global scope**. A **function defined inside another function** can also access all variables defined in its **parent function**, and any other variables to which the parent function has access.
-
-### Example:
-
-```javascript
-// These variables are defined in the global scope
-let num1 = 20,
-    num2 = 3,
-    name = 'John';
-
-// This function is defined in the global scope
-function multiply() {
-  return num1 * num2;
-}
-
-multiply(); // Returns 60
-
-// A nested function example
-function getScore() {
-  let num1 = 2,
-      num2 = 3;
-  
-  function add() {
-    return name + ' scored ' + (num1 + num2);
+function foo1() {
+  // local scope (A)
+  var fruit1 = "apple";
+  const fruit2 = "banana";
+  let fruit3 = "strawberry";
+  function foo2() {
+    // local scope (B) has access to its parent scope (A)
+    console.log(fruit1); // Logs: apple
+    console.log(fruit2); // Logs: banana
+    console.log(fruit3); // Logs: strawberry
+    return fruit1 + " " + fruit2 + " " + fruit3;
   }
-  
-  return add();
+  return foo2();
 }
 
-getScore(); // Returns "John scored 5"
+foo1(); // Can you know the result ?
 ```
+
+## Nested Scopes
+
+Variables defined inside a function **cannot be accessed** from anywhere **outside** the function, because the variable is defined only in the scope of the function. However, a function can access all variables and functions defined inside its scope and inside its parent scope.
+
+More formally, each function has access to its own local scope, and also the scope of the function that encloses it (or global scope, if there is no enclosing function).
+
+```javascript
+// global scope (scope A)
+const a = "a";
+
+function bar() {
+  // local scope (scope B)
+  // Has access to: scope B and scope A
+  const b = "b";
+
+  function pam() {
+    // local scope (scope C)
+    // Has access to: scope C, scope B and scope A
+    const c = "c";
+    if (true) {
+      // local block scope (scope D)
+      // Has access to: scope D, scope C, scope B and scope A
+      const d = "d";
+      return d + c + b + a;
+    }
+  }
+
+  return pam();
+}
+
+console.log(a); // a
+console.log(bar()); // can you guess the result ?
+console.log(a); // ReferenceError
+console.log(b); // ReferenceError
+console.log(c); // ReferenceError
+```
+
 ## Exercise :
-solve the question in this [link](https://leetcode.com/problems/reverse-only-letters/ )    
-**Note:** 
+
+solve the question in this [link](https://leetcode.com/problems/reverse-only-letters/)  
+**Note:**
 don't forget to change the language to `javascript` before you start.
