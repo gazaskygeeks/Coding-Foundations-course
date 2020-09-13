@@ -88,10 +88,13 @@ Function **arguments** are the real values passed to (and received by) the funct
 // This will execute the function's code each time for the provided argument
 
 function sayMyName(name) {
-  console.log("My name is" + name);
+  console.log("My name is " + name);
 }
 
+// Here, the argument "Heisenberg" is the value of the parameter name
 sayMyName("Heisenberg"); // Logs: My name is Heisenberg
+
+// Here, the argument "Turing" is the value of the parameter name
 sayMyName("Turing"); // Logs: Mu name is Turing
 ```
 
