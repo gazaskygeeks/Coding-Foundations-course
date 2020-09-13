@@ -73,7 +73,7 @@ The HTML **`<form>`** tag is used to create an HTML form and it has following sy
 | target | Specify the target window or frame where the result of the script will be displayed. It takes values like _blank, _self, _parent etc.  |
 | enctype | You can use the enctype attribute to specify how the browser encodes the data before it sends it to the server. Possible values are **application/x-www-form-urlencoded** − This is the standard method most forms use in simple scenarios.**mutlipart/form-data** − This is used when you want to upload binary data in the form of files like image, word file etc.  |
 
-### HTML Form Elements
+#### HTML Form Elements
 *The **`<label>`** tag defines a label for several elements:*
     
 ```html
@@ -101,5 +101,12 @@ The HTML **`<form>`** tag is used to create an HTML form and it has following sy
 <input type="week">
 ```
 *Note*:The default value of the type attribute is **"text"**.
+
+**Proper use of labels with the elements above will benefit: from *w3schools***
+ - Screen reader users (will read out loud the label, when the user is focused on the element)
+- Users who have difficulty clicking on very small regions (such as checkboxes) - because when a user clicks the text within the `<label>` element, it toggles the input (this increases the hit area). 
+
+#### Tips and Notes
+*Tip*: The **for** attribute of `<label>` must be equal to the **id** attribute of the related element to bind them together. A label can also be bound to an element by placing the element inside the `<label>` element. 
 
 
