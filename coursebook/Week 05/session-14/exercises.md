@@ -16,7 +16,7 @@ Formula: `c = (f - 32) * (5 / 9)`
 
 Write a JavaScript function to compute the product of all integers from 1 to a given positive integer.
 
-**Note:** In mathematics, this is called the factorial of a number an it's denoted by `n!` where `n` is a positive integer.
+**Note:** In mathematics, this is called the factorial of a number and it's denoted by `n!` where `n` is a positive integer.
 
 ```js
 // Expected Outcomes:
