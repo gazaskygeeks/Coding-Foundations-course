@@ -2,11 +2,11 @@
 
 These are some of the basic tools you will use regularly. You may not know what they are now, but you most certainly will going forward.
 
-## What is my browser?
+### What is my browser?
 
 A browser is software that is used to access the internet. A browser lets you visit websites and do activities within them like login, view multimedia, link from one site to another, visit one page from another, print, send and receive email, among many other activities. The most common browser software titles on the market are: Microsoft Internet Explorer, Google's Chrome, Mozilla Firefox, Apple's Safari, and Opera. Browser availability depends on the operating system your computer is using (for example: Microsoft Windows, Linux, Ubuntu, Mac OS, among others).
 
-## What does my browser do?
+### What does my browser do?
 
 When you type a web page address such as www.allaboutcookies.org into your browser, that web page in its entirety is not actually stored on a server ready and waiting to be delivered. In fact each web page that you request is individually created in response to your request.
 
@@ -14,20 +14,20 @@ You are actually calling up a list of requests to get content from various resou
 
 - Browser: ([Google Chrome](https://www.google.com/chrome/)) for viewing and navigating websites
 
-## What is Text editor?
+### What is Text editor?
 
 A text editor is by far the most used developer tool regardless of what type of developer you are. A good text editor can help you write better code with real-time code checking, syntax highlighting, and automatic formatting.
 
 - Text Editor: ([VSCode](https://code.visualstudio.com/download)) & [CodePen](https://codepen.io/) to edit and build web pages
 
 
-### Extentaion will need durign the course:
+### Extension will need during the course:
 - Live Server
 - GitLens
 - Prettier – Code formatter
 - Open on browser
 
-## What is Github?
+### What is Github?
 GitHub is a for-profit company that offers a cloud-based Git repository hosting service. Essentially, it makes it a lot easier for individuals and teams to use Git for version control and collaboration.
 
 - [GitHub](https://github.com/) 
