@@ -45,11 +45,13 @@ Elements such as `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, and `
 
 - #### It has greater accessibility. (screen readers also find semantic elements easier to understand)
 
+![](https://v1c2v4d1fl-flywheel.netdna-ssl.com/wp-content/uploads/2017/08/semantic-fb.jpg)
+
 ### Lets look at these 2 snippets of html:
 
 - This block of code does not use semantic elements
 
-```
+```html
 <div id="header"></div>
 <div class="section">
 	<div class="article">
@@ -64,7 +66,7 @@ Elements such as `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, and `
 
 - And this block of code uses semantic elements:
 
-```
+```html
 <header></header>
 <section>
 	<article>
