@@ -51,3 +51,19 @@ The HTML `<table>` element represents tabular data — that is, information pres
     </tfoot>
 </table>
 ```
+### Building HTML Forms
+
+**HTML Forms** are required, when you want to collect some data from the site visitor. *For example*, during user registration you would like to collect information such as name, email address, credit card, etc.
+
+From **MDN**:
+>HTML Forms are one of the main points of interaction between a user and a web site or application. They allow users to send data to the web site. Most of the time that data is sent to the web server, but the web page can also intercept it to use it on its own.
+
+>An HTML Form is made of one or more widgets. Those widgets can be text fields (single line or multi line), select boxes, buttons, check boxes, or radio buttons. Most of the time, those widgets are paired with a label that describes their purpose.
+
+The HTML **`<form>`** tag is used to create an HTML form and it has following syntax −
+```html
+<form action = "Script URL" method = "GET|POST">
+   form elements like input, textarea etc.
+</form>
+```
+
