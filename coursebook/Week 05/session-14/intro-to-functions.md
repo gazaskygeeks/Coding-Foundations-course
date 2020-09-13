@@ -136,7 +136,7 @@ function findProduct(a, b) {
   return a * b; // Function returns the product of a and b
 }
 
-var product = findProduct(5, 3); // Function is called, return value will end up in product
+let product = findProduct(5, 3); // Function is called, return value will end up in product
 console.log(product); // Logs: 15
 ```
 
@@ -146,11 +146,11 @@ If we do not return anything from a function, it will return undefined.
 /* This function takes two parameters, calculate their sum then logs it BUT it doesn't have a return statement.
 Even though it logs the sum, it returns undefined */
 function findSum(a, b) {
-  var sum = a + b;
+  let sum = a + b;
   console.log(sum);
 }
 
-var result = findSum(5, 7); // Logs: 12
+let result = findSum(5, 7); // Logs: 12
 console.log(result); // Logs: undefined
 ```
 
@@ -172,7 +172,7 @@ printNumber(); // Logs: one
 A JavaScript function can also be defined using an **expression**. A function expression can be stored in a variable.
 
 ```js
-var x = function (a, b) {
+let x = function (a, b) {
   return a * b;
 };
 ```
@@ -180,11 +180,11 @@ var x = function (a, b) {
 After a function expression has been stored in a variable, the variable can be used as a function. Functions stored in variables do not need function names. They are always called using the variable name.
 
 ```js
-var findSquare = function (num) {
+let findSquare = function (num) {
   return num * num;
 };
 
-var squareOfTwo = findSquare(2); // Result: 4
+let squareOfTwo = findSquare(2); // Result: 4
 ```
 
 **Note:** With function expression, the function name can be omitted.
