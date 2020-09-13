@@ -1,4 +1,4 @@
-# <span style="color: #34495e">Session 3: CSS-01</span>
+## Session 3: CSS-01
 
 
 - [Learning Outcomes](./learning-outcomes.md)
