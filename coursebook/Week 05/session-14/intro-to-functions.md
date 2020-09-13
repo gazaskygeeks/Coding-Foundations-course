@@ -16,7 +16,7 @@ function name() {
 }
 ```
 
-**Note:** Function names can contain letters, digits, underscores, and dollar signs (same rules as variables).
+**Note:** Function names can contain letters, digits, underscores, and dollar signs (same rules as variables) written in camel case. In addition, it's a best practice to actually tell what the function is doing by giving the function name a verb as prefix. This verb as prefix can be anything (e.g. get, fetch, push, apply, calculate, compute, post). It's a soft rule to consider for having more self-descriptive JavaScript functions.
 
 Let's write our first function.
 
@@ -45,18 +45,18 @@ Once the function is defined, JavaScript allows us to call it as many times as w
 
 ```js
 // We want to keep saying that Javascript is fun, let's declare a function to do it!
-function jsIsFun() {
+function printJsIsFun() {
   console.log("JavaScript is FUN!");
 }
 
 // Calling the function
-jsIsFun(); // Logs: JavaScript is FUN!
+printJsIsFun(); // Logs: JavaScript is FUN!
 
 // Calling the function again
-jsIsFun(); // Logs: JavaScript is FUN!
+printJsIsFun(); // Logs: JavaScript is FUN!
 
 // And again
-jsIsFun(); // Logs: JavaScript is FUN!
+printJsIsFun(); // Logs: JavaScript is FUN!
 ```
 
 ## Function Parameters
@@ -103,11 +103,11 @@ When calling a function, we must provide the arguments in the same order in whic
 
 ```js
 // This function takes in two parameters: name and age
-function person(name, age) {
+function printPersonDetails(name, age) {
   console.log(name + "is" + age + " years old.");
 }
 
-person("Mark", 27); // Logs: Mark is 27 years old.
+printPersonDetails("Mark", 27); // Logs: Mark is 27 years old.
 ```
 
 **Note:** JavaScript functions do not check the number of arguments received. If a function is called with missing arguments (fewer than declared), the missing values are set to `undefined`.
