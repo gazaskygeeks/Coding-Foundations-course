@@ -259,4 +259,23 @@ The <input> type "image" is used to represent a submit button in the form of ima
  </body>  
 </html>  
 ```
+____________________________________________________________________________________________________________
+#### Exercise:
+**Create a Register Form**
+- Username 
+- Emai
+- Password 
+- repassword
+- which is Favorite actor? *using radio type input*
+    1.Will Smith
+    2.Tom Hanks
+    3.Johnny Depp
+- Favorite Programming Language(s) Ruby *using checkbox type input*
+   1.JavaScript
+   2.Python
+   3.Go
+- Additional Comments 
+- Button
+
+
 
