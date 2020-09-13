@@ -66,4 +66,9 @@ The HTML **`<form>`** tag is used to create an HTML form and it has following sy
    form elements like input, textarea etc.
 </form>
 ```
-
+| Attribute  | Description |
+| ------------- | ------------- |
+| action  | Backend script ready to process your passed data. |
+| method  | Method to be used to upload data. The most frequently used are GET and POST methods.  |
+| target | Specify the target window or frame where the result of the script will be displayed. It takes values like _blank, _self, _parent etc.  |
+| enctype | You can use the enctype attribute to specify how the browser encodes the data before it sends it to the server. Possible values are **application/x-www-form-urlencoded** − This is the standard method most forms use in simple scenarios.**mutlipart/form-data** − This is used when you want to upload binary data in the form of files like image, word file etc.  |
