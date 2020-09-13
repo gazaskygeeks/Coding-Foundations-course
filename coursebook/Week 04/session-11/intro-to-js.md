@@ -76,3 +76,43 @@ This is a better practice, especially when your HTML and JavaScript files get lo
 alert('Coming to you from test.js!');
 ```
 
+## Comments in JavaScripts: 
+We can use comments to stop a line of code from running and we have two ways:
+1. Using `//` to stop one line of code
+
+```js
+// alert(1);
+console.log(2);
+```
+Only `2` will show up because we stopped alert from working.
+
+2. Using `/* */` to stop multiple lines from working.
+
+```js
+/*
+console.log(1);
+console.log(2);
+*/
+
+console.log(4);
+
+```
+
+Only `4` will be printed.
+
+**Note:** we can use bot of types of comments inside the same file.
+
+```js
+
+//console.log(1);
+
+console.log(10);
+
+/*
+console.log(5);
+console.log(6);
+console.log(7);
+*/
+
+```
+
