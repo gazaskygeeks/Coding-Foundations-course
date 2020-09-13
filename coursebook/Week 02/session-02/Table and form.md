@@ -1,4 +1,4 @@
-- ### Building Semantic HTML Tables
+### Building Semantic HTML Tables
 
 The HTML `<table>` element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data. - from MDN
 
@@ -51,7 +51,7 @@ The HTML `<table>` element represents tabular data — that is, information pres
     </tfoot>
 </table>
 ```
-- ### Building HTML Forms
+### Building HTML Forms
 
 **HTML Forms** are required, when you want to collect some data from the site visitor. *For example*, during user registration you would like to collect information such as name, email address, credit card, etc.
 
