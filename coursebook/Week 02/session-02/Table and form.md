@@ -51,6 +51,8 @@ The HTML `<table>` element represents tabular data — that is, information pres
     </tfoot>
 </table>
 ```
+___________________________________________________________________________________________________________________________________________________________
+
 ### Building HTML Forms
 
 **HTML Forms** are required, when you want to collect some data from the site visitor. *For example*, during user registration you would like to collect information such as name, email address, credit card, etc.
@@ -72,8 +74,9 @@ The HTML **`<form>`** tag is used to create an HTML form and it has following sy
 | method  | Method to be used to upload data. The most frequently used are GET and POST methods.  |
 | target | Specify the target window or frame where the result of the script will be displayed. It takes values like _blank, _self, _parent etc.  |
 | enctype | You can use the enctype attribute to specify how the browser encodes the data before it sends it to the server. Possible values are **application/x-www-form-urlencoded** − This is the standard method most forms use in simple scenarios.**mutlipart/form-data** − This is used when you want to upload binary data in the form of files like image, word file etc.  |
-
-#### HTML Form Elements
+ 
+ 
+####  :on: HTML Form Elements
 *The **`<label>`** tag defines a label for several elements:*
     
 ```html
