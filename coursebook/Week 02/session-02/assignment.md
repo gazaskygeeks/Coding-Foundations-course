@@ -14,15 +14,16 @@
  </head>
 	<body>
  <div>
-  <div><h1>Faith Art</h1></div>
-	<div> 
-		<a href="indexFaith.html">Home</a>
-		<a href="faithAbout.html">About</a>
-		<a href="Faithblog.html">Blog</a>
-		<a href="faithPictures.html">Gallery</a>
-    <a href="faithContact.html">Contact</a> 
-  </div>	
-	</div>
+  <div>
+	 <h1>Faith Art</h1></div>
+	 <div> 
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Blog</a>
+		<a href="#">Gallery</a>
+                <a href="#">Contact</a> 
+         </div>	
+  </div>
 	<div class = "wrapper">
 	<main>
 	<br><br>
