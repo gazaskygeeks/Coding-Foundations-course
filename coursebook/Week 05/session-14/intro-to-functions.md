@@ -100,7 +100,7 @@ sayMyName("Turing"); // Logs: Mu name is Turing
 
 ## Multiple Parameters
 
-We can define multiple parameters for a function by comma-separating them. We can pass in up to 255 parameters!
+We can define multiple parameters for a function by comma-separating them.
 
 When calling a function, we must provide the arguments in the same order in which we defined them.
 
