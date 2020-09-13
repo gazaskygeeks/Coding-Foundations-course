@@ -21,7 +21,7 @@ The HTML `<table>` element represents tabular data — that is, information pres
 **An example of an HTML table is as follows**:
 
 
-```html
+``` html
 <table>
     <thead>
         <tr>
@@ -78,31 +78,34 @@ The HTML **`<form>`** tag is used to create an HTML form and it has following sy
  
 ####  :on: HTML Form Elements
 *The **`<label>`** tag defines a label for several elements:*
-    
-```html
-<input type="button">
-<input type="checkbox">
-<input type="color">
-<input type="date">
-<input type="datetime-local">
-<input type="email">
-<input type="file">
-<input type="hidden">
-<input type="image">
-<input type="month">
-<input type="number">
-<input type="password">
-<input type="radio">
-<input type="range">
-<input type="reset">
-<input type="search">
-<input type="submit">
-<input type="tel">
-<input type="text">
-<input type="time">
-<input type="url">
-<input type="week">
-```
+
+| type=" "  | Description |
+| ------------- | ------------- |
+| text  | Defines a one-line text input field  |
+| password | Defines a one-line password input field  |    
+| submit | 	Defines a submit button to submit the form to server |    
+|   reset | 	Defines a reset button to reset all values in the form. |    
+| radio | Defines a radio button which allows select one option. |    
+| checkbox	 | 	Defines checkboxes which allow select multiple options form.  |    
+| button	 | Defines a simple push button, which can be programmed to perform a task on an event. |    
+| file | Defines to select the file from device storage.  |    
+| image| Defines a graphical submit button. |    
+
+**HTML5 added new types on <input> element. Following is the list of types of elements of HTML5**
+| type=" "  | Description |
+| ------------- | ------------- |
+| color  | Defines an input field with a specific color. |
+| date | Defines an input field for selection of date.  |    
+| datetime-local | 	Defines an input field for entering a date without time zone. |    
+|   email | 	Defines an input field for entering an email address. |    
+| month | Defines a control with month and year, without time zone. |    
+| number	 | 	Defines an input field to enter a number.  |    
+| url		 | Defines a field for entering URL |    
+| week	 | Defines a field to enter the date with week-year, without time zone.  |    
+| search | Defines a single line text field for entering a search string. |  
+| tel | Defines an input field for entering the telephone number. |  
+
+
 *Note*:The default value of the type attribute is **"text"**.
 
 **Proper use of labels with the elements above will benefit: from *w3schools***
@@ -112,4 +115,148 @@ The HTML **`<form>`** tag is used to create an HTML form and it has following sy
 #### Tips and Notes
 *Tip*: The **for** attribute of `<label>` must be equal to the **id** attribute of the related element to bind them together. A label can also be bound to an element by placing the element inside the `<label>` element. 
 
+**Following is the description about types of <input> element with examples.**
+1. `<input type="text">:`
+
+<input> element of type "text" are used to define a single-line input text field.
+
+```html
+<form>  
+    <label>Enter first name</label><br>  
+    <input type="text" name="firstname"><br>  
+    <label>Enter last name</label><br>  
+    <input type="text" name="lastname"><br>  
+    <p><strong>Note:</strong>The default maximum cahracter lenght is 20.</p>  
+</form>  
+```
+[TRY IT!](https://codepen.io/pen/)
+
+
+2. `<input type="password">:`
+
+The <input> element of type "password" allow a user to enter the password securely in a webpage. The entered text in password filed converted into "*" or ".", so that it cannot be read by another user.
+
+```html
+<form>  
+    <label>Enter User name</label><br>  
+    <input type="text" name="firstname"><br>  
+    <label>Enter Password</label><br>  
+    <input type="Password" name="password"><br>  
+    <br><input type="submit" value="submit">  
+</form>
+```
+[TRY IT!](https://codepen.io/pen/)
+
+3. `<input type="submit">:`
+
+The <input> element of type "submit" defines a submit button to submit the form to the server when the "click" event occurs.
+```html
+<form action="https://www.javatpoint.com/html-tutorial">  
+    <label>Enter User name</label><br>  
+    <input type="text" name="firstname"><br>  
+    <label>Enter Password</label><br>  
+    <input type="Password" name="password"><br>  
+    <br><input type="submit" value="submit">  
+</form>  
+```
+[TRY IT!](https://codepen.io/pen/)
+
+4. `<input type="reset">:`
+
+The <input> type "reset" is also defined as a button but when the user performs a click event, it by default reset the all inputted values.
+
+```html
+<form>  
+    <label>User id: </label>  
+     <input type="text" name="user-id" value="user">  
+              <label>Password: </label>  
+     <input type="password" name="pass" value="pass"><br><br>   
+     <input type="submit" value="login">  
+      <input type="reset" value="Reset">  
+</form>  
+```
+[TRY IT!](https://codepen.io/pen/)
+
+5. `<input type="radio">`:
+
+The <input> type "radio" defines the radio buttons, which allow choosing an option between a set of related options. At a time only one radio button option can be selected at a time.
+
+```html
+<form>  
+  <p>Kindly Select your favorite color</p>  
+  <input type="radio" name="color" value="red"> Red <br>  
+  <input type="radio" name="color" value="blue"> blue <br>  
+  <input type="radio" name="color" value="green">green <br>  
+  <input type="radio" name="color" value="pink">pink <br>  
+  <input type="submit" value="submit">  
+</form>  
+```
+[TRY IT!](https://codepen.io/pen/)
+
+6. `<input type="checkbox">`:
+
+The <input> type "checkbox" are displayed as square boxes which can be checked or unchecked to select the choices from the given options.
+
+*Note: :pencil2:*
+ The "radio" buttons are similar to checkboxes, but there is an important difference between both types: radio buttons allow the user to select only one option at a time, whereas checkbox allows a user to select zero to multiple options at a time.
+
+```html
+<form>   
+      <label>Enter your Name:</label>  
+      <input type="text" name="name">  
+      <p>Kindly Select your favourite sports</p>  
+      <input type="checkbox" name="sport1" value="cricket">Cricket<br>  
+      <input type="checkbox" name="sport2" value="tennis">Tennis<br>  
+      <input type="checkbox" name="sport3" value="football">Football<br>  
+      <input type="checkbox" name="sport4" value="baseball">Baseball<br>  
+      <input type="checkbox" name="sport5" value="badminton">Badminton<br><br>  
+      <input type="submit" value="submit">  
+  </form>
+```
+[TRY IT!](https://codepen.io/pen/)
+
+7. `<input type="button">`:
+
+The <input> type "button" defines a simple push button, which can be programmed to control a functionally on any event such as, click event.
+
+*Note: :pencil2:*  It mainly works with JavaScript.
+```html
+<form>  
+     <input type="button" value="Clcik me " onclick="alert('you are learning HTML')">  
+</form>  
+```
+[TRY IT!](https://codepen.io/pen/)
+
+8. `<input type="file">`:
+
+The <input> element with type "file" is used to select one or more files from user device storage. Once you select the file, and after submission, this file can be uploaded to the server with the help of JS code and file API.
+
+```html
+<form>  
+     <label>Select file to upload:</label>  
+     <input type="file" name="newfile">  
+     <input type="submit" value="submit">  
+</form> 
+```
+[TRY IT!](https://codepen.io/pen/)
+
+9. `<input type="image">`:
+
+The <input> type "image" is used to represent a submit button in the form of image.
+
+```html
+<!DOCTYPE html>  
+<html>  
+<body>  
+<h2>Input "image" type.</h2>  
+<p>We can create an image as submit button</p>  
+  <form>  
+    <label>User id:</label><br>  
+     <input type="text" name="name"><br><br>  
+     <input type="image" alt="Submit" src="login.png"  width="100px">  
+  </form>  
+  
+ </body>  
+</html>  
+```
 
