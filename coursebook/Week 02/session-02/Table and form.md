@@ -3,7 +3,7 @@
 The HTML `<table>` element represents tabular data — that is, information presented in a two-dimensional table comprised of rows and columns of cells containing data. - from MDN
 
 
-Inside this <table> tag, we structure the table using:
+Inside this `<table>` tag, we structure the table using:
 
 - `<tr>` - The table row element defines a row of cells which can include td and/or th tags
 
