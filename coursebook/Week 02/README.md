@@ -6,8 +6,8 @@ ________________________________________________________________________________
 
 - Day 01 : Session 03 | Sematic HTML
 
-- Day 02 : Session 05 | Introduction to CSS
+- Day 02 : Session 04 | Introduction to CSS
 
-- Day 03 : Session 06 | CSS part 02
+- Day 03 : Session 05 | CSS part 02
 - Day 04 : session 07 | Critical Professional Skills & Having The Right Attitude
 
