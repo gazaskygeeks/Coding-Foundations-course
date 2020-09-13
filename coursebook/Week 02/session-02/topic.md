@@ -1,11 +1,8 @@
 
-## HTML
-
-HTML stands for Hyper Text Markup Language. It is used to design web pages using a markup language. HTML is the combination of Hypertext and Markup language. Hypertext defines the link between the web pages. A markup language is used to define the text document within tag which defines the structure of web pages.
-
 ## HTML5
-
-### HTML5 is the latest version of Hypertext Markup Language that adds a handful of new HTML elements we can use to better define our page’s content for search engines
+ HTML5 is the latest evolution of the standard that defines HTML. HTML5 has new HTML elements that you can use it to better define our page’s content for search engines.
+ 
+ **The purpose of HTML5** is primarily to make it easier for web developers and browser creators to follow consensus-based standards that make compliance more efficient and empowering. It's also designed to provide better, faster, more consistent user experiences for desktop and mobile visitors.
 
 ### What HTML5 do
 
