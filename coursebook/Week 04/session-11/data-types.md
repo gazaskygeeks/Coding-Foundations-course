@@ -118,7 +118,7 @@ let sym1 = Symbol()
 let sym2 = Symbol('foo')
 Symbol('foo') === Symbol('foo')  // false, every one had unique value.
  ```
-> 💡 We use double equal `==` and triple equal `===` for comparison, we will see them more on the coming sessions
+> 💡 We use double equals `==` and triple equals `===` for comparison, we will see them more on the coming sessions
 
 ### Figuring out a variable's type in JavaScript
 In JavaScript, we have a keyword called **typeof** that returns the type of the variable 
@@ -175,4 +175,10 @@ bool.toString(); // "false"
 ```
 
 > 💡 You can't use `toString` directly on the number `25.toString()` ❌ and you can only use it on the variable.
+
+## Practice Time 👨‍💻
+
+1. Follow the following [instructions](https://repl.it/@CodeAcademy1/Data-Type#instructions.md), then write your code inside the [index](https://repl.it/@CodeAcademy1/Data-Type#index.js) file.
+
+2. Now let's practice `Numbers` and `Concatenation`🤔. Follow the [instructions](https://repl.it/@CodeAcademy1/Numbers-and-Concatenation#instructions.md), then write your code inside the [index](https://repl.it/@CodeAcademy1/Numbers-and-Concatenation#index.js) file.
 

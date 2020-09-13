@@ -138,3 +138,7 @@ let favFootballTeam;
 
 `let` and `const` were introduced with the release of ECMAScript 2015, commonly known as ES6. So you are highly likely to see old applications that don't contain `let` and `const`.
 
+## Practice Time 👨‍💻
+
+Follow the following [instructions](https://repl.it/@CodeAcademy1/Declaring-Variables#instructions.md), then write your code inside the [index](https://repl.it/@CodeAcademy1/Declaring-Variables#index.js) file.
+
