@@ -1,10 +1,8 @@
-## learning-outcomes
+## Learning Outcomes
 
-- Define what is javascript Functions. 
-- Define why we need to use Functions. 
-- Explain how to declare & invoke Functions in javascript. 
-- Define the Difference between parameters & Arguments in javascript.
-- Define what is function Expression and how to use it.
-- Define the difference between Returning value vs console.log().
-- Define what is Function scope & its types.
-- Explain about Nested Scopes.   
+- Define javaScript functions.
+- Explain why to use functions.
+- Explain how to declare and call functions.
+- State the differences between function parameters and arguments.
+- Define the return statement.
+- Define function expression.

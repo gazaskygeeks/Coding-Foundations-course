@@ -1,170 +1,190 @@
-# Functions 
+## JavaScript Functions
 
-**Functions** are one of the fundamental building blocks in JavaScript. A **function** is a JavaScript `procedure` that is a set of statements that performs a task or calculates a value. To use a **function**, you must define it somewhere in the scope from which you wish to call it.
+A JavaScript **function** is a block of code designed to perform a particular task. The main advantage of using functions is code **reuse**: Define the code once, and use it many times.
 
-## Why do we need functions
-
-The main difference between **JavaScript** and most other languages is that **JavaScript** allows us to create a **function** as a stand alone entity.
-
-This allows us to create compact code that is **easy to understand**, partially because **functions** can appear anywhere in the code where an expression can appear. This feature can **eliminate** the need to pollute your code with unnecessary names when a function isn’t going to be referenced from multiple places within the code. **Functions** are the fundamental building blocks for **reusable code libraries**.
-
-**You can **reuse code**: Define the code once, and use it many times.You can use the same code many times with different arguments, to produce different results.**
+Use the same code many times with different arguments, to produce different results.
 
 ## Function Declaration
-A JavaScript function is defined with the `function` keyword, followed by a name, followed by parentheses ().
 
-- **Function names** can contain letters, digits, underscores, and dollar signs (same rules as variables).
+To define a JavaScript function, we use the `function` keyword, followed by a **name** followed by a set of **parentheses ()**.
 
-- **The parentheses** may include parameter names separated by commas:
-(parameter1, parameter2, ...).
+The code to be executed by the function is placed inside curly brackets {}.
 
-- **The code** to be executed, by the function, is placed inside curly brackets: {}.
-
-```javascript
-function name(parameter1, parameter2, parameter3) {
+```js
+function name() {
   // code to be executed
 }
-``` 
+```
 
-### Example : 
-the following code defines a simple function named `square`:
+**Note:** Function names can contain letters, digits, underscores, and dollar signs (same rules as variables) written in camel case. In addition, it's a best practice to actually tell what the function is doing by giving the function name a verb as prefix. This verb as prefix can be anything (e.g. get, fetch, push, apply, calculate, compute, post). It's a soft rule to consider for having more self-descriptive JavaScript functions.
 
-```javascript 
-function square(number) {
-  return number * number;
+Let's write our first function.
+
+```js
+// Here, we are declaring a function named sayHello that would log Hello World when it is called
+function sayHello() {
+  console.log("Hello World");
 }
 ```
-The function `square` takes one parameter, called `number`. The function consists of one statement that says to return the parameter of the function (that is, `number`) multiplied by itself. 
-The statement `return` specifies the value returned by the function:
 
-```javascript
-return number * number;
-``` 
+## Function Invocation (calling a function)
 
-## Invoking a Function
+To execute the code inside the function you need to invoke it (call it). To call a function, start with the name of the function, then follow it with the parentheses.
 
-**Functions** execute when the function is **called**. This process is known as **invocation**. You can invoke a function by referencing the function name, followed by an open and closed parenthesis: ().
-
-To **invoke** our function in the previous example, we call it, while passing in the singular parameter. Here I am calling this function with the number `3`:
-
-```javascript
- square(3);
- // 9
-```
-If your function has **no parameters**, you can invoke it with an empty set of parenthesis:
-
-```javascript
-function logStmt1(){
-  console.log('The first statment');
+```js
+// Declaring a function named greet
+function greet() {
+  console.log("Welcome to the FUNdamentals course.");
 }
-logStmt1();
-// The first statment
+
+// Calling the function
+greet(); // Logs: Welcome to the FUNdamentals course.
 ```
 
-## Parameters vs. Arguments 
-If you’re new to JavaScript, you may have heard the terms parameters and arguments used interchangeably. While very similar, there is an important distinction to make between these two keywords.
+Once the function is defined, JavaScript allows us to call it as many times as we want to.
 
-**Parameters** are used when defining a function, they are the names created in the function definition. In fact, during a function definition, we can pass in up to 255 parameters! **Parameters** are separated by commas in the ().Here’s an example with two parameters — param1 & param2:
+```js
+// We want to keep saying that Javascript is fun, let's declare a function to do it!
+function printJsIsFun() {
+  console.log("JavaScript is FUN!");
+}
 
-```javascript
-function twoParams(param1, param2){
-  console.log(param1, param2);
+// Calling the function
+printJsIsFun(); // Logs: JavaScript is FUN!
+
+// Calling the function again
+printJsIsFun(); // Logs: JavaScript is FUN!
+
+// And again
+printJsIsFun(); // Logs: JavaScript is FUN!
+```
+
+## Function Parameters
+
+Function can take parameters. Function **parameters** are the names listed inside the parentheses () in the function's definition.
+
+```js
+function name(param1, param2, param3) {
+  // some code
 }
 ```
-**Arguments**, on the other hand, are the values the function receives from each parameter when the function is **invoked**. In the above example, our two arguments are `true & false`.
 
-```javascript
-twoParams(true,false); 
-```
+**Note:** As with variables, parameters should be given **names**, which are separated by commas within the parentheses.
 
-Function **parameters** are listed inside the parentheses () in the function definition.  
-Function **arguments** are the values received by the function when it is invoked.   
-Inside the function, the arguments (the parameters) behave as local variables.   
+After defining the parameters, you can use them inside the function.
 
-### Example : 
-This example calls a function to convert temperature degree from Fahrenheit to Celsius:
-
-```javascript
-// use fahrenheit as parameter 
-function toCelsius(fahrenheit) {
-  return (5/9) * (fahrenheit-32);
+```js
+// This function takes in one parameter, which is called name
+function sayHello(name) {
+  console.log("Hello, " + name);
 }
-// invoke toCelsius function and pass `77` as an argument
-toCelsius(77); // 25
-``` 
-## Function expression
-While the function declaration above is syntactically a statement, functions can also be created by a function expression.
-
-The `function` keyword can be used to define a function inside an expression.
-You can also define functions using the Function constructor and a function declaration.
-
-### Example 1:
-
-```javascript
-var x = function(y) {
-   return y * y;
-};
-// call it 
-x(5); // 25
 ```
 
-### Example 2 :
-```javascript 
-const getRectArea = function(width, height) {
-  return width * height;
+## Function Arguments
+
+Function **arguments** are the real values passed to (and received by) the function. When calling a function, we provide the parameters value **(arguments)** inside the parentheses. We can define a single function, and pass different parameter values **(arguments)** to it.
+
+```js
+// This will execute the function's code each time for the provided argument
+
+function sayMyName(name) {
+  console.log("My name is " + name);
 }
-// call it easily by 
-console.log(getRectArea(3,4)); // 12
+
+// Here, the argument "Heisenberg" is the value of the parameter name
+sayMyName("Heisenberg"); // Logs: My name is Heisenberg
+
+// Here, the argument "Turing" is the value of the parameter name
+sayMyName("Turing"); // Logs: Mu name is Turing
 ```
 
-### Syntax :
+## Multiple Parameters
 
-```javascript 
-let myFunction = function [name]([param1[, param2[, ..., paramN]]]) {
-   statements
-};
-```
-- **name** [Optional]:   
-The function name. Can be omitted, in which case the function is anonymous. The name is only local to the function body.   
-- **paramN** [Optional]:   
-The name of an argument to be passed to the function.
-- **statements** [Optional]:    
-The statements which comprise the body of the function.
+We can define multiple parameters for a function by comma-separating them.
 
-As of ES2015, you can also use arrow functions
+When calling a function, we must provide the arguments in the same order in which we defined them.
 
-### Function Return  
-When JavaScript reaches a `return` statement, the function will stop executing.
-If the function was invoked from a statement, JavaScript will **"return"** to execute the code after the invoking statement.
-
-Functions often compute a `return` value. The `return` value is **"returned" back to the "caller"**:
-
-### Example :
-```javascript
-// Calculate the product of two numbers, and return the result:
-
-var x = myFunction(4, 3);   // Function is called, return value will end up in x
-
-function myFunction(a, b) {
-  return a * b;             // Function returns the product of a and b
+```js
+// This function takes in two parameters: name and age
+function printPersonDetails(name, age) {
+  console.log(name + "is" + age + " years old.");
 }
-// The result in x will be: 12
+
+printPersonDetails("Mark", 27); // Logs: Mark is 27 years old.
 ```
 
-## Returning value vs console.log()
+**Note:** JavaScript functions do not check the number of arguments received. If a function is called with missing arguments (fewer than declared), the missing values are set to `undefined`.
 
-`return` evaluates its argument (if supplied) and ends the execution of the containing function immediately.
+```js
+function sayGreeting(greeting) {
+  console.log(greeting);
+}
 
-`console.log` evaluates its argument and prints it, continuing the execution of the function it's called from.
+sayGreeting("Hello"); // Logs: Hello
+sayGreeting("Hi"); // Logs: Hi
 
-### Example : 
+// Notice, we are not passing any arguments for this call
+sayGreeting(); // Logs: undefined
+```
 
-```javascript
-function print_number() {
-  console.log('one');
+## Function Return
+
+A function can have an optional `return` statement. It is used to return a value from the function. This statement is useful when making calculations that require a result. For example, let's calculate the product of two numbers, and return the result:
+
+```js
+function findProduct(a, b) {
+  return a * b; // Function returns the product of a and b
+}
+
+const product = findProduct(5, 3); // Function is called, return value will end up in product
+console.log(product); // Logs: 15
+```
+
+If we do not return anything from a function, it will return undefined.
+
+```js
+/* This function takes two parameters, calculate their sum then logs it BUT it doesn't have a return statement.
+Even though it logs the sum, it returns undefined */
+function findSum(a, b) {
+  const sum = a + b;
+  console.log(sum);
+}
+
+const result = findSum(5, 7); // Logs: 12
+console.log(result); // Logs: undefined
+```
+
+When JavaScript reaches a return statement, the function stops executing.
+
+```js
+function printNumber() {
+  console.log("one");
   return;
-  console.log('two');
+  console.log("two");
 }
-```
-If you then call `print_number()`, you'll see the output `one`, but you won't see the output `two`, because `return` ends execution of `print_number` before it can get to console.log('two');
 
+printNumber(); // Logs: one
+// Function stop executing before it can get to the second log statement due to the return statement before it
+```
+
+## Function Expression
+
+A JavaScript function can also be defined using an **expression**. A function expression can be stored in a variable.
+
+```js
+const findProduct = function (a, b) {
+  return a * b;
+};
+```
+
+After a function expression has been stored in a variable, the variable can be used as a function. Functions stored in variables do not need function names. They are always called using the variable name.
+
+```js
+const findSquare = function (num) {
+  return num * num;
+};
+
+const squareOfTwo = findSquare(2); // Result: 4
+```
+
+**Note:** With function expression, the function name can be omitted.

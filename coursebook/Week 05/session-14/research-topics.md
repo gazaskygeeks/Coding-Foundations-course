@@ -1,8 +1,6 @@
-# Research Topics 
+# Research Topics
 
-* Recursion - function can call itself. 
-* function expression.
-* Arrow function expressions.
-* Nested functions and closures.
-
-
+- Function expression.
+- Arrow function expressions.
+- Recursion - function can call itself.
+- Higher Order Functions
