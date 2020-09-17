@@ -4,10 +4,10 @@
 
 ### Schedule
 
-- 11:10 - 12:10 | [Intro To HTML](./intro-to-html.md)
-- 12:10 - 12:20 | Break  
-- 12:20 - 13:30 | [Formatting Page Content with HTML](./elements-and-attributes.md)
-- 13:30 - 14:00 | [Exercise](./exercise.md)
+- 02:10 - 03:10 | [Intro To HTML](./intro-to-html.md)
+- 03:10 - 03:20 | Break  
+- 03:20 - 04:30 | [Formatting Page Content with HTML](./elements-and-attributes.md)
+- 04:30 - 05:00 | [Exercise](./exercise.md)
 
 
 ### [Research Topics](./research-topics.md)
