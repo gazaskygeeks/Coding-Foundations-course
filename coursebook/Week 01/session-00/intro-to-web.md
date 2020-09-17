@@ -45,7 +45,6 @@ Web developers often work for clients who are trying to get their product or ser
 
 Web development could be a good profession for you if you like solving logical problems, building useful things, and experimenting with new technologies. Web developers are in high demand, generally have a good work/life balance, and command comfortable salaries. Google your specific location to get a better sense of your local web development job opportunities.
 
-For more details, Wikipedia describes the breadth of the web development profession in their [entry on web design](https://en.wikipedia.org/wiki/Web_design).
 
 
 ## Types Of Web Developers
@@ -58,7 +57,7 @@ The **front end** is the stuff you see on the website in your browser, including
 
 The **back end** refers to the guts of the application, which live on the server. The back end stores and serves program data to ensure that the front end has what it needs. This process can become very complicated when a website has millions of users. Back-end developers use programming languages like Java, Python, and Ruby to work with data.
 
-**Full-stack** developers are comfortable working with both the front and back ends. In The Odin Project, we focus on teaching you full-stack development, covering all aspects of web development.
+**Full-stack** developers are comfortable working with both the front and back ends. 
 
 For more detail, Udacity has a great blog post on this topic: [3 Web Dev Careers Decoded: Front-End vs Back-End vs Full Stack](http://blog.udacity.com/2014/12/front-end-vs-back-end-vs-full-stack-web-developers.html)
 
