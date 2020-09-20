@@ -1,12 +1,19 @@
-# Session-06: CSS-04
+# Session-05: CSS-03
 
-## [Morning Challenge](./morning-challenge.md)
+**Author**: [@kannanhassouna](https://github.com/kannanhassouna)
 
-## [Learning Outcomes](./learning-outcomes.md)
+# Fonts and Layout 
+
+### [Learning Outcomes](./learning-outcomes.md)
+
+---
 
 ## Schedule
-
 - 11:00 - 11:30 | [Morning Challenge](./morning-challenge.md)
-- 11:30 - 1:00 | [Flexbox](./flexbox.md)
-## [Homework](http://www.flexboxdefense.com)
-## [Additional Resources](./resources.md)
+- 11:30 - 12:15 | [Fonts](./fonts.md)
+- 11:15 - 12:45 | BREAK
+- 12:45 - 14:00 | [layout](./layout.md)
+
+--- 
+
+### [Additional Resources](./resources.md)

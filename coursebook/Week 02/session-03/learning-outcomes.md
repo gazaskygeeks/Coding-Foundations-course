@@ -1,10 +1,7 @@
 # Learning Outcomes
 
-- Understanding What is CSS?
-- Understanding the syntax for CSS.
-- Learn how to use CSS selectors.
-- Learn how to use CSS to style the elements?
-- Learn What is the best way to write CSS and why?
-- Learn how to use CSS Pseudo-element?
-- Learn how to use CSS Pseudo-class?
-- Understanding the difference between CSS Pseudo-element CSS Pseudo-class.
+- Learn about Semantic HTML.
+- Learn about why we should layout our pages correctly.
+- Learn more HTML tags.
+- Learning to create layouts that make sense and are good for styling later on.
+- knowing Table and form elements. 

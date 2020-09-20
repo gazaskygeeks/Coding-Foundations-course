@@ -1,10 +1,10 @@
+# Learning Outcomes
 
-## Learning Outcomes
-
-- Understand why we need comments in CSS.
-- Understand how to add comments in CSS.
-- Understand what is cascading in CSS.
-- Understand what is inheritance in CSS.
-- Understand what is Specificity in CSS.
-- Understand how to represent colors in CSS.
-- Understand why we use HEX, Named Colors.
+- Understanding What is CSS?
+- Understanding the syntax for CSS.
+- Learn how to use CSS selectors.
+- Learn how to use CSS to style the elements?
+- Learn What is the best way to write CSS and why?
+- Learn how to use CSS Pseudo-element?
+- Learn how to use CSS Pseudo-class?
+- Understanding the difference between CSS Pseudo-element CSS Pseudo-class.
