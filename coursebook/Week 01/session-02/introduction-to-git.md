@@ -17,7 +17,7 @@ To understand what it is, we must first understand the problem that led to its e
 
 ### The problem :confused:
 
-You are working on a big project as programmer, adn you works on it for along time, and you really made progress, during working on it, suddenly found your self with trouble, you wrote function that made a messy in your code, and you wish that you can undo or knowing where exactly the project work successfully. So you think you are smart enough to not fall in this problem again.
+You are working on a big project as programmer, and you works on it for along time, and you really made progress, during working on it, suddenly found your self with trouble, you wrote function that made a messy in your code, and you wish that you can undo or knowing where exactly the project work successfully. So you think you are smart enough to not fall in this problem again.
  
  ![Alt Text](https://media.giphy.com/media/l2R024uE283zkmdfW/giphy.gif)
 

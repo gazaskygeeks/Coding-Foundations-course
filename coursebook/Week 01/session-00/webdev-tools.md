@@ -8,7 +8,7 @@ A browser is software that is used to access the internet. A browser lets you vi
 
 ### What does my browser do?
 
-When you type a web page address such as www.allaboutcookies.org into your browser, that web page in its entirety is not actually stored on a server ready and waiting to be delivered. In fact each web page that you request is individually created in response to your request.
+When you type a web page address such as www.allaboutcookies.org into your browser,that web page in its entirety is not actually stored on a server. In fact each web page that you request is individually created in response to your request.
 
 You are actually calling up a list of requests to get content from various resource directories or servers on which the content for that page is stored. It is rather like a recipe for a cake - you have a shopping list of ingredients (requests for content) that when combined in the correct order bakes a cake (the web page).The page maybe made up from content from different sources.Images may come from one server, text content from another, scripts such as date scripts from another and ads from another. As soon as you move to another page, the page that you have just viewed disappears. This is the dynamic nature of websites.
 
