@@ -1,6 +1,5 @@
 # Session-05: CSS-02
 
-**Author**: [@kannanhassouna](https://github.com/kannanhassouna)
 ### [Morning Challenge](morning-challenge.md)
 
 ## [Learning Outcomes](./learning-outcomes.md)
