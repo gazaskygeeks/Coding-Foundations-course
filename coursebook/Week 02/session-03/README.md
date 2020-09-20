@@ -1,20 +1,14 @@
-## Session 3: CSS-01
+## Semantic HTML
 
+### [Learning Outcomes](./learning-outcomes.md)
 
-- [Learning Outcomes](./learning-outcomes.md)
----
+### Schechule
 
-## Schedule
+- 11:10 - 11:50 | [Semantic HTML](./topic.md)
+- 11:50 - 12:05 | [Exercise](./exercise.md)
+- 12:05 - 12:15 |  BREAK
+- 12:15 - 01:00 | [Table](./table-form.md)
+- 01:00 - 02:00 | [Form](./table-form.md)
+- *Assignment*  | [assignment](./assignment.md)
 
-- 11:00 - 11: 40 | [CSS Intro & CSS Selectors](./introAndSelectors.md)
-
-- 11:40 - 12:00 | [Types of CSS Styles](./typesOfStyles.md)
-
-- 12:00 - 12:10 | -BREAK-
-
-- 12:10 - 13:00 | [CSS Pseudo-class & Pseudo-element](./pseudoClassAndElement.md)
-
-- 13:00 - 14:00 | [Exercise](./exercise.md)
-
-- [Research](./research-topics.md)
-- [Resources](./resources.md)
+### [Additional Resources](./resources.md)

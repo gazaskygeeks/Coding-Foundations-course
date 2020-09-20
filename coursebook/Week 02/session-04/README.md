@@ -1,18 +1,20 @@
-# Session-04: CSS-02
+## Session 4: CSS-01
 
-**Author**: [@kannanhassouna](https://github.com/kannanhassouna)
-### [Morning Challenge](morning-challenge.md)
 
-## [Learning Outcomes](./learning-outcomes.md)
+- [Learning Outcomes](./learning-outcomes.md)
+---
 
 ## Schedule
 
-- 02:00 - 02:20 | [Comments In CSS](./Comments.md)
-- 02:20 - 02:45 | [Cascading In CSS](./Cascading.md)
-- 02:45 - 03:15 | [Specificity In CSS](./Specificity.md)
-- 03:15 - 03:45 | [Inheritance In CSS](./Inheritance.md)
-- 03:45 - 4:00  | -BREAK-
-- 4:00 -  4:20  | [Colors](./Colors.md)
-- 4:20 -  5:00  | [Fonts](./fonts.md)
+- 11:00 - 11: 40 | [CSS Intro & CSS Selectors](./introAndSelectors.md)
 
-## [Additional Resources](./resources.md)
+- 11:40 - 12:00 | [Types of CSS Styles](./typesOfStyles.md)
+
+- 12:00 - 12:10 | -BREAK-
+
+- 12:10 - 13:00 | [CSS Pseudo-class & Pseudo-element](./pseudoClassAndElement.md)
+
+- 13:00 - 14:00 | [Exercise](./exercise.md)
+
+- [Research](./research-topics.md)
+- [Resources](./resources.md)
