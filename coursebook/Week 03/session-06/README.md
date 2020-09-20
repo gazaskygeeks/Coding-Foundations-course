@@ -1,6 +1,5 @@
 # Session-05: CSS-03
 
-**Author**: [@kannanhassouna](https://github.com/kannanhassouna)
 
 # Fonts and Layout 
 
