@@ -17,4 +17,3 @@ Now that you know most of HTML elements that are used in most websites you shoul
     </ul>
 </li>
 
-7. Make a table about your friends or any other people that has four columns and these columns has a heading (first name, last name, age, nickname) and fill it up with at least **three** data entries
