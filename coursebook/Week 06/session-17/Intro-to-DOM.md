@@ -26,8 +26,6 @@ This **model** allows JavaScript to access the text content and elements of the 
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Introduction To DOM</title>
   </head>
   <body>
@@ -46,7 +44,9 @@ This **model** allows JavaScript to access the text content and elements of the 
 
 ![4](https://user-images.githubusercontent.com/55782435/92837577-6b830e00-f3e6-11ea-91d1-a51318042704.png)
 
-Currently, with this example, it seems that HTML source code and the DOM are the exact same thing. There are two instances in which the browser-generated DOM will be different than HTML source code:
+Currently, with this example, it seems that HTML source code and the DOM are the exact same thing.
+
+There are two instances in which the browser-generated DOM will be different than HTML source code:
 
 1- The DOM is modified by client-side JavaScript
 

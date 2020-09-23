@@ -24,8 +24,8 @@ Although `getElementById()` is still a useful method, but with the newer querySe
 const element = document.querySelector(selector);
 ```
 
-- `element` – First matching element or `null` (if no element matches the selectors).
-- `selector` – one or more CSS selectors, such as `"#fooId"`, `".fooClassName"`, `".class1.class2"`, or `".class1, .class2"`.
+* `element` – First matching element or `null` (if no element matches the selectors).
+* `selector` – one or more CSS selectors, such as `"#fooId"`, `".fooClassName"`, `".class1.class2"`, or `".class1, .class2"`.
 
 #### Code Example
 
@@ -71,8 +71,8 @@ The matching elements are returned as a `NodeList` object that will be an empty 
 const elements = document.querySelectorAll(selector);
 ```
 
-- `elements` – A `NodeList` object with all matching elements as property values.
-- `selector` – one or more CSS selectors, such as `"#fooId"`, `".fooClassName"`, `".class1.class2"`, or `".class1, .class2"`.
+* `elements` – A `NodeList` object with all matching elements as property values.
+* `selector` – one or more CSS selectors, such as `"#fooId"`, `".fooClassName"`, `".class1.class2"`, or `".class1, .class2"`.
 
 #### Code Example
 
@@ -102,7 +102,7 @@ for (const p of paragraphs) // to make loop on paragraphs
 
 **Events** refer to what happens to an HTML element, such as clicking, focusing, or loading, to which we can react with JavaScript. We can assign JS functions to listen for these events in elements and do something when the event had occurred.
 
-- There are three ways you can **assign a function to a certain event**.
+* There are three ways you can **assign a function to a certain event**.
 
 If `foo()` is a custom function, you can register it **as a click event listener** (call it when the button element is clicked) in three ways:
 
@@ -134,10 +134,10 @@ The method `addEventListener()` (the third solution) has **some pros** ; it is t
 element.addEventListener(event, listener, [options]);
 ```
 
-- `element` – The HTML element the event listener will be listening for.
-- `event` – The targeted event.
-- `listener` – Typically, a JavaScript function.
-- `options` – (optional) An object with a set of boolean properties (listed below).
+* `element` – The HTML element the event listener will be listening for.
+* `event` – The targeted event.
+* `listener` – Typically, a JavaScript function.
+* `options` – (optional) An object with a set of boolean properties (listed below).
 
 | Options   |                                                                                                                             What happens, when it is set to true?                                                                                                                             |
 | --------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -175,7 +175,7 @@ You can later add this element to the web page by using different **methods for 
 document.createElement(tagName);
 ```
 
-- `tagName` – **The name of the HTML tag you want to create**.
+* `tagName` – **The name of the HTML tag you want to create**.
 
 #### Code Example
 
@@ -197,8 +197,8 @@ The child to be inserted can be either a **newly created element**, or an **alre
 element.appendChild(childElement);
 ```
 
-- `element` – The HTML element to which `childElement` is added as its last child.
-- `childElement` – The HTML element added as the last child of `element`.
+* `element` – The HTML element to which `childElement` is added as its last child.
+* `childElement` – The HTML element added as the last child of `element`.
 
 #### Code Example
 
@@ -232,9 +232,9 @@ The `setAttribute()` method either **adds a new attribute** to an HTML element, 
 element.setAttribute(name, value);
 ```
 
-- `element` – The HTML element to which an attribute is added, or of which attribute is updated.
-- `name` – The name of the attribute.
-- `value` – The value of the attribute.
+* `element` – The HTML element to which an attribute is added, or of which attribute is updated.
+* `name` – The name of the attribute.
+* `value` – The value of the attribute.
 
 #### Code Example
 
@@ -265,8 +265,8 @@ The `getAttribute()` method **returns the value of a specified attribute** belon
 element.getAttribute(name);
 ```
 
-- `element` – The HTML element of which attribute is requested.
-- `name` – The name of the attribute.
+* `element` – The HTML element of which attribute is requested.
+* `name` – The name of the attribute.
 
 #### Code Example
 
@@ -295,8 +295,8 @@ The `removeAttribute()` method **removes a given attribute** of a specific HTML 
 element.removeAttribute(name);
 ```
 
-- `element` – The HTML element of which attribute is to be removed.
-- `name` – The name of the attribute.
+* `element` – The HTML element of which attribute is to be removed.
+* `name` – The name of the attribute.
 
 #### Code Example
 
@@ -386,9 +386,9 @@ span.textContent = 'hello';
 
 The fundamental difference is that:
 
-- `createTextNode()` is a **_method_** and works just as its name says: it **creates an element** then you must do something with it (like in your example, where you append it as a child);
+* `createTextNode()` is a **_method_** and works just as its name says: it **creates an element** then you must do something with it (like in your example, where you append it as a child);
   so it is useful if you want to have a new element and place it somewhere.
-- `textContent` is a **_property_** you may get or set, with a unique statement and nothing else;
+* `textContent` is a **_property_** you may get or set, with a unique statement and nothing else;
   so it is useful when you **only want to change the content** of an already existing element.
 
 **Now** in this case, you want to **change the text** of the element:
