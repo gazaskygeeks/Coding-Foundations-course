@@ -45,13 +45,16 @@ In this example, the first `<div>` gets selected with the `querySelector()` meth
 ##### Javascript
 
 ```js
+// select an element based on tag name (div here)
 const firstDiv = document.querySelector('div');
 firstDiv.textContent; // div one
 firstDiv.style.color = 'red'; // this will change its color to red
 
+//select a div using the class name
 const secondDiv = document.querySelector('.first');
 secondDiv.textContent; // div two
 
+//select a div using the id
 const thirdDiv = document.querySelector('#second');
 thirdDiv.textContent; // div three
 ```
@@ -89,6 +92,7 @@ The example below uses the same HTML as the previous one. However, in this examp
 ##### Javascript
 
 ```js
+// select all elements have (p) tag
 const paragraphs = document.querySelectorAll('p');
 for (const p of paragraphs) // to make loop on paragraphs
   p.style.color = 'blue';
@@ -209,7 +213,10 @@ In this example, we insert a `<strong>` element is as the child of a `<div>` ele
 ##### Javascript
 
 ```js
+// select the first div
 const div = document.querySelector('div');
+
+// create new element (<strong> </strong>)
 const strong = document.createElement('strong');
 strong.textContent = 'Hello';
 div.appendChild(strong);
@@ -243,7 +250,9 @@ In this example, we add the `contenteditable` attribute to a `<div>` by making u
 
 ```js
 const div = document.querySelector('div');
-div.setAttribute('contenteditable', '');
+
+// set new attribute for the div element
+div.setAttribute('contenteditable', ''); // <div contenteditable></div>
 ```
 
 ### 7- [getAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute)
@@ -347,7 +356,10 @@ Appending markup to the HTML, as shown above, is usually **a bad idea though**, 
 
 ```js
 const link = document.createElement('a');
+
+// creates a new Text node
 const text = document.createTextNode('continue reading...');
+
 const hr = document.createElement('hr');
 
 link.href = 'foo.html';
