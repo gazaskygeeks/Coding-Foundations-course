@@ -195,7 +195,8 @@ _In this example:_ this style will be applied to the part that you `selected` in
   <div style="text-align:center; margin: 30px 0;">
   <img  src="https://nicolasjengler.github.io/life-after-modern-layout-properties/images/text-selection.gif" /></div>
 
-* **::after Pseudo-element:** used to insert `content` before the content of an element without it needing to be in the `HTML`, for example:
+* **::after Pseudo-element:** insert new `content` after the selector, without adding new content in the `HTML`, for example:
+
 
 ```CSS
 h3::after{
@@ -208,7 +209,7 @@ _In this example:_ you will see `Hello from CSS` `after` every `h3` element in y
 
 [![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/LYVxrPO)
 
-- **::before Pseudo-element:** used to insert `content` before the content of an element without it needing to be in the `HTML`, for example:
+- **::before Pseudo-element:** insert new `content` before the selector, without adding new content in the `HTML`, for example:
 
 ```CSS
 p::before{
