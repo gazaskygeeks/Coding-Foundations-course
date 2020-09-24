@@ -141,7 +141,7 @@ selector::pseudo-element {
 }
 ```
 
-**We have only five _pseudo-element_ in CSS, follow to learn it:**
+**The _pseudo-element_ in CSS, follow to learn it:**
 
 ### All Pseudo-element:
 
