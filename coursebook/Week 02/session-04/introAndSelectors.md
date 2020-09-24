@@ -4,7 +4,7 @@
 What is CSS?
 </h2>
 
-**C**ascading **S**tyle **S**heets (CSS) is a markup language responsible for how your web pages will look like. It controls the colors, fonts, and layouts of your website elements.
+**C**ascading **S**tyle **S**heets (CSS) is defines how HTML elements are to be displayed. It's manage the layouts, colors and fonts of your website elements.
 
 This style sheet language also allows you to add effects or animations to your website. You can use it to display some CSS animations like click button effects, spinners or loaders, and animated backgrounds.
 
