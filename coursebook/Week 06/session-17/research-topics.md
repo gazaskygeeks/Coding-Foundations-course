@@ -1,6 +1,6 @@
-# Research Topics 
+# Research Topics
 
-* Adding CSS styles 
-* Listening to events
+* Adding more CSS styles
+* Dealing with different types of events
 * Modifying Classes and Attributes
 * removeChild(), replaceChild(), insertBefore() methods.
