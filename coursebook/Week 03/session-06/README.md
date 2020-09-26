@@ -1,7 +1,7 @@
 # Session-05: CSS-03
 
 
-# Fonts and Layout 
+# Layout 
 
 ### [Learning Outcomes](./learning-outcomes.md)
 
