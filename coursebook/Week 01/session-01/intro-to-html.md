@@ -16,6 +16,28 @@ A **Markup Language** is a way that computers speak to each other to control how
 
 **The latest version is known as HTML5.**
 
+### Basic HTML Structure For Web Page 
+Here are the tags that pretty much any HTML page should have:
+
+- `<!DOCTYPE html>`: This tag specifies the language you will write on the page. In this case, the language is HTML 5.
+
+- `<html>`: This tag signals that from here on we are going to write in HTML code.
+
+- `<head>`: This is where all the metadata for the page goes — stuff mostly meant for search engines and other computer programs.
+
+- `<meta>` - This is a tag for providing metadata (data about our data) to the page. We can use meta tags to display what character set we are using or for SEO (Search Engine Optimization) purposes.
+
+- `<title>` - This tag gives the page a title that can be displayed in the tab of your browser.
+
+- `<body>`: This is where the content of the page goes.
+
+
+
+![](https://www.oreilly.com/library/view/learning-web-design/9781449337513/httpatomoreillycomsourceoreillyimages2257981.png)
+
+This is how your average HTML page is structured visually.
+
+
 
 ### HTML Elements:
 As we mentioned in the previous paragraph, **HTML Elements** are the building blocks of a webpage. An HTML element is a **start tag** and an **end tag** with content in between.
@@ -99,23 +121,3 @@ From W3school https://www.w3schools.com/js/js_htmldom.asp
 We will learn more about the HTML DOM later in the course but its good to know what is it from now.
 
 
-### Basic HTML Structure For Web Page 
-Here are the tags that pretty much any HTML page should have:
-
-- `<!DOCTYPE html>`: This tag specifies the language you will write on the page. In this case, the language is HTML 5.
-
-- `<html>`: This tag signals that from here on we are going to write in HTML code.
-
-- `<head>`: This is where all the metadata for the page goes — stuff mostly meant for search engines and other computer programs.
-
-- `<meta>` - This is a tag for providing metadata (data about our data) to the page. We can use meta tags to display what character set we are using or for SEO (Search Engine Optimization) purposes.
-
-- `<title>` - This tag gives the page a title that can be displayed in the tab of your browser.
-
-- `<body>`: This is where the content of the page goes.
-
-
-
-![](https://www.oreilly.com/library/view/learning-web-design/9781449337513/httpatomoreillycomsourceoreillyimages2257981.png)
-
-This is how your average HTML page is structured visually.
