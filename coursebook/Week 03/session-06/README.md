@@ -8,10 +8,10 @@
 ---
 
 ## Schedule
-- 11:00 - 11:30 | [Morning Challenge](./morning-challenge.md)
-- 12:45 - 14:00 | [layout](./layout.md)
-- 11:15 - 12:45 | BREAK
-
+- 02:00 - 02:30 | [Morning Challenge](./morning-challenge.md)
+- 02:45 - 03:50 | [layout](./layout.md)
+- 03:50 - 04:00 | BREAK
+- 04:00 - 05:00 | [Flexbox](./flexbox.md)
 --- 
 
 ### [Additional Resources](./resources.md)
