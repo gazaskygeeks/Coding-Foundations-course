@@ -8,7 +8,7 @@
 
 1- Create a folder that contains HTML and CSS files on your PC to use it for the exercise.
 
-2- The second section should be styled by the external-style type of CSS.
+2- The section should be styled by the external-style type of CSS.
 
 3- The width for every section is 1300px and the height is 470px.
 
