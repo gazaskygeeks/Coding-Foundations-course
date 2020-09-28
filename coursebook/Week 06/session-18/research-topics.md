@@ -1,5 +1,5 @@
 # Research Topics
 
-* other way to store data in the browser
-* what is sessionStorage
-* what is the difference between sessionStorage and localStorage
+* Other ways to store data in the browser
+* What is sessionStorage
+* What is the difference between sessionStorage and localStorage

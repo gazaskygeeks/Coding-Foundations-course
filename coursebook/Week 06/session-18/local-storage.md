@@ -4,11 +4,11 @@ There are different way to store  the data locally in a client’s browser and h
 
 ## Local Storage
 
-is a type of web storage that allows JavaScript sites and apps to store and access data right in the browser with no expiration date. This means the data stored in the browser is accessible to all the pages of the domain and will persist even after the browser window has been closed.
+It is a type of web storage that allows JavaScript sites and apps to store and access data right in the browser with no expiration date. This means the data stored in the browser is accessible to all the pages of the domain and will persist even after the browser window has been closed.
 
-## Why Are Local Storage Useful
+## What are some useful use cases for using local storage?
 
-it is useful for saving data such as user preferences (light or dark color theme on a website).
+It is useful for saving data such as user preferences (light or dark color theme on a website).
 
 ### localStorage methods
 
@@ -24,7 +24,7 @@ There are four basic JavaScript methods you can use to access and work with loca
 
 * You can set key: value pairs.
 * You can only store strings.
-* You can store arrays and objects, but you have to turn them into strings first, using a method called `JSON.stringify()` and `JSON.parse()`. More on this later.
+* You can store arrays and objects, but you have to turn them into strings first, using a method called `JSON.stringify()` and `JSON.parse()` to convert them back. More on this later.
 
 #### 1. setItem(key, value)
 
@@ -36,6 +36,11 @@ It takes two parameters: a key and a value. The key can be referenced later to f
 
 ```js
 window.localStorage.setItem('name', 'Mohammed');
+
+// As we said in the previous session you can write it without (window) because it is by default would call it on window
+
+localStorage.setItem('name', 'Mohammed');
+
 ```
 
 ![Selection_008](https://user-images.githubusercontent.com/55782435/93016206-1999de00-f5c8-11ea-962f-93f6e99b3425.png)
@@ -148,12 +153,12 @@ if (typeof(Storage) !== "undefined") {
 }
 ```
 
-## localStorage limitations
+## LocalStorage limitations
 
 As easy as it is to use localStorage, it is also easy to misuse it. The following are limitations, and also ways to NOT use localStorage:
 
 * Do not store sensitive user information in localStorage
 * It is not a substitute for a server based database as information is only stored on the browser
-* localStorage is limited to 5MB across all major browsers
-* localStorage is quite insecure as it has no form of data protection and can be accessed by any code on your web page
-* localStorage is synchronous, meaning each operation called would only execute one after the other
+* LocalStorage is limited to 5MB across all major browsers
+* LocalStorage is quite insecure as it has no form of data protection and can be accessed by any code on your web page
+* LocalStorage is synchronous, meaning each operation called would only execute one after the other

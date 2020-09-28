@@ -1,6 +1,6 @@
 # Session 18: Local Storage
 
-Welcome to the eighth session of the Javascript, you will learn about Local Storage in javascript.
+Welcome to Local Storage Session.
 
 ## **[Learning Outcomes](./learning-outcomes.md)**
 
