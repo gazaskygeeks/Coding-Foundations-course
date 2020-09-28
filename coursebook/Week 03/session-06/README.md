@@ -8,7 +8,7 @@
 ---
 
 ## Schedule
-- 02:45 - 03:50 | [layout](./layout.md)
+- 02:00 - 03:00 | [layout](./layout.md)
 - 02:00 - 02:30 | [Exercies](./morning-challenge.md)
 
 - 03:50 - 04:00 | BREAK
