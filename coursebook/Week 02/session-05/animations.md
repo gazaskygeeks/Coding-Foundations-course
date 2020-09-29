@@ -1,4 +1,5 @@
 **Authors**: @yosefanajjar & @fares98
+
 **Maintainer**: @MohammedYehia
 
 # Welcome To The CSS Animations Workshop!
