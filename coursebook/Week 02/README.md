@@ -5,6 +5,7 @@
 - Understand what the purpose of using comments in CSS.
 - Understand what specificity is.
 - Understand how to represent colors and fonts in CSS.
+- introduction  a modern topic in CSS which is CSS Animations
 ______________________________________________________________________________________
 
 - Day 01 : Session 03 | Sematic HTML
