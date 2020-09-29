@@ -406,6 +406,5 @@ animation-iteration-count: infinite;
 
 in this example, the keyframe_name animation would run from end to start after 2 seconds delay, duration 5 seconds, by the linear method, and this animation wouldn't stop.
 
-- **Excercise:** 
-*<< in progress >>*
+
 
