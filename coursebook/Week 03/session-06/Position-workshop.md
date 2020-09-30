@@ -105,3 +105,8 @@ An element with greater stack order is always in front of an element with a lowe
 
 **Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.**
 ***
+
+### Task
+
+![](https://www.rithmschool.com/content/html_css_fundamentals/layout_mock1.png)
+
