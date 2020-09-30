@@ -14,7 +14,7 @@ the layout is how to organize the elements on your website such as put two divis
  We will discuss float, inline-block, box model now
 __________________________________________________________________________________________________________________________________________________________________
 
-### Float
+### Float :dart:
 
 The ```float``` property is used for positioning and formatting content e.g. let an image float left to the text in a container.
 
@@ -43,7 +43,7 @@ when ```float``` has value ```left``` then the element will position to left and
 > if the float get right as a value then the element will move to the right.
 _______________________________________________________________________________________________________________________________________________
 
-### clear.
+### clear :dart:
 
 The ```clea1r``` property specifies what elements can float beside the cleared element and on which side.
 
@@ -85,11 +85,9 @@ When clearing floats, you should match the clear to the float: If an element is 
 }
 ```
 ![](https://i.imgur.com/fDDI9bO.png)
-
 _________________________________________________________________________________________________________________________________________________________
 
-
-### Box Model:
+### Box Model:dart:
 
 do you know how ```margin```, ```padding```, ```border``` ?
 I will assume you know them, so now let's dive deep and understand how they are working precisely.
@@ -141,7 +139,7 @@ div {
 
 ___________________________________________________________________________________________________________________________________________________________________
 
-### display property
+### display property :dart:
 
 display property control how the element will interact with the other elements and has different values :
 
