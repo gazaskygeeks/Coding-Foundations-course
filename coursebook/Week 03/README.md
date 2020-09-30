@@ -4,7 +4,7 @@ ________________________________________________________________________________
 
 - Day 01 : Session 06 | Layouts
 
-- Day 02 : Session 07 | Responsive design
+- Day 02 : Session 07 | code along and Presentaion skills.
 
-- Day 03 : Session 08 | Presentaion skills and code along.
-- Day 03 :  Presentaion skills
+- Day 03 : Session 08 | Responsive design
+- Day 03 :Soft skills session: Presentaion skills
