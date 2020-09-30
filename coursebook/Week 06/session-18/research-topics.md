@@ -1,5 +1,5 @@
-# Research Topics 
+# Research Topics
 
-* Listening to events
-* removing elements and adding elements via the dom
-* storing user data in local storage and getting it back
+* Other ways to store data in the browser
+* What is sessionStorage
+* What is the difference between sessionStorage and localStorage

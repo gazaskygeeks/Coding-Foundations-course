@@ -1,9 +1,11 @@
-# Intro To JavaScript DOM
+# Local Storage
 
-With the HTML **DOM**, JavaScript can access and change all the elements of an HTML document.
+With the **Local Storage**, we can store data in user browser
 
 ## Learning Outcomes
-- What is the DOM?
-- DOM methods (add, remove)
-- DOM event listeners 
-- localStorage (saving data in the browser)
+
+- Store Data in Browser
+- What is the local storage?
+- Local storage methods
+- Local storage limitations
+- make todo app using DOM and local storage
