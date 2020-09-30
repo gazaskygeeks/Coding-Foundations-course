@@ -1,5 +1,8 @@
 ### learning Objective:
-
+- CSS layouts and understand the differences between them.
+- Explain what responsive and mobile first design are
+- Explain what a media query is
+- Presentaion skills
 
 ______________________________________________________________________________________
 
