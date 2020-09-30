@@ -2,6 +2,7 @@
 
 the layout is how to organize the elements on your website such as put two divisions in the same row or to put the text beside the image.
 
+
 *CSS provides a lot of techniques  to organize the position of elements in the page, like:*
 
 - float and clear.
@@ -10,7 +11,8 @@ the layout is how to organize the elements on your website such as put two divis
 - flexbox.
 - grid.
 
-in this session we will discuss float, inline-block, box model.
+ We will discuss float, inline-block, box model now
+__________________________________________________________________________________________________________________________________________________________________
 
 ### Float
 
@@ -25,22 +27,24 @@ The float property can have one of the following values:
 
 when ```float``` has value ```left``` then the element will position to left and if there is extra space for the next element then the next element will move to right: 
 
-```html
+### html
 
 <img src="https://i.imgur.com/IMtIMg0.png" alt="final result" width="700" />
-```
-``` css
+
+### css
 
 <img src="https://i.imgur.com/tQJjju3.png" alt="final result" width="700" />
-```
-```html
-final result
+
+
+### final result
 
 <img src="https://i.imgur.com/M1wh1VA.png" alt="final result" width="700" />
-```
+
 > if the float get right as a value then the element will move to the right.
+_______________________________________________________________________________________________________________________________________________
 
 ### clear.
+
 The ```clea1r``` property specifies what elements can float beside the cleared element and on which side.
 
 The clear property can have one of the following values:
@@ -54,7 +58,7 @@ The most common way to use the clear property is after you have used a float pro
 
 When clearing floats, you should match the clear to the float: If an element is floated to the left, then you should clear to the left. Your floated element will continue to float, but the cleared element will appear below it on the web page.
 
-```
+```css
 .div1 {
   float: left;
   width: 100px;
@@ -81,6 +85,8 @@ When clearing floats, you should match the clear to the float: If an element is 
 }
 ```
 ![](https://i.imgur.com/fDDI9bO.png)
+
+_________________________________________________________________________________________________________________________________________________________
 
 
 ### Box Model:
@@ -133,6 +139,8 @@ div {
 
 >all these properties work if the element is not an inline element, if the element is inline then these properties will not work.
 
+___________________________________________________________________________________________________________________________________________________________________
+
 ### display property
 
 display property control how the element will interact with the other elements and has different values :
@@ -163,7 +171,7 @@ Compared to ```display: block```, the major difference is that ```display: inlin
 The following example shows the different behavior of ```display: inline```, ```display: inline-block``` and ```display: block```:
 
 ### Example:
-```
+```css
 span.a {
   display: inline; /* the default for span */
   width: 100px;
@@ -196,7 +204,7 @@ span.c {
 
 ### Using inline-block to Create Navigation Links:
 One common use for display: inline-block is to display list items horizontally instead of vertically. The following example creates horizontal navigation links:
-```
+```css
 .nav {
   background-color: yellow;
   list-style-type: none;
@@ -217,7 +225,7 @@ One common use for display: inline-block is to display list items horizontally i
 You can create a grid of boxes that fills the browser width and wraps nicely. This has been possible for a long time using float, but now with inline-block it's even easier. inline-block elements are like inline elements but they can have a width and height. Let's look at examples of both approaches.
 
 ### The Hard Way (using float):
-```
+```css
 .box {
   float: left;
   width: 200px;
@@ -232,7 +240,7 @@ You can create a grid of boxes that fills the browser width and wraps nicely. Th
 
 ### The Easy Way (using inline-block):
 You can achieve the same effect using the inline-block value of the display property.
-```
+```css
 .box2 {
   display: inline-block;
   width: 200px;
