@@ -108,5 +108,10 @@ An element with greater stack order is always in front of an element with a lowe
 
 ### Task
 
+Write the necessary HTML and CSS to create the following layout. You can use floats, positioning to solve these challenges.
+
+
 ![](https://www.rithmschool.com/content/html_css_fundamentals/layout_mock1.png)
+
+*the task from Rithmschool*
 
