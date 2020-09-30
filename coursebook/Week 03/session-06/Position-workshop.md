@@ -1,4 +1,6 @@
-## CSS Layout - The position Property
+## CSS Layout 
+
+#### The position Property :vertical_traffic_light:
 
 - The position property specifies the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
 
@@ -13,7 +15,7 @@
 Top, bottom, left, and right properties are used to position the elements but you should set the position property first to make it work.
 They also work differently depending on the position value.
 
-- ### position: static;
+### 1.position: static; 
 ``` Static``` is the default positioned value that given to the HTML elements.
 Static positioned elements are not affected by the top, bottom, left, and right properties.
 it is always positioned according to the normal flow of the page
@@ -24,7 +26,9 @@ it is always positioned according to the normal flow of the page
 }
 ```
 ![](https://i.imgur.com/fP8nzt8.png)
-- ### position: relative;
+____________________________________________________________________________________________________________________________________________-
+
+### 2.position: relative; 
 The element is positioned according to the normal flow of the document.
 Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.
 ### Example:
@@ -35,7 +39,9 @@ box-relative {
 }
 ```
 ![](https://i.imgur.com/weJCVTL.png)
-- ### position: fixed;
+______________________________________________________________________________________________________________________________________________________
+
+ #### 3.position: fixed; 
 It is positioned relative to the initial containing block established by the viewport
 which means it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
 A fixed element does not leave a gap in the page where it would normally have been located.
@@ -49,7 +55,9 @@ box.fixed{
 }
 ```
 ![](https://i.imgur.com/9EtBfvW.png)
-- ### position: absolute;
+________________________________________________________________________________________________________________________________________________________
+
+### 4.position: absolute;
 It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. Its final position is determined by the values of top, right, bottom, and left.
 However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
 ### Example:
@@ -71,7 +79,9 @@ div.absolute {
 }
 ```
 ![](https://i.imgur.com/KVArL8D.png)
-- ### position: sticky;
+_________________________________________________________________________________________________________________________________________________________
+
+### 5.position: sticky;
 An element with position: sticky; is positioned based on the user's scroll position.
 A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met in the viewport - then it "sticks" in place (like position:fixed).
 ### Example:
@@ -86,7 +96,8 @@ div.sticky {
 }
 ```
 ### >> [Click here](https://www.w3schools.com/css/tryit.asp?filename=trycss_position_sticky) <<
-- ### Overlapping Elements
+___________________________________________________________________________________________________________________
+ ### Overlapping Elements
 When elements are positioned, they can overlap other elements.
 The z-index property specifies the stack order of an element (which element should be placed in front of, or behind, the others).
 An element can have a positive or negative stack order.
@@ -104,9 +115,9 @@ img {
 An element with greater stack order is always in front of an element with a lower stack order.
 
 **Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.**
-***
 
-### Task
+________________________________________________________________________________________________________________________________________________________
+### Task :ledger: :ledger:
 
 Write the necessary HTML and CSS to create the following layout. You can use floats, positioning to solve these challenges.
 
