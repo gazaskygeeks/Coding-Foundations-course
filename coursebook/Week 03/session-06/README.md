@@ -12,6 +12,7 @@
 - 03:00 - 03:30 | [Position](./Position-workshop.md)
 - 03:30 - 03:45 | BREAK
 - 03:45 - 05:00 | [Flexbox](./flexbox.md)
+- assignment | [Assignment](./assignment.md)
 --- 
 
 ### [Additional Resources](./resources.md)
