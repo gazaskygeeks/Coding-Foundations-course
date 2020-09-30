@@ -2,13 +2,13 @@
 
 the layout is how to organize the elements on your website such as put two divisions in the same row or to put the text beside the image.
 
-CSS provides alot of techniques  to orgnizaed the position of elements in the page, like:
+*CSS provides a lot of techniques  to organize the position of elements in the page, like:*
 
-- float.
-- inline-Block
-- box model
-- flexbox
-- grid
+- float and clear.
+- inline-Block.
+- box model.
+- flexbox.
+- grid.
 
 in this session we will discuss float, inline-block, box model.
 
@@ -25,18 +25,19 @@ The float property can have one of the following values:
 
 when ```float``` has value ```left``` then the element will position to left and if there is extra space for the next element then the next element will move to right: 
 
-#### html
+```html
 
 <img src="https://i.imgur.com/IMtIMg0.png" alt="final result" width="700" />
-
-#### css
+```
+``` css
 
 <img src="https://i.imgur.com/tQJjju3.png" alt="final result" width="700" />
-
-#### final result
+```
+```html
+final result
 
 <img src="https://i.imgur.com/M1wh1VA.png" alt="final result" width="700" />
-
+```
 > if the float get right as a value then the element will move to the right.
 
 ### clear.
