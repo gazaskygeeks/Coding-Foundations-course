@@ -1,4 +1,4 @@
-# Session-05: CSS-03
+# Session-06: CSS-03
 
 
 # Layout 
@@ -9,10 +9,9 @@
 
 ## Schedule
 - 02:00 - 03:00 | [layout](./layout.md)
-- 02:00 - 02:30 | [Exercies](./morning-challenge.md)
-
-- 03:50 - 04:00 | BREAK
-- 04:00 - 05:00 | [Flexbox](./flexbox.md)
+- 03:00 - 03:30 | [Position](./Position-workshop.md)
+- 03:30 - 03:45 | BREAK
+- 03:45 - 05:00 | [Flexbox](./flexbox.md)
 --- 
 
 ### [Additional Resources](./resources.md)
