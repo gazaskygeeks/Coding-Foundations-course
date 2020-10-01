@@ -134,9 +134,15 @@ Items display with equal spacing between them.
 ```
 Items display with equal spacing around them.
 
+
+This image, taken from an CSS-Tricks article on justify-content, does a good job illustrating the difference between the values listed above:
+
+
 ![](https://www.w3.org/TR/css-flexbox-1/images/flex-pack.svg)
 
-And you can manage the cross axis with above values (center, flex-start ...etc) by using ```align-items``` except for the first and the last element. 
+Note that when the flex-direction is column or column-reverse, justify-content refers to the vertical axis, not the horizontal.
+
+
 
 
 >here we will assume two things:
