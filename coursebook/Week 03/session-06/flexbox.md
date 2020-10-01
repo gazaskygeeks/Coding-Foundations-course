@@ -140,10 +140,6 @@ This image, taken from an CSS-Tricks article on justify-content, does a good job
 
 ![](https://www.w3.org/TR/css-flexbox-1/images/flex-pack.svg)
 
-Note that when the flex-direction is column or column-reverse, justify-content refers to the vertical axis, not the horizontal.
-
-
-
 
 >here we will assume two things:
 
