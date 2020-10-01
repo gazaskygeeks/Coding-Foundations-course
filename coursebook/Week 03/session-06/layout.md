@@ -135,7 +135,7 @@ div {
 - **width**: is the width of the content of the element.
 - **height**: is the height of the content of the element.
 
->all these properties work if the element is not an inline element, if the element is inline then these properties will not work.
+>all these properties work if the element is not an inline element, if the element is inline,  so width and height properties will not work.
 
 ___________________________________________________________________________________________________________________________________________________________________
 
