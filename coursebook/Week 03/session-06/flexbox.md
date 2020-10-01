@@ -124,7 +124,7 @@ Here the space will place before the first element.
     justify-content: space-between;
 }
 ```
-Here the space will place between all the elements equally.
+Items display with equal spacing between them.
 
 **space-around**
 ```css
@@ -132,8 +132,7 @@ Here the space will place between all the elements equally.
     justify-content: space-around;
 }
 ```
-Here the space will place between each element equally.
-
+Items display with equal spacing around them.
 ![](https://www.w3.org/TR/css-flexbox-1/images/flex-pack.svg)
 
 And you can manage the cross axis with above values (center, flex-start ...etc) by using ```align-items``` except for the first and the last element. 
