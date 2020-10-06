@@ -30,14 +30,14 @@ ________________________________________________________________________________
 
 ### *Important notes:*:boom::boom:
  it will help you to improve your quality of the code.
- ### 1.Analysis project:
+ #### 1.Analysis project:
  - Firstly discuss with the team  the structure of the project, then start to split it to many tasks. 
 - Define the branding of the project like ( main colors, font family, pictures, font size) and document it by opening an issue. 
 - Open issues to document the tasks and add description.
 - put the time for your task by using the label, how much time that you need to do like this
  'T 2d'.
 
-### 2.Github rules:
+#### 2.Github rules:
 - Assign yourself on the task. 
 - when you opened the pull request, use labels In progress, waiting review 
 - assign yourself to the PR.
@@ -49,7 +49,7 @@ ________________________________________________________________________________
 - Delete the branch after the merge
 
 
-### 3.Git rules:
+#### 3.Git rules:
 - Create a meaningful branch name.
 - checkout your branch when you start work on a new issue.
 - Write a good commits to describe your work 
@@ -57,7 +57,7 @@ ________________________________________________________________________________
 - don't push any code not working.
 - When you open PR describe what you did.
 
-### 4.Readme should contain:
+#### 4.Readme should contain:
 - The link of design ( resource)
 - WHY (describing the purpose)
 - WHAT (describing your site)
