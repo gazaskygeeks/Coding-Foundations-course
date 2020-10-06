@@ -1,4 +1,7 @@
 ### Build a Landing page with your team :sparkler::sparkler:
+- Date: 5 Oct. 2020
+- **Deadline: 14 Oct. 2020**
+
 
 We want you to work together over the next few days to build a small site from scratch that provides a short Landing page with your theam.
 
