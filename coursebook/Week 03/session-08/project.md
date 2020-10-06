@@ -65,4 +65,12 @@ ________________________________________________________________________________
 - HOW to run the website
 __________________________________________________________________________________________________________________
 
-Tips when you start coding
+#### Tips when you start coding  :fire: :fire:
+- IDs and classes ( should be relate to the div or section ).
+- bem naming for IDs and classes.
+- spilt HTML and CSS in indvdual files.
+- Try to use felx box.
+- Responsive design.
+- care about indentation. 
+- Don't reapate lines, find a way to avoid that.
+- 
