@@ -62,7 +62,7 @@ ________________________________________________________________________________
 - WHY (describing the purpose)
 - WHAT (describing your site)
 - HOW (describing the journey to completion)
-- HOW to run the website
+- Create github pages.
 __________________________________________________________________________________________________________________
 
 #### Tips when you start coding  :fire: :fire:
