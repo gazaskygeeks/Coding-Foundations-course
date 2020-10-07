@@ -13,10 +13,10 @@ We want you to work together over the next few days to build a small site from s
 
 #### Groups: :ferris_wheel::ferris_wheel:
 - *Group 01:* Hamzah, Baraa, Sarah Abu Zena
-- *Group 02:* Montaser,Ruaa, Sarah Shareef.
+- *Group 02:* Montaser,Nesma, Sarah Shareef.
 - *Group 03:* Osama, Obaid, Bashaer.
 - *Group 04:* Khaleel, Mariam, Salma.
-- *Group 05:* Sondos, Nesma,Hiba, Iman.
+- *Group 05:* Sondos, Hiba, Iman.
 - *Group 06:* Tala, Meera, Waed.
 
 
