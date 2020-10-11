@@ -26,7 +26,7 @@ For most of our short JavaScript examples, we will be using the **Chrome console
 
 **let's start by alerting a message In the Chrome Console, type the following:**
 ```javascript
-alert('Welcome in women crash course !');
+alert('welcome to the Fundamentals course !');
 ```
 **also type:**
 ```javascript
