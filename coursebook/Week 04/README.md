@@ -11,4 +11,4 @@ ________________________________________________________________________________
 
 - Day 02 : Session 10 | JavaScript Comparison and Logical Operators
 
-- Day 03 : Session 11 | Functions and loops
+- Day 03 : Session 11 | Functions and Scoops
