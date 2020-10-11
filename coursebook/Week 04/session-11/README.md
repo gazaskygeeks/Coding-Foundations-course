@@ -10,14 +10,10 @@ Welcome to the third session of the JavaScript, you will learn the basic concept
 
 ### Schedule
 
-- 11:00 - 11:30 | [Morning challenge](./morning-challenge.md)
-- 11:30 - 12:30 | [Introduction to Function](./intro-to-functions.md)
-- Break
-- 12:50 - 1:50 | [Scope and variables](./var-let-const.md)
-- 01:50 - 2:00 | [Exercises](./)
+- 02:00 - 02:20 | [Morning challenge](./morning-challenge.md)
+- 02:20 - 02:40 | [Introduction to Function](./intro-to-functions.md)
+- 02:40 - 2:50    | Break
+- 02:50 - 3:30 | [Scope and variables](./var-let-const.md)
+- 03:30 - 4:30 | [Function scops](./functions-scopes.md)
 
----
 
-## **[Research Topics](./research-topics.md)**
-
-## **[Resources](./resources.md)**
