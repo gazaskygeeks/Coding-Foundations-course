@@ -1,24 +1,12 @@
-# Session 14: JavaScript Functions
+# Arrays
 
-Welcome to the fourth session of the JavaScript. You will learn about functions in JavaScript.
-
+### [**L**earning **O**utcomes](./learning-outcomes.md)
 ---
+## **S**chedule
 
-## **[Learning Outcomes](./learning-outcomes.md)**
+- 11:00 - 12:30 | [Arrays](./arrays.md)
+- 12:30 - 12:45 | BREAK
+- 12:45 - 14:00 | [Array Methods](./array-methods.md)
 
----
-
-## Schedule
-
-- 11:00 - 11:30 | [Morning challenge](./morning-challenge.md)
-- 11:30 - 12:40 | [Introduction to Functions](./intro-to-functions.md)
-- Break
-- 1:00 - 1:30 | [Introduction to Functions](./intro-to-functions.md)
-- 1:30 - 1:55 | [Exercises](./exercises.md)
-- 1:55 - 2:00 | [Homework](./homework.md)
-
----
-
-## **[Research Topics](./research-topics.md)**
-
-## **[Resources](./resources.md)**
+--- 
+### [**A**dditional **R**esources](./resources.md)

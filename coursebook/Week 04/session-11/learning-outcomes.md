@@ -1,10 +1,8 @@
-## Learning Outcomes
+## learning-outcomes
 
-- Define what JavaScript is and Show a brief historical overview of the JavaScript.
-- Define the definition of ECMAScript. 
-- Define how to Run javascript. 
-- Define Where we will be writing most of our JavaScript codes for short & long scripts.
-- Initialize and assign variables in JavaScript.
-- List all of the data types in JavaScript.
-- Learn how to Convert between types in javascript.
-- Learn about Commenting in javascript.
+- Define what is scope in JavaScript?
+- Define what are the differences between var, let and const?
+- Define what are loops? and why we need to use them?
+- Define what are kinds of loops in JavaScript?
+- Learn how to use different types of loops in your code?
+- Define what are break and continue statements and why to use them?
