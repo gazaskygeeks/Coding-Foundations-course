@@ -5,7 +5,6 @@
 - Compare and contrast primitive data types with objects
 - JavaScript Comparison and Logical Operators
 - Define what is Function in JavaScript 
-- Loops in JavaScript.
 ______________________________________________________________________________________
 
 - Day 01 : Session 09 | Introduction to JavaScript
