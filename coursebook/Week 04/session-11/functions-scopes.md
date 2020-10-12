@@ -41,7 +41,7 @@ function addFive() {
   // local scope (scope B)
   var y = 5; // y is now available in scope B, but not scope A
   var plusFive = x + y; // x is available in scope B, because it was defined in global scope
-  return a + b;
+  return plusFive;
 }
 
 console.log(addFive()); // Returns: 10
