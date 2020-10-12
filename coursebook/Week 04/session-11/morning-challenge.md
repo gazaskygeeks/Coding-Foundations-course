@@ -1,4 +1,4 @@
-## Morning challenge
+##challenge
 
 Use the `switch` case statement to write a script that outputs the number of days in a month based on the input month and year.
 
