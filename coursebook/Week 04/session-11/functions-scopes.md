@@ -139,7 +139,7 @@ function bar() {
 
 console.log(a); // a
 console.log(bar()); // can you guess the result ?
-console.log(a); // ReferenceError
+console.log(d); // ReferenceError
 console.log(b); // ReferenceError
 console.log(c); // ReferenceError
 ```
