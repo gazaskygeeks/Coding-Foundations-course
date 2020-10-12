@@ -144,8 +144,4 @@ console.log(b); // ReferenceError
 console.log(c); // ReferenceError
 ```
 
-## Exercise :
 
-solve the question in this [link](https://leetcode.com/problems/reverse-only-letters/)  
-**Note:**
-don't forget to change the language to `javascript` before you start.
