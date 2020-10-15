@@ -1,19 +1,14 @@
-# Session 14: JavaScript Functions
+# Session 14: JavaScript part 04
 
-Welcome to the fourth session of the JavaScript. You will learn about functions in JavaScript.
-
----
-
-## **[Learning Outcomes](./learning-outcomes.md)**
+Welcome to the fourth session of the JavaScript.
 
 ---
 
 ## Schedule
 
-- 11:00 - 11:30 | [Morning challenge](./morning-challenge.md)
-- 11:30 - 12:40 | [Introduction to Functions](./intro-to-functions.md)
-- Break
-- 1:00 - 1:30 | [Introduction to Functions](./intro-to-functions.md)
+- 02:00 - 03:10 | presentation 
+- 03:20 - 3:30  | Break
+- 1:00 - 1:30 | [Loops](./loops.md)
 - 1:30 - 1:55 | [Exercises](./exercises.md)
 - 1:55 - 2:00 | [Homework](./homework.md)
 
