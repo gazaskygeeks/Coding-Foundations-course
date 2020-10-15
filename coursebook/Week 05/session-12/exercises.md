@@ -28,3 +28,9 @@ findProduct(3); // Returns: 6 = 1 * 2 * 3
 findProduct(4); // Returns: 24
 findProduct(5); // Return: 120
 ```
+
+## Exercise 4 :
+
+solve the question in this [link](https://leetcode.com/problems/reverse-only-letters/)
+Note:
+don't forget to change the language to javascript before you start.
