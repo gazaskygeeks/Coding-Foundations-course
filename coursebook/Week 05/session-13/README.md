@@ -4,13 +4,12 @@
 
 ### Schedule
 
-- 11:00 - 11:20 | [Morning Challenge](./morning-challenge.md)
-- 11:00 - 12:30 | [JavaScript Objects Part I](./javascript-objects.md)
-
-  -**BREAK**-
-  
-- 12:50 - 13:20 | [JavaScript Objects Part II](./javascript-objects.md)
-- 13:20 - 14:00 | [Exercises](./exercises.md)
+- 02:00 - 02:40 | Reacp Github
+- 02:40 - 03:00 | puzzle
+- 03:00 - 03:10 | Break
+- 03:10 - 03:50 | [JavaScript Objects Part I](./javascript-objects.md)  
+- 03:50 - 04:20 | [JavaScript Objects Part II](./javascript-objects.md)
+- 04:20 - 05:00 | [Exercises](./exercises.md)
 
 ### [Research Topics](./research-topics.md)
 ### [Resources](./resources.md)
