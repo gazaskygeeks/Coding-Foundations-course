@@ -95,7 +95,7 @@ let school = {
 
 console.log(school["name"]); // Output : Vivekanada School
 
-console.log(school[location]); // Output: 1000
+console.log(school[city]); // Output: Delhi
 ```
 
 By careful how to access JavaScript properites, Check lines below
