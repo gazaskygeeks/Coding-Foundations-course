@@ -108,8 +108,10 @@ You can also explicitly set a variable to undefined:
 ```javascript
 let favoriteFood = "Candy";
 // Changed your mind
-let favoriteFood = undefined;
+favoriteFood = undefined;
 ```
+> 💡 If you want to reset a value then you can assign `null` to the variable.
+
 ### Symbol
  The Symbol() function returns a value of type symbol, **Every symbol value returned from Symbol() is unique** .  A symbol value may be used as an identifier for object properties, this is the data type's primary purpose.
  To create a new primitive symbol, you write Symbol() with an optional string as its description:
