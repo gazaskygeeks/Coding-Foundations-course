@@ -5,7 +5,7 @@
 ### Schedule
 
 - 02:00 - 02:40 | Reacp Github
-- 02:40 - 03:00 | puzzle
+- 02:40 - 03:00 | [puzzle](./puzzle.md)
 - 03:00 - 03:10 | Break
 - 03:10 - 03:50 | [JavaScript Objects Part I](./javascript-objects.md)  
 - 03:50 - 04:20 | [JavaScript Objects Part II](./javascript-objects.md)
