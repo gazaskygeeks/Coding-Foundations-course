@@ -52,7 +52,7 @@ So,this is the most basic usage of flexbox, now let's play with the properties o
 
 ### flex-direction
 
- **row** (default)
+ **```row```** (default)
 ```css
 .container{
     flex-direction: row;
@@ -60,7 +60,7 @@ So,this is the most basic usage of flexbox, now let's play with the properties o
 ```
 Here the items will start order from left and right.
 
- **row-reverse**
+ **```row-reverse```**
 ```css
 .container{
     flex-direction: row-reverse;
@@ -69,7 +69,7 @@ Here the items will start order from left and right.
 Here the items will start order from right to left.
 
 
- **column**
+ **```column```**
 ```css
 .container{
     flex-direction: column;
@@ -77,7 +77,7 @@ Here the items will start order from right to left.
 ```
 Here the items will start order from top to bottom.
 
-**column-reverse**
+**```column-reverse```**
 ```css
 .container{
     flex-direction: column-reverse;
@@ -87,7 +87,7 @@ Here the items will start order from bottom to top.
 
 ### flex-wrap
 
-**nowrap** (default)
+**```nowrap```** (default)
 ```css
 .container{
     flex-wrap: wrap;
@@ -95,7 +95,7 @@ Here the items will start order from bottom to top.
 ```
 Here flex items will be on one line.
 
-**wrap**
+**```wrap```**
 ```css
 .container{
     flex-wrap: wrap;
@@ -103,7 +103,7 @@ Here flex items will be on one line.
 ```
 Here flex items will wrap onto multiple lines, from top to bottom.
 
-**wrap-reverse**
+**```wrap-reverse```**
 ```css
 .container{
     flex-wrap: wrap-reverse;
@@ -136,7 +136,7 @@ right now let's learn how to manage the extra space in the flex system, let's st
 
 we can manage the main axis space using ```justify-content``` in flex-container: 
 
-**center**
+**```center```**
 ```css
 .container{
     justify-content: center;
@@ -144,7 +144,7 @@ we can manage the main axis space using ```justify-content``` in flex-container:
 ```
 Here items will place at the center and extra spaces will be around them.
 
-**flex-start** (default)
+**```flex-start```** (default)
 ```css
 .container{
     justify-content: flex-start;
@@ -153,7 +153,7 @@ Here items will place at the center and extra spaces will be around them.
 Here the space will place after the last item.
 
 
-**flex-end**
+**```flex-end```**
 ```css
 .container{
     justify-content: flex-end;
@@ -161,7 +161,7 @@ Here the space will place after the last item.
 ```
 Here the space will place before the first item.
 
-**space-between**
+**```space-between```**
 ```css
 .container{
     justify-content: space-between;
@@ -169,7 +169,7 @@ Here the space will place before the first item.
 ```
 Items display with equal spacing between them.
 
-**space-around**
+**```space-around```**
 ```css
 .container{
     justify-content: space-around;
@@ -194,7 +194,7 @@ This image, taken from an CSS-Tricks article on justify-content, does a good job
 
 ### align-items
 
-**stretch** (default): 
+**```stretch```** (default): 
 
 ```css
 .container{
@@ -203,7 +203,7 @@ This image, taken from an CSS-Tricks article on justify-content, does a good job
 ```
 stretch to fill the container.
 
-**flex-start**
+**```flex-start```**
 ```css
 .container{
     align-items: flex-start;
@@ -213,7 +213,7 @@ Here the extra space (of the cross axis) will be bellow flex-elements.
 
 > when i mean after all elements I mean the elements will start to place into the container from where the flex-start in the cross axis.
 
-**flex-end**
+**```flex-end```**
 ```css
 .container{
     align-items: flex-end;
@@ -222,7 +222,7 @@ Here the extra space (of the cross axis) will be bellow flex-elements.
 Here the extra space (of the cross axis) will be above flex-elements.
 
 
-**center**
+**```center```**
 ```css
 .container{
     align-items: center;
@@ -234,7 +234,7 @@ Here the extra space (of the cross axis) will be distributed equally above and b
 
 ### align-content
 
-**flex-start**
+**```flex-start```**
 ```css
 .container{
     align-content: flex-start;
@@ -242,7 +242,7 @@ Here the extra space (of the cross axis) will be distributed equally above and b
 ```
 Here items packed to the start of the container.
 
-**flex-end** 
+**```flex-end```** 
 ```css
 .container{
     align-content: flex-end;
@@ -250,7 +250,7 @@ Here items packed to the start of the container.
 ```
 Here items packed to the end of the container.
 
-**center** 
+**```center```** 
 ```css
 .container{
     align-content: center;
@@ -258,7 +258,7 @@ Here items packed to the end of the container.
 ```
 Here items centered in the container.
 
-**space-between** 
+**```space-between```** 
 ```css
 .container{
     align-content: space-between;
@@ -266,7 +266,7 @@ Here items centered in the container.
 ```
 Here items evenly distributed, the first line is at the start of the container while the last one is at the end.
 
-**space-around**
+**```space-around```**
 ```css
 .container{
     align-content: space-around;
