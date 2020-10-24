@@ -144,7 +144,7 @@ we can manage the main axis space using ```justify-content``` in flex-container:
 ```
 Here items will place at the center and extra spaces will be around them.
 
-**flex-start**
+**flex-start** (default)
 ```css
 .container{
     justify-content: flex-start;
@@ -194,6 +194,15 @@ This image, taken from an CSS-Tricks article on justify-content, does a good job
 
 ### align-items
 
+**stretch** (default): 
+
+```css
+.container{
+    align-items: stretch;
+}
+```
+stretch to fill the container.
+
 **flex-start**
 ```css
 .container{
@@ -222,6 +231,53 @@ Here the extra space (of the cross axis) will be above flex-elements.
 Here the extra space (of the cross axis) will be distributed equally above and bellow flex-elements which will make the element in the middle of cross axis.
 
 ![](https://imgur.com/ETisbA8.png)
+
+### align-content
+
+**flex-start**
+```css
+.container{
+    align-content: flex-start;
+}
+```
+Here items packed to the start of the container.
+
+**flex-end** 
+```css
+.container{
+    align-content: flex-end;
+}
+```
+Here items packed to the end of the container.
+
+**center** 
+```css
+.container{
+    align-content: center;
+}
+```
+Here items centered in the container.
+
+**space-between** 
+```css
+.container{
+    align-content: space-between;
+}
+```
+Here items evenly distributed, the first line is at the start of the container while the last one is at the end.
+
+**space-around**
+```css
+.container{
+    align-content: space-around;
+}
+```
+Here items evenly distributed with equal space around each line.
+
+**Note:** This property only takes effect on multi-line flexible containers, where ```flex-wrap``` is set to either ```wrap``` or ```wrap-reverse```).
+
+![](https://imgur.com/0mmF1ou.png)
+
 
 
 ## Properties for the Children (flex items)
@@ -257,6 +313,19 @@ so we have the following values : 2, -1, 3, 4 so CSS we reorder them to -1 -> 2 
 
 and the final result will be :
 ![final result](https://i.imgur.com/3jFOMYi.png)
+
+
+### align-self
+```css
+.box-3 {
+    align-self: flex-end;
+}
+```
+Here box-3 are placed at the end of the cross axis individually. 
+
+![](https://imgur.com/GC8Hgpi.png)
+
+
 
 ## Exercise: 
 we have a brillient practical exercise for you [here](https://flexboxfroggy.com/) we will solve it with each other
