@@ -5,6 +5,8 @@ flexbox is technique to layout,organize and distribute HTML elements in efficien
 
 In flexbox, there are two main components you have to recognize them before start play around with flexbox which are **flex-container**, **flex-elements**
 
+
+
 ![flex container and elements](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2014/07/1404915977flex-container-and-elements.png)
 
 and there is something else you have to know before dive in flex box, as we said before flexbox is direction-agnostic so it works with the both direction and each one has it's own name, which are **Main Axis**, **Cross Axis**
@@ -19,7 +21,7 @@ let's begin with simple example, let's add some boxes (flex elements) inside an 
     <div class="box">2</div>
     <div class="box">3</div>
     <div class="box">3</div>
-<div>
+</div>
 ```
 
 ```css
@@ -44,7 +46,11 @@ let's begin with simple example, let's add some boxes (flex elements) inside an 
 Here CSS ordered elements one by one, start from the **Main Axis** and put them horizontally according to its direction which is by default is the row(horizontal direction).
 
 
-So,this is the most basic usage of flexbox, now let's play with the direction of flex: 
+So,this is the most basic usage of flexbox, now let's play with the properties of flex:
+
+## Properties for the Parent (flex container)
+
+### flex-direction
 
  **row** (default)
 ```css
@@ -52,7 +58,7 @@ So,this is the most basic usage of flexbox, now let's play with the direction of
     flex-direction: row;
 }
 ```
-Here the elements will start order from left and right.
+Here the items will start order from left and right.
 
  **row-reverse**
 ```css
@@ -60,7 +66,7 @@ Here the elements will start order from left and right.
     flex-direction: row-reverse;
 }
 ```
-Here the elements will start order from right to left.
+Here the items will start order from right to left.
 
 
  **column**
@@ -69,7 +75,7 @@ Here the elements will start order from right to left.
     flex-direction: column;
 }
 ```
-Here the elments will start order from top to bottom.
+Here the items will start order from top to bottom.
 
 **column-reverse**
 ```css
@@ -77,8 +83,43 @@ Here the elments will start order from top to bottom.
     flex-direction: column-reverse;
 }
 ```
-Here the elments will start order from bottom to top.
+Here the items will start order from bottom to top.
 
+### flex-wrap
+
+**nowrap** (default)
+```css
+.container{
+    flex-wrap: wrap;
+}
+```
+Here flex items will be on one line.
+
+**wrap**
+```css
+.container{
+    flex-wrap: wrap;
+}
+```
+Here flex items will wrap onto multiple lines, from top to bottom.
+
+**wrap-reverse**
+```css
+.container{
+    flex-wrap: wrap-reverse;
+}
+```
+Here flex items will wrap onto multiple lines from bottom to top.
+
+### flex-flow
+
+This is a **shorthand** for the ```flex-direction``` and ```flex-wrap``` properties.
+
+```css
+.container{
+    flex-flow: row nowrap;  // default
+}
+```
 
 
 ### Manage Extra Space
@@ -91,6 +132,8 @@ right now let's learn how to manage the extra space in the flex system, let's st
 > 2-  the direction is row (horizontally)
 > 
 
+### justify-content
+
 we can manage the main axis space using ```justify-content``` in flex-container: 
 
 **center**
@@ -99,7 +142,7 @@ we can manage the main axis space using ```justify-content``` in flex-container:
     justify-content: center;
 }
 ```
-Here the elements will place at the center and extra spaces will be around them
+Here items will place at the center and extra spaces will be around them.
 
 **flex-start**
 ```css
@@ -107,7 +150,7 @@ Here the elements will place at the center and extra spaces will be around them
     justify-content: flex-start;
 }
 ```
-Here the space will place after the last element
+Here the space will place after the last item.
 
 
 **flex-end**
@@ -116,7 +159,7 @@ Here the space will place after the last element
     justify-content: flex-end;
 }
 ```
-Here the space will place before the first element.
+Here the space will place before the first item.
 
 **space-between**
 ```css
@@ -141,12 +184,15 @@ This image, taken from an CSS-Tricks article on justify-content, does a good job
 ![](https://www.w3.org/TR/css-flexbox-1/images/flex-pack.svg)
 
 
+
 >here we will assume two things:
 
 > 1-  space is the space in the **Cross Axis**
 
-> 2-  the direction is row (horizontally)
+> 2-  the direction is column (vertically)
 
+
+### align-items
 
 **flex-start**
 ```css
@@ -174,6 +220,11 @@ Here the extra space (of the cross axis) will be above flex-elements.
 }
 ```
 Here the extra space (of the cross axis) will be distributed equally above and bellow flex-elements which will make the element in the middle of cross axis.
+
+![](https://imgur.com/ETisbA8.png)
+
+
+## Properties for the Children (flex items)
 
 ### **Flex-Elements Order**:
 flexbox provides a way to determine the order of each element, which is a property you can use in flex-elements.
