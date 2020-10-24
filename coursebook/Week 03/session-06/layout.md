@@ -257,3 +257,4 @@ Try to make this page in css.
 ### Read more:
 - [When do you use inline-block?](https://css-tricks.com/when-do-you-use-inline-block/)
 - [How to use inline-block for layout](https://iamsteve.me/blog/entry/inline_block)
+- [Play with display property](https://www.w3schools.com/cssref/playit.asp?filename=playcss_display)
