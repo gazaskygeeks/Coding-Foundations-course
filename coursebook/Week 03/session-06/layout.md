@@ -149,11 +149,11 @@ display property control how the element will interact with the other elements a
 
 #### ```display: block```
 
-here the element will presented as a block so the element will add a new line before and after it, in this case the element will follow the ```box model``` so we can control the ```width```, ```hight```, ```margin```, ```padding``` and ```border``` of the element.
+here the element will presented as a block so the element will add a new break line before and after it, in this case the element will follow the ```box model``` so we can control the ```width```, ```hight```, ```margin```, ```padding``` and ```border``` of the element.
 
 #### ```display: inline```
 
-here the element will not add a new lines before and after, and we can't control the ```width```, ```height```, ```padding```,```margin```, and border of the element.
+here the element will not add a new break lines before and after, and we can't control the ```width```, ```height```, ```padding```,```margin```, and border of the element.
 
 #### ```display: inline-block```
 
