@@ -11,4 +11,4 @@ ________________________________________________________________________________
 
 - Day 03 : Session 14 | Araays in JavaScript.
 
-- Day 04 : Time management | soft skills session
+- Day 04 : soft skills session| Time management.
