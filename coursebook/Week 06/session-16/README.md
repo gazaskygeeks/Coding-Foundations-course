@@ -6,9 +6,9 @@ Welcome to Local Storage Session.
 
 ## Schedule
 
-- 11:00 - 12:20 | [Local Storage](./local-storage.md)
-- Break
-- 12:30 - 2:00   | [To-Do app code along](./todo-app.md)
+- 02:00 - 03:20 | [Local Storage](./local-storage.md)
+- 03:20 - 03:30 | Break
+- 03:30 - 05:00   | [To-Do app code along](./todo-app.md)
 
 ## **[Research Topics](./research-topics.md)**
 
