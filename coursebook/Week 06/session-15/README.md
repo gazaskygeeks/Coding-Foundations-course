@@ -10,11 +10,11 @@ Welcome to the seventh session of the Javascript, you will learn about DOM in ja
 
 ## Schedule
 
-- 11:00 - 12:20 | [Introduction To DOM](./Intro-to-DOM.md)
-- Break
-- 12:30 - 1:30   | [DOM Manipulations](./DOM-manipulations.md)
-- Break
-- 1:40 - 2:00   | [Registration Form Exercises](./Dom-Exercises.md)
+- 02:00 - 02:30 | [Introduction To DOM](./Intro-to-DOM.md)
+
+- 02:30 - 03:10   | [DOM Manipulations](./DOM-manipulations.md)
+- 03:10 - 03:25  | Break
+- 03:25 - 05:00   | [Registration Form Exercises](./Dom-Exercises.md)
 
 ---
 
