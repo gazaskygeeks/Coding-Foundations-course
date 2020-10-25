@@ -87,7 +87,6 @@ A sticky element toggles between relative and fixed, depending on the scroll pos
 ### Example:
 ```css
 div.sticky {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   padding: 5px;
