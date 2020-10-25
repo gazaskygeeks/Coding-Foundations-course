@@ -10,3 +10,5 @@ ________________________________________________________________________________
 - Day 02 : Session 13 | Objects in JavaScript.
 
 - Day 03 : Session 14 | Araays in JavaScript.
+
+- Day 04 : Time management | soft skills session
