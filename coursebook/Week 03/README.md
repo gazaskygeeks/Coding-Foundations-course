@@ -11,4 +11,4 @@ ________________________________________________________________________________
 - Day 02 : Session 07 | code along and Presentaion skills.
 
 - Day 03 : Session 08 | Responsive design
-- Day 03 :Soft skills session: Presentaion skills
+- Day 02 :Soft skills session: Presentaion skills
