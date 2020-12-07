@@ -1,4 +1,4 @@
-# Session 12: JavaScript Basics
+# Session 10: JavaScript Basics
 
 Welcome to the second session of the Javascript, you will learn the basic concepts of Javascript that qualify you to write a meaningful code.
 
