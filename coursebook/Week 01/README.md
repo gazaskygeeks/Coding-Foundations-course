@@ -1,8 +1,10 @@
 
 ### learning Objective:
 - Introduction to programming & web development.
-- Practical knowledge of version control systems.
 - Introduction to HTML
+- Define what semantic HTML is and what tags can be used to create it.
+- Practical knowledge of version control systems.
+
 
 ______________________________________________________________________________________
 
