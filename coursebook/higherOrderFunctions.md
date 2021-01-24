@@ -47,7 +47,7 @@ var newarray = ages.filter(checkAges);
 > ### Try another methods alone 👨‍💻
 <br>
 
-### :	🔸  Creating Our own Higher-Order Function :
+### 🔸 Creating Our own Higher-Order Function :
 <br>
 
 Up until this point, we saw various Higher-order functions built into the language.
