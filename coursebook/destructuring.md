@@ -1,13 +1,13 @@
 # Destructuring In JavaScript  <br>
 #### 💥 Destructuring is a cool feature that came along with ES6. 
 #### Simply destructuring implies breaking down a complex structure into simpler parts. In JavaScript, this complex structure is usually an object or an array.
-<br>
+
 
 ## What is destructuring assignment ?  <br>
  The destructuring assignment syntax is a JavaScript expression that makes it possible to unpack values from arrays, or properties from objects into distinct variables.
 
  ### ✳️ That is, we can extract data from arrays and objects and assign them to variables. 
- <br><hr> 
+ <hr> 
  
  ## Why destructuring ?  <br>
  Imagine if we want to extract a data from an array or an object. 
@@ -42,7 +42,7 @@ console.log(country); //"Palestine"
  We can see that when we want to extract data from an array or an object , we had to do the same thing over and over again. 
  
  ### ✳️ ES6 destucturing assignment makes it easier to extract this data, lets see how.
- <br><hr>
+ <hr>
 
  ##  How to apply destructuring ?  <br>
 
@@ -71,7 +71,7 @@ We can also do this with the same result. 👇
     console.log(pronoun); //"I"
 ```
 ### ✳️ Notice that the variables are set from left to right. So the first variable gets the first item in the array, the second variable gets the second variable in the array and so on.
-<br>
+
 
 ### 🔹 Skipping Items in an Array :
 
@@ -88,7 +88,7 @@ This can also be done. Look at the example below. 👇
 What just happened ? Look at the array on the left side of the variable assignment. Notice that instead of having just one comma, we had three.
 
 ### ✳️ So, The comma separator is used to skip values in an array. So if you want to skip an item on an array, just use a comma.
-<br><hr>
+<hr>
 
 ## 2- Object Destructuring : <br>
 
