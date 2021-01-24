@@ -9,7 +9,7 @@ At this workshop you will study an advanced thing relates to functions called hi
 Higher order functions are functions that operate on other functions, either by taking them as arguments or by returning them.
 
 In simple words, A Higher-Order function is a function that receives a function as an argument or returns the function as output.
-<hr><br>
+<hr>
 
 ### Examples OF Higher Order Functions :
 <br>
@@ -45,9 +45,9 @@ var newarray = ages.filter(checkAges);
 ```
 
 > ### Try another methods alone 👨‍💻
-<br>
+<hr>
 
-### 🔸 Creating Our own Higher-Order Function :
+### 🔸  Creating Our own Higher-Order Function :
 <br>
 
 Up until this point, we saw various Higher-order functions built into the language.
