@@ -27,7 +27,7 @@ var numbers = [65, 44, 12, 4];
 function myFunction(num) {
   return num * 10;
 }
-var newarray = numbers.map(myFunction);
+var newArray = numbers.map(myFunction);
 ```
 
 ### 🔹 filter() method : 
@@ -41,7 +41,7 @@ function checkAges(age) {
   return age >= 30
 }
 
-var newarray = ages.filter(checkAges);
+var newArray = ages.filter(checkAges);
 ```
 
 > ### Try another methods alone 👨‍💻
@@ -53,7 +53,7 @@ var newarray = ages.filter(checkAges);
 Up until this point, we saw various Higher-order functions built into the language.
 
  Now let’s create our own Higher-order function.
- <br><br>
+ <br />
 
  * Taking a function as an argument : 
 
