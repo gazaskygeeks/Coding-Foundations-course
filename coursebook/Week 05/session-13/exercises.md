@@ -15,7 +15,7 @@ var student = {
 Sample Output:
 
 ```
-name,sclass,rollno
+[name,sclass,rollno]
 ```
 
 2. Write a JavaScript program to delete the `rollno` property from the following object. Also print the object before and after deleting the property.
