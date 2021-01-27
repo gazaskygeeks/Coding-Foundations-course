@@ -52,13 +52,14 @@ fetch('https://api.github.com/users/sara219/repos')
 
 **Status Codes**: are a part of the response letting the client know how things went when the server received the request, codes are grouped in five classes:
 
- | Code | Description |
-| :---:   | :-: | :-: |
-| **1xx** | Informational responses |
-| **2xx** | Successful responses |
-| **3xx** | Redirects |
-| **4xx** | Client errors |
-| **5xx** | Server errors |
+
+| Code        | Description                       |
+| ----------- | --------------------------------- |
+| **1xx**     | Informational responses           |
+| **2xx**     | Successful responses              |
+| **3xx**     | Redirects                         |
+| **4xx**     | Client errors                     |
+| **5xx**     | Server errors                     |
 
 <br/>
 
