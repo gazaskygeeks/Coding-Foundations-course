@@ -1,16 +1,20 @@
 ### <a id="datatypes">Data Types in JavaScript:</a>
+<br>
 
-- String
-- Number
-- Boolean
-- null
-- undefined
-- Symbol (new in ES2015)
-- Object
-   - Function
-   - Array
-   - Date
-   - RegExp
+* Primitive Data Types : 
+  - String
+  - Number
+  - Boolean
+  - undefined
+* Complex Data Types :  
+  - Object
+     - Objects
+     - Arrays
+     - null
+     - Date
+     - RegExp
+  - Function
+  - Symbol (new in ES2015)
 
 
 JavaScript is known as **a "weakly" typed language**. What this means is that when you create variables and assign them values, you do not have to specify the type of data you are working with like statically (or strongly) typed languages, like Java and C++, you do need to specify the type.
