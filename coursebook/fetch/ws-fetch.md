@@ -50,6 +50,18 @@ fetch('https://api.github.com/users/sara219/repos')
 * `Response.body`: the readable stream of the response's body.
 * `Response.headers`: HTTP headers allow the client and the server to pass additional information with the request or the response. An example are *status codes*.
 
+**Status Codes**: are a part of the response letting the client know how things went when the server received the request, codes are grouped in five classes:
+
+ | Code | Description |
+| :---:   | :-: | :-: |
+| **1xx** | Informational responses |
+| **2xx** | Successful responses |
+| **3xx** | Redirects |
+| **4xx** | Client errors |
+| **5xx** | Server errors |
+
+<br/>
+
 As we said the response.body isn’t usable JSON. It’s something called a ReadableStream. To get our API data as a JSON object, we can use a method native to the Fetch API: ***json()***
 
 ```js
