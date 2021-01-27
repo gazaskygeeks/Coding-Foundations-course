@@ -147,7 +147,7 @@ let greeting = "say Hi";
 let greeting = "say Hello instead"; //error: Identifier 'greeting' has already been declared
 ```
 
-   2- `let` can be re-declared within a different -scope : 
+   2- `let` can be re-declared within a different-scope : 
 
 **Example (4)**
 
