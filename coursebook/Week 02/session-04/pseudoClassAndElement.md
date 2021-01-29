@@ -1,6 +1,6 @@
 # CSS Pseudo-class & Pseudo-element
 
-<h2 style="color: #34495e">
+<h2>
 CSS Pseudo-class
 </h2>
 
@@ -127,7 +127,7 @@ _In this example:_ this style will be applied to every `p` element that is the `
 
 ---
 
-<h2 style="color: #34495e">
+<h2>
 CSS Pseudo-elements
 </h2>
 
@@ -192,11 +192,10 @@ _In this example:_ this style will be applied to the part that you `selected` in
 [![](https://i.imgur.com/zUq6gi2.png)](https://codepen.io/fares98/pen/WNvRJPB)
 
 - **Other Examples**
-  <div style="text-align:center; margin: 30px 0;">
+  <div>
   <img  src="https://nicolasjengler.github.io/life-after-modern-layout-properties/images/text-selection.gif" /></div>
 
 * **::after Pseudo-element:** insert new `content` after the selector, without adding new content in the `HTML`, for example:
-
 
 ```CSS
 h3::after{
@@ -237,7 +236,7 @@ _In this example:_ you will see `blue circle` `before` every `p` element in your
 
 ---
 
-<h2 style="color: #34495e">
+<h2>
 What's the difference between the Pseudo-classes & Pseudo-elements?
 </h2>
 

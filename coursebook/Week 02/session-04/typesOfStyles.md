@@ -4,7 +4,7 @@ If you have a web page that contains alot of HTML elements and you wanna give it
 
 **There are three ways to do that:**
 
-**<span style='color: #30336b'>1- Inline styles:</span>** used to apply a unique style to a specific HTML element, you’ll only need to add the style attribute to the HTML tag, for example:
+**<span>1- Inline styles:</span>** used to apply a unique style to a specific HTML element, you’ll only need to add the style attribute to the HTML tag, for example:
 
 ```HTML
     <section style="border: 5px solid black">
@@ -78,7 +78,7 @@ After using this type, your previous problem solved, you have become able to edi
 ```HTML
   <head>
     ...elements
-    <link rel="stylesheet" href="./fileNAme.css" />
+    <link rel="stylesheet" href="fileNAme.css" />
   </head>
 
   <body>

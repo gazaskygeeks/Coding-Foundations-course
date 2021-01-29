@@ -1,6 +1,6 @@
 # CSS Intro & CSS Selectors
 
-<h2 style="color: #34495e">
+<h2>
 What is CSS?
 </h2>
 
@@ -10,7 +10,7 @@ This style sheet language also allows you to add effects or animations to your w
 
 ---
 
-<h2 style="color: #34495e">
+<h2>
 CSS Syntax:
 </h2>
 
@@ -28,18 +28,18 @@ selector {
 
 - The property with the value called a declaration OR Rule structure:
 
- <div style="text-align:center; margin: 30px 0;">
+ <div>
  <img  src="https://4.bp.blogspot.com/-nrJqxDUMAL4/ViCjLDQoG8I/AAAAAAAAAK0/O7Zmg3wLWqE/s1600/css-syntax.gif" /></div>
  
  
 - All declarations for the same selector called declaration block.
 
- <div style="text-align:center; margin: 30px 0;">
+ <div>
  <img  src="https://www.littlewebhut.com/images/css_declaration.gif" /></div>
 
 ---
 
-<h2 style="color: #34495e">
+<h2>
 CSS Selectors:
 </h2>
 

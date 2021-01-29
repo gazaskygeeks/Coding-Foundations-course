@@ -2,9 +2,9 @@
 
 JavaScript has many types of operators and at this workshop we will discuss comparison and logical operators.
 
-## <a href='#comparison-operators' id='comparison-operators'>
+<a href='#comparison-operators' id='comparison-operators'></a>
 
-## Comparison Operators </a>
+## Comparison Operators
 
 Comparison operators are used to compare its operands and evaluate down to a single Boolean value of either `True` or `False`.
 
@@ -42,7 +42,7 @@ Comparison operator is also called binary operator because it requires two opera
   The identity operator returns true if the operands are strictly equal.
 
 ```javascript
-6 === '6'; // false
+6 === "6"; // false
 2 === 2; // true
 ```
 
@@ -50,7 +50,7 @@ Comparison operator is also called binary operator because it requires two opera
   The non-identity operator returns true if the operands are not equal and/or not of the same type.
 
 ```javascript
-6 !== '6'; // true
+6 !== "6"; // true
 3 !== 2; // true
 ```
 
@@ -60,7 +60,7 @@ Comparison operator is also called binary operator because it requires two opera
 
 ```javascript
 1 == 1; // true
-'1' == 1; // true (the string is converted to a number value).
+"1" == 1; // true (the string is converted to a number value).
 
 1 == true; // true (true is converted to 1).
 0 == false; // true (false is converted to 0).
@@ -70,7 +70,7 @@ Comparison operator is also called binary operator because it requires two opera
 
 ```javascript
 1 != 2; // true
-1 != '1'; // false
+1 != "1"; // false
 ```
 
 #### 3- For relational abstract comparisons, the operands are first converted to primitives, then to the same type, before comparison
@@ -101,11 +101,11 @@ false <= 0; // true
 
 #### 2. Truthy value : All values are truthy unless they are defined as falsy
 
-<a href='#logical-operators' id='logical-operators'>
+<a href='#logical-operators' id='logical-operators'></a>
 
 ---
 
-## Logical Operators </a>
+## Logical Operators
 
 Logical operators are typically used with Boolean (logical) values to return a Boolean value.However, they actually return the value of one of the specified operands, so if these operators are used with non-Boolean values, they will return a non-Boolean value.
 
@@ -125,10 +125,10 @@ Example (1) :
 a1 = true && true; // t && t returns true
 a2 = true && false; // t && f returns false
 a3 = false && 3 == 4; // f && f returns false
-a4 = 'Cat' && 'Dog'; // t && t returns "Dog"
-a5 = false && 'Cat'; // f && t returns false
-a6 = 'Cat' && false; // t && f returns false
-a7 = '' && false; // f && f returns ''
+a4 = "Cat" && "Dog"; // t && t returns "Dog"
+a5 = false && "Cat"; // f && t returns false
+a6 = "Cat" && false; // t && f returns false
+a7 = "" && false; // f && f returns ''
 ```
 
 Example (2) :
@@ -348,16 +348,16 @@ switch (expression) {
 - The `default` keyword specifies some code to run if there is no case match.
 
 ```javascript
-let a = '5';
+let a = "5";
 switch (a) {
   case 3:
-    alert('Too small');
+    alert("Too small");
     break;
   case 4:
-    alert('Exactly!');
+    alert("Exactly!");
     break;
   case 5:
-    alert('Too large');
+    alert("Too large");
     break;
   default:
     alert("I don't know such values");
@@ -373,7 +373,7 @@ alert("I don't know such values");
 var foo = 0;
 switch (foo) {
   case -1:
-    console.log('negative 1');
+    console.log("negative 1");
     break;
   case 0:
     console.log(0);
@@ -384,7 +384,7 @@ switch (foo) {
     console.log(2);
     break;
   default:
-    console.log('default');
+    console.log("default");
 }
 
 // result : 0, 1
@@ -396,7 +396,7 @@ switch (foo) {
 var foo = 0;
 switch (foo) {
   case -1:
-    console.log('negative 1');
+    console.log("negative 1");
     break;
   case 0:
     console.log(0);
@@ -408,7 +408,7 @@ switch (foo) {
     console.log(2);
     break;
   default:
-    console.log('default');
+    console.log("default");
 }
 
 // result : 0
@@ -421,19 +421,19 @@ var a = 2 + 2;
 
 switch (a) {
   case 3:
-    alert('Too small');
+    alert("Too small");
   case 4:
-    alert('Exactly!');
+    alert("Exactly!");
   case 5:
-    alert('Too big');
+    alert("Too big");
   default:
     alert("I don't know such values");
 }
 
 // result :
 
-alert('Exactly!');
-alert('Too big');
+alert("Exactly!");
+alert("Too big");
 alert("I don't know such values");
 ```
 
@@ -453,7 +453,7 @@ switch (foo) {
     console.log(2);
     break;
   default:
-    console.log('default');
+    console.log("default");
 }
 ```
 

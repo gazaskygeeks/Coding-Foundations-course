@@ -24,8 +24,8 @@ Although `getElementById()` is still a useful method, but with the newer querySe
 const element = document.querySelector(selector);
 ```
 
-* `element` – First matching element or `null` (if no element matches the selectors).
-* `selector` – one or more CSS selectors, such as `"#fooId"`, `".fooClassName"`, `".class1.class2"`, or `".class1, .class2"`.
+- `element` – First matching element or `null` (if no element matches the selectors).
+- `selector` – one or more CSS selectors, such as `"#fooId"`, `".fooClassName"`, `".class1.class2"`, or `".class1, .class2"`.
 
 #### Code Example
 
@@ -46,16 +46,16 @@ In this example, the first `<div>` gets selected with the `querySelector()` meth
 
 ```js
 // select an element based on tag name (div here)
-const firstDiv = document.querySelector('div');
+const firstDiv = document.querySelector("div");
 firstDiv.textContent; // div one
-firstDiv.style.color = 'red'; // this will change its color to red
+firstDiv.style.color = "red"; // this will change its color to red
 
 //select a div using the class name
-const secondDiv = document.querySelector('.first');
+const secondDiv = document.querySelector(".first");
 secondDiv.textContent; // div two
 
 //select a div using the id
-const thirdDiv = document.querySelector('#second');
+const thirdDiv = document.querySelector("#second");
 thirdDiv.textContent; // div three
 ```
 
@@ -71,8 +71,8 @@ The matching elements are returned as a `NodeList` object that will be an empty 
 const elements = document.querySelectorAll(selector);
 ```
 
-* `elements` – A `NodeList` object with all matching elements as property values.
-* `selector` – one or more CSS selectors, such as `"#fooId"`, `".fooClassName"`, `".class1.class2"`, or `".class1, .class2"`.
+- `elements` – A `NodeList` object with all matching elements as property values.
+- `selector` – one or more CSS selectors, such as `"#fooId"`, `".fooClassName"`, `".class1.class2"`, or `".class1, .class2"`.
 
 #### Code Example
 
@@ -93,16 +93,16 @@ The example below uses the same HTML as the previous one. However, in this examp
 
 ```js
 // select all elements have (p) tag
-const paragraphs = document.querySelectorAll('p');
+const paragraphs = document.querySelectorAll("p");
 for (const p of paragraphs) // to make loop on paragraphs
-  p.style.color = 'blue';
+  p.style.color = "blue";
 ```
 
 ### 3- [addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
 
 **Events** refer to what happens to an HTML element, such as clicking, focusing, or loading, to which we can react with JavaScript. We can assign JS functions to listen for these events in elements and do something when the event had occurred.
 
-* There are three ways you can **assign a function to a certain event**.
+- There are three ways you can **assign a function to a certain event**.
 
 If `foo()` is a custom function, you can register it **as a click event listener** (call it when the button element is clicked) in three ways:
 
@@ -115,15 +115,15 @@ If `foo()` is a custom function, you can register it **as a click event listener
 2- **Javascript** - first way
 
 ```js
-const btn = document.querySelector('button');
+const btn = document.querySelector("button");
 btn.onclick = foo;
 ```
 
 3- **Javascript** - second way
 
 ```js
-const btn = document.querySelector('button');
-btn.addEventListener('click', foo);
+const btn = document.querySelector("button");
+btn.addEventListener("click", foo);
 ```
 
 The method `addEventListener()` (the third solution) has **some pros** ; it is the latest standard – allowing the assignment of more than one function as event listeners to one event – and comes with a useful set of options.
@@ -134,10 +134,10 @@ The method `addEventListener()` (the third solution) has **some pros** ; it is t
 element.addEventListener(event, listener, [options]);
 ```
 
-* `element` – The HTML element the event listener will be listening for.
-* `event` – The targeted event.
-* `listener` – Typically, a JavaScript function.
-* `options` – (optional) An object with a set of boolean properties (listed below).
+- `element` – The HTML element the event listener will be listening for.
+- `event` – The targeted event.
+- `listener` – Typically, a JavaScript function.
+- `options` – (optional) An object with a set of boolean properties (listed below).
 
 | Options   |                                                                                                                             What happens, when it is set to true?                                                                                                                             |
 | --------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -156,10 +156,10 @@ element.addEventListener(event, listener, [options]);
 ##### Javascript
 
 ```js
-const btn = document.querySelector('button');
-btn.addEventListener('click', foo);
+const btn = document.querySelector("button");
+btn.addEventListener("click", foo);
 function foo() {
-  alert('hello');
+  alert("hello");
 }
 ```
 
@@ -167,7 +167,7 @@ function foo() {
 
 The `createElement()` method **creates a new HTML element** using the **name of the HTML tag** to be created, such as `'p'` or `'div'`.
 
-You can later add this element to the web page by using different **methods for DOM insertion**, such as `AppendChild()` [see later in this session](https://github.com/gazaskygeeks/Fundamentals-course/blob/week6-session17-review/coursebook/Week%2006/session-17/DOM-manipulations.md#5--appendchild).
+You can later add this element to the web page by using different **methods for DOM insertion**, such as `AppendChild()` [see later in this session](https://github.com/gazaskygeeks/Fundamentals-course/blob/week6-session17-review/coursebook/Week%2006/session-17/DOM-manipulations#5--appendchild).
 
 #### Syntax
 
@@ -175,14 +175,14 @@ You can later add this element to the web page by using different **methods for 
 document.createElement(tagName);
 ```
 
-* `tagName` – **The name of the HTML tag you want to create**.
+- `tagName` – **The name of the HTML tag you want to create**.
 
 #### Code Example
 
 With the following example, you can create a new paragraph element:
 
 ```js
-const pElement = document.createElement('p');
+const pElement = document.createElement("p");
 ```
 
 ### 5- [appendChild()](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
@@ -197,8 +197,8 @@ The child to be inserted can be either a **newly created element**, or an **alre
 element.appendChild(childElement);
 ```
 
-* `element` – The HTML element to which `childElement` is added as its last child.
-* `childElement` – The HTML element added as the last child of `element`.
+- `element` – The HTML element to which `childElement` is added as its last child.
+- `childElement` – The HTML element added as the last child of `element`.
 
 #### Code Example
 
@@ -214,11 +214,11 @@ In this example, we insert a `<strong>` element is as the child of a `<div>` ele
 
 ```js
 // select the first div
-const div = document.querySelector('div');
+const div = document.querySelector("div");
 
 // create new element (<strong> </strong>)
-const strong = document.createElement('strong');
-strong.textContent = 'Hello';
+const strong = document.createElement("strong");
+strong.textContent = "Hello";
 div.appendChild(strong);
 ```
 
@@ -232,9 +232,9 @@ The `setAttribute()` method either **adds a new attribute** to an HTML element, 
 element.setAttribute(name, value);
 ```
 
-* `element` – The HTML element to which an attribute is added, or of which attribute is updated.
-* `name` – The name of the attribute.
-* `value` – The value of the attribute.
+- `element` – The HTML element to which an attribute is added, or of which attribute is updated.
+- `name` – The name of the attribute.
+- `value` – The value of the attribute.
 
 #### Code Example
 
@@ -249,10 +249,10 @@ In this example, we add the `contenteditable` attribute to a `<div>` by making u
 #### Javascript
 
 ```js
-const div = document.querySelector('div');
+const div = document.querySelector("div");
 
 // set new attribute for the div element
-div.setAttribute('contenteditable', ''); // <div contenteditable></div>
+div.setAttribute("contenteditable", ""); // <div contenteditable></div>
 ```
 
 ### 7- [getAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute)
@@ -265,8 +265,8 @@ The `getAttribute()` method **returns the value of a specified attribute** belon
 element.getAttribute(name);
 ```
 
-* `element` – The HTML element of which attribute is requested.
-* `name` – The name of the attribute.
+- `element` – The HTML element of which attribute is requested.
+- `name` – The name of the attribute.
 
 #### Code Example
 
@@ -295,8 +295,8 @@ The `removeAttribute()` method **removes a given attribute** of a specific HTML 
 element.removeAttribute(name);
 ```
 
-* `element` – The HTML element of which attribute is to be removed.
-* `name` – The name of the attribute.
+- `element` – The HTML element of which attribute is to be removed.
+- `name` – The name of the attribute.
 
 #### Code Example
 
@@ -311,8 +311,8 @@ In this example, we remove the `contenteditable` attribute from the `<div>` elem
 ##### JavaScript
 
 ```js
-const div = document.querySelector('div');
-div.removeAttribute('contenteditable');
+const div = document.querySelector("div");
+div.removeAttribute("contenteditable");
 ```
 
 ### Adding CSS styles
@@ -320,13 +320,13 @@ div.removeAttribute('contenteditable');
 CSS rules can be applied like any other property; note though that the properties are camel-cased in JavaScript:
 
 ```js
-myElement.style.marginLeft = '2em';
+myElement.style.marginLeft = "2em";
 ```
 
 If we want certain values, we can obtain these via the `.style` property. However, this will only give us styles that have been explicitly applied. To get the computed values, we can use, `window.getComputedStyle()`. It takes the element and returns a [CSSStyleDeclaration](https://developer.mozilla.org/en-US/docs/Web/API/CSSStyleDeclaration) containing all styles from the element itself as well as those inherited from its parents:
 
 ```js
-window.getComputedStyle(myElement).getPropertyValue('margin-left');
+window.getComputedStyle(myElement).getPropertyValue("margin-left");
 ```
 
 ### Element properties
@@ -355,14 +355,14 @@ myElement.innerHTML += `
 Appending markup to the HTML, as shown above, is usually **a bad idea though**, as we’d lose any previously made property changes on the affected elements and bound event listeners. Setting the `.innerHTML` is good for completely throwing away markup and replacing it with something else, e.g. server-rendered markup. So appending elements would better be done like so:
 
 ```js
-const link = document.createElement('a');
+const link = document.createElement("a");
 
 // creates a new Text node
-const text = document.createTextNode('continue reading...');
+const text = document.createTextNode("continue reading...");
 
-const hr = document.createElement('hr');
+const hr = document.createElement("hr");
 
-link.href = 'foo.html';
+link.href = "foo.html";
 link.appendChild(text);
 myElement.appendChild(link);
 myElement.appendChild(hr);
@@ -374,21 +374,21 @@ If you have a `span` and you want to change its text , what do you think is bett
 1- **createTextNode with appendChild**
 
 ```js
-const my_text = document.createTextNode('Hello!');
+const my_text = document.createTextNode("Hello!");
 span.appendChild(my_text);
 ```
 
 2- **textContent**
 
 ```js
-span.textContent = 'hello';
+span.textContent = "hello";
 ```
 
 The fundamental difference is that:
 
-* `createTextNode()` is a **_method_** and works just as its name says: it **creates an element** then you must do something with it (like in your example, where you append it as a child);
+- `createTextNode()` is a **_method_** and works just as its name says: it **creates an element** then you must do something with it (like in your example, where you append it as a child);
   so it is useful if you want to have a new element and place it somewhere.
-* `textContent` is a **_property_** you may get or set, with a unique statement and nothing else;
+- `textContent` is a **_property_** you may get or set, with a unique statement and nothing else;
   so it is useful when you **only want to change the content** of an already existing element.
 
 **Now** in this case, you want to **change the text** of the element:
