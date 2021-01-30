@@ -75,20 +75,6 @@ module.exports = {
           },
           {
             type: "category",
-            label: "Session 4",
-            items: [
-              "Week 02/session-04/README",
-              "Week 02/session-04/exercise",
-              "Week 02/session-04/introAndSelectors",
-              "Week 02/session-04/learning-outcomes",
-              "Week 02/session-04/pseudoClassAndElement",
-              "Week 02/session-04/research-topics",
-              "Week 02/session-04/resources",
-              "Week 02/session-04/typesOfStyles",
-            ],
-          },
-          {
-            type: "category",
             label: "Session 5",
             items: [
               "Week 02/session-05/Cascading",
