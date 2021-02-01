@@ -1,7 +1,11 @@
-# HTML INTRO  
+
+# Session 01 :
+
+## HTML INTRO  
 
 ### [Learning Outcomes](./learning-outcomes.md)
 
+---
 ### Schedule
 
 - 10:00 - 10:30 | [Formatting Page Content with HTML](./elements-and-attributes.md)
@@ -13,6 +17,7 @@
 - 12:30 - 1:00 | [Form](./table-form.md)
 - *Assignment*  | [assignment](./assignment.md)
 
-
+---
 
 ### [Research Topics](./research-topics.md)
+### [Resources](./resources.md)

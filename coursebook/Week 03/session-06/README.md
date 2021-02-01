@@ -1,5 +1,5 @@
 
-# Session-06: 
+# Session 06 : 
 
 ## First Project
 ---
