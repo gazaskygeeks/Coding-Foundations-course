@@ -7,7 +7,10 @@ You will read about web development and web developers in general so you can hav
 - 12:40 - 12:50 | BREAK
 - 12:50 - 01:20 | [Introduction to web development](./intro-to-web.md)
 - 01:20 - 01:30 | [Web development tools](./webdev-tools.md)
-- 01:30 - 02:00 | Inroduction to HTML
+- 01:30 - 02:00 | [Inroduction to HTML](https://github.com/gazaskygeeks/Fundamentals-course/blob/master/coursebook/Week%2001/session-01/intro-to-html.md)
+
 
  [Resources](./resources.md)
+ 
+
 
