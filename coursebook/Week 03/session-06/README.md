@@ -1,17 +1,14 @@
-## Session-06: CSS-03
+## Session-06: 
 
-
-## Layout 
-
-### [Learning Outcomes](./learning-outcomes.md)
-
+## First Project
 ---
 
 ## Schedule
-- 02:00 - 03:00 | [layout](./layout.md)
-- 03:00 - 03:30 | [Position](./Position-workshop.md)
-- 03:30 - 03:45 | BREAK
-- 03:45 - 05:00 | [Flexbox](./flexbox.md)
-- assignment | [Assignment](./assignment.md)
+- 10:00 - 10:30 | Presentaion skills
+
+- 10:30 - 11:00 | [Responsive Design](https://github.com/yosefanajjar/Responsive-Design-Workshop)
+
+- 11:00 - 1:00 | Project
+
 --- 
 

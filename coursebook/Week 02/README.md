@@ -1,4 +1,5 @@
 ### learning Objective:
+
 - Define what CSS is and demonstrate three different ways to include it on your page.
 - Use selectors to target HTML.
 - Understand what the purpose of using comments in CSS.

@@ -1,8 +1,11 @@
-# Session-07: CSS-04
+# Session-07: 
 
+## First Project
 
+--- 
 ## Schedule
 
-- 02:00 - 02:30 | [Challenge](http://www.flexboxdefense.com/)
-- 02:30 - 03:30 | code along
-- 03:30 - 4:30 | code along
+- 10:00 - 10:30 | [Challenge](http://www.flexboxdefense.com/)
+- 10:30 - 01:00 | Project
+
+---
