@@ -5,15 +5,11 @@
 - JavaScript Comparison and Logical Operators
 - Define what is Function in JavaScript 
 
-<br/>
-
 <hr/>
-
-<br/>
-
 
 - **Day 01** : Session 09 | Introduction to JavaScript
 
 - **Day 02** : Session 10 | JavaScript Comparison and Logical Operators
 
 - **Day 03** : Session 11 | Functions and Scoops
+
