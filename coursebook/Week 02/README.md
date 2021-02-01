@@ -14,5 +14,6 @@ ________________________________________________________________________________
 - Day 02 : Session 04 | CSS part 02 | Layouts
 
 - Day 03 : Session 05 | Code along | Project
-- Day 04 : session 06 | Critical Professional Skills & Having The Right Attitude
+
+- Day 04 : Critical Professional Skills & Having The Right Attitude
 
