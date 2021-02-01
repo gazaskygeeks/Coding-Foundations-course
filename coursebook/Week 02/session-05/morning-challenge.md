@@ -1,17 +1,16 @@
-# Morning Challenge: 
+### Morning Challenge
 
 **Author**: [@kannanhassouna](https://github.com/kannanhassouna)
 
 ### Prepare Yourself
+
 - Open your text editor ([vs-code](https://code.visualstudio.com/) recommended).
-- Create a new file `index.html` and copy it's content from index.html in repo.
-- Create another file `index.css` and copy it's content from index.html in repo.
-- Install [live-server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension.
+- Create a new file `index.html` and copy the html from here [link](https://codepen.io/machine-1/pen/oNXWVWa).
+- Create another file `index.css` and copy the css from here [link](https://codepen.io/machine-1/pen/oNXWVWa).
 - Open your `index.html` file with live server by right click on the file and choose `open wih live server`.
 - You are good to go. 🎉🎉
+- keep these files for the reset of the workshop ‍💻.
 
----
+### Final Result: 
 
-the final result should look like this :
-
-<img src="https://i.imgur.com/pF5hoQr.png" alt="final result" width="500" />
+<img src="https://i.imgur.com/u63drRG.png" alt="final result" width="700" />
