@@ -15,4 +15,3 @@
 - assignment | [Assignment](./assignment.md)
 --- 
 
-### [Additional Resources](./resources.md)
