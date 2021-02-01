@@ -1,4 +1,4 @@
-## <a href='#exercise' id='exercise'> Exercise : </a>
+# Exercise
 
 Use `switch statement` to determine the grade of the student depending on a given final mark.
 
