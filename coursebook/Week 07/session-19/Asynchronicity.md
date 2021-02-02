@@ -67,7 +67,7 @@ function whenThePizzaGetsHere (pizza) {
 }
 
 function afterWeAteThePizza (leftovers) {
-  // Throw? Guess not
+  // Give to dog
 }
 
 function whenTheDeliveryCrashes (crashInfo) {
@@ -95,7 +95,7 @@ function whenThePizzaGetsHere (pizza) {
 }
 
 function afterWeAteThePizza (leftovers) {
-  // Throw? Guess not
+  // Give to dog
 }
 
 function whenTheDeliveryCrashes (crashInfo) {
@@ -202,7 +202,7 @@ function whenThePizzaGetsHere (pizza) {
 }
 
 function afterWeAteThePizza (leftovers) {
-  // Throw? Guess not
+  // Give to dog
 }
 
 function whenTheDeliveryCrashes (crashInfo) {
@@ -219,3 +219,21 @@ doSomeMoreCoolThingsInWebsite();
 
 You don't have to know much about the `fetch` except that it's a promise that executes calls and resolves when the call is done.
 Other than that, the async/await pattern is just a fancy way of writing promises.
+
+## Summary
+
+Javascript does only one thing at a time, but it can give things to WebAPI to do, and when the API is done it pushes the execution to the callback queue, and the queue pushes the execution to the main stack once the main stack is free/empty.
+
+Promises are functions that take a function as an argument, and resolves/rejects when that function executes the `resolve` or `reject` function.
+
+A callback function is just a function `A` that is given as an argument to function `B` with the expectation that function `B` will execute function `A`. Like array methods or even promises.
+
+Async/Await pattern is just a sparkly thing.
+
+## References
+
+Much recommended [video](https://www.youtube.com/watch?v=8aGhZQkoFbQ) about the event loop and how javascript works under the hood.
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
+
+https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/
