@@ -1,15 +1,21 @@
-# Session 18: Local Storage
+# Session 17: Introduction to DOM
 
-Welcome to Local Storage Session.
+Welcome to the seventh session of the Javascript, you will learn about DOM in javascript.
 
-## **[Learning Outcomes](./learning-outcomes.md)**
+---  
 
+## Menu
+
+- **[Learning Outcomes](./learning-outcomes.md)**
+- **[Research Topics](./research-topics.md)**
+- **[Resources](./resources.md)**
+---
 ## Schedule
 
-- 02:00 - 03:20 | [Local Storage](./local-storage.md)
-- 03:20 - 03:30 | Break
-- 03:30 - 05:00   | [To-Do app code along](./todo-app.md)
+- **10:00 - 10:30** | [Introduction To DOM](./Intro-to-DOM.md)
+- **10:30 - 11:10** | [DOM Manipulations](./DOM-manipulations.md)
 
-## **[Research Topics](./research-topics.md)**
+**[Break | 15m]**
 
-## **[Resources](./resources.md)**
+- **11:25 - 01:00** | [Registration Form Exercises](./Dom-Exercises.md)
+
