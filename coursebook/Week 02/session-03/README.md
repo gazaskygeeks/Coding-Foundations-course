@@ -13,7 +13,7 @@ Welcome to the first session of the CSS.
 
 <hr />
 
-### Schechule
+## Schechule
 
 - 10:00 - 10:30 | [CSS Intro & CSS Selectors](./introAndSelectors.md)
 

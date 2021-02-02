@@ -14,6 +14,7 @@ Welcome to the second session of the CSS.
 <hr />
 
 ## Schedule
+
 - 10:00 - 10:20 | [Morning Challenge](./morning-challenge.md)
 
 - 10:20 - 11:10 | [layout](./layout.md)

@@ -1,4 +1,5 @@
-# learning Objectives :
+
+# Learning Objectives :
 
 - Define what CSS is and demonstrate three different ways to include it on your page.
 - Use selectors to target HTML.
