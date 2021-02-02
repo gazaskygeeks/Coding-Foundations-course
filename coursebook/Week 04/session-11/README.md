@@ -19,9 +19,6 @@ Welcome to the third session of the JavaScript, you will learn the basic concept
 
 **[Break | 15m]**
 
-- **11:45 - 12:20** | [Variables](./variables.md)
-- **12:20 - 01:00**   | [Scope](./scopes.md)
-
-
-
-
+- **11:45 - 12:10** | [Variables](./variables.md)
+- **12:10 - 12:30** | [Scope](./scopes.md)
+- **12:30 - 1:00**  | [Exercises](./exercises.md)
