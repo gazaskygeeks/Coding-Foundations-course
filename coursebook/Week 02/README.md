@@ -1,4 +1,4 @@
-### learning Objective:
+# learning Objectives :
 
 - Define what CSS is and demonstrate three different ways to include it on your page.
 - Use selectors to target HTML.
@@ -7,13 +7,14 @@
 - Understand how to represent colors and fonts in CSS.
 - introduction  a modern topic in CSS which is CSS Animations.
 - Understand the positions and layouts in CSS.
-______________________________________________________________________________________
 
-- Day 01 : Session 03 | Introduction to CSS
+<hr />
 
-- Day 02 : Session 04 | CSS part 02 | Layouts
+- **Day 01** : Session 03 | Introduction to CSS
 
-- Day 03 : Session 05 | Code along | Project
+- **Day 02** : Session 04 | CSS part 02 | Layouts
 
-- Day 04 : Critical Professional Skills & Having The Right Attitude
+- **Day 03** : Session 05 | Responsive Design
+
+- **Day 04** : Critical Professional Having a positive mindset 
 

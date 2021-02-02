@@ -1,7 +1,5 @@
 # Morning Challenge: 
 
-**Author**: [@kannanhassouna](https://github.com/kannanhassouna)
-
 ### Prepare Yourself
 - Open your text editor ([vs-code](https://code.visualstudio.com/) recommended).
 - Create a new file `index.html` and copy it's content from index.html in repo.

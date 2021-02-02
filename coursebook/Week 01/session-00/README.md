@@ -1,10 +1,15 @@
 
-# Session 00 :
+# Session 00 : Introduction to the web
 
-## Introduction to the web
-You will read about web development and web developers in general so you can have a better understanding of what are you going to be learning in the next sessions
+Welcome to the first session of web programming and HTML.
 
----
+# Menue 
+
+* [Learning Outcomes](./learning-outcomes.md)
+* [Additional Resources](./resources.md)
+
+<hr />
+
 ## Schedule
 
 - 10:00 - 11:00 | Welcome talk
@@ -15,8 +20,7 @@ You will read about web development and web developers in general so you can hav
 - 12:20 - 12:30 | [Web development tools](./webdev-tools.md)
 - 12:30 - 01:00 | [Inroduction to HTML](./intro-to-html.md)
 
----
- [Resources](./resources.md)
+
  
 
 

@@ -1,11 +1,18 @@
 
-# Session 01 :
+# Session 01 : HTML and HTML5
 
-## HTML INTRO  
+Welcome to the second session of HTML and HTML5.
 
-### [Learning Outcomes](./learning-outcomes.md)
+# Menue  
 
----
+* [Learning Outcomes](./learning-outcomes.md)
+
+* [Research Topics](./research-topics.md)
+
+* [Additional Resources](./resources.md)
+
+<hr />
+
 ### Schedule
 
 - 10:00 - 10:30 | [Formatting Page Content with HTML](./elements-and-attributes.md)
@@ -17,7 +24,4 @@
 - 12:30 - 1:00 | [Form](./table-form.md)
 - *Assignment*  | [assignment](./assignment.md)
 
----
 
-### [Research Topics](./research-topics.md)
-### [Resources](./resources.md)

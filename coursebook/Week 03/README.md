@@ -1,10 +1,16 @@
 
-# First Project 
+# Learning Objectives :
 
-- Day 01 : Session 06 | Responsive Design & Project
+* Do code along with lead mentors to create a responsive web page by applying what you have learned at the HTML and CSS sessions.
 
-- Day 02 : Session 07 | Project
+* Start the first HTML and CSS project.
 
-- Day 03 : Session 08 | Project
+<hr />
 
-- Day 04 : Soft skills session: Presentaion skills
+- **Day 01** : Session 06 | Code along & Project
+
+- **Day 02** : Session 07 | Project
+
+- **Day 03** : Session 08 | Project
+
+- **Day 04** : Soft skills session: Presentaion skills

@@ -1,12 +1,15 @@
 
-# Session 07 : 
+# Session 07 : First Project 
 
-## First Project
+## Menue
+
+* Morning Challenge
+* First Project
 
 --- 
 ## Schedule
 
 - 10:00 - 10:30 | [Challenge](http://www.flexboxdefense.com/)
-- 10:30 - 01:00 | Project
+- 10:30 - 01:00 | First Project
 
 ---

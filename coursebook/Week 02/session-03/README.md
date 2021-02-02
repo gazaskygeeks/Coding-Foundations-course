@@ -1,11 +1,18 @@
 
-# Session 03 :
+# Session 03 : CSS Part 01
 
-## Semantic HTML
+Welcome to the first session of the CSS.
 
-### [Learning Outcomes](./learning-outcomes.md)
+# Menue 
 
----
+* [Learning Outcomes](./learning-outcomes.md)
+
+* [Research](./research-topics.md)
+
+* [Additional Resources](./resources.md)
+
+<hr />
+
 ### Schechule
 
 - 10:00 - 10:30 | [CSS Intro & CSS Selectors](./introAndSelectors.md)
@@ -22,7 +29,5 @@
 
 - 11:50 - 1:00  | [Animations](./animations.md)
 
---- 
 
-- [Research](./research-topics.md)
-- [Resources](./resources.md)
+

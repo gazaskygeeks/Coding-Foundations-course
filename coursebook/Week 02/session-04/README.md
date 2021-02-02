@@ -1,12 +1,17 @@
 
-# Session 04 : 
+# Session 04 : CSS Part 02
 
+Welcome to the second session of the CSS.
 
-## Layout 
+# Menue
 
-### [Learning Outcomes](./learning-outcomes.md)
+* [Learning Outcomes](./learning-outcomes.md)
 
----
+* [Research](./research-topics.md)
+
+* [Additional Resources](./resources.md)
+
+<hr />
 
 ## Schedule
 - 10:00 - 10:20 | [Morning Challenge](./morning-challenge.md)
@@ -17,11 +22,10 @@
 
 - 11:40 - 11:50 | BREAK
 
-- 11:50 - 1:00 | [Flexbox](./flexbox.md)
+- 11:50 - 12:30 | [Flexbox](./flexbox.md)
 
-- assignment | [Assignment](./assignment.md)
---- 
+- 12:30 - 1:00 | [Exercise](./exerscise.md)
 
-- [Research](./research-topics.md)
+- *Assignment* | [Assignment](./assignment.md)
 
-- [Additional Resources](./resources.md)
+

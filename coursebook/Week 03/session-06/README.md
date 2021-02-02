@@ -1,14 +1,16 @@
 
-# Session 06 : 
+# Session 06 : First Project
 
-## First Project
+## Menue
+* Code along
+* First Project
 ---
 
 ## Schedule
 
-- 10:00 - 11:00 | [Responsive Design](https://github.com/yosefanajjar/Responsive-Design-Workshop)
+- 10:00 - 11:30 | Code along
 
-- 11:00 - 1:00  | Project
+- 11:30 - 1:00  | Project
 
 --- 
 

@@ -207,7 +207,4 @@ so we have the following values : 2, -1, 3, 4 so CSS we reorder them to -1 -> 2 
 and the final result will be :
 ![final result](https://i.imgur.com/3jFOMYi.png)
 
-## Exercise: 
-we have a brillient practical exercise for you [here](https://flexboxfroggy.com/) we will solve it with each other
 
-that's it for additional reading about things like ```align-content``` you can following links: [Additional Resources](./resources.md)
