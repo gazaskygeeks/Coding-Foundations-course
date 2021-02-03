@@ -249,14 +249,14 @@ for (let name of arr) {
 ```js 
 let arr = 'Bilbo, Gandalf, Nazgul, Saruman'.split(', ', 2);
 
-console.log(arr); // Bilbo, Gandalf
+console.log(arr); // [Bilbo, Gandalf]
 ```
 
 **Split into letters**
 ```js
  let str = "test";
 
-console.log( str.split('') ); // t,e,s,t
+console.log( str.split('') ); // [t,e,s,t]
 ```
  The [split()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split) method turns a String into an array of strings, by separating the string at each instance of a specified separator string.
 
