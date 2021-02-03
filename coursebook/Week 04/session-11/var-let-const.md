@@ -33,7 +33,7 @@ console.log(y); // Logs: undefined
 
 Before the advent of ES6, `var` declarations ruled as a King. Let us get to understand `var` more.
 
-- `var` variables can be re-declared:
+- `var` variables can be re-declared :
 
 **Example (1)**
 
@@ -47,7 +47,7 @@ var greeter = "say Hello instead";
 console.log(greeter); // result: say Hello instead
 ```
 
-- `var` variables can be updated:
+- `var` variables can be updated :
 
 **Example (2)**
 
@@ -107,7 +107,7 @@ if (times > 3) {
 }
 ```
 
-- `let` can be updated:
+- `let` can be updated :
 
   Like `var`, `let` can be updated.
 
@@ -121,9 +121,9 @@ greeting = "say Hello instead";
 console.log(greeting); // result: say Hello instead
 ```
 
-- `let` declarations are hoisted to the top:
+- Hoisting of `let` :
 
-  Unlike `var` which is initialized with a value of `undefined`, the `let` keyword is not initialized. So if you try to use `let` variable before declaration, you'll get a Reference Error.
+  Unlike `var`, `let` declarations are hoisted to the top but without initialization, the `let` keyword is not initialized with undefind like `var`. So if you try to use `let` variable before declaration, you'll get a Reference Error.
 
 **Example (3)**
 
@@ -133,7 +133,9 @@ console.log(greeting); // Uncaught ReferenceError: Cannot access 'greeting' befo
 let greeting = "say Hello instead";
 ```
 
-- `let` can't be re-declared:
+- `let` Re-declaration :
+
+   1- `let` can not be re-declared within the same-scope : 
 
 **Example (4)**
 
@@ -145,9 +147,22 @@ let greeting = "say Hi";
 let greeting = "say Hello instead"; //error: Identifier 'greeting' has already been declared
 ```
 
+   2- `let` can be re-declared within a different-scope : 
+
+**Example (4)**
+
+```javascript
+let greeting = "say Hi"; // scope A
+function sayGreeting(){ // scope B
+let greeting = "say Hello instead"; // re-declared within a different scope.
+}
+```
+
 **3. `const`**
 
 Variables declared with `const` maintain constant values. `const` declarations share some similarities with `let` declarations.
+
+- `const` variable must be initialized during declaration.
 
 - `const` cannot be updated or re-declared:
 
@@ -185,8 +200,12 @@ const greeting = "say Hello instead";
 
 ## Wrap-up
 
-- `var` variables can be updated and re-declared within its scope; `let` variables can be updated but not re-declared; `const` variables can neither be updated nor re-declared.
+- `var` variables can be updated and re-declared within its scope and outside it too;
 
-- They are all hoisted to the top of their scope. But while `var` variables are initialized with undefined, `let` and `const` variables are not initialized.
+- `let` variables can be updated but not re-declared within the same scope;
+
+- `const` variables can neither be updated nor re-declared.
+
+- They are all hoisted to the top of their scope. But while `var` variables are initialized with `undefined`, `let` and `const` variables are not initialized.
 
 - While `var` and `let` can be declared without being initialized, `const` must be initialized during declaration.
