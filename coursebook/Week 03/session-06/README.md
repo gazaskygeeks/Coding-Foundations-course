@@ -1,18 +1,19 @@
 ## Session-06: CSS-03
 
+## Layout
 
-## Layout 
-
-### [Learning Outcomes](./learning-outcomes.md)
+### [Learning Outcomes](learning-outcomes)
 
 ---
 
 ## Schedule
-- 02:00 - 03:00 | [layout](./layout.md)
-- 03:00 - 03:30 | [Position](./Position-workshop.md)
-- 03:30 - 03:45 | BREAK
-- 03:45 - 05:00 | [Flexbox](./flexbox.md)
-- assignment | [Assignment](./assignment.md)
---- 
 
-### [Additional Resources](./resources.md)
+- 02:00 - 03:00 | [layout](layout)
+- 03:00 - 03:30 | [Position](Position-workshop)
+- 03:30 - 03:45 | BREAK
+- 03:45 - 05:00 | [Flexbox](flexbox)
+- assignment | [Assignment](assignment)
+
+---
+
+### [Additional Resources](resources)

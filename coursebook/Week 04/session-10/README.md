@@ -6,20 +6,20 @@ Welcome to the second session of the Javascript, you will learn the basic concep
 
 ---
 
-- **[Learning Outcomes](./learning-outcomes.md)**
-- **[Research](./research-topics.md)**
-- **[Resources](./resources.md)**
+- **[Learning Outcomes](learning-outcomes)**
+- **[Research](research-topics)**
+- **[Resources](resources)**
 
 ---
 
 ## Schedule
 
-- 02:00 - 02:15 | [Morning challenge](./morning-challenge.md#morning-challenge)
-- 02:15 - 03:15 | [Comparison operators](./operators.md#comparison-operators)
+- 02:00 - 02:15 | [Morning challenge](morning-challenge#morning-challenge)
+- 02:15 - 03:15 | [Comparison operators](operators#comparison-operators)
 - Break
-- 03:30 - 04:15 | [Logical operators](./operators.md#logical-operators)
-- 04:15 - 04:45 | [Conditional statements](./operators.md#conditional-statements)
+- 03:30 - 04:15 | [Logical operators](operators#logical-operators)
+- 04:15 - 04:45 | [Conditional statements](operators#conditional-statements)
 
-- 04:45 - 05:00 | [Exercise](./exercise.md)
+- 04:45 - 05:00 | [Exercise](exercise)
 
 ---
