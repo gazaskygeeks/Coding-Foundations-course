@@ -1,6 +1,4 @@
-### Morning Challenge
-
-**Author**: [@kannanhassouna](https://github.com/kannanhassouna)
+# Morning Challenge
 
 ### Prepare Yourself
 
@@ -11,6 +9,6 @@
 - You are good to go. 🎉🎉
 - keep these files for the reset of the workshop ‍💻.
 
-### Final Result: 
+### Final Result : 
 
 <img src="https://i.imgur.com/u63drRG.png" alt="final result" width="700" />
