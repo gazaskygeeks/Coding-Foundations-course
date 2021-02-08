@@ -1,6 +1,6 @@
 # Research Topics
 
-- Function expression.
-- Arrow function expressions.
-- Recursion - function can call itself.
-- Higher Order Functions
+- JavaScript Hoisting.
+- Using break & continue with a labeled statement.
+- The for...in Loop.
+- The for...of Loop [ES6].

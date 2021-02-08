@@ -1,13 +1,16 @@
 # Arrays
 
-### [**L**earning **O**utcomes](./learning-outcomes.md)
+## Menu
+- **[Learning Outcomes](./learning-outcomes.md)**
+- **[Research Topics](./research.md)**
+- **[Additional Resources](./resources.md)**
+
 ---
-## **S**chedule
+## Schedule
 
-- 02:00 - 02:50 | [Arrays](./arrays.md)
-- 02:50 - 03:00 | BREAK
-- 03:00 - 04:00 | [Array Methods](./array-methods.md)
-- 04:00 - 05:00 | code wares 
+- **10:00 - 10:50** | [Arrays](./arrays.md)
 
---- 
-### [**A**dditional **R**esources](./resources.md)
+**[BREAK | 10m]**
+
+- **11:00 - 12:00** | [Array Methods](./array-methods.md)
+- **12:00 - 01:00** | code wares 

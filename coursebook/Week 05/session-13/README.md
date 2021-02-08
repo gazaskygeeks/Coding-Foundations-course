@@ -1,15 +1,17 @@
 # JavaScript Objects
 
-### [Learning Outcomes](./learning-outcomes.md)
+## Menu
+- **[Learning Outcomes](./learning-outcomes.md)**
+- **[Research Topics](./research-topics.md)**
+- **[Resources](./resources.md)**
 
-### Schedule
+## Schedule
 
-- 02:00 - 02:40 | Reacp Github
-- 02:40 - 03:00 | [puzzle](./puzzle.md)
-- 03:00 - 03:10 | Break
-- 03:10 - 03:50 | [JavaScript Objects Part I](./javascript-objects.md)  
-- 03:50 - 04:20 | [JavaScript Objects Part II](./javascript-objects.md)
-- 04:20 - 05:00 | [Exercises](./exercises.md)
+- **10:00 - 10:30** | Recap Github
+- **10:30 - 11:00** | [puzzle](./puzzle.md)
 
-### [Research Topics](./research-topics.md)
-### [Resources](./resources.md)
+**[Break | 10m]**
+
+- **11:10 - 11:50** | [JavaScript Objects Part I](./javascript-objects.md)  
+- **11:50 - 12:20** | [JavaScript Objects Part II](./javascript-objects.md)
+- **12:20 - 01:00** | [Exercises](./exercises.md)
