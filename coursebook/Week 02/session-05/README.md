@@ -1,18 +1,15 @@
-# Session-05: CSS-02
 
-### [Morning Challenge](morning-challenge.md)
+# Session 05 : Responsive Design
 
-## [Learning Outcomes](./learning-outcomes.md)
+# Menue
+
+* [Learning Outcomes](./learning-outcomes)
+
+<hr />
 
 ## Schedule
 
-- 02:00 - 02:20 | [Comments In CSS](./Comments.md)
-- 02:20 - 02:30 | [Cascading In CSS](./Cascading.md)
-- 02:30 - 03:50 | [Specificity In CSS](./Specificity.md)
-- 03:50 - 03:10 | [Inheritance In CSS](./Inheritance.md)
-- 03:10 - 3:20  | -BREAK-
-- 03:20 -  3:40  | [Colors](./Colors.md)
-- 03:40 -  04:10  | [Fonts](./fonts.md)
-- 4:40 - 05:00 | [CSS Animations](./animations.md)
+- 10:00 - 10:30 | [Morning Challenge](./morning-challenge.md)
 
-## [Additional Resources](./resources.md)
+- 10:30 - 1:00 | [Responsive Design](https://github.com/yosefanajjar/Responsive-Design-Workshop)
+

@@ -1,20 +1,32 @@
-## Session 4: CSS-01
 
+# Session 04 : CSS Part 02
 
-- [Learning Outcomes](./learning-outcomes.md)
----
+Welcome to the second session of the CSS.
+
+# Menue
+
+* [Learning Outcomes](./learning-outcomes.md)
+
+* [Research](./research-topics.md)
+
+* [Additional Resources](./resources.md)
+
+<hr />
 
 ## Schedule
 
-- 02:00 - 02: 40 | [CSS Intro & CSS Selectors](./introAndSelectors.md)
+- 10:00 - 10:20 | [Morning Challenge](./morning-challenge.md)
 
-- 02:40 - 03:00 | [Types of CSS Styles](./typesOfStyles.md)
+- 10:20 - 11:10 | [layout](./layout.md)
 
-- 03:00 - 03:10 | -BREAK-
+- 11:10 - 11:40 | [Position](./Position-workshop.md)
 
-- 03:10 - 04:00 | [CSS Pseudo-class & Pseudo-element](./pseudoClassAndElement.md)
+- 11:40 - 11:50 | BREAK
 
-- 04:00 - 05:00 | [Exercise](./exercise.md)
+- 11:50 - 12:30 | [Flexbox](./flexbox.md)
 
-- [Research](./research-topics.md)
-- [Resources](./resources.md)
+- 12:30 - 1:00 | [Exercise](./exerscise.md)
+
+- *Assignment* | [Assignment](./assignment.md)
+
+

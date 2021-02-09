@@ -1,18 +1,19 @@
-## Session-06: CSS-03
 
+# Session 06 : First Project
 
-## Layout 
+# Menue
 
-### [Learning Outcomes](./learning-outcomes.md)
+* [Code along workshop guidelines](./code-along.md).
 
----
+* First Project.
+
+<hr />
 
 ## Schedule
-- 02:00 - 03:00 | [layout](./layout.md)
-- 03:00 - 03:30 | [Position](./Position-workshop.md)
-- 03:30 - 03:45 | BREAK
-- 03:45 - 05:00 | [Flexbox](./flexbox.md)
-- assignment | [Assignment](./assignment.md)
---- 
 
-### [Additional Resources](./resources.md)
+- 10:00 - 11:30 | [Code along workshop](https://github.com/AlaaTaima/FC-code-along)
+
+- 11:30 - 1:00  | First Project
+
+
+

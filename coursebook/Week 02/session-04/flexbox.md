@@ -124,7 +124,7 @@ Here the space will place before the first element.
     justify-content: space-between;
 }
 ```
-Here the space will place between all the elements equally.
+Items display with equal spacing between them.
 
 **space-around**
 ```css
@@ -132,11 +132,13 @@ Here the space will place between all the elements equally.
     justify-content: space-around;
 }
 ```
-Here the space will place between each element equally.
+Items display with equal spacing around them.
+
+
+This image, taken from an CSS-Tricks article on justify-content, does a good job illustrating the difference between the values listed above:
+
 
 ![](https://www.w3.org/TR/css-flexbox-1/images/flex-pack.svg)
-
-And you can manage the cross axis with above values (center, flex-start ...etc) by using ```align-items``` except for the first and the last element. 
 
 
 >here we will assume two things:
@@ -205,7 +207,4 @@ so we have the following values : 2, -1, 3, 4 so CSS we reorder them to -1 -> 2 
 and the final result will be :
 ![final result](https://i.imgur.com/3jFOMYi.png)
 
-## Exercise: 
-we have a brillient practical exercise for you [here](https://flexboxfroggy.com/) we will solve it with each other
 
-that's it for additional reading about things like ```align-content``` you can following links: [Additional Resources](./resources.md)

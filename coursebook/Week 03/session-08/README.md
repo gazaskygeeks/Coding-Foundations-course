@@ -1,12 +1,15 @@
 
-## Session-08: CSS-04
+# Session 08 : First Project
+
+# Menue
+
+* First Project
+
+<hr />
 
 ## Schedule
 
-- 02:10 - 03:40 | [Responsive Design](https://github.com/yosefanajjar/Responsive-Design-Workshop)
-- 3:40 - 05      | presentaion skills
-
-- Projects | [First project](./project.md) 
+- 10:00 - 01:00 | First project
 
 
 
