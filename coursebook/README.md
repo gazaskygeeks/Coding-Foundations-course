@@ -17,7 +17,7 @@ The first six weeks will provide you with the Fundamentals concepts of web devel
 
 - Week 6 - JavaScript part 02
 
-- Week 7 - Projects
+- Week 7 - JavaScript part 03
 
 - Week 8 - Projects
 
