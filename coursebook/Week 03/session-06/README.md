@@ -5,7 +5,7 @@
 
 * [Code along workshop guidelines](./code-along.md).
 
-* First Project.
+* [First project workshop guidelines](./first-project.md).
 
 <hr />
 
