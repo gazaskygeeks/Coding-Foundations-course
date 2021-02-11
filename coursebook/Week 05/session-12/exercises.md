@@ -1,33 +1,73 @@
-# Exercises
+## Exercises
 
-**Note:** you can use online editor to work on the following exercises. [Repl.it](https://repl.it/) for example.
+1. Write a JavaScript program to list the properties of a JavaScript object.
 
-## Exercise 1
+Sample object:
 
-Write a JavaScript `for loop` that will iterate from 0 to 15. For each iteration, it will check if the current number is odd or even, and display a message to the screen.
-
-**_Sample Output:_**
-
-```js
-"0 is even"
-"1 is odd"
-"2 is even"
-----------
-----------
+```javascript
+var student = {
+  name: "David Rayy",
+  sclass: "VI",
+  rollno: 12,
+};
 ```
 
-## Exercise 2
+Sample Output:
 
-**Note:** This exercise illustrates how to use nested loops. So if there is no time to solve it, then it should be homework and discussed later.
+```
+name,sclass,rollno
+```
 
-Write a JavaScript program to construct the following pattern, using a `nested for loop`.
+2. Write a JavaScript program to delete the `rollno` property from the following object. Also print the object before and after deleting the property.
 
-**_Pattern:_**
+Sample object:
+
+```javascript
+var student = {
+  name: "David Rayy",
+  sclass: "VI",
+  rollno: 12,
+};
+```
+
+3. Write a JavaScript program to get the length of a JavaScript object properties.
+
+4. Write a JavaScript function to retrieve all the values of an object's properties.
+   Sample object:
+
+```javascript
+var country = {
+  name: "France",
+  capital: "Paris",
+};
+```
+
+Sample Output:
 
 ```js
-*
-* *
-* * *
-* * * *
-* * * * *
+["France", "Paris"];
+```
+
+5. Write a JavaScript function to check whether an object contains given property.
+
+6. Write a JavaScript function to get a copy of the object where the keys have become the values and the values the keys.
+
+Sample Object:
+
+```javascript
+var colors = {
+  red: "#FF0000",
+  green: "#00FF00",
+  white: "#FFFFFF",
+};
+```
+
+Sample Output
+
+```javascript
+{
+  "#FF0000": "red",
+  "#00FF00": "green",
+  "#FFFFFF": "white"
+}
 ```
