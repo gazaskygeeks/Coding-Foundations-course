@@ -1,8 +1,10 @@
 ## learning-outcomes
 
+- Define javaScript functions.
+- Explain why to use functions.
+- Explain how to declare and call functions.
+- State the differences between function parameters and arguments.
+- Define the return statement.
+- Define function expression.
 - Define what is scope in JavaScript?
 - Define what are the differences between var, let and const?
-- Define what are loops? and why we need to use them?
-- Define what are kinds of loops in JavaScript?
-- Learn how to use different types of loops in your code?
-- Define what are break and continue statements and why to use them?
