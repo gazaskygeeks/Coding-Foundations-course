@@ -1,17 +1,17 @@
-# JavaScript Objects
+# Arrays
 
 ## Menu
 - **[Learning Outcomes](./learning-outcomes.md)**
-- **[Research Topics](./research-topics.md)**
-- **[Resources](./resources.md)**
+- **[Research Topics](./research.md)**
+- **[Additional Resources](./resources.md)**
 
+---
 ## Schedule
 
-- **10:00 - 10:30** | Recap Github
-- **10:30 - 11:00** | [puzzle](./puzzle.md)
+- **10:00 - 10:50** | [Arrays](./arrays.md)
 
-**[Break | 10m]**
+**[BREAK | 10m]**
 
-- **11:10 - 11:50** | [JavaScript Objects Part I](./javascript-objects.md)  
-- **11:50 - 12:20** | [JavaScript Objects Part II](./javascript-objects.md)
-- **12:20 - 01:00** | [Exercises](./exercises.md)
+- **11:00 - 11:30** | [Array Methods](./array-methods.md)
+- **11:30 - 12:00** | [Destructuring](./destructuring.md)
+- **12:00 - 01:00** | code wares 

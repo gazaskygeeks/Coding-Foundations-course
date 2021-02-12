@@ -1,7 +1,12 @@
-# Learning Outcomes
+## Learning Outcomes
 
-- Define what are loops? and why we need to use them?
-- Define what are kinds of loops in JavaScript?
-- Learn how to use different types of loops in your code?
-- Define what are break and continue statements and why to use them?
+In this workshop, you are going to learn about JavaScript objects, how to use them, and a bunch of things related to them:
 
+- What are JavaScript Objects?
+- JavaScript Objects Syntax (Creating Objects)
+- Object Properties
+  - Accessing properties inside of objects
+  - Looping through object properties
+  - Adding and deleting properties
+- Objects Methods (built-in & making our own)
+- Objects are Mutable

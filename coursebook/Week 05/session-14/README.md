@@ -1,16 +1,11 @@
-# Arrays
+# Problem Solving
 
-## Menu
-- **[Learning Outcomes](./learning-outcomes.md)**
-- **[Research Topics](./research.md)**
-- **[Additional Resources](./resources.md)**
 
 ---
 ## Schedule
 
-- **10:00 - 10:50** | [Arrays](./arrays.md)
+- **10:00 - 10:45** | [High order functions](./higherOrderFunctions.md)
 
-**[BREAK | 10m]**
+**[BREAK | 15m]**
 
-- **11:00 - 12:00** | [Array Methods](./array-methods.md)
-- **12:00 - 01:00** | code wares 
+- **11:00 - 1:00** | Problem Solving

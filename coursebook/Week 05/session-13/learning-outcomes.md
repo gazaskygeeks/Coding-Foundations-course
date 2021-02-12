@@ -1,12 +1,10 @@
-## Learning Outcomes
+# Learning Outcomes
 
-In this workshop, you are going to learn about JavaScript objects, how to use them, and a bunch of things related to them:
+- know and understand Arrays in js:
+   - Create an Array.
+   - Array length [how many items on it]
+   - Access (index into) an Array item.
+   - Loop over an array by indexes.
 
-- What are JavaScript Objects?
-- JavaScript Objects Syntax (Creating Objects)
-- Object Properties
-  - Accessing properties inside of objects
-  - Looping through object properties
-  - Adding and deleting properties
-- Objects Methods (built-in & making our own)
-- Objects are Mutable
+- know and understand some Arrays method:
+   - map, forEach, reduce, filter, sort, pop, push, shift, unshift, join, split
