@@ -1,9 +1,8 @@
 
 # Assignment : Git and GitHub 
 
-### At the link below you will find an assignment workshop, try to apply what you learn about git and github. 
+### Create a repo then, try to apply all steps that lead mentors explained about git and github with your partner. 
 
-**[Click here](https://github.com/gsg-K1-FC/GitHubWorkshop)**
 
 <hr />
 
