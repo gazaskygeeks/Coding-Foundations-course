@@ -15,8 +15,8 @@ Welcome to the second session of the Javascript, you will learn the basic concep
 
 ## Schedule
 
-- **10:00 - 10:15** | [Morning challenge](./morning-challenge.md#morning-challenge)
-- **10:15 - 11:15** | [Comparison operators](./operators.md#comparison-operators)
+- **10:00 - 10:45** | [Morning challenge](./morning-challenge.md#morning-challenge)
+- **10:45 - 11:15** | [Comparison operators](./operators.md#comparison-operators)
 
 **[Break | 15m]**
 
