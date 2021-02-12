@@ -15,12 +15,9 @@ Welcome to the second session of the Javascript, you will learn the basic concep
 
 ## Schedule
 
-- **10:00 - 10:45** | [Morning challenge](./morning-challenge.md#morning-challenge)
-- **10:45 - 11:15** | [Comparison operators](./operators.md#comparison-operators)
+- **10:00 - 10:45** | [Loops](./loop.md)
 
-**[Break | 15m]**
+**[Break- 15m]**
 
-- **11:30 - 12:15** | [Logical operators](./operators.md#logical-operators)
-- **12:15 - 12:45**  | [Conditional statements](./operators.md#conditional-statements)
-
-- **12:45 - 01:00** | [Exercise](./exercise.md)
+- **11:00 - 12:45** | [Exercises](./exercises.md)
+- **12:45 - 01:00** | [Homework](./homework.md)

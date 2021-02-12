@@ -1,6 +1,6 @@
 # Research Topics
 
-- JavaScript Continue Statement.
-- Differences Between Break and Continue Statement.
-- Conditional (Ternary) Operator.
-- Comparing Different Types.
+- JavaScript Hoisting.
+- Using break & continue with a labeled statement.
+- The for...in Loop.
+- The for...of Loop [ES6].
