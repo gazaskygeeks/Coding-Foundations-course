@@ -1,8 +1,6 @@
-# Session 17: Introduction to DOM
+# Session 16: Local Storage
 
-Welcome to the seventh session of the Javascript, you will learn about DOM in javascript.
-
----  
+Welcome to Local Storage Session.
 
 ## Menu
 
@@ -12,10 +10,10 @@ Welcome to the seventh session of the Javascript, you will learn about DOM in ja
 ---
 ## Schedule
 
-- **10:00 - 10:30** | [Introduction To DOM](./Intro-to-DOM.md)
-- **10:30 - 11:10** | [DOM Manipulations](./DOM-manipulations.md)
+- **10:00 - 11:20** | [Local Storage](./local-storage.md)
 
-**[Break | 15m]**
+**[Break | 10m]**
 
-- **11:25 - 01:00** | [Registration Form Exercises](./Dom-Exercises.md)
+- **11:30 - 01:00** | [To-Do app code along](./todo-app.md)
+
 
