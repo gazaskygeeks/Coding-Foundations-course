@@ -1,19 +1,23 @@
-### Session 11: JavaScript Basics
+# Session 10: JavaScript Basics
 
-Welcome to the third session of the JavaScript, you will learn the basic concepts of JavaScript that qualify you to write a meaningful code.
+Welcome to the second session of the Javascript, you will learn the basic concepts of Javascript that qualify you to write a meaningful code.
+
+***Note*** : you will find many useful resources for more explanation and, you have a time at the end of the session to ask mentors.
+
+---
+## Menu
+
+- **[Learning Outcomes](./learning-outcomes.md)**
+- **[Research](./research-topics.md)**
+- **[Resources](./resources.md)**
 
 ---
 
-### **[Learning Outcomes](./learning-outcomes.md)**
+## Schedule
 
----
+- **10:00 - 10:45** | [Loops](./loop.md)
 
-### Schedule
+**[Break- 15m]**
 
-- 02:00 - 02:20 | [challenge](./morning-challenge.md)
-- 02:20 - 02:40 | [Introduction to Function](./intro-to-functions.md)
-- 02:40 - 2:50    | Break
-- 02:50 - 3:30 | [Scope and variables](./var-let-const.md)
-- 03:30 - 4:30 | [Function scops](./functions-scopes.md)
-
-
+- **11:00 - 12:45** | [Exercises](./exercises.md)
+- **12:45 - 01:00** | [Homework](./homework.md)

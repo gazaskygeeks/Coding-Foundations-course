@@ -65,8 +65,8 @@ While the `condition` is truthy, the code from the `loop` body is executed.
 
 ```javascript
 let i = 1;
-while(i <= 5) {   
-    console.log("The number is " + i ); // shows 1,then 2,then 3,then 4,then 5  
+while(i <= 5) {   // shows 0, then 1,then 2,then 3,then 4,then 5  
+    console.log("The number is " + i );
     i++;
 } 
 ```
