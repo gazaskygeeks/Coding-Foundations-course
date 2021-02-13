@@ -1,14 +1,19 @@
-### What is HTML?
+### What is HTML ?
 
 (Hypertext Markup Language) is not **a programming language**. It is a markup language that tells web browsers how to structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to be.
 
 #### Not a Programming Language
 
 Programming languages have functional purposes. HTML, as a markup language doesn’t really “do” anything in the sense that a programming language does. HTML contains no programming logic. It doesn’t have common conditional statements such as If/Else. It can’t evaluate expressions or do any math. It doesn’t handle events or carry out tasks. You can’t declare variables and you can’t write functions. It doesn’t modify or manipulate data in any way. HTML can’t take input and produce output. Think of it this way: you can’t compute the sum of 2 + 2 in HTML; that’s not what it’s for. This is because HTML is not a programming language.
+
+<hr>
  
-### The History of HTML: 
+### The History of HTML : 
 
 HTML was first created by Tim Berners-Lee, Robert Cailliau, and others.
+
+
+### Explanation of HTML abbreviation 
 
 **Hypertext** it's mean that you can move around the web by clicking on special text called hyperlinks which bring you to the next page, which hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
 

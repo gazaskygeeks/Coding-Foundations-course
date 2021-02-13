@@ -73,6 +73,9 @@ Popular version control systems include:
 We have two types of repos; local which is on our computer and remote which is hosted on somebody's else server or computer.
 The purpose of a remote repository (eg, **GitHub**) is to publish your code to the world or to some people and allow them to read or write it, so if you are the only developer, you don't really need a remote/central repo.
 
+![drawing](https://i.stack.imgur.com/UvZ0M.png)
+
+
 ## Initializing a git local repository
 #### Local implementation of using git and version control
 
@@ -98,7 +101,6 @@ git commit -m "complete my second and third files"
 git log
 ```
 
-![drawing](https://i.stack.imgur.com/UvZ0M.png)
 
 ## What is GitHub?
 #### the largest host of source code in the world
