@@ -9,25 +9,36 @@ Welcome to the first session of the CSS.
 
 * [Research](./research-topics.md)
 
-* [Additional Resources](./resources.md)
+* [Additional Resources](./Resources.md)
 
 <hr />
 
 ## Schechule
 
-- 10:00 - 10:30 | [CSS Intro & CSS Selectors](./introAndSelectors.md)
+- 10:00 - 11:00 | [Git Workshop | Pairs]()
 
-- 10:30 - 10:45 | [Types of CSS Styles](./typesOfStyles.md)
+- 11:00 - 11:30 | [CSS Intro & CSS Selectors](./introAndSelectors.md)
 
-- 10:45 - 10:55 | -BREAK-
+- 11:30 - 11:50 | [Types of CSS Styles](./typesOfStyles.md)
 
-- 10:55 - 11:20 | [CSS Pseudo-class & Pseudo-element](./pseudoClassAndElement.md)
+- 11:30 - 11:50 | [Colors at CSS](./Colors.md)
 
-- 11:20 - 11:35 | [Exercise](./exercise.md)
+- 11:30 - 11:50 | [Fonts at CSS](./Fonts.md)
 
-- 11:35 - 11:50 | [Comments, Cascading, Specificity, Inheritance](./Comments.md)
+- 11:50 - 12:00 | -BREAK-
 
-- 11:50 - 1:00  | [Animations](./animations.md)
+- 12:00 - 12:30 | [CSS Pseudo-class & Pseudo-element](./pseudoClassAndElement.md)
+
+- 12:30 - 12:45 | [Exercise](./Exercise.md)
+
+- 12:45 - 1:00 | [Comments](./Comments.md)
+
+- 12:45 - 1:00 | [Cascading](./Cascading.md)
+
+- 12:45 - 1:00 | [Specificity](./Specificity.md)
+
+- 12:45 - 1:00 | [Inheritance](./Inheritance.md)
+
 
 
 
