@@ -1,5 +1,5 @@
 
-# Session 05 : Responsive Design
+# Session 05 : Animations & Responsive Design
 
 # Menue
 
@@ -9,7 +9,11 @@
 
 ## Schedule
 
-- 10:00 - 10:30 | [Morning Challenge](./morning-challenge.md)
+- 10:00 - 10:15 | [Morning Challenge](./morning-challenge.md)
 
-- 10:30 - 1:00 | [Responsive Design](https://github.com/yosefanajjar/Responsive-Design-Workshop)
+- 10:15 - 11:25 | [Animations](./animations.md)
+
+- 11:25 - 11:35 | Break
+
+- 11:35 - 1:00 | [Responsive Design](https://github.com/yosefanajjar/Responsive-Design-Workshop)
 
