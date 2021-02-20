@@ -25,7 +25,7 @@ Welcome to the second session of the CSS.
 
 - 11:50 - 12:30 | [Flexbox](./flexbox.md)
 
-- 12:30 - 1:00 | [Exercise](./exerscise.md)
+- 12:30 - 1:00 | [Exercise](./exercise.md)
 
 - *Assignment* | [Assignment](./assignment.md)
 
