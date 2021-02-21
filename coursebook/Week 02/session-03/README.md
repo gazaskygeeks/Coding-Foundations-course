@@ -9,13 +9,13 @@ Welcome to the first session of the CSS.
 
 * [Research](./research-topics.md)
 
-* [Additional Resources](./Resources.md)
+* [Additional Resources](./resources.md)
 
 <hr />
 
 ## Schechule
 
-- 10:00 - 11:00 | [Git Workshop | Pairs]()
+- 10:00 - 11:00 | [Git Workshop | Pairs](https://github.com/foundersandcoders/git-workflow-workshop-for-two)
 
 - 11:00 - 11:30 | [CSS Intro & CSS Selectors](./introAndSelectors.md)
 
@@ -23,13 +23,13 @@ Welcome to the first session of the CSS.
 
 - 11:30 - 11:50 | [Colors at CSS](./Colors.md)
 
-- 11:30 - 11:50 | [Fonts at CSS](./Fonts.md)
+- 11:30 - 11:50 | [Fonts at CSS](./fonts.md)
 
 - 11:50 - 12:00 | -BREAK-
 
 - 12:00 - 12:30 | [CSS Pseudo-class & Pseudo-element](./pseudoClassAndElement.md)
 
-- 12:30 - 12:45 | [Exercise](./Exercise.md)
+- 12:30 - 12:45 | [Exercise](./exercise.md)
 
 - 12:45 - 1:00 | [Comments](./Comments.md)
 
