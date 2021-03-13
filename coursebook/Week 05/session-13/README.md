@@ -8,10 +8,11 @@
 ---
 ## Schedule
 
-- **10:00 - 10:50** | [Arrays](./arrays.md)
+- **10:00 - 10:20** | [Morning Challenge](./morning-challenge.md)
+- **10:20 - 11:00** | [Arrays](./arrays.md)
 
 **[BREAK | 10m]**
 
-- **11:00 - 11:30** | [Array Methods](./array-methods.md)
-- **11:30 - 12:00** | [Destructuring](./destructuring.md)
-- **12:00 - 01:00** | code wares 
+- **11:10 - 12:00** | [Array Methods](./array-methods.md)
+- **12:00 - 12:30** | [Destructuring](./destructuring.md)
+- **12:30 - 01:00** | code wares 
