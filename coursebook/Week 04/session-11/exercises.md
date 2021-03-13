@@ -36,9 +36,15 @@ findProduct(5); // Return: 120
 
 ## Exercise 3 :
 
-solve the question in this [link](https://leetcode.com/problems/reverse-only-letters/)
-Note:
-don't forget to change the language to javascript before you start.
+ Write a JavaScript program that reverses a string
+
+ ***test***
+
+ ```js
+ reverseStr(“hello”) should return ->  "olleh"
+ reverseSt('Code Academy | Fundamentals Course') should return -> "esruoC slatnemadnuF | ymedacA edoC"
+
+ ```
 
 
 ## Exercise 4
