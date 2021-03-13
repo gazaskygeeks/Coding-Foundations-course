@@ -65,7 +65,7 @@ While the `condition` is truthy, the code from the `loop` body is executed.
 
 ```javascript
 let i = 1;
-while(i <= 5) {   // shows 0, then 1,then 2,then 3,then 4,then 5  
+while(i <= 5) {   // shows 1,then 2,then 3,then 4,then 5  
     console.log("The number is " + i );
     i++;
 } 
@@ -168,7 +168,7 @@ for (let i = 0; i < 10; i++) {
   text += "The number is " + i + "<br>";
 }
 ```
-The previous example iterates through the numbers from 0 to 10 until it reaches to the number 3, it will terminates loop and getting out from it.
+The previous example iterates through the numbers from 0 to 9 until it reaches to the number 3, it will terminates loop and getting out from it.
 
 ### continue statement
 
