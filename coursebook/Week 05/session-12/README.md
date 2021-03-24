@@ -1,19 +1,17 @@
-# Session 14: JavaScript part 04
+# JavaScript Objects
 
-Welcome to the fourth session of the JavaScript.
-
----
+## Menu
+- **[Learning Outcomes](./learning-outcomes.md)**
+- **[Research Topics](./research-topics.md)**
+- **[Resources](./resources.md)**
 
 ## Schedule
 
-- 02:00 - 03:10 | presentation 
-- 03:20 - 3:30  | Break
-- 1:00 - 1:30 | [Loops](./loop.md)
-- 1:30 - 1:55 | [Exercises](./exercises.md)
-- 1:55 - 2:00 | [Homework](./homework.md)
+- **10:00 - 10:30** | Recap Github
+- **10:30 - 11:00** | [puzzle](./puzzle.md)
 
----
+**[Break | 10m]**
 
-## **[Research Topics](./research-topics.md)**
-
-## **[Resources](./resources.md)**
+- **11:10 - 11:50** | [JavaScript Objects Part I](./javascript-objects.md)  
+- **11:50 - 12:20** | [JavaScript Objects Part II](./javascript-objects.md)
+- **12:20 - 01:00** | [Exercises](./exercises.md)

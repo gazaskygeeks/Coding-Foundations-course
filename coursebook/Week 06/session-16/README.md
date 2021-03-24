@@ -1,15 +1,19 @@
-# Session 18: Local Storage
+# Session 16: Local Storage
 
 Welcome to Local Storage Session.
 
-## **[Learning Outcomes](./learning-outcomes.md)**
+## Menu
 
+- **[Learning Outcomes](./learning-outcomes.md)**
+- **[Research Topics](./research-topics.md)**
+- **[Resources](./resources.md)**
+---
 ## Schedule
 
-- 02:00 - 03:20 | [Local Storage](./local-storage.md)
-- 03:20 - 03:30 | Break
-- 03:30 - 05:00   | [To-Do app code along](./todo-app.md)
+- **10:00 - 11:20** | [Local Storage](./local-storage.md)
 
-## **[Research Topics](./research-topics.md)**
+**[Break | 10m]**
 
-## **[Resources](./resources.md)**
+- **11:30 - 01:00** | [To-Do app code along](./todo-app.md)
+
+

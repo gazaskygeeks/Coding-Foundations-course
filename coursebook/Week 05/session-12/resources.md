@@ -1,6 +1,6 @@
-# Resources
+## References
+[JavaScript Objects From w3schools](https://www.w3schools.com/js/js_object_definition.asp)
 
-- [Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-- [JavaScript Functions](https://www.w3schools.com/js/js_functions.asp)
-- [JavaScript Functions — Understanding The Basics](https://codeburst.io/javascript-functions-understanding-the-basics-207dbf42ed99)
-- [The Importance of Functions in JavaScript](https://newmediadenver.com/the-importance-of-functions-in-javascript/)
+[Objects In JavaScript GeeksForGeeks](https://www.geeksforgeeks.org/objects-in-javascript/#:~:text=Loosely%20speaking%2C%20objects%20in%20JavaScript,the%20context%20of%20an%20object.)
+
+[Working with JavaScrit Objects MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)

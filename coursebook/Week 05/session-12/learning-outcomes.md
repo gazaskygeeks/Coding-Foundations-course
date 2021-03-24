@@ -1,8 +1,12 @@
 ## Learning Outcomes
 
-- Define javaScript functions.
-- Explain why to use functions.
-- Explain how to declare and call functions.
-- State the differences between function parameters and arguments.
-- Define the return statement.
-- Define function expression.
+In this workshop, you are going to learn about JavaScript objects, how to use them, and a bunch of things related to them:
+
+- What are JavaScript Objects?
+- JavaScript Objects Syntax (Creating Objects)
+- Object Properties
+  - Accessing properties inside of objects
+  - Looping through object properties
+  - Adding and deleting properties
+- Objects Methods (built-in & making our own)
+- Objects are Mutable

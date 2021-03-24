@@ -1,15 +1,18 @@
-# JavaScript Objects
+# Arrays
 
-### [Learning Outcomes](./learning-outcomes.md)
+## Menu
+- **[Learning Outcomes](./learning-outcomes.md)**
+- **[Research Topics](./research.md)**
+- **[Additional Resources](./resources.md)**
 
-### Schedule
+---
+## Schedule
 
-- 02:00 - 02:40 | Reacp Github
-- 02:40 - 03:00 | [puzzle](./puzzle.md)
-- 03:00 - 03:10 | Break
-- 03:10 - 03:50 | [JavaScript Objects Part I](./javascript-objects.md)  
-- 03:50 - 04:20 | [JavaScript Objects Part II](./javascript-objects.md)
-- 04:20 - 05:00 | [Exercises](./exercises.md)
+- **10:00 - 10:20** | [Morning Challenge](./morning-challenge.md)
+- **10:20 - 11:00** | [Arrays](./arrays.md)
 
-### [Research Topics](./research-topics.md)
-### [Resources](./resources.md)
+**[BREAK | 10m]**
+
+- **11:10 - 12:00** | [Array Methods](./array-methods.md)
+- **12:00 - 12:30** | [Destructuring](./destructuring.md)
+- **12:30 - 01:00** | code wares 

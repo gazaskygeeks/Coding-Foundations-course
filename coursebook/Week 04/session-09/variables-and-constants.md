@@ -64,7 +64,7 @@ console.log(x); // print the value of x which is 11
 
 let y = 20;
 
-y = 10;
+y = 10; // re-assign the value of y to be 10
 
 console.log(y) // print 10
 ```
@@ -87,7 +87,7 @@ As we said, it is constant and we can't give it(re-assign) a different value to 
 
 ## When to use `var`, `let`, and `const`?
 
-Nowadays it is "recommended" to use let and const instead of var(we will see why later). Use `let` whenever you are planning on changing the value of the variable, and `const` when you are planning on keeping the value as it is.
+Nowadays it is "recommended" to use `let` and `const` instead of `var` (we will see why later). Use `let` whenever you are planning on changing the value of the variable, and `const` when you are planning on keeping the value as it is.
 
 <br/>
 

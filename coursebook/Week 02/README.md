@@ -1,17 +1,21 @@
-### learning Objective:
-- Define what semantic HTML is and what tags can be used to create it.
+
+# Learning Objectives :
+
 - Define what CSS is and demonstrate three different ways to include it on your page.
 - Use selectors to target HTML.
 - Understand what the purpose of using comments in CSS.
 - Understand what specificity is.
 - Understand how to represent colors and fonts in CSS.
-- introduction  a modern topic in CSS which is CSS Animations
-______________________________________________________________________________________
+- introduction  a modern topic in CSS which is CSS Animations.
+- Understand the positions and layouts in CSS.
 
-- Day 01 : Session 03 | Sematic HTML
+<hr />
 
-- Day 02 : Session 04 | Introduction to CSS
+- **Day 01** : Session 03 | Introduction to CSS
 
-- Day 03 : Session 05 | CSS part 02
-- Day 04 : session 06 | Critical Professional Skills & Having The Right Attitude
+- **Day 02** : Session 04 | CSS part 02 | Layouts
+
+- **Day 03** : Session 05 | Responsive Design
+
+- **Day 04** : Critical Professional Having a positive mindset 
 

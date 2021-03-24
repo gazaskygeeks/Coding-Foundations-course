@@ -1,23 +1,21 @@
-# Session 17: Introduction to DOM
+# Session 15: Introduction to DOM
 
 Welcome to the seventh session of the Javascript, you will learn about DOM in javascript.
 
 ---  
 
-## **[Learning Outcomes](./learning-outcomes.md)**
+## Menu
 
+- **[Learning Outcomes](./learning-outcomes.md)**
+- **[Research Topics](./research-topics.md)**
+- **[Resources](./resources.md)**
 ---
-
 ## Schedule
 
-- 02:00 - 02:30 | [Introduction To DOM](./Intro-to-DOM.md)
+- **10:00 - 10:30** | [Introduction To DOM](./Intro-to-DOM.md)
+- **10:30 - 11:10** | [DOM Manipulations](./DOM-manipulations.md)
 
-- 02:30 - 03:10   | [DOM Manipulations](./DOM-manipulations.md)
-- 03:10 - 03:25  | Break
-- 03:25 - 05:00   | [Registration Form Exercises](./Dom-Exercises.md)
+**[Break | 15m]**
 
----
+- **11:25 - 01:00** | [Registration Form Exercises](./Dom-Exercises.md)
 
-## **[Research Topics](./research-topics.md)**
-
-## **[Resources](./resources.md)**

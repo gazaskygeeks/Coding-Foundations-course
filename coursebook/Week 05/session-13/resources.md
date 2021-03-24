@@ -1,6 +1,6 @@
-## References
-[JavaScript Objects From w3schools](https://www.w3schools.com/js/js_object_definition.asp)
+# **A**dditional **R**esources:
 
-[Objects In JavaScript GeeksForGeeks](https://www.geeksforgeeks.org/objects-in-javascript/#:~:text=Loosely%20speaking%2C%20objects%20in%20JavaScript,the%20context%20of%20an%20object.)
-
-[Working with JavaScrit Objects MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
+  * [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+  * [Indexed collections](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)
+  * [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#break_statement) 
+  * [Array Loops](https://medium.com/better-programming/how-to-manipulate-and-iterate-arrays-in-javascript-3a0eb819b662)

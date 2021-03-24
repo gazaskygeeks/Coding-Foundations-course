@@ -1,25 +1,24 @@
 # Session 10: JavaScript Basics
 
-Welcome to the second session of the Javascript, you will learn the basic concepts of Javascript that qualify you to write a meaningful code.
-
-**Note** : you will find many useful resources for more explanation and, you have a time at the end of the session to ask mentors.
+Welcome to the third session of the JavaScript, you will learn the basic concepts of JavaScript that qualify you to write a meaningful code.
 
 ---
+## Menu
 
 - **[Learning Outcomes](./learning-outcomes.md)**
 - **[Research](./research-topics.md)**
 - **[Resources](./resources.md)**
 
+
 ---
 
 ## Schedule
 
-- 02:00 - 02:15 | [Morning challenge](./morning-challenge.md#morning-challenge)
-- 02:15 - 03:15 | [Comparison operators](./operators.md#comparison-operators)
-- Break
-- 03:30 - 04:15 | [Logical operators](./operators.md#logical-operators)
-- 04:15 - 04:45 | [Conditional statements](./operators.md#conditional-statements)
+- **10:00 - 10:20** | [Morning Challenge](./morning-challenge.md)
+- **10:20 - 11:30** | [Introduction to Function](./intro-to-functions.md)
 
-- 04:45 - 05:00 | [Exercise](./exercise.md)
+**[Break | 15m]**
 
----
+- **11:45 - 12:10** | [Variables](./variables.md)
+- **12:10 - 12:30** | [Scope](./scopes.md)
+- **12:30 - 1:00**  | [Exercises](./exercises.md)

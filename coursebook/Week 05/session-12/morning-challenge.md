@@ -1,6 +1,4 @@
-## Morning Challenge
+## Morning challenge
+This is a quick nice challenge made so you can practice your JavaScript skills.
 
-**Task**  
-Write a JavaScript code to compute the sum of all integers from 1 to 100 using a single loop.
-
-Expected Output: **5050**
+https://leetcode.com/problems/valid-anagram/

@@ -1,6 +1,6 @@
 # Research Topics
 
-- JavaScript Continue Statement.
-- Differences Between Break and Continue Statement.
-- Conditional (Ternary) Operator.
-- Comparing Different Types.
+- Function expression.
+- Arrow function expressions.
+- Recursion - function can call itself.
+- Higher Order Functions

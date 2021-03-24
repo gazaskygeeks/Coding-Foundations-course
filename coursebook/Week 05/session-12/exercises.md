@@ -1,36 +1,73 @@
-# Exercises
+## Exercises
 
-**Note:** you can use online editor to work on the following exercises. [Repl.it](https://repl.it/) for example.
+1. Write a JavaScript program to list the properties of a JavaScript object.
 
-## Exercise 1
+Sample object:
 
-Write a JavaScript function that takes an integer as an input and returns if that integer is even or odd.
-
-## Exercise 2
-
-Write a JavaScript function to convert temperatures from Fahrenheit to Celsius.
-
-Formula: `c = (f - 32) * (5 / 9)`
-
-## Exercise 3
-
-Write a JavaScript function to compute the product of all integers from 1 to a given positive integer.
-
-**Note:** In mathematics, this is called the factorial of a number and it's denoted by `n!` where `n` is a positive integer.
-
-```js
-// Expected Outcomes:
-function findProduct(int) {
-  // some code
-}
-
-findProduct(3); // Returns: 6 = 1 * 2 * 3
-findProduct(4); // Returns: 24
-findProduct(5); // Return: 120
+```javascript
+var student = {
+  name: "David Rayy",
+  sclass: "VI",
+  rollno: 12,
+};
 ```
 
-## Exercise 4 :
+Sample Output:
 
-solve the question in this [link](https://leetcode.com/problems/reverse-only-letters/)
-Note:
-don't forget to change the language to javascript before you start.
+```
+name,sclass,rollno
+```
+
+2. Write a JavaScript program to delete the `rollno` property from the following object. Also print the object before and after deleting the property.
+
+Sample object:
+
+```javascript
+var student = {
+  name: "David Rayy",
+  sclass: "VI",
+  rollno: 12,
+};
+```
+
+3. Write a JavaScript program to get the length of a JavaScript object properties.
+
+4. Write a JavaScript function to retrieve all the values of an object's properties.
+   Sample object:
+
+```javascript
+var country = {
+  name: "France",
+  capital: "Paris",
+};
+```
+
+Sample Output:
+
+```js
+["France", "Paris"];
+```
+
+5. Write a JavaScript function to check whether an object contains given property.
+
+6. Write a JavaScript function to get a copy of the object where the keys have become the values and the values the keys.
+
+Sample Object:
+
+```javascript
+var colors = {
+  red: "#FF0000",
+  green: "#00FF00",
+  white: "#FFFFFF",
+};
+```
+
+Sample Output
+
+```javascript
+{
+  "#FF0000": "red",
+  "#00FF00": "green",
+  "#FFFFFF": "white"
+}
+```

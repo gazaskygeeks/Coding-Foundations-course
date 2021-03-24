@@ -1,14 +1,16 @@
-### learning Objective:
-- CSS layouts and understand the differences between them.
-- Explain what responsive and mobile first design are
-- Explain what a media query is
-- Presentaion skills
 
-______________________________________________________________________________________
+# Learning Objectives :
 
-- Day 01 : Session 06 | Layouts
+* Do code along with lead mentors to create a responsive web page by applying what you have learned at the HTML and CSS sessions.
 
-- Day 02 : Session 07 | code along and Presentaion skills.
+* Start the first HTML and CSS project.
 
-- Day 03 : Session 08 | Responsive design
-- Day 02 :Soft skills session: Presentaion skills
+<hr />
+
+- **Day 01** : Session 06 | Code along & Project
+
+- **Day 02** : Session 07 | Project
+
+- **Day 03** : Session 08 | Project
+
+- **Day 04** : Soft skills session: Presentaion skills

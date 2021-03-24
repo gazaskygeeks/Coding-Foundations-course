@@ -1,5 +1,5 @@
 ## Coursebook
-### Welcome to the coursebook for FUNdamentals course :construction: !
+### Welcome to the coursebook for FUNdamentals web development course :construction: !
 
 For general information, including an overview of the course, applicable across the curriculum start [here](https://github.com/gazaskygeeks/Fundamentals-course/wiki/Frequently-Asked-Questions-FAQ-%7C-Fundamentals-course).
 
@@ -17,7 +17,7 @@ The first six weeks will provide you with the Fundamentals concepts of web devel
 
 - Week 6 - JavaScript part 02
 
-- Week 7 - Projects
+- Week 7 - JavaScript part 03
 
 - Week 8 - Projects
 
