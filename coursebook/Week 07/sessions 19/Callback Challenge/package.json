@@ -1,0 +1,23 @@
+{
+  "name": "morning-challenge-traffic-lights",
+  "version": "1.0.0",
+  "description": "**Author**: [@finnhodgkin](https://github.com/finnhodgkin)",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "live": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/finnhodgkin/morning-challenge-traffic-lights.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/finnhodgkin/morning-challenge-traffic-lights/issues"
+  },
+  "homepage": "https://github.com/finnhodgkin/morning-challenge-traffic-lights#readme",
+  "dependencies": {
+    "live-server": "^1.2.0"
+  }
+}
