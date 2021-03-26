@@ -9,7 +9,7 @@ Welcome to the first session of the CSS.
 
 * [Research](./research-topics.md)
 
-* [Additional Resources](./Resources.md)
+* [Additional Resources](./resources.md)
 
 <hr />
 
@@ -23,7 +23,7 @@ Welcome to the first session of the CSS.
 
 - 11:30 - 11:50 | [Colors at CSS](./Colors.md)
 
-- 11:30 - 11:50 | [Fonts at CSS](./Fonts.md)
+- 11:30 - 11:50 | [Fonts at CSS](./fonts.md)
 
 - 11:50 - 12:00 | -BREAK-
 
