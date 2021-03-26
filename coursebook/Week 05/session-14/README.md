@@ -8,4 +8,4 @@
 
 **[BREAK | 15m]**
 
-- **11:00 - 1:00** | [Problem Solving](./problem-solving)
+- **11:00 - 1:00** | [Problem Solving](./problem-solving.md)
