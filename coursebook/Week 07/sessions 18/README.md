@@ -7,7 +7,7 @@
 
 ## Schedule
 
-- **10:00 - 10:30** | this keyword 
+- **10:00 - 10:30** | [this keyword](./this.md) 
 - **10:30 - 11:00** | Arrow Function 
 - **10:30 - 11:00** | Clousers
 
