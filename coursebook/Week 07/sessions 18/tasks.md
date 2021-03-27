@@ -1,11 +1,11 @@
 # Tasks
 
-## Search
+### Search
 
 - **When you should not use the arrow function?**
 - **Arrow functions do not have arguments binding! <ins> what do we mean by that!</ins>**
 
-## Rewrite with arrow functions
+### Rewrite with arrow functions
 
 1.
 
