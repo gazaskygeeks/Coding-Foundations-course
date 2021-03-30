@@ -50,4 +50,5 @@ You can choose to use other APIs if you prefer, but make sure to do your researc
 
 - If using a private API key, you won't be able to deploy to GitHub pages (if you're not using an API key, go for it!)
 - Don't repeat yourself! Try to reuse and refactor bits of existing code where possible.
-- Minimise DOM manipulation to keep your app efficient
+- Minimise DOM manipulation to keep your app efficient.
+- Follow the general rules [here](https://github.com/GSG-FC02/General-rules)
