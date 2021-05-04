@@ -1,80 +1,69 @@
+# HTML5
 
-## HTML5
- HTML5 is the latest evolution of the standard that defines HTML. HTML5 has new HTML elements that you can use it to better define our page’s content for search engines.
- 
- **The purpose of HTML5** is primarily to make it easier for web developers and browser creators to follow consensus-based standards that make compliance more efficient and empowering. It's also designed to provide better, faster, more consistent user experiences for desktop and mobile visitors.
+HTML5 is the latest evolution of the standard that defines HTML. HTML5 has new HTML elements that you can use it to better define our page's content for search engines.
 
-### What HTML5 do
+**The purpose of HTML5** is primarily to make it easier for web developers and browser creators to follow consensus-based standards that make compliance more efficient and empowering. It's also designed to provide better, faster, more consistent user experiences for desktop and mobile visitors.
+
+## What HTML5 do
 
 - It supports audio and video controls with the use of `<audio>` and `<video>` tags.
 - Vector graphics is additionally an integral a part of HTML5 like SVG and `<canvas>`, examples on `<canvas>`:
-  - https://codepen.io/Tibixx/pen/eXOyXg
-  - https://codepen.io/EntropyReversed/pen/ZPEpWg
+
+  - <https://codepen.io/Tibixx/pen/eXOyXg>
+  - <https://codepen.io/EntropyReversed/pen/ZPEpWg>
+
 - HTML5 language is more mobile-friendly.
+
 - `doctype` declaration is quite simple and easy.
+
 - Character encoding is simple and easy.
+
 - New element for web structure like nav, header, footer etc.
 
-## Semantics
+--------------------------------------------------------------------------------
 
-- #### Semantics is the study of the meanings of words and phrases in a language.
+# Semantics
 
-- #### Semantic elements = elements with a meaning.
+**"Semantic HTML"** refers to the idea that all your HTML markup should convey the underlying meaning of your content--not its appearance. There's a whole set of elements designed for the sole purpose of adding more meaning to the overall layout of a web page. They're called _"sectioning elements"_, and they look something like this:
 
-- #### A semantic element clearly describes its meaning to both the browser and developer.
 
-### What’s a Semantic Element
+<p align="center">
+  <img width="450" src="https://user-images.githubusercontent.com/47992412/116864598-c89b3080-ac10-11eb-9e08-68266ebe7e73.png">
+</p>
 
-Semantic Elements refer to HTML elements that have a specific meaning. For example `<h1>` is a semantic element. It tells google bots that the content within the tag is the most significant header contained in the HTML document. `<div>` on the other hand, is a non-semantic element as it only indicates a division in the HTML document and provide no information on what goes before, after or within the tag.
 
-### What are the semantic tags that HTML5 brought us?
+Using these as an alternative to `<div>` elements is an important aspect of modern web development because it makes it:
 
-| Tag         | Description                                                            |
-| ----------- | ---------------------------------------------------------------------- |
-| `<header>`  | Specifies a header for a document or section                           |
-| `<section>` | Defines a section in a document                                        |
-| `<nav>`     | Defines navigation links                                               |
-| `<main>`    | Specifies the main content of a document                               |
-| `<article>` | Defines an article                                                     |
-| `<figure>`  | Specifies self-contained content, like illustrations, diagrams, photos |
-| `<footer>`  | Defines a footer for a document or section                             |
+- easier for search engines, screen readers, and other machines to identify the different parts of your website.
+- also helps you as a developer keep your site organized, which, in turn, makes it easier to maintain.
 
-Elements such as `<header>`, `<nav>`, `<section>`, `<article>`, `<aside>`, and `<footer>` act more or less like `<div>` elements. They group other elements together into page sections. However where a `<div>` tag could contain any type of information, it is easy to identify what sort of information would go in a semantic `<header>` region.
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/47992412/116864907-4a8b5980-ac11-11eb-9963-a34fdf996dfd.png">
+</p>
 
-- #### It is much easier to read
+## What are the semantic tags that HTML5 brought us?
 
-- #### It has greater accessibility. (screen readers also find semantic elements easier to understand)
+Tag         | Description
+----------- | ----------------------------------------------------------------------
+`<header>`  | Specifies a header for a document or section
+`<section>` | Defines a section in a document
+`<nav>`     | Defines navigation links
+`<main>`    | Specifies the main content of a document
+`<article>` | Defines an article
+`<figure>`  | Specifies self-contained content, like illustrations, diagrams, photos
+`<footer>`  | Defines a footer for a document or section
 
-![](https://v1c2v4d1fl-flywheel.netdna-ssl.com/wp-content/uploads/2017/08/semantic-fb.jpg)
+<br>
 
-### Lets look at these 2 snippets of html:
+----
 
-- This block of code does not use semantic elements
+# Lets look at these 2 snippets of HTML:
 
-```html
-<div id="header"></div>
-<div class="section">
-	<div class="article">
-		<div class="figure">
-			<img>
-			<div class="figcaption"></div>
-		</div>
-	</div>
-</div>
-<div id="footer"></div>s
-```
+- **This block of code does not use semantic elements**
 
-- And this block of code uses semantic elements:
+  <img width="460" height="360" src="https://user-images.githubusercontent.com/47992412/116867178-4feaa300-ac15-11eb-9d0c-bbede0f230b3.png">
 
-```html
-<header></header>
-<section>
-	<article>
-		<figure>
-			<img>
-			<figcaption></figcaption>
-		</figure>
-	</article>
-</section>
-<footer></footer>
-```
+- **And this block of code uses semantic elements**
+
+  <img width="460" height="360" src="https://user-images.githubusercontent.com/47992412/116867214-6133af80-ac15-11eb-8a18-6e6fcc700b21.png">
+
