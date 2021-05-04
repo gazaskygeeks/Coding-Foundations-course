@@ -1,8 +1,17 @@
-## Research Topics
-These topics will help you understand today's workshop better and be well prepared for the next workshop
+# Research Topics
 
-- Images in HTML
-- Links in Web pages
-- Emmet.
+## Refresh your mind with some basic topics you already know!
 
-Good luck! and I hope these were helpful to you.
+- [Basic structure of an HTML document](https://stuyhsdesign.wordpress.com/basic-html/structure-html-document/)
+- What is the Difference Between Tag and Attribute in HTML
+- [HTML Text Formatting](https://www.w3schools.com/html/html_formatting.asp)
+- HTML Links
+
+--------------------------------------------------------------------------------
+
+## Topics that help you in-depth and make it easier for you to work with HTML
+
+- HTML Block and Inline Elements
+- HTML File Paths
+- The HTML Document Type
+- HTML ISO Country Codes Reference
