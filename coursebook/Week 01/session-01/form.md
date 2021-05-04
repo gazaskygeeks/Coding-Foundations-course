@@ -87,4 +87,4 @@ image    | Defines a graphical submit button.
 
 # 🛑 Task
 
-## HTML5 added new types on `<input>` element, take 10 min to search and read about these new types it and explain two or three to your mates!
+## HTML5 added new types on `<input>` element, take 10 min to search and read about these new types and explain two or three to your mates!
