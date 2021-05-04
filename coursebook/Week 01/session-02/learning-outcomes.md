@@ -1,7 +1,15 @@
 
 # Learning Outcomes 
 
-* You will learn how to use github to host your projects.
-* You will learn how to use github to work at the same projects with your team.
-* You will learn how to use git rules to manage your works on github.
-* You will learn how to use git with github to manage your work with your team.
+* Explain the difference between block, inline-block, and inline elements
+* Understand layout in CSS.
+* Understand what is Inline-Block in CSS.
+* Understand what is float in CSS.
+* Understand what is Block-Model in CSS.
+* Understand why we need flexbox in CSS.
+* Understand how to use flexbox in CSS.
+* Understand what is the difference between flexbox and float in CSS.
+* Understand how to make gallery card using float in CSS.
+* Understand how to make gallery card using flexbox in CSS.
+* Understand what is the types of positioning method.
+* Understand how to use the different types of positioning method.

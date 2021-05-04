@@ -1,11 +1,11 @@
 
-# Session 02 : Introduction to GIt && Github
-
-Welcome to the Git and GitHub session.
+# Session 02 : Advance CSS Topics
 
 # Menue 
 
 * [Learning Outcomes](./learning-outcomes.md)
+* [Research](./research-topics.md)
+* [Additional Resources](./resources.md)
 
 <hr />
 
