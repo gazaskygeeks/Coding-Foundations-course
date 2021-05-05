@@ -37,7 +37,7 @@ A method for resizing an element, increasing it or decreasing it based on the gi
 | scaleY(value px) | increases or decreases the height of an element. |
 | scale(value px, value px) | increases or decreases the width and height of an element by providing values for both. |
 | scale(value px) | increases or decreases both width and height of an element by providing a single value. |
-| 
+
 
 ### ✨ [Click here](https://codepen.io/alaataima/pen/YzZKJYB) to start Coding 💻
 
@@ -52,7 +52,7 @@ With the rotate value, the element rotates clockwise or counterclockwise by a sp
 |  rotateX(50deg) |  rotates the element relative to its x-axis. |
 | rotateY(50deg) |  rotates the element relative to its y-axis. |
 | rotate(50deg) | rotates the element relative to both x and y axis.
-|
+
 
 ### ✨ [Click here](https://codepen.io/alaataima/pen/YzZKJYB) to start Coding 💻
 
@@ -68,7 +68,7 @@ The translate value moves an element left/right and up/down. The movement is bas
 | translateY(20px) | moves the element downwards. |
 | translateY(-20px) | moves the element upwards.
 | translate(20px, 20px) | the first value is for the x-axis and the second is for the y-axis.
-| 
+
 
 
 ### ✨ [Click here](https://codepen.io/alaataima/pen/YzZKJYB) to start Coding 💻
@@ -87,7 +87,7 @@ With the skew value, the element skews (or tilts) one direction or the other bas
 | skewY(-25deg) | skew an element up.
 | skew(25deg, 20deg)  | skews an element along the X-axis and the Y-axis.
 | skew(25deg)  |  skews an element along the X-axis and the Y-axis value is set to zero.
-| 
+
 
 ### ✨ [Click here](https://codepen.io/alaataima/pen/YzZKJYB) to start Coding 💻
 
