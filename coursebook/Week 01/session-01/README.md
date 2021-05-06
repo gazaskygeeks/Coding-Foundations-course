@@ -4,7 +4,7 @@
 
 - [Learning Outcomes](./learning-outcomes.md)
 
-- [Research Topics](./research-topics.md)
+- [Research Topics](./research-topic.md)
 
 - [Additional Resources](./resources.md)
 
@@ -22,6 +22,6 @@ _[Break| 15m]_
 
 **11:15 - 11:45** | [Form and input](./form.md)
 
-**11:45 - 12:20** | [CSS Selector and Pseudo-classes](./css-selector-pseudo)
+**11:45 - 12:20** | [CSS Selector and Pseudo-classes](./css-selector-pseudo.md)
 
 **12:20 - 01:00** | VS Code - Setup and Basics | Talk! 
