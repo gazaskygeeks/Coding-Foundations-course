@@ -1,34 +1,27 @@
+# Session 01 : Advance Topics in HTML and CSS
 
-# Session 01 : HTML and HTML5
+## Menu
 
-Welcome to the second session of HTML and HTML5.
+- [Learning Outcomes](./learning-outcomes.md)
 
-# Menue  
+- [Research Topics](./research-topics.md)
 
-* [Learning Outcomes](./learning-outcomes.md)
+- [Additional Resources](./resources.md)
 
-* [Research Topics](./research-topics.md)
-
-* [Additional Resources](./resources.md)
-
-<hr />
+--------------------------------------------------------------------------------
 
 ## Schedule
 
-- 10:00 - 10:30 | [Formatting Page Content with HTML](./elements-and-attributes.md)
+**10:00 - 10:15** | [Warm Up](./logic-puzzle.md)
 
-- 10:30 - 10:50 | [Exercise](./exercise1.md)
+**10:15 - 10:45** | [HTML5 & Semantic Elements](./semantic.md)
 
-- 10:55 - 11:35 | [Semantic HTML](./semantic-html.md)
+**10:45 - 11:00** | [Exercise](./exercise.md)
 
-- 11:35 - 11:50 | [Exercise](./exercise2.md)
+_[Break| 15m]_
 
-- 11:50 - 12:00 |  BREAK
+**11:15 - 11:45** | [Form and input](./form.md)
 
-- 12:00 - 12:30 | [Table](./table-form.md)
+**11:45 - 12:20** | [CSS Selector and Pseudo-classes](./css-selector-pseudo)
 
-- 12:30 - 1:00 | [Form](./table-form.md)
-
-- *Assignment*  | [assignment](./assignment.md)
-
-
+**12:20 - 01:00** | VS Code - Setup and Basics | Talk! 
