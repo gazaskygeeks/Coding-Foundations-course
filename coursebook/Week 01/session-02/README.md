@@ -11,7 +11,7 @@
 
 ## Schedule
  
-- 10:00 - 10:30 | [Problem Solving](./problem-solving.md)
+- 10:00 - 10:30 | [Warm Up | Puzzle](./puzzle.md)
 
 - 10:30 - 11:45 | [CSS Layouts](./layout.md)
 
