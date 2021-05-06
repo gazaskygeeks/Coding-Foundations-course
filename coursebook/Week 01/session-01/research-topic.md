@@ -6,6 +6,7 @@
 - What is the Difference Between Tag and Attribute in HTML
 - [HTML Text Formatting](https://www.w3schools.com/html/html_formatting.asp)
 - HTML Links
+- [CSS first steps](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS)
 
 --------------------------------------------------------------------------------
 
@@ -15,3 +16,4 @@
 - HTML File Paths
 - The HTML Document Type
 - HTML ISO Country Codes Reference
+- pseudo classes vs pseudo elements

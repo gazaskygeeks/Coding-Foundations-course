@@ -2,5 +2,7 @@
 
 - HTML5 & Learn about Semantic HTML.
 - Learn more HTML tags.
-- Learn about Include in HTML and the usage of it
 - knowing Table and form elements.
+- what is css and the use of it!
+- CSS Selectors 
+- CSS Pseudo-class
