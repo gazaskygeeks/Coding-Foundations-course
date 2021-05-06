@@ -152,3 +152,10 @@ div {
 }
 ```
 
+
+<br/>
+
+> ## Now, We are ready to use CSS Animation.💻🏃
+
+* ### [Animation](./animation.md)
+
