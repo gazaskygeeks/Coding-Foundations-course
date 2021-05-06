@@ -1,4 +1,4 @@
-## CSS Layout 
+## Position Layout 
 
 #### The position Property :vertical_traffic_light:
 
@@ -115,8 +115,12 @@ An element with greater stack order is always in front of an element with a lowe
 
 **Note: If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top.**
 
-________________________________________________________________________________________________________________________________________________________
-### Task :ledger: :ledger:
+______________________________________________________________________________________________________________________________________________________
+
+<br/>
+
+## 🔸 Exercise 
+
 
 Write the necessary HTML and CSS to create the following layout. You can use floats, positioning to solve these challenges.
 
@@ -124,4 +128,10 @@ Write the necessary HTML and CSS to create the following layout. You can use flo
 ![](https://www.rithmschool.com/content/html_css_fundamentals/layout_mock1.png)
 
 *the task from Rithmschool*
+
+<br/>
+
+> ## Now, Lets go to start with Flexbox 🏃🏃
+
+* ### [Flexbox](./flexbox.md)
 

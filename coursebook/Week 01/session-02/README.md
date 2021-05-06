@@ -13,7 +13,7 @@
  
 - 10:00 - 10:30 | [Problem Solving](./problem-solving.md)
 
-- 10:30 - 11:45 | [CSS Layouts](./layouts.md)
+- 10:30 - 11:45 | [CSS Layouts](./layout.md)
 
 - 11:45 - 11:55 | BREAK
 
