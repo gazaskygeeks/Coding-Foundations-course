@@ -26,6 +26,6 @@ Welcome to the first session of web programming
 
 **[BREAK | 15m]**
 
-- 12:00 - 12:30 | [Code Yourself!](./intro-to-web.md)
+- 12:00 - 12:30 | [Code Yourself!](./web-tutorial.md)
 
 
