@@ -207,4 +207,12 @@ so we have the following values : 2, -1, 3, 4 so CSS we reorder them to -1 -> 2 
 and the final result will be :
 ![final result](https://i.imgur.com/3jFOMYi.png)
 
+<br/>
+
+## 🔸 Exercise 
+
+### ✨ we have a brillient practical exercise for you here we will solve it with each other
+
+
+
 
