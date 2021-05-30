@@ -40,3 +40,5 @@ p.addEventListener('click', function(event) {
   <img width="450" src="https://internetingishard.netlify.app/becoming-a-web-developer-0530f1.3b5388b5.png">
 </p>
 
+
+ Let's move to the VSCode, we’ll build our first web page.
