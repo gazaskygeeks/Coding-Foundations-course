@@ -1,5 +1,5 @@
 
-# What Is GitHub ?
+# What Is Git ?
 
 
 ### Let's start with simple words that everyone understands,What is Git? :computer:

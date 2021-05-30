@@ -6,7 +6,7 @@
 
 - [Research Topics](./research-topics.md)
 
-- [Additional Resources](./resources.md)
+- [Resources](./resources.md)
 
 --------------------------------------------------------------------------------
 
@@ -20,6 +20,6 @@
 
 **_[BREAK | 20m]_**
 
-- **11:10 - 12:30** | [Initializing a Git repository](./intro-to-git.md)
+- **11:10 - 12:30** | [Initializing a Git repository](./local-git-repo.md)
 
 - **12:30 - 01:00** | [Discussion | Git Vs GitHub](./git-github.md)
