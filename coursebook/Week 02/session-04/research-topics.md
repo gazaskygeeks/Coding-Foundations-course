@@ -1,4 +1,0 @@
-# Research Topics
-
-* Grid
-
