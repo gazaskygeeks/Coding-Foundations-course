@@ -10,11 +10,11 @@
 
 <hr />
 
-- **Day 01** : Session 03 | Introduction to CSS
+- **Day 01** : Session 03 | Introduction to Git & GitHub
 
-- **Day 02** : Session 04 | CSS part 02 | Layouts
+- **Day 02** : Session 04 | Git Workshop
 
-- **Day 03** : Session 05 | Responsive Design
+- **Day 03** : Session 04 | Recap and Project 
 
-- **Day 04** : Critical Professional Having a positive mindset 
+
 

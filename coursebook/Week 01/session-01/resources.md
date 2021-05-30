@@ -1,12 +1,10 @@
-#### Congrats that's it! You have finished the workshop now look at the resources that we used in the workshop to learn more:
+# Resources:
 
-https://www.w3schools.com/html/default.asp
+## Read these articles to help you understand the topics of today's session if you face any problem with it!
 
-https://html.com/
-
-https://www.learn-html.org/
-
-- https://guide.freecodecamp.org/html/html5-semantic-elements/
-- https://www.geeksforgeeks.org/html5-semantics/
-- https://www.rithmschool.com/courses/html-css-fundamentals/semantic-html
-
+- [Why Should I Use HTML5?](https://html.com/html5/)
+- [HTML Sematic Tags: Should I Bother With Semantic HTML?](https://www.jungledisk.com/blog/2017/12/04/should-i-bother-with-semantic-html/)
+- [input: The Input (Form Input) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+- [Attribute selectors | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+- [Class selectors | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)
+- [css selectors | HTML & CSS Is Hard](https://www.internetingishard.com/html-and-css/css-selectors/)
