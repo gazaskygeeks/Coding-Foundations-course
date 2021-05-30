@@ -14,9 +14,11 @@
 
 The _internet_ is a huge network of computers all connected together. The _world wide web_ ('www' or 'web' for short) is a collection of webpages found on this network of computers. **_Your web browser uses the internet to access the web_**.
 
-![web](https://techxerl.net/wp-content/uploads/2017/02/Internet-VS-WWW.jpg)
 
 <br>
+<br>
+<br>
+
 
 ### What is the Internet?
 
