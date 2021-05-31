@@ -1,4 +1,4 @@
-# Session 01 : Introduction to Git and GitHub
+# Session 03 : Introduction to Git and GitHub
 
 # Menu
 
