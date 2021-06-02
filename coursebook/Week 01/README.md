@@ -1,4 +1,3 @@
-
 # Learning Objectives :
 
 - Introduction to programming & web development.
@@ -12,4 +11,4 @@
 
 - **Day 02** : Session 01 | Introduction to HTML
 
-- **Day 03** : Session 02 | Git and Github tools
+- **Day 03** : Session 05 | Responsive Design
