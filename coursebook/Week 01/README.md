@@ -11,4 +11,4 @@
 
 - **Day 02** : Session 01 | Introduction to HTML
 
-- **Day 03** : Session 05 | Responsive Design
+- **Day 03** : Session 02 | Advance topic in CSS
