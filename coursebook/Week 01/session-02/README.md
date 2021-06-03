@@ -1,6 +1,6 @@
 # Session 02 : Advance CSS Topics
 
-# Menue
+# Menu 
 
 - [Learning Outcomes](./learning-outcomes.md)
 - [Research](./research-topics.md)

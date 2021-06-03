@@ -1,19 +1,19 @@
+# Session 05 : Recap and First Project
 
-# Session 05 : Animations & Responsive Design
+# Menu
 
-# Menue
+- [Learning Outcomes](./learning-outcomes.md)
 
-* [Learning Outcomes](./learning-outcomes)
+- [Research Topics](./research-topics.md)
 
-<hr />
+- [Resources](./resources.md)
+
+--------------------------------------------------------------------------------
 
 ## Schedule
 
-- 10:00 - 10:15 | [Morning Challenge](./morning-challenge.md)
+- **09:00 - 09:30** | [Warm-Up](./puzzle.md)
 
-- 10:15 - 11:25 | [Animations](./animations.md)
+- **09:30 - 10:30** | [Workflow Recap](./git-recap.md)
 
-- 11:25 - 11:35 | Break
-
-- 11:35 - 1:00 | [Responsive Design](https://github.com/yosefanajjar/Responsive-Design-Workshop)
-
+- **11:00 - 01:00** | [Projects](./project.md)

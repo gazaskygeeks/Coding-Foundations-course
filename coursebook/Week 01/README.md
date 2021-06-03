@@ -9,6 +9,7 @@
 
 - **Day 01** : Session 00 | Introduction to programming and web development
 
-- **Day 02** : Session 01 | Introduction to HTML
+- **Day 02** : Session 01 | Advance Topics in HTML and CSS
 
-- **Day 03** : Session 02 | Advance topic in CSS
+- **Day 03** : Session 02 | Advance Topics in CSS
+

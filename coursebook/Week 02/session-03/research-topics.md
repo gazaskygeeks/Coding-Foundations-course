@@ -1,7 +1,6 @@
 # Research Topics
 
-- [box-sizing](https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing)
-- [Attribute selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
-- [:nth-child(n)](https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child)
-- [pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
-- [::after/::before](https://css-tricks.com/almanac/selectors/a/after-and-before/)
+- Git/ GitHub flow
+- Git commands 
+- [Pro Git](https://www.atlassian.com/git/tutorials/what-is-git)
+
