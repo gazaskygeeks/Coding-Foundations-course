@@ -8,8 +8,8 @@
 
 ---
 
-- **Day 01** : Session 09 | Introduction to JavaScript
+- **Day 01** : Session 06 | Introduction to JavaScript
 
-- **Day 02** : Session 10 | Functions and Scoops
+- **Day 02** : Session 07 | Functions and Scoops
 
-- **Day 03** : Session 11 | Loops
+- **Day 03** : Session 08 | Loops
