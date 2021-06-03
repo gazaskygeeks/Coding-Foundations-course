@@ -16,4 +16,4 @@
 
 - **09:30 - 10:30** | [Workflow Recap](./git-recap.md)
 
-- **11:00 - 01:00** | [Projects]()
+- **11:00 - 01:00** | [Projects](./project.md)
