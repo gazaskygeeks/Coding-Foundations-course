@@ -1,32 +1,21 @@
+# Session 04 : Git Workshop
 
-# Session 04 : CSS Part 02
+# Menu
 
-Welcome to the second session of the CSS.
+- [Learning Outcomes](./learning-outcomes.md)
 
-# Menue
+- [Research Topics](./research-topics.md)
 
-* [Learning Outcomes](./learning-outcomes.md)
+- [Resources](./resources.md)
 
-* [Research](./research-topics.md)
-
-* [Additional Resources](./resources.md)
-
-<hr />
+--------------------------------------------------------------------------------
 
 ## Schedule
 
-- 10:00 - 10:20 | [Morning Challenge](./morning-challenge.md)
+- **09:00 - 09:30** | [Warm-Up](./puzzle.md)
 
-- 10:20 - 11:10 | [layout](./layout.md)
+- **09:30 - 10:30** | [Git Workflow](https://github.com/foundersandcoders/git-workflow-workshop-for-two)
 
-- 11:10 - 11:40 | [Position](./Position-workshop.md)
+**_[BREAK | 20m]_**
 
-- 11:40 - 11:50 | BREAK
-
-- 11:50 - 12:30 | [Flexbox](./flexbox.md)
-
-- 12:30 - 1:00 | [Exercise](./exercise.md)
-
-- *Assignment* | [Assignment](./assignment.md)
-
-
+- **11:00 - 01:00** | [Git Workflow Workshop](https://github.com/foundersandcoders/git-workflow-workshop-for-two)

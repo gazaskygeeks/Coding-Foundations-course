@@ -1,44 +1,25 @@
+# Session 03 : Introduction to Git and GitHub
 
-# Session 03 : CSS Part 01
+# Menu
 
-Welcome to the first session of the CSS.
+- [Learning Outcomes](./learning-outcomes.md)
 
-# Menue 
+- [Research Topics](./research-topics.md)
 
-* [Learning Outcomes](./learning-outcomes.md)
+- [Resources](./resources.md)
 
-* [Research](./research-topics.md)
+--------------------------------------------------------------------------------
 
-* [Additional Resources](./resources.md)
+## Schedule
 
-<hr />
+- **09:00 - 09:30** | [Warm-Up](./puzzle.md)
 
-## Schechule
+- **09:30 - 10:15** | [What is GitHub](./intro-to-github.md)
 
-- 10:00 - 11:00 | [Git Workshop | Pairs](https://github.com/foundersandcoders/git-workflow-workshop-for-two)
+- **10:15 - 10:50** | [What is Git](./intro-to-git.md)
 
-- 11:00 - 11:30 | [CSS Intro & CSS Selectors](./introAndSelectors.md)
+**_[BREAK | 20m]_**
 
-- 11:30 - 11:50 | [Types of CSS Styles](./typesOfStyles.md)
+- **11:10 - 12:30** | [Initializing a Git repository](./local-git-repo.md)
 
-- 11:30 - 11:50 | [Colors at CSS](./Colors.md)
-
-- 11:30 - 11:50 | [Fonts at CSS](./fonts.md)
-
-- 11:50 - 12:00 | -BREAK-
-
-- 12:00 - 12:30 | [CSS Pseudo-class & Pseudo-element](./pseudoClassAndElement.md)
-
-- 12:30 - 12:45 | [Exercise](./exercise.md)
-
-- 12:45 - 1:00 | [Comments](./Comments.md)
-
-- 12:45 - 1:00 | [Cascading](./Cascading.md)
-
-- 12:45 - 1:00 | [Specificity](./Specificity.md)
-
-- 12:45 - 1:00 | [Inheritance](./Inheritance.md)
-
-
-
-
+- **12:30 - 01:00** | [Discussion | Git Vs GitHub](./git-github.md)
