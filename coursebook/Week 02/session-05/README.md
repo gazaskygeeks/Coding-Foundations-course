@@ -4,8 +4,6 @@
 
 - [Learning Outcomes](./learning-outcomes.md)
 
-- [Research Topics](./research-topics.md)
-
 - [Resources](./resources.md)
 
 --------------------------------------------------------------------------------
