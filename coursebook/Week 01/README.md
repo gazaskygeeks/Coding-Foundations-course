@@ -1,4 +1,3 @@
-
 # Learning Objectives :
 
 - Introduction to programming & web development.
@@ -13,3 +12,4 @@
 - **Day 02** : Session 01 | Advance Topics in HTML and CSS
 
 - **Day 03** : Session 02 | Advance Topics in CSS
+
