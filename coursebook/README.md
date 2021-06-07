@@ -5,22 +5,22 @@ For general information, including an overview of the course, applicable across 
 
 The first six weeks will provide you with the Fundamentals concepts of web development
 
-- Week 1 - Introduciton to programming and web devlopment.
+- **Week 01** - Introduction to web development | HTML & CSS.
 
-- Week 2 - Introduction to HTML && CSS part 01
+- **Week 02** - Git/GitHub workflow
 
-- Week 3 - HTML5 && CSS part 02
+- **Week 03** - Introduction to JavaScript
 
-- Week 4 - Introduction to JavaScript
+- **Week 04** - JavaScript part 01
 
-- Week 5 - JavaScript part 01
+- **Week 05** - JavaScript part 02
 
-- Week 6 - JavaScript part 02
+- **Week 06** - JavaScript part 03
 
-- Week 7 - JavaScript part 03
+- **Week 07** - Projects
 
-- Week 8 - Projects
+- **Week 08** - Projects
 
-- Week 9 - Projects
+- **Week 09** - NPM & Individual Projects 
 
-- Week 10 - Projects
+- **Week 10** - What's next
