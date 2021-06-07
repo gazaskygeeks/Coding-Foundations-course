@@ -14,10 +14,10 @@ Welcome to Advanced topics in Javascript, in this week you will learn:
 
 <hr />
 
-- **Day 01** : Session 18 | Advanced topics I [This, Arrow function, Closures]
+- **Day 01** : Session 15 | Advanced topics I [This, Arrow function, Closures]
 
-- **Day 02** : Session 19 | Advanced topics II [asynchronous & synchronous]
+- **Day 02** : Session 16 | Advanced topics II [asynchronous & synchronous]
 
-- **Day 03** : Session 20 | Advanced topics III [Fetch API]
+- **Day 03** : Session 17 | Advanced topics III [Fetch API]
 
 
