@@ -1,17 +1,24 @@
+# Session 07: JavaScript Basics
 
-# Session 07 : First Project 
+Welcome to the third session of the JavaScript, you will learn the basic concepts of JavaScript that qualify you to write a meaningful code.
 
-# Menue
+---
 
-* Morning Challenge
+## Menu
 
-* First Project
+- **[Learning Outcomes](./learning-outcomes.md)**
+- **[Research](./research-topics.md)**
+- **[Resources](./resources.md)**
 
-<hr /> 
+---
 
 ## Schedule
 
-- 10:00 - 10:30 | [Challenge](http://www.flexboxdefense.com/)
+- **09:00 - 09:20** | [Morning Challenge](./morning-challenge.md)
+- **09:20 - 10:30** | [Introduction to Function](./intro-to-functions.md)
 
-- 10:30 - 01:00 | First Project
+**[Break | 15m]**
 
+- **10:45 - 11:10** | [Variables](./variables.md)
+- **11:10 - 11:30** | [Scope](./scopes.md)
+- **11:30 - 12:00** | [Exercises](./exercises.md)
