@@ -5,10 +5,10 @@
 
 <hr/>
 
-- **Day 01** : Session 12 | Objects in JavaScript
+- **Day 01** : Session 09 | Objects in JavaScript
 
-- **Day 02**: Session 13 | Arrays in JavaScript.
+- **Day 02**: Session 10 | Arrays in JavaScript.
 
-- **Day 03** : Session 14 | HOF & Problem solving
+- **Day 03** : Session 11 | HOF & Problem solving
 
 - **Day 04** : soft skills session | Time management.
