@@ -6,9 +6,9 @@
 
 <hr/>
 
-- **Day 01** : Session 15 | Introduction to DOM.
+- **Day 01** : Session 12 | Introduction to DOM.
 
-- **Day 02** : Session 16 | Local Storage.
+- **Day 02** : Session 13 | Local Storage.
 
-- **Day 03** : Session 17 | Code Along
+- **Day 03** : Session 14 | Code Along
 
