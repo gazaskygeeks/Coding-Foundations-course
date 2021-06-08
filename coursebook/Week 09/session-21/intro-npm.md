@@ -65,12 +65,9 @@ In a web browser, navigate to [NodeJS](https://nodejs.org/en/download/). Click t
 _The Node.js installer includes the npm package manager._
 
 <br>
-<br>
-<br>
 
-- Install Node.js and npm on **Linux**:
-  [Recommended] | *Installing via nvm*
-<br>
+- Install Node.js and npm on **Linux**: 
+> [Recommended] | *Installing via nvm*
 
   - Open Your Terminal (ctrl+alt+t)
   - First, make sure you have curl installed on your system:
@@ -95,3 +92,16 @@ _The Node.js installer includes the npm package manager._
      ```shell
      nvm install --lts
      ```
+<br>
+
+### ♢ Verify your installation
+
+open the command prompt on Windows, or the terminal on Linux, and run the following commands:
+
+```shell
+node --version
+npm --version
+```
+If the installation was successful, the terminal will display the installed version of Node.js and npm.
+
+![Screenshot from 2021-06-08 16-59-06](https://user-images.githubusercontent.com/47992412/121199110-548d2180-c87b-11eb-824a-f9f34c12179d.png)
