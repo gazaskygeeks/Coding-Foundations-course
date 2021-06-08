@@ -1,10 +1,10 @@
-## learning-outcomes
+# Learning Outcomes
 
-- Define javaScript functions.
-- Explain why to use functions.
-- Explain how to declare and call functions.
-- State the differences between function parameters and arguments.
-- Define the return statement.
-- Define function expression.
-- Define what is scope in JavaScript?
-- Define what are the differences between var, let and const?
+- know and understand Arrays in js:
+   - Create an Array.
+   - Array length [how many items on it]
+   - Access (index into) an Array item.
+   - Loop over an array by indexes.
+
+- know and understand some Arrays method:
+   - map, forEach, reduce, filter, sort, pop, push, shift, unshift, join, split

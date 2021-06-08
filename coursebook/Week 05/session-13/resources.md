@@ -1,6 +1,5 @@
-# **A**dditional **R**esources:
+# Resources
 
-  * [arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-  * [Indexed collections](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections)
-  * [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration#break_statement) 
-  * [Array Loops](https://medium.com/better-programming/how-to-manipulate-and-iterate-arrays-in-javascript-3a0eb819b662)
+- [Local Storage - MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- [Local Storage - w3 school](https://www.w3schools.com/jsref/prop_win_localstorage.asp)
+- [LocalStorage, sessionStorage - JavaScript.info](https://javascript.info/localstorage)

@@ -1,21 +1,6 @@
-# Resources
+## References
+[JavaScript Objects From w3schools](https://www.w3schools.com/js/js_object_definition.asp)
 
-**Here , you will find useful resources for more explanation.**
+[Objects In JavaScript GeeksForGeeks](https://www.geeksforgeeks.org/objects-in-javascript/#:~:text=Loosely%20speaking%2C%20objects%20in%20JavaScript,the%20context%20of%20an%20object.)
 
-
-- [code academy](https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction)
-- [Rithm School](https://www.rithmschool.com/courses/javascript/introduction-to-javascript-intro)
-- [wikipedia](https://en.wikipedia.org/wiki/JavaScript)
-- [Guru99](https://www.guru99.com/introduction-to-javascript.html)
-- [Visual Studio Code](https://code.visualstudio.com/docs/languages/javascript)
-- [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
-- [Understanding Variables in JavaScript](https://www.informit.com/articles/article.aspx?p=131025&seqNum=3)
-
-
-
-- [Comparison Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comparison_Operators)
-
-- [Logical Operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
-
-- [Conditional Statement (switch)](https://javascript.info/switch)
-
+[Working with JavaScrit Objects MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)
