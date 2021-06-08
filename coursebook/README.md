@@ -21,6 +21,6 @@ The first six weeks will provide you with the Fundamentals concepts of web devel
 
 - **Week 08** - Projects
 
-- **Week 09** - NPM
+- **Week 09** - NPM & Individual Projects 
 
 - **Week 10** - What's next

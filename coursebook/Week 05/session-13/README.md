@@ -1,18 +1,19 @@
-# Arrays
+# Session 16: Local Storage
+
+Welcome to Local Storage Session.
 
 ## Menu
-- **[Learning Outcomes](./learning-outcomes.md)**
-- **[Research Topics](./research.md)**
-- **[Additional Resources](./resources.md)**
 
+- **[Learning Outcomes](./learning-outcomes.md)**
+- **[Research Topics](./research-topics.md)**
+- **[Resources](./resources.md)**
 ---
 ## Schedule
 
-- **10:00 - 10:20** | [Morning Challenge](./morning-challenge.md)
-- **10:20 - 11:00** | [Arrays](./arrays.md)
+- **10:00 - 11:20** | [Local Storage](./local-storage.md)
 
-**[BREAK | 10m]**
+**[Break | 10m]**
 
-- **11:10 - 12:00** | [Array Methods](./array-methods.md)
-- **12:00 - 12:30** | [Destructuring](./destructuring.md)
-- **12:30 - 01:00** | code wares 
+- **11:30 - 01:00** | [To-Do app code along](./todo-app.md)
+
+

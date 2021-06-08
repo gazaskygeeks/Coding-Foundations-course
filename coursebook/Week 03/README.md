@@ -1,16 +1,15 @@
+### learning Objective:
 
-# Learning Objectives :
+- Define what JavaScript is, where it can be used, and how it came to be
+- List all of the data types in JavaScript
+- Compare and contrast primitive data types with objects
+- JavaScript Comparison and Logical Operators
+- Define what is Function in JavaScript
 
-* Do code along with lead mentors to create a responsive web page by applying what you have learned at the HTML and CSS sessions.
+---
 
-* Start the first HTML and CSS project.
+- **Day 01** : Session 06 | Introduction to JavaScript
 
-<hr />
+- **Day 02** : Session 07 | Functions and Scoops
 
-- **Day 01** : Session 06 | Code along & Project
-
-- **Day 02** : Session 07 | Project
-
-- **Day 03** : Session 08 | Project
-
-- **Day 04** : Soft skills session: Presentaion skills
+- **Day 03** : Session 08 | Loops

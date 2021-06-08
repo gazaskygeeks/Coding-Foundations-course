@@ -1,17 +1,21 @@
-# JavaScript Objects
+# Session 15: Introduction to DOM
+
+Welcome to the seventh session of the Javascript, you will learn about DOM in javascript.
+
+---  
 
 ## Menu
+
 - **[Learning Outcomes](./learning-outcomes.md)**
 - **[Research Topics](./research-topics.md)**
 - **[Resources](./resources.md)**
-
+---
 ## Schedule
 
-- **10:00 - 10:30** | Recap Github
-- **10:30 - 11:00** | [puzzle](./puzzle.md)
+- **10:00 - 10:30** | [Introduction To DOM](./Intro-to-DOM.md)
+- **10:30 - 11:10** | [DOM Manipulations](./DOM-manipulations.md)
 
-**[Break | 10m]**
+**[Break | 15m]**
 
-- **11:10 - 11:50** | [JavaScript Objects Part I](./javascript-objects.md)  
-- **11:50 - 12:20** | [JavaScript Objects Part II](./javascript-objects.md)
-- **12:20 - 01:00** | [Exercises](./exercises.md)
+- **11:25 - 01:00** | [Registration Form Exercises](./Dom-Exercises.md)
+

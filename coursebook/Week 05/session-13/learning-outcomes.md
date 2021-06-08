@@ -1,10 +1,11 @@
-# Learning Outcomes
+# Local Storage
 
-- know and understand Arrays in js:
-   - Create an Array.
-   - Array length [how many items on it]
-   - Access (index into) an Array item.
-   - Loop over an array by indexes.
+With the **Local Storage**, we can store data in user browser
 
-- know and understand some Arrays method:
-   - map, forEach, reduce, filter, sort, pop, push, shift, unshift, join, split
+## Learning Outcomes
+
+- Store Data in Browser
+- What is the local storage?
+- Local storage methods
+- Local storage limitations
+- make todo app using DOM and local storage
