@@ -1,11 +1,11 @@
 # Problem Solving
 
+--------------------------------------------------------------------------------
 
----
 ## Schedule
 
-- **10:00 - 10:45** | [High order functions](./higherOrderFunctions.md)
+- **09:00 - 09:45** | [High order functions](./higherOrderFunctions.md)
 
 **[BREAK | 15m]**
 
-- **11:00 - 1:00** | [Problem Solving](./problem-solving.md)
+- **10:00 - 12:00** | CodeWars
