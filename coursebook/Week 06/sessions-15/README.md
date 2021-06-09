@@ -8,6 +8,6 @@
 
 ## Schedule
 
-- **10:00 - 10:30** | [this keyword](./this.md)
-- **10:30 - 11:00** | [Arrow Function](./arrow-function.md)
-- **11:00 - 01:00** | CodeWars
+- **09:00 - 09:30** | [This keyword](./this.md)
+- **09:30 - 10:00** | [Arrow Function](./arrow-function.md)
+- **10:00 - 12:00** | CodeWars
