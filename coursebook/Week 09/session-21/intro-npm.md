@@ -104,4 +104,4 @@ npm --version
 ```
 If the installation was successful, the terminal will display the installed version of Node.js and npm.
 
-![Screenshot from 2021-06-08 16-59-06](https://user-images.githubusercontent.com/47992412/121199110-548d2180-c87b-11eb-824a-f9f34c12179d.png)
+![Screenshot from 2021-06-09 08-34-50](https://user-images.githubusercontent.com/47992412/121299158-a4acc800-c8fd-11eb-9113-1e0471dd228b.png)

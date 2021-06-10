@@ -1,4 +1,4 @@
-# Session 21 : Introduction to npm
+# Session 22 : Introduction to npm
 
 # Menu
 
@@ -10,11 +10,8 @@
 
 ## Schedule
 
-- **09:00 - 10:00** | [Introduction to npm](./intro-npm.md)
-
-- **10:00 - 11:00** | [Get started with npm](./start-npm.md)
-
+- **09:00 - 10:00** | npm Packages | Coding
 
 _[Break| 15m]_
 
-- **11:15 - 12:00** | [Individual Projects](./project-tips.md)
+- **10:15 - 12:00** | Individual Projects
