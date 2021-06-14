@@ -18,13 +18,13 @@ Welcome to the first session of web programming
 
 - 10:15 - 10:45 | [Introduction to programming](./programming.md)
 
-**[BREAK | 15m]**
+***[BREAK | 15m]***
 
 - 11:00 - 11:30 | [Introduction to web development](./web-intro.md)
 
 - 11:30 - 11:45 | [Web development tools](./webdev-tools.md)
 
-**[BREAK | 15m]**
+***[BREAK | 15m]***
 
 - 12:00 - 12:30 | [Code Yourself!](./web-tutorial.md)
 
