@@ -100,7 +100,7 @@ console.log(4);
 
 Only `4` will be printed.
 
-**Note:** we can use bot of types of comments inside the same file.
+**Note:** we can use both of types of comments inside the same file.
 
 ```js
 
