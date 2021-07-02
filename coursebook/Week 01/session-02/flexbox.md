@@ -12,13 +12,13 @@ and there is something else you have to know before dive in flex box, as we said
 
 > the default direction is horizental
 
-let's begin with simple example, let's add some boxes (flex elements) inside an conatiner (flex container):
+let's begin with simple example, let's add some boxes (flex elements) inside a conatiner (flex container):
 ```html
 <div class="container">
     <div class="box">1</div>
     <div class="box">2</div>
     <div class="box">3</div>
-    <div class="box">3</div>
+    <div class="box">4</div>
 <div>
 ```
 
