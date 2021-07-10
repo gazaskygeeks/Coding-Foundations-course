@@ -10,5 +10,5 @@
 
 - **Day 02** : Session 13 | Local Storage.
 
-- **Day 03** : Session 14 | Code Along
+- **Day 03** : Session 14 | Project
 
