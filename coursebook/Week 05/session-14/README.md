@@ -33,5 +33,5 @@ Create Todo List using Vanilla JavaScript, for this app, you will learn how to b
   - Project description
   - user stories
   - Live link [github pages]
-  - how to get the project in the local mission and how can user test is
+  - How do I get the project on my local machine? 
   - team members
