@@ -48,7 +48,7 @@ There are different types of form **controls** that you can use to collect data 
 
 <br>
 
-> Follow the link to have a look into a form and its structure! [here!](https://codepen.io/sara219/pen/OJWKeev?editors=1000)
+> Follow the link to have a look into a form and its structure! [here!](https://codepen.io/sara219/pen/VwpqwGW)
 
 --------------------------------------------------------------------------------
 

@@ -10,10 +10,8 @@ Welcome to Local Storage Session.
 ---
 ## Schedule
 
-- **10:00 - 11:20** | [Local Storage](./local-storage.md)
+- **09:00 - 09:30** | CodeWars
+- **09:30 - 12:00** | [Local Storage](./local-storage.md)
 
-**[Break | 10m]**
-
-- **11:30 - 01:00** | [To-Do app code along](./todo-app.md)
 
 

@@ -10,12 +10,12 @@
 
 ## Schedule
 
-- 10:00 - 10:30 | [Warm Up | Puzzle](./puzzle.md)
+- 09:00 - 09:30 | [Warm Up | Puzzle](./puzzle.md)
 
-- 10:30 - 11:45 | [CSS Layouts](./layout.md)
+- 09:30 - 10:45 | [CSS Layouts](./layout.md)
 
-- 11:45 - 11:55 | BREAK
+***[BREAK | 15m ]***
 
-- 11:55 - 1:00 | [Responsive Design](https://github.com/yosefanajjar/Responsive-Design-Workshop)
+- 11:00 - 12:00 | [Responsive Design](https://github.com/yosefanajjar/Responsive-Design-Workshop)
 
 - _Assignment_ | [Assignment](./assignment.md)

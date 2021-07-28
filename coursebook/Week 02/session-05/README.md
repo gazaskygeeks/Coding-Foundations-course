@@ -14,4 +14,6 @@
 
 - **09:30 - 10:30** | [Workflow Recap](./git-recap.md)
 
-- **11:00 - 01:00** | [Projects](./project.md)
+- **10:30 - 11:00** | [Projects](./project.md)
+
+- **11:00 - 01:00** | Presentation skills session with Rand 

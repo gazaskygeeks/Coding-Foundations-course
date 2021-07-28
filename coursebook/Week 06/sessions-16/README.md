@@ -8,10 +8,10 @@
 
 ## Schedule
 
-- **10:00 - 11:30** | [Asynchronous](./Asynchronicity.md)
+- **09:00 - 10:30** | [Asynchronous](./Asynchronicity.md)
 
 **[Break | 10m]**
 
-- **11:40 - 12:30** | [Callback Challenge](./Callback-Challenge/README.md)
+- **10:40 - 11:30** | [Callback Challenge](./Callback-Challenge/README.md)
 
-- **12:30 - 01:00** | Solve the Callback Challenge
+- **11:30 - 12:00** | Solve the Callback Challenge
