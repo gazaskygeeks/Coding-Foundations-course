@@ -1,7 +1,6 @@
 # learning Objective:
 - Introduction to npm
 - How to install npm Packages and run the project
-- What is Heroku!
 - starting with individual projects
 
 <hr/>
