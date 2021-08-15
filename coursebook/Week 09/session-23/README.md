@@ -5,7 +5,7 @@ This is the beginning of the individual projects phase, each person has a projec
 
 ### ➛ Projects:
 
-* [Calculator]()
+* [Calculator](./projects/calculator.md)
 * [Rock Paper Scissors game]()
 * [Twitter Clone]()
 * [Pomodoro app]()
