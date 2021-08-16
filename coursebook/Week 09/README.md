@@ -5,8 +5,8 @@
 
 <hr/>
 
-- **Day 01** : Session 21 | Final Project Presentation
+- **Day 01** : Session 21 | Introduction to npm
 
-- **Day 02** : Session 22 | Introduction to npm
+- **Day 02** : Session 22 | Final Project Presentation
 
 - **Day 03** : Session 23 | Projects
