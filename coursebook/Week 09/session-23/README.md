@@ -21,4 +21,4 @@ This is the beginning of the individual projects phase, each person has a projec
 
 ## ➛ Deadline 
 
-**✧ Monday, 23/04 at 6:00pm**
+**✧ Sunday, 22/04 at 8:00pm**
