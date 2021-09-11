@@ -1,3 +1,11 @@
-# Puzzle
 
-**You are driving a bus. At the first stop, two women get on. The second stop, three men get on and one woman gets off. At the third stop, three kids and their mom get on, and a man gets off. The bus is grey, and it is raining outside. _What color is the bus driver's hair?_**
+# ✨ Awesome Puzzles to start your day 😃
+
+
+## 🔸 First Puzzle 
+
+There are two ducks in front of a duck, two ducks behind a duck and a duck in the middle. How many ducks are there ❓❗ 😳
+
+## 🔸 Second Puzzle 
+
+The day before two days after the day before tomorrow is Saturday. What day is it today ❓❗ 😳

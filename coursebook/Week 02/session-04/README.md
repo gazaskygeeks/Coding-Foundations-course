@@ -1,21 +1,23 @@
-# Session 04 : Git Workshop
+# Session 04 : Advance CSS Topics
 
 # Menu
 
 - [Learning Outcomes](./learning-outcomes.md)
-
-- [Research Topics](./research-topics.md)
-
-- [Resources](./resources.md)
+- [Research](./research-topics.md)
+- [Additional Resources](./resources.md)
 
 --------------------------------------------------------------------------------
 
 ## Schedule
 
-- **09:00 - 09:30** | [Warm-Up](./puzzle.md)
+- 10:00 - 10:30 | [Warm Up | Puzzle](./puzzle.md)
 
-- **09:30 - 10:30** | [Git Workflow](https://github.com/foundersandcoders/git-workflow-workshop-for-two)
+- 10:30 - 11:00 | [Box Model](./layout.md)
 
-**_[BREAK | 20m]_**
+> Break | 10m
 
-- **11:00 - 01:00** | [Git Workflow Workshop](https://github.com/foundersandcoders/git-workflow-workshop-for-two)
+- 11:10 - 12:00 | [CSS Layouts](./position.md)
+
+> Break | 15m
+
+- 12:15 - 01:00 | [Responsive Design](https://github.com/yosefanajjar/Responsive-Design-Workshop)
