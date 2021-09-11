@@ -3,7 +3,7 @@
 - Introduction to programming & web development.
 - Introduction to HTML
 - Define what semantic HTML is and what tags can be used to create it.
-- Practical knowledge of version control systems.
+- Introduction into CSS and CSS Selector
 
 --------------------------------------------------------------------------------
 
