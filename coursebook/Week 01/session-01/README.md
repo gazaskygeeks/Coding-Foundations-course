@@ -1,27 +1,25 @@
-# Session 01 : Advance Topics in HTML and CSS
+# Session 01 : Introduction to the Web Development
 
-## Menu
+Welcome to the first session of web programming
+
+# Menu
 
 - [Learning Outcomes](./learning-outcomes.md)
-
-- [Research Topics](./research-topic.md)
-
-- [Additional Resources](./resources.md)
+- [Resources](./resources.md)
 
 --------------------------------------------------------------------------------
 
 ## Schedule
 
-**09:00 - 09:15** | [Warm Up](./logic-puzzle.md)
+- 10:00 - 10:30 | [Introduction to programming](./programming.md)
 
-**09:15 - 09:45** | [HTML5 & Semantic Elements](./semantic.md)
+- 10:30 - 11:15 | [Introduction to web development](./web-intro.md)
 
-**09:45 - 10:00** | [Exercise](./exercise.md)
+> Break | 15m
 
-**_[Break| 15m]_**
+- 11:30 - 11:45 | [Web development tools](./webdev-tools.md)
 
-**10:15 - 10:45** | [Form and input](./form.md)
+- 12:00 - 01:00 | [Code Yourself!](./web-tutorial.md)
 
-**10:45 - 11:20** | [CSS Selector and Pseudo-classes](./css-selector-pseudo.md)
 
-**11:20 - 12:00** | VS Code - Setup and Basics | Talk!
+

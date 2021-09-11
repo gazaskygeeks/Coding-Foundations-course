@@ -1,31 +1,20 @@
-# Session 00 : Introduction to the Web Development
+# Session 00 : Onboarding
 
-Welcome to the first session of web programming
-
-# Menu
-
-- [Learning Outcomes](./learning-outcomes.md)
-
-- [Additional Resources](./resources.md)
+**Welcome to the CA, Fundamental Course**
 
 --------------------------------------------------------------------------------
 
 ## Schedule
 
-- 09:00 - 10:00 | Welcome talk
+- 10:00 - 11:00 | Welcome talk
 
-- 10:00 - 10:15 | Go through schedule
+> BREAK THE ICE
 
-- 10:15 - 10:45 | [Introduction to programming](./programming.md)
+- 11:30 - 12:00 | Go through schedule
 
-***[BREAK | 15m]***
+- 12:00 - 12:15 | Course Rules
 
-- 11:00 - 11:30 | [Introduction to web development](./web-intro.md)
+> Break | 10m
 
-- 11:30 - 11:45 | [Web development tools](./webdev-tools.md)
-
-***[BREAK | 15m]***
-
-- 12:00 - 12:30 | [Code Yourself!](./web-tutorial.md)
-
+- 12:20 - 01:00 | [Teaching vs. Mentoring](./teach-mentoring.md)
 

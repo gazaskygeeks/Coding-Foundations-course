@@ -1,8 +1,4 @@
-# Learning Outcomes
 
-- HTML5 & Learn about Semantic HTML.
-- Learn more HTML tags.
-- knowing Table and form elements.
-- what is css and the use of it!
-- CSS Selectors 
-- CSS Pseudo-class
+# Learning Outcomes :
+
+* You will read about web development and web developers in general so you can have a better understanding of what are you going to be learning in the next sessions.
