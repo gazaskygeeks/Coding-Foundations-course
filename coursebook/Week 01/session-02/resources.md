@@ -1,14 +1,10 @@
+# Resources:
 
-# Additional Resources
-- [Box Model](https://css-tricks.com/the-css-box-model/)
-- [Typograhpy in CSS](https://css-tricks.com/typography-for-developers/)
-- [CSS Layout](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout)
-- [MDN](https://developer.mozilla.org/en-US/docs/)
-- [Display In CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/display)
-- [Positioning types in css](https://www.w3schools.com/css/css_positioning.asp)
-- [Positions in css](https://css-tricks.com/almanac/properties/p/position/)
-- [Complete guide to flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
-- [flexbox w3School](https://www.w3schools.com/css/css3_flexbox.asp)
-- [transform & transition](https://thoughtbot.com/blog/transitions-and-transforms)
-- [animation](https://thoughtbot.com/blog/css-animation-for-beginners)
+## Read these articles to help you understand the topics of today's session if you face any problem with it!
 
+- [Why Should I Use HTML5?](https://html.com/html5/)
+- [HTML Sematic Tags: Should I Bother With Semantic HTML?](https://www.jungledisk.com/blog/2017/12/04/should-i-bother-with-semantic-html/)
+- [input: The Input (Form Input) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
+- [Attribute selectors | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
+- [Class selectors | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)
+- [css selectors | HTML & CSS Is Hard](https://www.internetingishard.com/html-and-css/css-selectors/)
