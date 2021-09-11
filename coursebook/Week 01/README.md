@@ -7,9 +7,12 @@
 
 <hr />
 
-- **Day 01** : Session 00 | Introduction to programming and web development
+- **Day 01** : Session 00 | Welcoming and Onboarding
 
-- **Day 02** : Session 01 | Advance Topics in HTML and CSS
+- **Day 02** : Session 01 | Introduction to programming and web development
 
 - **Day 03** : Session 02 | Advance Topics in CSS
+
+- **Day 04** : Session 02 | Advance Topics in CSS
+
 
