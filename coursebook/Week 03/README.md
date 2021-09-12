@@ -1,3 +1,5 @@
+# Week 03: Introduction into JavaScript
+
 # learning Objective:
 
 - Define what JavaScript is, where it can be used, and how it came to be
@@ -8,8 +10,11 @@
 
 --------------------------------------------------------------------------------
 
-- **Day 01** : Session 06 | Introduction to JavaScript
+- **Day 01** : Session 08 | Introduction to JavaScript
 
-- **Day 02** : Session 07 | Functions and Scopes
+- **Day 02** : Session 09 | Functions and Scopes
 
-- **Day 03** : Session 08 | Loops
+- **Day 03** : Session 10 | Loops
+
+- **Day 04** : Session 11 | First Project Presentation
+
