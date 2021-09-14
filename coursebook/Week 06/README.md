@@ -1,10 +1,10 @@
+# Week 06: Advanced Topic in JS
 
 # Learning Objectives :
 Welcome to Advanced topics in Javascript, in this week you will learn:
 
 - Know What is `“this”` keyword in JavaScript
 - difference between the normal function and arrow function
-- what is closures and how it work
 - what asynchronous and synchronous really means
 - asynchronous patterns in depth, callbacks, promises
 - difference between Callbacks and Promises
@@ -14,10 +14,13 @@ Welcome to Advanced topics in Javascript, in this week you will learn:
 
 <hr />
 
-- **Day 01** : Session 15 | Advanced topics I [This, Arrow function, Closures]
+- **Day 01** : Session 18 | asynchronous & synchronous [Part 1]
 
-- **Day 02** : Session 16 | Advanced topics II [asynchronous & synchronous]
+- **Day 02** : Session 19 | asynchronous & synchronous [Part 2]
 
-- **Day 03** : Session 17 | Advanced topics III [Fetch API]
+- **Day 03** : Session 20 | Fetch API
+
+- **Day 04** : Session 21 | To-do App project Presentation
+
 
 

@@ -1,4 +1,9 @@
+
 # Learning Outcomes
 
-- Recap the workflow 
-- learn the project phases and steps
+- What is Github 
+- What is Git
+- Git vs Github
+- local repo and remote repo 
+- what is the working area! 
+

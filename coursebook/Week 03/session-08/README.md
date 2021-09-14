@@ -1,24 +1,26 @@
-# Session 08: JavaScript Basics
-
-Welcome to the second session of the Javascript, you will learn the basic concepts of Javascript that qualify you to write a meaningful code.
-
-**_Note_** : you will find many useful resources for more explanation and, you have a time at the end of the session to ask mentors.
-
----
+# Session 08: Introduction to JavaScript
 
 ## Menu
 
-- **[Learning Outcomes](./learning-outcomes.md)**
-- **[Research](./research-topics.md)**
-- **[Resources](./resources.md)**
+- [Learning Outcomes](./learning-outcomes.md)
+- [Research Topics](./research-topics.md)
+- [Additional Resources](./resources.md)
 
----
+--------------------------------------------------------------------------------
 
 ## Schedule
 
-- **09:00 - 09:45** | [Loops](./loop.md)
+- **10:00 - 10:30** | [Introduction to JavaScript](./intro-to-js.md)
 
-**[Break- 15m]**
+- **10:30 - 11:00** | [Variables and Constants](./variables-and-constants.md)
 
-- **10:00 - 11:45** | [Exercises](./exercises.md)
-- **11:45 - 12:00** | [Homework](./homework.md)
+> Break | 10m
+
+- **11:10 - 11:30** | [Data Types in JavaScript](./data-types.md)
+
+- **11:30 - 11:45** | [Comparison operators](./operators.md#comparison-operators)
+
+> Break | 10m
+
+- **11:50 - 12:10** | [Logical operators](./operators.md#logical-operators)
+- **12:10 - 01:00** | [Conditional statements](./operators.md#conditional-statements)
