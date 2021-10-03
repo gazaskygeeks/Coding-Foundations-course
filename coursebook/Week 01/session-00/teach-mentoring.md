@@ -32,7 +32,8 @@ Development mentorship goes beyond teaching the basics of coding, but goes deepe
 * Deliver the workshop and make sure you have the basics that you need 
 * *When you’re stuck at any particular coding problem*, mentors can help you solve it;
 * *If you’re stuck between two career paths or choices*, mentors can help you decide what best suits your personality, knowledge, or interests;
-** If you are very slow at achieving your goals*, mentors can help accelerate your learning.
+
+* *If you are very slow at achieving your goals*, mentors can help accelerate your learning.
 * *If you need inspiration*, mentors can be a great source of new ideas, challenges, and motivation;
 * *If you need to prepare for coding interviews*, mentors can guide you through a set of appropriate challenges and advise on strategies for tackling the most difficult questions.
 
