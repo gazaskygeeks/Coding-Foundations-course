@@ -6,11 +6,14 @@ HTML defines the default DOM structure. However in many cases you may want to ma
 
 ![dom-tree](https://www.tutorialstonight.com/assets/js/dom-tutorial.webp)
 
-## JavaScript Methods For DOM Manipulation
+---
+---
+
+# ♦️ JavaScript Methods For DOM Manipulation
 
 There are many **JavaScript methods** that **aid DOM manipulation**. You’d likely use these methods frequently in your code
 
-## Getting Element by ID
+## 🔹 Getting Element by ID
 
 returns an Element object representing the element whose **id** property matches the specified string. 
 
@@ -27,7 +30,7 @@ let heading = document.getElementById("heading");
 ```
 ---
 
-## Getting Element by TagName
+## 🔹 Getting Element by TagName
 To get all elements in the DOM using the element tag, we can use
 
 > `document.getElementsByTagName(“<name of the tag>”);`
@@ -40,7 +43,7 @@ let elements = document.getElementsByTagName("p");
 
 ---
 
-## Getting Elements by ClassName
+## 🔹 Getting Elements by ClassName
 
 To get elements having same class name we can use below
 
@@ -57,7 +60,7 @@ It will return ***HTMLCollection***
 > What is the difference between Get element by ID and querySelector?
 
 ---
-##  Get Element by querySelector
+## 🔹 Get Element by querySelector
 
 The `querySelector()` method **returns the first element that matches one or more CSS selectors**. If no match is found, it returns `null`.
 
@@ -104,7 +107,7 @@ thirdDiv.textContent; // div three
 ```
 
 ---
-## querySelectorAll
+## 🔹 querySelectorAll
 
 
 Unlike `querySelector()` that returns only the first instance of all matching elements, `querySelectorAll()` **returns all elements that match the specified CSS selector**.
@@ -145,7 +148,7 @@ for (const p of paragraphs) // to make loop on paragraphs
 ```
 
 ---
-##  [addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)
+##  🔹 addEventListener()
 
 **Events** refer to what happens to an HTML element, such as clicking, focusing, or loading, to which we can react with JavaScript. We can assign JS functions to listen for these events in elements and do something when the event had occurred.
 
@@ -192,6 +195,12 @@ element.addEventListener(event, listener, [options]);
 | `once`    |                                                                       Listener is called only the first time the event happens, then it is automatically detached from the event, and won’t be triggered by it anymore.                                                                       |
 | `passive` |                                                                                                     The default action of the event cannot be stopped with the `preventDefault()` method.                                                                                                     |
 
+
+<br>
+<br>
+<br>
+
+
 #### Code Example
 
 ##### HTML
@@ -210,8 +219,8 @@ function foo() {
 }
 ```
 
-### 4- [createElement()](https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement)
-
+---
+## 🔹 Create Element
 The `createElement()` method **creates a new HTML element** using the **name of the HTML tag** to be created, such as `'p'` or `'div'`.
 
 You can later add this element to the web page by using different **methods for DOM insertion**, such as `AppendChild()` [see later in this session](https://github.com/gazaskygeeks/Fundamentals-course/blob/week6-session17-review/coursebook/Week%2006/session-17/DOM-manipulations.md#5--appendchild).
@@ -232,7 +241,8 @@ With the following example, you can create a new paragraph element:
 const pElement = document.createElement('p');
 ```
 
-##  [appendChild()](https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild)
+---
+## 🔹 appendChild()
 
 The `appendChild()` method **adds an element as the last child** to the HTML element that invokes this method.
 
@@ -269,7 +279,8 @@ strong.textContent = 'Hello';
 div.appendChild(strong);
 ```
 
-##  [setAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
+---
+##  🔹 setAttribute()
 
 The `setAttribute()` method either **adds a new attribute** to an HTML element, or **updates the value** of an attribute that already exists.
 
@@ -301,8 +312,8 @@ const div = document.querySelector('div');
 // set new attribute for the div element
 div.setAttribute('contenteditable', ''); // <div contenteditable></div>
 ```
-
-##  [getAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getAttribute)
+---
+##  🔹 getAttribute()
 
 The `getAttribute()` method **returns the value of a specified attribute** belonging to a certain HTML element.
 
@@ -331,8 +342,8 @@ In this example, we alert the value of the `contenteditable` attribute belonging
 const div = document.querySelector('div');
 alert(div.getAttribute('contenteditable')); // true
 ```
-
-##  [removeAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/removeAttribute)
+---
+##  🔹 removeAttribute()
 
 The `removeAttribute()` method **removes a given attribute** of a specific HTML element.
 
@@ -365,7 +376,7 @@ div.removeAttribute('contenteditable');
 
 ---
 
-### Adding CSS styles
+# ♦️ Adding CSS styles
 
 CSS rules can be applied like any other property; note though that the properties are camel-cased in JavaScript:
 
@@ -380,7 +391,7 @@ window.getComputedStyle(myElement).getPropertyValue('margin-left');
 ```
 
 ---
-## Element properties
+# ♦️ Element properties
 
 Every element also has the properties `.innerHTML` and `.textContent` (as well as `.innerText` , which is similar to `.textContent`, but has some [important differences](http://perfectionkills.com/the-poor-misunderstood-innerText/) ). These hold the HTML and plain text content respectively. They are writable properties, meaning we can modify elements and their contents directly:
 
@@ -457,4 +468,4 @@ and you used `createTextNode` then it will end with:
 
 because you **appended your textNode**.
 
-So you should use `textContent` in this case.
+> So you should use `textContent` in this case.
