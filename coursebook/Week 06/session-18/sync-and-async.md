@@ -26,7 +26,7 @@ asynchronous means you can move to another task before the previous one finishes
 <br>
 
 <p align="center">
-  <img src="https://martech.zone/wp-content/uploads/2012/09/asynchronous.png" width='400'/>
+  <img src="https://martech.zone/wp-content/uploads/2012/09/asynchronous.png" width='500'/>
 </p>
 
 > sync: executes tasks in sequence
@@ -41,7 +41,7 @@ asynchronous means you can move to another task before the previous one finishes
 With asynchronous programming, any part of your code that takes longer to run can be handled by a parallel entity that does not block the main code thread. 
 
 <p align="center">
-  <img src="https://cdn.buttercms.com/hmirWTF7TBCsX6mncY0P" width='400'/>
+  <img src="https://cdn.buttercms.com/hmirWTF7TBCsX6mncY0P" width='500'/>
 </p>
 
 
