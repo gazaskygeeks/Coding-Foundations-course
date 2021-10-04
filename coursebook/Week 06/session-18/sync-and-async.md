@@ -17,7 +17,6 @@ But what if you have to get maybe over 500 images or audio from the database, an
 
 <br>
 
----
 
 ## ✤ What is Asynchronous?
 
@@ -26,19 +25,26 @@ asynchronous means you can move to another task before the previous one finishes
 <br>
 <br>
 
-![](https://martech.zone/wp-content/uploads/2012/09/asynchronous.png)
+<p align="center">
+  <img src="https://martech.zone/wp-content/uploads/2012/09/asynchronous.png" width='400'/>
+</p>
 
 > sync: executes tasks in sequence
 >
 > async: start something now and finish it later
 
----
+<br>
+<br>
 
 ## ❖ Site Speed and Asynchronous Javascript
 
 With asynchronous programming, any part of your code that takes longer to run can be handled by a parallel entity that does not block the main code thread. 
 
-![](https://cdn.buttercms.com/hmirWTF7TBCsX6mncY0P)
+<p align="center">
+  <img src="https://cdn.buttercms.com/hmirWTF7TBCsX6mncY0P" width='400'/>
+</p>
+
+
 
 As you can see from the synchronous vs. asynchronous programming diagram, this allows us to get much more stuff done in a short amount of time and therefore can be very helpful in web applications.
 
