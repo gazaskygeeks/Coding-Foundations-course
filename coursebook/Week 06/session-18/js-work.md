@@ -29,7 +29,10 @@ A popular example of a JavaScript Engine is **Google’s V8 engine**. The V8 eng
 
 simplified view of what the engine looks like:
 
-![](https://miro.medium.com/max/1400/1*OnH_DlbNAPvB9KLxUCyMsA.png)
+
+<p align="center">
+  <img src="https://miro.medium.com/max/1400/1*OnH_DlbNAPvB9KLxUCyMsA.png" width='350'/>
+</p>
 
 The Engine consists of two main components:
 * **Memory Heap** — this is where the memory allocation happens

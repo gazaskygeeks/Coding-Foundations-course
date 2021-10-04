@@ -1,4 +1,4 @@
-# Session 18: asynchronous & synchronous [part II]
+# Session 18: asynchronous & synchronous [part I]
 
 ## Menu
 
@@ -16,3 +16,5 @@
 **[Break | 15m]**
 
 - **11:30 - 12:30** | [asynchronous & synchronous](./sync-and-async.md)
+
+- **12:30 - 01:00** | codewars
