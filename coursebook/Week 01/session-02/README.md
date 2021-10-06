@@ -24,6 +24,4 @@
 
 > Break | 15m
 
-**12:00 - 12:20** | [Table](./table.md)
-
-**12:20 - 01:00** | VS Code - Setup and Basics | Talk!
+**12:00 - 01:00** | VS Code - Setup and Basics | Talk!
