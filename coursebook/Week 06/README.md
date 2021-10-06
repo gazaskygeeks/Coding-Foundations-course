@@ -3,8 +3,7 @@
 # Learning Objectives :
 Welcome to Advanced topics in Javascript, in this week you will learn:
 
-- Know What is `“this”` keyword in JavaScript
-- difference between the normal function and arrow function
+- How does JS work! 
 - what asynchronous and synchronous really means
 - asynchronous patterns in depth, callbacks, promises
 - difference between Callbacks and Promises
