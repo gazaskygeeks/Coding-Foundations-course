@@ -1,239 +1,199 @@
-# Asynchronicity in Javascript
+# Asynchronous JavaScript
 
-## Introduction
-Javascript is a single threaded language.
+❕ Why is it difficult to get to work using synchronous code?!
 
-This means it has one call stack and one memory heap synchronously.
+Let's look at a quick example. When you fetch an image from a server, you can't return the result immediately
 
-In simpler terms, it means that every piece of code will only be executed after the previous code's execution is complete, you **cannot** - like Java for example - distribute your work load on multiple threads.
-
-But this could be quite troubling, as you could in very common cases want your code to complete it's execution while some other task is running, say for example, you want to fetch some data from an API, you don't want your website to freeze until the request is complete, you want to keep doing things and when handle the request when it's complete.
-
-To solve this issue, Javascript get's help from WebAPIs provided by the browser (Or C++ APIs in case of NodeJS) using "The event loop".
-
-## Event loop
-
-![alt](https://miro.medium.com/max/1600/1*iHhUyO4DliDwa6x_cO5E3A.gif)
-
-When a Javascript code encounters a non-blocking (asyncrounous) function, it pushes that function to execute via the WebAPIs, and out of the main stack execution, when the async function is completed, the API pushes it to the callback queue, which empties back to the stack **only when the stack is empty**.
-
-For example:
 
 ```js
-console.log('1');
-
-setTimeout(
-  function () { console.log('2') },
-  5000
-)
-
-console.log('3');
-```
-This code will work as following:
-1. log '1' (So far so good)
-2. Encountered a set timeout, an async function, hand it to the WebAPI, and it will process the state of the function there
-3. log '3'
-4. The WebAPI will wait for 5 seconds (5000 milliseconds), then it will push the function inside the `setTimeout` to the callback queue
-5. The callback queue will check if the stack is empty, and it is since we've executed all synchronous statements
-6. The callback queue will push to the stack
-7. log '2'
-Output:
-```
-1
-3
-2
+let response = fetch('myImage.png');
+let result = response.blob();
+// display your image blob in the UI somehow
 ```
 
-So, async functions will be processed by the WebAPI, and when they're done, they'll be handed to the callback queue, and after the stack is cleared, it'll pass it to the main stack again.
+That's because you don't know how long the image will take to download, so when you come to run the second line it will **throw an error**  because the response is not yet available. 
 
-## Asyncrounous patterns
+Instead, you need your code to wait until the response is returned before it tries to do anything else to it.
 
-### Promise
+There are two main types of asynchronous code style you'll come across in JavaScript code, **old-style callbacks** and **newer promise-style code**. 
+
+---
+
+<br>
+
+## ✤ Asynchronous Callbacks: *I'll call back once I'm done!*
+
+In JavaScript, you can pass a function as an argument to a function. This function that is passed as an argument inside of another function is called a **callback function**
+
+
+```javascript
+// function
+function greet(name, callback) {
+    console.log(`Hi ${name}`);
+    callback();
+}
+
+// callback function
+function callMe() {
+    console.log('I am callback function');
+}
+
+// passing function as an argument
+greet('Peter', callMe);
+```
+
+*the output*
+
+```json
+Hi Peter
+I am callback function
+```
+
+**In the above program :** 
+
+ there are two functions. While calling the `greet()` function, two arguments (*a string value and a function*) are passed.
+
+ The `callMe()` function is a callback function.
+
+
+
+ ```js
+ const message = function() {  
+    console.log("This message is shown after 3 seconds");
+}
+setTimeout(message, 3000);
+ ```
+
+**“setTimeout”**, built-in method in JavaScript which calls a function or evaluates an expression after a given period of time. 
+
+*So here*, the “message” function is being called after 3 seconds have passed. 
+> (1 second = 1000 milliseconds)
+
+the message function is being called after something happened but not before. So the message function is an example of a callback function.
+
+
+### ❕ callback hell → multiple async operations
+
+if we need to complete multiple asynchronous steps in sequence, callbacks become unmanageable and result in the infamous callback hell.
 
 ```js
-doSomeCoolThingsInWebsite();
+// ! callback hell
+firstRequest(function(response) {
+    secondRequest(response, function(nextResponse) {
+        thirdRequest(nextResponse, function(finalResponse) {
+            console.log('Final response: ' + finalResponse);
+        }, failureCallback);
+    }, failureCallback);
+}, failureCallback);
+```
+To avoid this pattern happening, we will see now **`Promises`**.
 
-const fetchPizza = new Promise((resolve, reject) => {
-  try {
-    const pizza = synchronousPizzaCall();
-    resolve(pizza);
-  } catch (error) {
-    reject(error);
+---
+<br>
+
+## ✤ Promise: *I promise a result!*
+
+
+A promise in JavaScript is similar to a promise in real life. A promise has 2 possible outcomes: it will either be kept when the time comes, or it won’t.
+
+This is also the same for promises in JavaScript. When we define a promise in JavaScript, it will be resolved when the time comes, or it will get rejected.
+
+Promise is an object, There are 3 states of the Promise object:
+
+- **Pending**: Initial State, before the Promise succeeds or fails
+- **Resolved**: Completed Promise
+- **Rejected**: Failed Promise
+
+<br>
+
+<p align="center">
+  <img src="https://miro.medium.com/max/1400/1*10vA-8de9Xya8PJO_mw9PA.png" width='500'/>
+</p>
+
+
+---
+### Creating and Using A Promise Step by Step
+
+- **Firstly**, we use a constructor to create a Promise object:
+
+```js
+const myPromise = new Promise();
+```
+
+- It takes two parameters, *one for success `(resolve)`* and *one for fail `(reject)`*:
+
+```js
+const myPromise = new Promise((resolve, reject) => {  
+    // condition
+});
+```
+
+- **Finally**, there will be a `condition`. 
+     - If the condition is met, the Promise will be resolved, 
+     - otherwise it will be rejected
+
+```js
+const myPromise = new Promise((resolve, reject) => {  
+    let condition;  
+    
+    if(condition is met) {    
+        resolve('Promise is resolved successfully.');  
+    } else {    
+        reject('Promise is rejected');  
+    }
+});
+```
+So we have created our first Promise ✅
+
+
+
+after the condition is done, we have to case to handle: One for resolved promises and one for rejected.
+We handle the two cases using two method :
+
+- `then( )` for resolved Promises:
+
+    The `then( )` method is called after the Promise is resolved. Then we can decide what to do with the resolved Promise. (ex: log a message)
+
+    ```js
+    myPromise.then((message) => {  
+    console.log(message);
+    });
+    ```
+
+- `catch( )` for rejected Promises:
+   
+   if the promise gets rejected, it will jump to the `catch( )` method and this time we will see a different message on the console.
+
+   ```js
+   .catch((message) => { 
+    console.log(message);
+    }); 
+   ```
+
+<br>
+<br>
+
+example: 
+
+```js 
+let mathPromise = new Promise((res, rej) => {
+  let sum = 6 + 9
+  // Condition
+  if (sum === 19) {
+    res('right')
+    // condition met 
+  } else {
+    rej('wrong')
+    // fail
   }
 })
 
-function whenThePizzaGetsHere (pizza) {
-  // bon appetit
-}
-
-function afterWeAteThePizza (leftovers) {
-  // Give to dog
-}
-
-function whenTheDeliveryCrashes (crashInfo) {
-  // OH NO!
-}
-
-fetchPizza()
-  .then(whenThePizzaGetsHere)
-  .then(afterWeAteThePizza)
-  .catch(whenTheDeliveryCrashes);
-
-doSomeMoreCoolThingsInWebsite();
+mathPromise
+  .then((msg) => {
+    console.log(`this is a ${msg}`)
+  })
+  .catch((msg) => {
+    console.log(`this is a ${msg}`)
+  })
+  // handle the cases of resolve and reject
 ```
-
-In this example, we're calling some function `synchronousPizzaCall`, and when that call is done, we will execute the functions `whenThePizzaGetsHere`, `afterWeAteThePizza` in case of success or `whenTheDeliveryCrashes` in case of errors on the response of that call.
-The benefit of this is that we are able to continue the execution of our cool code even when the request is not complete yet or if it took longer than we're comfortable with.
-
-Take this following code:
-```js
-doSomeCoolThingsInWebsite();
-
-
-function whenThePizzaGetsHere (pizza) {
-  // bon appetit
-}
-
-function afterWeAteThePizza (leftovers) {
-  // Give to dog
-}
-
-function whenTheDeliveryCrashes (crashInfo) {
-  // OH NO!
-}
-
-try {
-  const pizza = synchronousPizzaCall();
-  const leftovers = whenThePizzaGetsHere(pizza);
-  afterWeAteThePizza(leftovers);
-} catch (crashInfo) {
-  whenTheDeliveryCrashes(crashInfo);
-}
-
-doSomeMoreCoolThingsInWebsite();
-```
-
-Imagine that ordering pizza forces you to stand still and not move at all, not fun, right? You want to be able to do other things while your delivery arives, and that's exactly the difference between the two.
-
-This example is somewhat similar to the one above, you will do some cool code, then you'll call for pizza, you will wait until that is done, then after that you'll do something with your pizza or handle the errors, and afterwards you'll continue executing your cool code.
-
-The key difference is that in the first example, the rest of your cool code doesn't necessarily need to wait for your pizza call, while in the second, nothing will be executed until your call resolves.
-
-### Callbacks
-
-**Key note**: Callbacks are not necessarily used for asyncrounous functions, that's just where they are occasionaly needed.
-
-Callbacks are simply functions passed as arguments to other functions, to be executed at a certain point.
-
-Take this example:
-
-```js
-doSomeCoolThingsInWebsite();
-
-function whenThePizzaGetsHere (error, pizza) {
-  if (error) {/* Handle it */}
-  // bon appetit
-}
-
-/**
- * @callback pizzaCallCallback
- * @param {Object|null} error - Error object, null if no error.
- * @param {Object} [response] - Response object if no error.
- */
-
-/**
- * @param {pizzaCallCallback} callback - A callback to run.
- */
-function pizzaCall (callback) {
-  const xhttp = new XMLHttpRequest();
-  xhttp.onreadystatechange = function() {
-      if (this.readyState == 4 && this.status == 200) {
-        if (callback)
-          callback(null, xhttp.responseText);
-      }
-      // We won't be handling any errors here for this example
-  };
-  xhttp.open("GET", "/pizza", true);
-  xhttp.send();
-}
-
-pizzaCall(whenThePizzaGetsHere);
-
-doSomeMoreCoolThingsInWebsite();
-```
-
-You don't need to understand XHR for now, we'll get into that when we talk about Fetch and API calls, just understand that the function `pizzaCall` creates a new XHR request, which is asyncrounous, and when the call is complete, the function will call `callback`.
-Look at the function `callback` as a custom function to process the response for some arbitrary API request.
-
-From the example, you cannot but notice that callbacks require being well documented, meaning that the function `pizzaCall` will always supply the function `callback` with a defined set of arguments.
-
-Another simpler example that doesn't relate to asyncrounousity but explains callbacks well is array methods, like `forEach` and `map`.
-
-```js
-const numbers = [1,2,3,4,5,6];
-function evens (number, index) {
-  return number % 2 === 0;
-}
-
-const evenNumbers = numbers.filter(evens);
-// even numbers = [2, 4, 6];
-```
-
-In this case, `evens` is a callback that is passed to the filter function, and we always expect that `evens` is going to be passed the same arguments [[documented here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter#parameters)].
-
-### Async/Await
-
-The async/await pattern is just a special syntax to execute promises and asynchronous functions, let's dig right in.
-
-```js
-doSomeCoolThingsInWebsite();
-
-async function asyncFetchPizza () {
-  try {
-    const response = await fetch('/pizza');
-    return response.body.pizza;
-  } catch (error) {
-    throw new Error(error);
-  }
-}
-
-function whenThePizzaGetsHere (pizza) {
-  // bon appetit
-}
-
-function afterWeAteThePizza (leftovers) {
-  // Give to dog
-}
-
-function whenTheDeliveryCrashes (crashInfo) {
-  // OH NO!
-}
-
-asyncFetchPizza()
-  .then(whenThePizzaGetsHere)
-  .then(afterWeAteThePizza)
-  .catch(whenTheDeliveryCrashes);
-
-doSomeMoreCoolThingsInWebsite();
-```
-
-You don't have to know much about the `fetch` except that it's a promise that executes calls and resolves when the call is done.
-Other than that, the async/await pattern is just a fancy way of writing promises.
-
-## Summary
-
-Javascript does only one thing at a time, but it can give things to WebAPI to do, and when the API is done it pushes the execution to the callback queue, and the queue pushes the execution to the main stack once the main stack is free/empty.
-
-Promises are functions that take a function as an argument, and resolves/rejects when that function executes the `resolve` or `reject` function.
-
-A callback function is just a function `A` that is given as an argument to function `B` with the expectation that function `B` will execute function `A`. Like array methods or even promises.
-
-Async/Await pattern is just a sparkly thing.
-
-## References
-
-Much recommended [video](https://www.youtube.com/watch?v=8aGhZQkoFbQ) about the event loop and how javascript works under the hood.
-
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop
-
-https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/
