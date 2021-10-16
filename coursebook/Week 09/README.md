@@ -5,6 +5,6 @@
 
 <hr/>
 
-- **Day 01** : Session 22 | Introduction to npm and Individual Projects
+- **Day 01** : Session 25 | Introduction to npm and Individual Projects
 
-- **Day 02** : Session 23 | Final Project Presentation
+- **Day 02** : Session 26 | Final Project Presentation
