@@ -75,10 +75,10 @@ Your README should also include a link to the live site (you can also add a dire
 ---
 ## 📍 Projects UI:
 
-- [**Fruit Salad**](https://www.figma.com/file/LED6i3mPk6m4sxKyHS6RZC/Fruit-Salad?node-id=12%3A0)
+- [**Finance App**](https://www.figma.com/file/v9okQombj1lbl4uwtI6lqs/Finance-App)
 
-- [**Art Gallery**](https://www.figma.com/file/ekDp2D444qOOJacmI9MpZZ/Art-gallery)
+- [**Online Learning**](https://www.figma.com/file/o5o09loNlRpOSUBQaxesC0/Learning-UI)
 
-- [**Cinema App**](https://www.figma.com/file/9swucU7WVAZ5stBpMxIONg/Cinema-App?node-id=2%3A0)
+- [**Food App**](https://www.figma.com/file/n9nzkeTsNfKyQKsLyK9chH/food-app)
 
-- [**Online Learning**](https://www.figma.com/file/FQ7tyN31t5xSH9oPCyC12T/Online-Learning?node-id=5%3A0)
+- [**BLearning App**](https://www.figma.com/file/qjL0TT1Eph3K4s5mTwsc4X/BLearning-app)
