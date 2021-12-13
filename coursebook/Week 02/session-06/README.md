@@ -18,7 +18,7 @@
 
 - [Git Workflow assignment](https://github.com/foundersandcoders/git-workflow-workshop-for-two) 
 
-- [Projects](./project.md)
+- [Portfolio Project](./first-project.md)
 
 
 
