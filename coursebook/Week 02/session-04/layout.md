@@ -58,7 +58,7 @@ do you know how `margin`, `padding`, `border` ? I will assume you know them, so 
 
 Displays an element as an inline element. _Any height and width properties will have no effect_.
 
-![Screen Shot 2021-12-13 at 6 23 55 PM](https://user-images.githubusercontent.com/47992412/145849538-1476c446-1f90-485e-b38a-afbe84515d72.png)
+<img width="400" alt="Screen Shot 2021-12-13 at 6 31 20 PM" src="https://user-images.githubusercontent.com/47992412/145849538-1476c446-1f90-485e-b38a-afbe84515d72.png">
 
 This one displays the element inline or on the same line. In other words, inline elements do **NOT start** on a new line and only takes up as much width as its content. So, if you try to set any width and height, it will have NO effects.
 
@@ -74,13 +74,13 @@ This one displays the element inline or on the same line. In other words, inline
 
 here the element will presented as a block so the element will add a new break line before and after it, in this case the element will follow the box model so we can control the width, hight, margin, padding and border of the element
 
-![Screen Shot 2021-12-13 at 6 31 20 PM](https://user-images.githubusercontent.com/47992412/145850736-42763ea7-109e-4d42-b68e-54983239d940.png)
+<img width="400" alt="Screen Shot 2021-12-13 at 6 31 20 PM" src="https://user-images.githubusercontent.com/47992412/145853592-1b2281f7-86e0-455b-be27-d029441f20bb.png">
 
 ### 📍 **display: inline-block**:
 
 Displays an element as an inline-level block container. _You CAN set height and width values_.
 
-![Screen Shot 2021-12-13 at 6 36 35 PM](https://user-images.githubusercontent.com/47992412/145851564-6b9e8b9a-7e64-4e52-a701-c66baa3e318b.png)
+<img width="400" alt="Screen Shot 2021-12-13 at 6 31 20 PM" src="https://user-images.githubusercontent.com/47992412/145851564-6b9e8b9a-7e64-4e52-a701-c66baa3e318b.png">
 
 Alright, let's move on to inline-block. It’s essentially the same thing as inline, except that you can set height and width values and The top and bottom margins/paddings are respected.
 
