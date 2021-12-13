@@ -16,6 +16,8 @@
 
 - **10:30 - 01:00** | [Git Workflow](https://github.com/foundersandcoders/git-workflow-workshop-for-two)
 
+- [Git Workflow assignment](https://github.com/foundersandcoders/git-workflow-workshop-for-two) 
+
 - [Projects](./project.md)
 
 

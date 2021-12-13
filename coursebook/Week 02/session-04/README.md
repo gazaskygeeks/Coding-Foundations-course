@@ -16,7 +16,7 @@
 
 > Break | 10m
 
-- 11:10 - 12:00 | [CSS Layouts](./position.md)
+- 11:10 - 12:00 | [CSS Layouts | Flexbox](./position.md)
 
 > Break | 15m
 

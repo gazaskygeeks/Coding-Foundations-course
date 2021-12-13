@@ -1,1 +1,0 @@
-# Individual Projects

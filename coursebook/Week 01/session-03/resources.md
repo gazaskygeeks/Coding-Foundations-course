@@ -5,3 +5,4 @@
 - [Attribute selectors | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors)
 - [Class selectors | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors)
 - [css selectors | HTML & CSS Is Hard](https://www.internetingishard.com/html-and-css/css-selectors/)
+- [HTML Best Practices](https://github.com/hail2u/html-best-practices)
