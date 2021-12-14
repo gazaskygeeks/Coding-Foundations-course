@@ -1,4 +1,4 @@
-# Session 02 : Introduction to CSS
+# Session 03 : Introduction to CSS
 
 ## Menu
 
@@ -19,3 +19,5 @@
 > Break | 15m
 
 **11:15 - 11:45** | [Cascade and inheritance](./cascade.md)
+
+**11:45 - 12:30** | [HTML Best Practices](./html-best-practices.md)
