@@ -1,4 +1,4 @@
-# Week 03: Introduction into JavaScript
+# Week 04: Introduction into JavaScript
 
 # learning Objective:
 
@@ -7,6 +7,7 @@
 - Compare and contrast primitive data types with objects
 - JavaScript Comparison and Logical Operators
 - Define what is Function in JavaScript
+- JavaScript arrow function!
 
 --------------------------------------------------------------------------------
 
@@ -16,5 +17,6 @@
 
 - **Day 03** : Session 10 | Loops
 
-- **Day 04** : Session 11 | First Project Presentation
+- **Day 04** : Session 11 | Arrow Functions
+
 

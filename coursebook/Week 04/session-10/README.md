@@ -14,5 +14,5 @@
 
 > Break | 15m
 
-- **11:30 - 12:30** | [Loops-examples](./loop.md)
+- **11:30 - 12:30** | [Loops-examples](./loop.md/#examples)
 - **12:30 - 01:00** | [Homework](./homework.md)

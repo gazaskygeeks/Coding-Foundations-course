@@ -192,7 +192,7 @@ for (let i = 0; i < 10; i++) {
 In This example skips the value of 3 and continues with the next iteration in the loop.
 
 ------
-For recap, let's check these examples:
+<h1 id="examples"> For recap, let's check these examples: <h1>
 
 ### **Example:**
 
