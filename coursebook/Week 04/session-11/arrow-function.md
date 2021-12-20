@@ -79,35 +79,32 @@ let greet = (greeting, name) => console.log(`${greeting} ${name}`);
 greet('Hello', 'Olivia!!'); // Hello Olivia!!
 ```
 
---------------------------------------------------------------------------------
+----
 
-## JavaScript arrow functions and _this_ value
+## Rewrite with arrow functions!
+
+1.
 
 ```javascript
-const car = {
-  brand: 'Ford',
-  model: 'Fiesta',
-  start: function() {
-    console.log(`Started ${this.brand} ${this.model}`)
-  },
-  stop: () => {
-    console.log(`Stopped ${this.brand} ${this.model}`)
-  }
+function splitBill(amount, numPeople) {
+    return `Each person needs to pay ${amount / numPeople}`
 }
 
-car.start()   // Started Ford Fiesta
-
-car.stop()   // Stopped undefined undefined
+// console.log(splitBill(10, 2));
+// console.log(splitBill(10, 4));
+// console.log(splitBill(10, 5));
 ```
 
-`this` in the _start()_ method refers to the **object itself.**
+2. 
 
-But in the _stop()_ method, which is an arrow function, **it doesn't.**
+```javascript
+function countdown(startingNumber, step) {
+  let countFromNum = startingNumber + step;
+  return function decrease() {
+    countFromNum -= step;
+    return countFromNum;
+  }
+}
+// const countingDown = countdown(20, 2);
 
-this is not bound to the object instance. It points to what this points to in the _outer scope_.
-
-This implies that **arrow functions are not suitable to be used for object methods when you want to access `this`**.
-
---------------------------------------------------------------------------------
-
-### after you are done with the WS, solve the [tasks](./tasks.md)
+```
