@@ -99,4 +99,4 @@ There are some tips and rules you have to follow
 
 ## 🔰 Project deadline
 
-**Thursday 12/08 , at 06:00pm**
+**Thursday 24/03 , at 06:00pm**
