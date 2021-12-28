@@ -10,18 +10,18 @@ The first six weeks will provide you with the Fundamentals concepts of web devel
 
 - **Week 02** - Git/GitHub workflow
 
-- **Week 03** - Introduction to JavaScript
+- **Week 03** - HTML & CSS Project
 
-- **Week 04** - JavaScript part 01
+- **Week 04** - Introduction to JavaScript
 
-- **Week 05** - JavaScript part 02
+- **Week 05** - JavaScript part 01
 
-- **Week 06** - JavaScript part 03
+- **Week 06** - JavaScript part 02
 
-- **Week 07** - Projects
+- **Week 07** - JavaScript part 03
 
-- **Week 08** - Projects
+- **Week 08** - Final Projects
 
-- **Week 09** - npm & Individual Projects
+- **Week 09** - Final Projects
 
-- **Week 10** - What's next
+- **Week 10** - What's next! 
