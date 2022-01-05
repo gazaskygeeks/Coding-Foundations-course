@@ -4,6 +4,7 @@
 * Primitive Data Types : 
   - String
   - Number
+  - BigInt
   - Boolean
   - undefined
   - Symbol (new in ES2015)
@@ -76,6 +77,20 @@ JavaScript also has the special values Infinity and -Infinity:
  50 / 0; //  Infinity
 -50 / 0; // -Infinity
 ```
+### BigInt
+The BigInt type is a numeric primitive in JavaScript that can represent integers with arbitrary precision. With BigInts, you can safely store and operate on large integers even beyond the safe integer limit for Numbers.
+
+A BigInt is created by appending n to the end of an integer or by calling the constructor.
+
+```javascript
+const x = 2n ** 53n; // 9007199254740992n
+
+const y = x + 1n; // 9007199254740993n
+
+```
+You can use the operators `+`, `*`, `-`, `**`, and `%` with BigInts—just like with Numbers. A BigInt is not strictly equal to a Number, but it is loosely so.
+
+A BigInt behaves like a Number in cases where it is converted to boolean: `if`, `||`, `&&`, `Boolean`, `!`.
 
 ### Boolean 
 A boolean type can only be in one of two states, `true` or `false` (both of which are keywords) . 
