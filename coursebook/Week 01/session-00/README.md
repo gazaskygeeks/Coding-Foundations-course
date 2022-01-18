@@ -1,20 +1,19 @@
-# Session 00 : Onboarding
+# Session 00 : Introduction to programming
 
-**Welcome to the CA, Fundamental Course**
+# Menu
+
+- [Learning Outcomes](./learning-outcomes.md)
+- [Resources](./resources.md)
 
 --------------------------------------------------------------------------------
-
 ## Schedule
 
-- 10:00 - 11:00 | Welcome talk
+- 10:20 - 10:10 | Review Discord channels 
 
-> BREAK THE ICE
+- 10:10 - 11:30 | [Introduction to Internet and  Computers](./internet-and-computers.md)
 
-- 11:30 - 12:00 | Go through schedule
+> Break | 15m
 
-- 12:00 - 12:15 | Course Rules
+- 11:45 - 1:00 | [Computer programming ](./computer-programming.md)
 
-> Break | 10m
-
-- 12:20 - 01:00 | [Teaching vs. Mentoring](./teach-mentoring.md)
 
