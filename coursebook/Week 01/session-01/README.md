@@ -1,6 +1,5 @@
 # Session 01 : Introduction to the Web Development
 
-Welcome to the first session of web programming
 
 # Menu
 
@@ -11,15 +10,14 @@ Welcome to the first session of web programming
 
 ## Schedule
 
-- 10:00 - 10:30 | [Introduction to programming](./programming.md)
+- 10:00 - 10:50 | [Introduction to Programming Languages](./programming-language.md)
 
-- 10:30 - 11:15 | [Introduction to web development](./web-intro.md)
-
-> Break | 15m
-
-- 11:30 - 11:45 | [Web development tools](./webdev-tools.md)
-
-- 12:00 - 01:00 | [Code Yourself!](./web-tutorial.md)
+> Break | 10m
 
 
+- 11:00 - 12:00 | [Web Development](./web-development.md)
 
+> Break | 10m
+
+
+- 12:10 - 01:00 | [Web Development Tools](./web-development-tools.md)

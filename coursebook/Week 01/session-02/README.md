@@ -12,16 +12,14 @@
 
 ## Schedule
 
-**10:00 - 10:15** | [Warm Up](./logic-puzzle.md)
+**10:00 - 11:00** | [Code Yourself](./code-tutorial.md)
 
-**10:15 - 10:45** | [HTML5 & Semantic Elements](./semantic.md)
+> Break | 10m
 
-**10:45 - 11:00** | [Exercise](./exercise.md)
+**11:10 - 11:50** | [HTML5 & Semantic Elements](./semantic.md)
 
-> Break | 15m
+**11:50 - 12:00** | [Exercise](./exercise.md)
 
-**11:15 - 11:45** | [Form and input](./form.md)
+> Break | 10m
 
-> Break | 15m
-
-**12:00 - 01:00** | VS Code - Setup and Basics | Talk!
+**12:10 - 01:00** | [Form and input](./form.md)
