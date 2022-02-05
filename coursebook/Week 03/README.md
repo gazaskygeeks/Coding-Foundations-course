@@ -1,4 +1,4 @@
-# First Project!
+# First Team Project!
 
 This is your first project to hand in this course. you'll be divided into teams, every team with 4 member.
 
@@ -30,7 +30,7 @@ At this phase, what you need to do is the following:
 
 ### 📍 Build Phase #1
 
-One of the team members has to create a new repository on the FC03 organizing, your repository should contain the following:
+One of the team members has to create a new repository on the FC05 organizing, your repository should contain the following:
 
 - README file with these three points :
   * WHO (team members).
@@ -75,9 +75,16 @@ Your README should also include a link to the live site (you can also add a dire
 ---
 ## 📍 Projects UI:
 
+- [Veroo Delivery](https://www.figma.com/file/B4aQ9ls7yAwx402M2eilzP/Veroo-Delivery-App?node-id=0%3A1)
+- [Open Fashion](https://www.figma.com/file/jfT4kHuXT1Vyz2N3vJejqR/Open-Fashion?node-id=0%3A1)
+- [Donation](https://www.figma.com/file/1m8dz4Kt6m8IFXwvzKRxpQ/Donation-app?node-id=0%3A1)
+- [food app](https://www.figma.com/file/n9nzkeTsNfKyQKsLyK9chH/food-app?node-id=0%3A1)
+- [Finance App](https://www.figma.com/file/v9okQombj1lbl4uwtI6lqs/Finance-App?node-id=0%3A1)
+
+
 ---
 
 ## 📍 Project Lifetime
 
-- **start**: 06/Feb/2020 
-- **Deadline**: 09/Feb/2020, 6:00pm
+- **start**: 06/Feb/2022 
+- **Deadline**: 09/Feb/2022, 6:00pm
