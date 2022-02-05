@@ -30,5 +30,5 @@ This is your first project during the course.
 
 ## 📍 Project Lifetime
 
-- **start**: 01/Feb/2020 
-- **Deadline**: 04/Feb/2020, 6:00pm
+- **start**: 01/Feb/2022 
+- **Deadline**: 04/Feb/2022, 6:00pm
